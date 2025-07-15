@@ -1,0 +1,111 @@
+{
+  "status": 0,
+  "msg": "",
+  "data": {
+    "pages": [
+      {
+        "url": "/",
+        "label": "首页",
+        "schemaApi": "jsonp:/pages/welcome.js?callback=jsonpCallback"
+      },
+      {
+        "children": [
+          {
+            "label": "用户管理",
+            "url": "/main/adminuser",
+            "rewrite": "/",
+            "schemaApi": "jsonp:/pages/adminuser.js?callback=jsonpCallback"
+          },
+           {
+            "label": "MiniO文件管理",
+            "url": "/main/remotefiles",
+            "rewrite": "/",
+            "schemaApi": "jsonp:/pages/remotefiles.js?callback=jsonpCallback"
+          },
+          {
+            "label": "系统管理",
+            "rewrite": "/",
+            "children": [
+              {
+                "label": "项目报表",
+                "url": "/main/barchart",
+                "schemaApi": "jsonp:/pages/barchart.js?callback=jsonpCallback"
+              },
+              {
+                "label": "日报表",
+                "url": "/main/dailypaper",
+                "schemaApi": "jsonp:/pages/dailypaper.js?callback=jsonpCallback"
+              },
+              {
+                "label": "风险与故障记录",
+                "url": "/main/risk_fault",
+                "schemaApi": "jsonp:/pages/risk_fault.js?callback=jsonpCallback"
+              },
+              {
+                "label": "工程参数信息",
+                "url": "/main/engineering_params",
+                "schemaApi": "jsonp:/pages/engineering_params.js?callback=jsonpCallback"
+            },
+             {
+                "label": "管片信息表",
+                "url": "/main/segment_info",
+                "schemaApi": "jsonp:/pages/segment_info.js?callback=jsonpCallback"
+              },
+              {
+                "label": "大直径盾构项目统计",
+                "url": "/main/project_stats",
+                "schemaApi": "jsonp:/pages/project_stats.js?callback=jsonpCallback"
+              },
+              {
+                "label": "主驱动运行时间统计",
+                "url": "/main/main_drive",
+                "schemaApi": "jsonp:/pages/main_drive.js?callback=jsonpCallback"
+              },
+              {
+                "label": "盾构机基本信息表",
+                "url": "/main/shield_machine",
+                "schemaApi": "jsonp:/pages/shield_machine.js?callback=jsonpCallback"
+              },
+              {
+                "label": "掘进参数表",
+                "url": "/main/shield_info",
+                "schemaApi": "jsonp:/pages/shield_info.js?callback=jsonpCallback"
+              },
+               {
+                "label": "施工进度表",
+                "url": "/main/construction_progress",
+                "schemaApi": "jsonp:/pages/construction_progress.js?callback=jsonpCallback"
+              },
+              {
+                "label": "地质数据表",
+                "url": "/main/geology_data",
+                "schemaApi": "jsonp:/pages/geology_data.js?callback=jsonpCallback"
+              },
+              {
+                "label": "刀盘信息表",
+                "url": "/main/disk_info",
+                "schemaApi": "jsonp:/pages/disk_info.js?callback=jsonpCallback"
+              },
+              {
+                "label": "盾构掘进指令表",
+                "url": "/main/tunneling_instruction",
+                "schemaApi": "jsonp:/pages/tunneling_instruction.js?callback=jsonpCallback"
+              }
+            ]
+          },
+          {
+            "label": "项目管理",
+            "rewrite": "/",
+            "children": [
+              {
+                "label": "新用户审核",
+                "url": "/main/userApproval",
+                "schemaApi": "jsonp:/pages/userApproval.js?callback=jsonpCallback"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

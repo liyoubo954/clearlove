@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>后台信息管理系统</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+  <!-- AMIS 相关样式 -->
+  <link rel="stylesheet" href="sdk/antd.css" />
+  <link rel="stylesheet" href="sdk/helper.css" />
+  <link rel="stylesheet" href="sdk/iconfont.css" />
+
+  <!-- AMIS 和依赖库 -->
+  <script src="sdk/sdk.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://fastly.jsdelivr.net/npm/history@4.10.1/umd/history.js"></script>
+
+  <style>
+    html, body, .app-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+    }
+
+    /* 导航栏样式 */
+    .cxd-Layout {
+      min-height: 100vh;
+    }
+
+    .cxd-Layout-header {
+      background: #001529 !important;
+      color: #fff !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .cxd-Layout-brandBar {
+      background: #001529 !important;
+      color: #fff !important;
+    }
+
+    /* 侧边栏样式 */
+    .cxd-Layout-aside {
+      background: #001529 !important;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .cxd-AsideNav-item {
+      color: rgba(255, 255, 255, 0.65) !important;
+    }
+
+    .cxd-AsideNav-item:hover {
+      color: #fff !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .cxd-AsideNav-item--active {
+      background: #1890ff !important;
+      color: #fff !important;
+    }
+
+    /* 退出按钮样式 */
+    .logout-btn {
+      color: rgba(255, 255, 255, 0.65);
+      text-decoration: none;
+      padding: 0 16px;
+      transition: color 0.3s;
+    }
+
+    .logout-btn:hover {
+      color: #fff;
+    }
+
+    /* 内容区域样式 */
+    .cxd-Layout-content {
+      padding: 24px;
+      margin-top: 64px;
+    }
+
+    /* 响应式调整 */
+    @media (max-width: 768px) {
+      .cxd-Layout-content {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" class="app-wrapper"></div>
+
+  <script>
+    (function () {
+      // 不再强制重定向到8010端口，允许通过反向代理访问
+      // 仅在本地开发环境下才进行端口重定向
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        if (window.location.port && window.location.port !== '8010' && window.location.protocol !== 'file:') {
+          console.log('本地开发环境：检测到非8010端口访问，正在重定向...');
+          window.location.href = 'http://127.0.0.1:8010' + window.location.pathname;
+        }
+      }
+      
+      // Token 验证
+      function checkAuth() {
+        const token = localStorage.getItem("token");
+        if (!token) {
+          location.href = "login.html";
+          return false;
+        }
+        return true; // 实际验证由后端完成
+      }
+
+      // 获取当前页面的主机名和端口，用于动态构建API地址
+      // 检测是否是通过文件系统打开（此时hostname为空）
+      const isFileProtocol = window.location.protocol === 'file:';
+      // 如果是通过文件系统打开，则使用服务器IP地址
+      // 请将下面的IP地址替换为您的服务器实际IP地址
+      const serverIP = '172.20.110.2'; // 根据您的实际服务器IP修改
+      
+      // 获取当前页面的端口
+      const currentPort = window.location.port;
+      
+      // 无论通过什么端口访问（包括5503端口的Live Server），始终使用8010端口连接后端API
+      const apiBaseUrl = isFileProtocol
+        ? `http://${serverIP}:8010`
+        : (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+          ? 'http://127.0.0.1:8010'
+          : `http://${window.location.hostname}:8010`);
+      
+      console.log('当前使用的API地址:', apiBaseUrl);
+        
+      // 请求拦截器：自动添加 Authorization 头
+      function jwtRequestAdaptor(api) {
+        api.headers = api.headers || {};
+        api.headers["Authorization"] = "Bearer " + localStorage.getItem("token");
+        
+        // 处理所有以http://127.0.0.1:8010开头的URL，将其替换为相对路径
+        if (api.url.indexOf("http://127.0.0.1:8010") === 0) {
+          // 提取路径部分（去掉域名和端口）
+          const path = api.url.replace("http://127.0.0.1:8010", "");
+          // 使用相对路径
+          api.url = path;
+        }
+        
+        // 处理所有以/开头的相对路径
+        if (api.url.indexOf("/") === 0) {
+          // 对于相对路径，根据当前环境添加适当的前缀
+          api.url = apiBaseUrl + api.url;
+        }
+        
+        return api;
+      }
+
+      // 响应拦截器：处理 401 未授权，跳转登录
+      function jwtResponseAdaptor(api, response) {
+        if (response.status === 401) {
+          localStorage.removeItem("token");
+          location.href = "login.html";
+          return;
+        }
+        return response;
+      }
+
+      if (!checkAuth()) return;
+
+      const amisAppConfig = {
+        type: 'app',
+        brandName: '盾构工程管理系统',
+        header: {
+          type: 'tpl',
+          inline: false,
+          className: 'w-full',
+          tpl: `<div class="flex justify-between items-center px-4">
+                  <div class="flex items-center">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E" alt="Logo" class="mr-2" style="width: 24px; height: 24px;"/>
+                  </div>
+                  <div>
+                    <a href="#" class="logout-btn" onclick="localStorage.clear();location.href='login.html';return false;">
+                      <i class="fa fa-sign-out"></i> 退出登录
+                    </a>
+                  </div>
+                </div>`
+        },
+        api: '/pages/site.json',
+        theme: 'dark'
+      };
+
+      // ✅ 正确初始化 history（避免循环引用）
+      const history = window.History.createHashHistory();
+
+      // 路由与跳转相关函数
+      function normalizeLink(to, location = history.location) {
+        to = to || '';
+        if (to[0] === '#') {
+          to = location.pathname + location.search + to;
+        } else if (to[0] === '?') {
+          to = location.pathname + to;
+        }
+
+        const idx = to.indexOf('?');
+        const idx2 = to.indexOf('#');
+        let pathname = ~idx ? to.substring(0, idx) : ~idx2 ? to.substring(0, idx2) : to;
+        let search = ~idx ? to.substring(idx, ~idx2 ? idx2 : undefined) : '';
+        let hash = ~idx2 ? to.substring(idx2) : location.hash;
+
+        if (!pathname) {
+          pathname = location.pathname;
+        } else if (pathname[0] !== '/' && !/^https?\:\/\//.test(pathname)) {
+          let relativeBase = location.pathname;
+          const paths = relativeBase.split('/');
+          paths.pop();
+          let m;
+          while ((m = /^\.\.?\//.exec(pathname))) {
+            if (m[0] === '../') {
+              paths.pop();
+            }
+            pathname = pathname.substring(m[0].length);
+          }
+          pathname = paths.concat(pathname).join('/');
+        }
+
+        return pathname + search + hash;
+      }
+
+      function isCurrentUrl(to, ctx) {
+        if (!to) return false;
+        const pathname = history.location.pathname;
+        const link = normalizeLink(to, {
+          ...location,
+          pathname,
+          hash: ''
+        });
+
+        if (!~link.indexOf('http') && ~link.indexOf(':')) {
+          return amisRequire('path-to-regexp').match(link, {
+            decode: decodeURIComponent,
+            strict: ctx && ctx.strict !== undefined ? ctx.strict : true
+          })(pathname);
+        }
+
+        return decodeURI(pathname) === link;
+      }
+
+      const amis = amisRequire('amis/embed');
+      const amisInstance = amis.embed(
+        '#root',
+        amisAppConfig,
+        {
+          location: history.location
+        },
+        {
+          requestAdaptor: jwtRequestAdaptor,
+          ResponseAdaptor: jwtResponseAdaptor,
+          updateLocation: (location, replace) => {
+            location = normalizeLink(location);
+            if (location === 'goBack') {
+              return history.goBack();
+            } else if (
+              (!/^https?\:\/\//.test(location) &&
+                location === history.location.pathname + history.location.search) ||
+              location === history.location.href
+            ) {
+              return;
+            } else if (/^https?\:\/\//.test(location) || !history) {
+              return (window.location.href = location);
+            }
+            history[replace ? 'replace' : 'push'](location);
+          },
+          jumpTo: (to, action) => {
+            if (to === 'goBack') return history.goBack();
+            to = normalizeLink(to);
+            if (isCurrentUrl(to)) return;
+
+            if (action && action.actionType === 'url') {
+              action.blank === false
+                ? (window.location.href = to)
+                : window.open(to, '_blank');
+              return;
+            } else if (action && action.blank) {
+              window.open(to, '_blank');
+              return;
+            }
+
+            if (/^https?:\/\//.test(to)) {
+              window.location.href = to;
+            } else {
+              history.push(to);
+            }
+          },
+          isCurrentUrl: isCurrentUrl,
+          theme: 'antd'
+        }
+      );
+
+      history.listen(state => {
+        amisInstance.updateProps({
+          location: state.location || state
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

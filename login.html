@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <title>amis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" href="sdk/antd.css">
+  <link rel="stylesheet" href="sdk/helper.css">
+  <link rel="stylesheet" href="sdk/iconfont.css">
+  <style>
+    html,
+    body,
+    .app-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 380px;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+    }
+
+    .login-container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      color: var(--primary-color);
+    }
+
+    .login-title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #2d3748;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 14px;
+      color: #718096;
+      margin-top: 30px;
+    }
+    
+    /* 优化表单样式 */
+    :root {
+      --primary-color: #4c51bf;
+      --hover-color: #434190;
+    }
+
+    .cxd-Form-label {
+      font-weight: 500;
+      color: #4a5568;
+    }
+
+    .cxd-TextControl-input,
+    .cxd-TextControl-input:focus {
+      border-radius: 8px;
+      border: 2px solid #e2e8f0;
+      padding: 8px 12px;
+      transition: all 0.3s ease;
+    }
+
+    .cxd-TextControl-input:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(76, 81, 191, 0.1);
+    }
+
+    .cxd-Button--primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      border-radius: 8px;
+      padding: 8px 24px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+    }
+
+    .cxd-Button--primary:hover {
+      background-color: var(--hover-color);
+      border-color: var(--hover-color);
+      transform: translateY(-1px);
+    }
+
+    /* 优化按钮容器样式 */
+    .form-actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    /* 添加响应式设计 */
+    @media (max-width: 480px) {
+      .login-container {
+        width: 90%;
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app-wrapper">
+    <div class="login-container">
+      <div class="logo-container">
+        <svg class="logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 class="login-title">盾构管理系统</h2>
+      <div id="root"></div>
+      <div class="copyright"></div>
+    </div>
+  </div>
+
+  <script src="sdk/sdk.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // 不再强制重定向到8010端口，允许通过反向代理访问
+      // 仅在本地开发环境下才进行端口重定向
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        if (window.location.port && window.location.port !== '8010' && window.location.protocol !== 'file:') {
+          console.log('本地开发环境：检测到非8010端口访问，正在重定向...');
+          window.location.href = 'http://127.0.0.1:8010' + window.location.pathname;
+        }
+      }
+      
+      let amis = window.amisRequire('amis/embed');
+      console.log('amis:', amis);
+
+      // 获取当前页面的主机名和端口，用于动态构建API地址
+      // 检测是否是通过文件系统打开（此时hostname为空）
+      const isFileProtocol = window.location.protocol === 'file:';
+      // 如果是通过文件系统打开，则使用服务器IP地址
+      // 请将下面的IP地址替换为您的服务器实际IP地址
+      const serverIP = '172.20.110.2'; // 根据您的实际服务器IP修改
+      
+      // 获取当前页面的端口
+      const currentPort = window.location.port;
+      
+      // 无论通过什么端口访问（包括5503端口的Live Server），始终使用8010端口连接后端API
+      const apiBaseUrl = isFileProtocol
+        ? `http://${serverIP}:8010`
+        : (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+          ? 'http://127.0.0.1:8010'
+          : `http://${window.location.hostname}:8010`);
+      
+      console.log('当前使用的API地址:', apiBaseUrl);
+        
+      // 请求拦截器：处理API URL
+      function loginRequestAdaptor(api) {
+        // 处理所有以http://127.0.0.1:8010开头的URL，将其替换为相对路径
+        if (api.url.indexOf("http://127.0.0.1:8010") === 0) {
+          // 提取路径部分（去掉域名和端口）
+          const path = api.url.replace("http://127.0.0.1:8010", "");
+          // 使用相对路径
+          api.url = path;
+        }
+        
+        // 处理所有以/开头的相对路径
+        if (api.url.indexOf("/") === 0) {
+          // 对于相对路径，根据当前环境添加适当的前缀
+          api.url = apiBaseUrl + api.url;
+        }
+        
+        return api;
+      }
+      
+      let amisJSON = {
+        type: 'form',
+        mode: 'normal',
+        title: null,
+        api: {
+          url: '/adminuser/login',  // 使用相对路径
+          method: 'post',
+          messages: {
+            success: '登录成功',
+            failed: '登录失败，请检查用户名和密码'
+          },
+          requestAdaptor: loginRequestAdaptor,  // 添加请求拦截器
+          adaptor: function (payload) {
+            if (payload.code === 0) {
+              localStorage.setItem("token", payload.data.access_token);
+              location.href = "index.html";
+            } else {
+              console.error('登录失败:', payload.msg);
+              return { ...payload, msg: payload.msg || "登录失败" };
+            }
+          }
+        },
+        redirect: "/index.html",
+        body: [
+          {
+            label: '用户名',
+            type: 'input-text',
+            name: 'username',
+            required: true,
+            placeholder: '请输入用户名',
+            validations: {
+              notEmptyString: true
+            },
+            validationErrors: {
+              notEmptyString: '用户名不能为空'
+            }
+          },
+          {
+            label: '密码',
+            type: 'input-password',
+            name: 'password',
+            required: true,
+            placeholder: '请输入密码',
+            validations: {
+              notEmptyString: true,
+              minLength: 6
+            },
+            validationErrors: {
+              notEmptyString: '密码不能为空',
+              minLength: '密码长度不能小于6位'
+            }
+          }
+        ],
+        actions: [
+          {
+            label: '登录',
+            type: 'submit',
+            level: 'primary',
+            size: 'lg',
+            className: 'w-full',
+            disabledTip: '请填写完整的登录信息'
+          }
+        ],
+        submitText: null,
+        autoFocus: true,
+        className: 'login-form'
+      };
+
+      try {
+        let embedResult = amis.embed('#root', amisJSON, {}, { theme: 'antd' });
+        console.log('embedResult:', embedResult);
+
+        if (typeof embedResult.on === 'function') {
+          embedResult.on('error', (error) => {
+            console.error('Amis 嵌入失败:', error);
+          });
+        }
+      } catch (error) {
+        console.error('Amis 初始化失败:', error);
+      }
+    })();
+  </script>
+</body>
+
+</html>
