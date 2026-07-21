@@ -1,0 +1,5869 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 93,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "黏土地层",
+          "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+        },
+        "elementId": "93"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 95,
+            "start": 92,
+            "end": 93,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "95",
+            "startNodeElementId": "92",
+            "endNodeElementId": "93"
+          },
+          "end": {
+            "identity": 93,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "黏土地层",
+              "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+            },
+            "elementId": "93"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 94,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "含水率高",
+          "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+        },
+        "elementId": "94"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 96,
+            "start": 92,
+            "end": 94,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "96",
+            "startNodeElementId": "92",
+            "endNodeElementId": "94"
+          },
+          "end": {
+            "identity": 94,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "含水率高",
+              "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+            },
+            "elementId": "94"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 95,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "塑性指数高",
+          "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+        },
+        "elementId": "95"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 97,
+            "start": 92,
+            "end": 95,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "97",
+            "startNodeElementId": "92",
+            "endNodeElementId": "95"
+          },
+          "end": {
+            "identity": 95,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "塑性指数高",
+              "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+            },
+            "elementId": "95"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 96,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "蒙脱石含量高",
+          "描述": "蒙脱石矿物吸水膨胀性强，加剧黏土黏附性和保水性。"
+        },
+        "elementId": "96"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 98,
+            "start": 92,
+            "end": 96,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "98",
+            "startNodeElementId": "92",
+            "endNodeElementId": "96"
+          },
+          "end": {
+            "identity": 96,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "蒙脱石含量高",
+              "描述": "蒙脱石矿物吸水膨胀性强，加剧黏土黏附性和保水性。"
+            },
+            "elementId": "96"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 97,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "泡沫注入量不足",
+          "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+        },
+        "elementId": "97"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 99,
+            "start": 92,
+            "end": 97,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "99",
+            "startNodeElementId": "92",
+            "endNodeElementId": "97"
+          },
+          "end": {
+            "identity": 97,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "泡沫注入量不足",
+              "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+            },
+            "elementId": "97"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 98,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "泡沫配比不合理",
+          "描述": "发泡剂浓度或FIR（膨胀率）不匹配地层，降低泡沫稳定性与润滑性。"
+        },
+        "elementId": "98"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 100,
+            "start": 92,
+            "end": 98,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "100",
+            "startNodeElementId": "92",
+            "endNodeElementId": "98"
+          },
+          "end": {
+            "identity": 98,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "泡沫配比不合理",
+              "描述": "发泡剂浓度或FIR（膨胀率）不匹配地层，降低泡沫稳定性与润滑性。"
+            },
+            "elementId": "98"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 99,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "渣土改良剂类型错误",
+          "描述": "未针对黏土地层选用抗黏型改良剂（如聚合物）。"
+        },
+        "elementId": "99"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 101,
+            "start": 92,
+            "end": 99,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "101",
+            "startNodeElementId": "92",
+            "endNodeElementId": "99"
+          },
+          "end": {
+            "identity": 99,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "渣土改良剂类型错误",
+              "描述": "未针对黏土地层选用抗黏型改良剂（如聚合物）。"
+            },
+            "elementId": "99"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 100,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘转速过低",
+          "描述": "离心力不足，无法有效甩脱黏土。"
+        },
+        "elementId": "100"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 102,
+            "start": 92,
+            "end": 100,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "102",
+            "startNodeElementId": "92",
+            "endNodeElementId": "100"
+          },
+          "end": {
+            "identity": 100,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘转速过低",
+              "描述": "离心力不足，无法有效甩脱黏土。"
+            },
+            "elementId": "100"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 101,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "推进速度过快",
+          "描述": "排土速率低于掘进速率，导致黏土在刀盘堆积。"
+        },
+        "elementId": "101"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 103,
+            "start": 92,
+            "end": 101,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "103",
+            "startNodeElementId": "92",
+            "endNodeElementId": "101"
+          },
+          "end": {
+            "identity": 101,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "推进速度过快",
+              "描述": "排土速率低于掘进速率，导致黏土在刀盘堆积。"
+            },
+            "elementId": "101"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 102,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "土仓压力过高",
+          "描述": "压实效应使黏土密实成块。"
+        },
+        "elementId": "102"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 104,
+            "start": 92,
+            "end": 102,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "104",
+            "startNodeElementId": "92",
+            "endNodeElementId": "102"
+          },
+          "end": {
+            "identity": 102,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "土仓压力过高",
+              "描述": "压实效应使黏土密实成块。"
+            },
+            "elementId": "102"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 103,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘开口率不足",
+          "描述": "设计缺陷导致渣土排出通道狭窄（一般要求>30%）。"
+        },
+        "elementId": "103"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 105,
+            "start": 92,
+            "end": 103,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "105",
+            "startNodeElementId": "92",
+            "endNodeElementId": "103"
+          },
+          "end": {
+            "identity": 103,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘开口率不足",
+              "描述": "设计缺陷导致渣土排出通道狭窄（一般要求>30%）。"
+            },
+            "elementId": "103"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 104,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀具布置不合理",
+          "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+        },
+        "elementId": "104"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 106,
+            "start": 92,
+            "end": 104,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "106",
+            "startNodeElementId": "92",
+            "endNodeElementId": "104"
+          },
+          "end": {
+            "identity": 104,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀具布置不合理",
+              "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+            },
+            "elementId": "104"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 105,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机磨损",
+          "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+        },
+        "elementId": "105"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 107,
+            "start": 92,
+            "end": 105,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "107",
+            "startNodeElementId": "92",
+            "endNodeElementId": "105"
+          },
+          "end": {
+            "identity": 105,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机磨损",
+              "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+            },
+            "elementId": "105"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 106,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "停机时间过长",
+          "描述": "静态环境下黏土失水硬化。"
+        },
+        "elementId": "106"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 108,
+            "start": 92,
+            "end": 106,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "108",
+            "startNodeElementId": "92",
+            "endNodeElementId": "106"
+          },
+          "end": {
+            "identity": 106,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "停机时间过长",
+              "描述": "静态环境下黏土失水硬化。"
+            },
+            "elementId": "106"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 107,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "冷却系统不足",
+          "描述": "刀盘高温加速黏土脱水固结。"
+        },
+        "elementId": "107"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 109,
+            "start": 92,
+            "end": 107,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "109",
+            "startNodeElementId": "92",
+            "endNodeElementId": "107"
+          },
+          "end": {
+            "identity": 107,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "冷却系统不足",
+              "描述": "刀盘高温加速黏土脱水固结。"
+            },
+            "elementId": "107"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 108,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "配备了较大尺寸的限径肋板",
+          "描述": "结构件阻碍渣土流动，形成滞留区。"
+        },
+        "elementId": "108"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 110,
+            "start": 92,
+            "end": 108,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "110",
+            "startNodeElementId": "92",
+            "endNodeElementId": "108"
+          },
+          "end": {
+            "identity": 108,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "配备了较大尺寸的限径肋板",
+              "描述": "结构件阻碍渣土流动，形成滞留区。"
+            },
+            "elementId": "108"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 109,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "中心冲刷能力弱",
+          "描述": "刀盘中心部位渣土无法有效排出。"
+        },
+        "elementId": "109"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 111,
+            "start": 92,
+            "end": 109,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "111",
+            "startNodeElementId": "92",
+            "endNodeElementId": "109"
+          },
+          "end": {
+            "identity": 109,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "中心冲刷能力弱",
+              "描述": "刀盘中心部位渣土无法有效排出。"
+            },
+            "elementId": "109"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 110,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "推进油缸推力大为增加",
+          "描述": "刀盘结泥饼后切削阻力增大，需更大推力维持掘进，可能引发油缸过载或结构件疲劳。"
+        },
+        "elementId": "110"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 112,
+            "start": 92,
+            "end": 110,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "112",
+            "startNodeElementId": "92",
+            "endNodeElementId": "110"
+          },
+          "end": {
+            "identity": 110,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "推进油缸推力大为增加",
+              "描述": "刀盘结泥饼后切削阻力增大，需更大推力维持掘进，可能引发油缸过载或结构件疲劳。"
+            },
+            "elementId": "110"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 111,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘驱动力矩经常维持在额定扭矩",
+          "描述": "扭矩持续接近设计最大值。"
+        },
+        "elementId": "111"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 113,
+            "start": 92,
+            "end": 111,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "113",
+            "startNodeElementId": "92",
+            "endNodeElementId": "111"
+          },
+          "end": {
+            "identity": 111,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘驱动力矩经常维持在额定扭矩",
+              "描述": "扭矩持续接近设计最大值。"
+            },
+            "elementId": "111"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 112,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘中心体温升加快甚至达到高温",
+          "描述": "红外监测显示中心温度从常温骤升至80℃以上。中心区渣土滞留摩擦生热+冷却不足，高温进一步硬化泥饼。"
+        },
+        "elementId": "112"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 114,
+            "start": 92,
+            "end": 112,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "114",
+            "startNodeElementId": "92",
+            "endNodeElementId": "112"
+          },
+          "end": {
+            "identity": 112,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘中心体温升加快甚至达到高温",
+              "描述": "红外监测显示中心温度从常温骤升至80℃以上。中心区渣土滞留摩擦生热+冷却不足，高温进一步硬化泥饼。"
+            },
+            "elementId": "112"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 113,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘贯入度大为减少",
+          "描述": "每转切削深度下降50%以上，掘进效率降低，单位进尺能耗增加。"
+        },
+        "elementId": "113"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 115,
+            "start": 92,
+            "end": 113,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "115",
+            "startNodeElementId": "92",
+            "endNodeElementId": "113"
+          },
+          "end": {
+            "identity": 113,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘贯入度大为减少",
+              "描述": "每转切削深度下降50%以上，掘进效率降低，单位进尺能耗增加。"
+            },
+            "elementId": "113"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 114,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "掘进速度降低",
+          "描述": "推进速度下降30%-70%，导致延长工期，增加刀盘暴露于黏土地层的时间。"
+        },
+        "elementId": "114"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 116,
+            "start": 92,
+            "end": 114,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "116",
+            "startNodeElementId": "92",
+            "endNodeElementId": "114"
+          },
+          "end": {
+            "identity": 114,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "掘进速度降低",
+              "描述": "推进速度下降30%-70%，导致延长工期，增加刀盘暴露于黏土地层的时间。"
+            },
+            "elementId": "114"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 93,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "黏土地层",
+          "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+        },
+        "elementId": "93"
+      },
+      "end": {
+        "identity": 95,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "塑性指数高",
+          "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+        },
+        "elementId": "95"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 93,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "黏土地层",
+              "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+            },
+            "elementId": "93"
+          },
+          "relationship": {
+            "identity": 117,
+            "start": 93,
+            "end": 95,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "117",
+            "startNodeElementId": "93",
+            "endNodeElementId": "95"
+          },
+          "end": {
+            "identity": 95,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "塑性指数高",
+              "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+            },
+            "elementId": "95"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 93,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "黏土地层",
+          "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+        },
+        "elementId": "93"
+      },
+      "end": {
+        "identity": 94,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "含水率高",
+          "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+        },
+        "elementId": "94"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 93,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "黏土地层",
+              "描述": "高黏性土层（如膨润土、高岭土）易吸附在金属表面，形成泥饼的基础地质条件。"
+            },
+            "elementId": "93"
+          },
+          "relationship": {
+            "identity": 118,
+            "start": 93,
+            "end": 94,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "118",
+            "startNodeElementId": "93",
+            "endNodeElementId": "94"
+          },
+          "end": {
+            "identity": 94,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "含水率高",
+              "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+            },
+            "elementId": "94"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 94,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "含水率高",
+          "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+        },
+        "elementId": "94"
+      },
+      "end": {
+        "identity": 115,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "注入膨润土改良渣土流动性",
+          "描述": "优先选用钠基膨润土（膨胀倍率≥5），通过注浆管路与刀盘同步注入。掺量3%-8%干土重量，浆液比重1.05-1.15g/cm³。"
+        },
+        "elementId": "115"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 94,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "含水率高",
+              "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+            },
+            "elementId": "94"
+          },
+          "relationship": {
+            "identity": 119,
+            "start": 94,
+            "end": 115,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "119",
+            "startNodeElementId": "94",
+            "endNodeElementId": "115"
+          },
+          "end": {
+            "identity": 115,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "注入膨润土改良渣土流动性",
+              "描述": "优先选用钠基膨润土（膨胀倍率≥5），通过注浆管路与刀盘同步注入。掺量3%-8%干土重量，浆液比重1.05-1.15g/cm³。"
+            },
+            "elementId": "115"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 95,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "塑性指数高",
+          "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+        },
+        "elementId": "95"
+      },
+      "end": {
+        "identity": 116,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增加泡沫剂注入比例降低黏性",
+          "描述": "采用抗黏型发泡剂（含硅氧烷成分），通过双泵系统保证注入连续性，泡沫注入比FIR 10-15倍，发泡剂浓度2%-3%。"
+        },
+        "elementId": "116"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 95,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "塑性指数高",
+              "描述": "土体塑性强（IP>17），受挤压后易变形黏附，难以破碎排出。"
+            },
+            "elementId": "95"
+          },
+          "relationship": {
+            "identity": 120,
+            "start": 95,
+            "end": 116,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "120",
+            "startNodeElementId": "95",
+            "endNodeElementId": "116"
+          },
+          "end": {
+            "identity": 116,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增加泡沫剂注入比例降低黏性",
+              "描述": "采用抗黏型发泡剂（含硅氧烷成分），通过双泵系统保证注入连续性，泡沫注入比FIR 10-15倍，发泡剂浓度2%-3%。"
+            },
+            "elementId": "116"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 96,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "蒙脱石含量高",
+          "描述": "蒙脱石矿物吸水膨胀性强，加剧黏土黏附性和保水性。"
+        },
+        "elementId": "96"
+      },
+      "end": {
+        "identity": 117,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "采用聚合物添加剂抑制黏土水化",
+          "描述": "选择阴离子型聚合物（如HPAM），抑制蒙脱石水化，添加量0.2%-0.5%土体重，需与泡沫复配使用。"
+        },
+        "elementId": "117"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 96,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "蒙脱石含量高",
+              "描述": "蒙脱石矿物吸水膨胀性强，加剧黏土黏附性和保水性。"
+            },
+            "elementId": "96"
+          },
+          "relationship": {
+            "identity": 121,
+            "start": 96,
+            "end": 117,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "121",
+            "startNodeElementId": "96",
+            "endNodeElementId": "117"
+          },
+          "end": {
+            "identity": 117,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "采用聚合物添加剂抑制黏土水化",
+              "描述": "选择阴离子型聚合物（如HPAM），抑制蒙脱石水化，添加量0.2%-0.5%土体重，需与泡沫复配使用。"
+            },
+            "elementId": "117"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 97,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "泡沫注入量不足",
+          "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+        },
+        "elementId": "97"
+      },
+      "end": {
+        "identity": 118,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "动态调整泡沫流量与FIR（膨胀率）",
+          "描述": "根据扭矩变化实时调节：扭矩上升时增加气液比（如从1:10调至1:15），气流量30-50m³/h，液体流量2-5m³/h。"
+        },
+        "elementId": "118"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 97,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "泡沫注入量不足",
+              "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+            },
+            "elementId": "97"
+          },
+          "relationship": {
+            "identity": 122,
+            "start": 97,
+            "end": 118,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "122",
+            "startNodeElementId": "97",
+            "endNodeElementId": "118"
+          },
+          "end": {
+            "identity": 118,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "动态调整泡沫流量与FIR（膨胀率）",
+              "描述": "根据扭矩变化实时调节：扭矩上升时增加气液比（如从1:10调至1:15），气流量30-50m³/h，液体流量2-5m³/h。"
+            },
+            "elementId": "118"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 98,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "泡沫配比不合理",
+          "描述": "发泡剂浓度或FIR（膨胀率）不匹配地层，降低泡沫稳定性与润滑性。"
+        },
+        "elementId": "98"
+      },
+      "end": {
+        "identity": 119,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "优化发泡剂浓度（如1.5%~3%）",
+          "描述": "通过泡沫系统流量计实时调整发泡剂原液注入量，配合FIR（膨胀率）检测仪动态校准。"
+        },
+        "elementId": "119"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 98,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "泡沫配比不合理",
+              "描述": "发泡剂浓度或FIR（膨胀率）不匹配地层，降低泡沫稳定性与润滑性。"
+            },
+            "elementId": "98"
+          },
+          "relationship": {
+            "identity": 123,
+            "start": 98,
+            "end": 119,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "123",
+            "startNodeElementId": "98",
+            "endNodeElementId": "119"
+          },
+          "end": {
+            "identity": 119,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "优化发泡剂浓度（如1.5%~3%）",
+              "描述": "通过泡沫系统流量计实时调整发泡剂原液注入量，配合FIR（膨胀率）检测仪动态校准。"
+            },
+            "elementId": "119"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 99,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "渣土改良剂类型错误",
+          "描述": "未针对黏土地层选用抗黏型改良剂（如聚合物）。"
+        },
+        "elementId": "99"
+      },
+      "end": {
+        "identity": 120,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "更换为复合型泡沫（含抗黏成分）",
+          "描述": "采用双组分发泡系统，A组分（常规发泡剂）与B组分（抗黏添加剂）按9:1混合。"
+        },
+        "elementId": "120"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 99,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "渣土改良剂类型错误",
+              "描述": "未针对黏土地层选用抗黏型改良剂（如聚合物）。"
+            },
+            "elementId": "99"
+          },
+          "relationship": {
+            "identity": 124,
+            "start": 99,
+            "end": 120,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "124",
+            "startNodeElementId": "99",
+            "endNodeElementId": "120"
+          },
+          "end": {
+            "identity": 120,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "更换为复合型泡沫（含抗黏成分）",
+              "描述": "采用双组分发泡系统，A组分（常规发泡剂）与B组分（抗黏添加剂）按9:1混合。"
+            },
+            "elementId": "120"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 100,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘转速过低",
+          "描述": "离心力不足，无法有效甩脱黏土。"
+        },
+        "elementId": "100"
+      },
+      "end": {
+        "identity": 121,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "提高转速增强切削破碎效果",
+          "描述": "需监控扭矩不超过额定值80%，避免电机过载。"
+        },
+        "elementId": "121"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 100,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘转速过低",
+              "描述": "离心力不足，无法有效甩脱黏土。"
+            },
+            "elementId": "100"
+          },
+          "relationship": {
+            "identity": 125,
+            "start": 100,
+            "end": 121,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "125",
+            "startNodeElementId": "100",
+            "endNodeElementId": "121"
+          },
+          "end": {
+            "identity": 121,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "提高转速增强切削破碎效果",
+              "描述": "需监控扭矩不超过额定值80%，避免电机过载。"
+            },
+            "elementId": "121"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 101,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "推进速度过快",
+          "描述": "排土速率低于掘进速率，导致黏土在刀盘堆积。"
+        },
+        "elementId": "101"
+      },
+      "end": {
+        "identity": 122,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "降低推进速度匹配排土能力",
+          "描述": "匹配原则​​，推进速度（mm/min）≤螺旋机排土能力（m³/h）×60/刀盘开挖面积（㎡）。"
+        },
+        "elementId": "122"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 101,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "推进速度过快",
+              "描述": "排土速率低于掘进速率，导致黏土在刀盘堆积。"
+            },
+            "elementId": "101"
+          },
+          "relationship": {
+            "identity": 126,
+            "start": 101,
+            "end": 122,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "126",
+            "startNodeElementId": "101",
+            "endNodeElementId": "122"
+          },
+          "end": {
+            "identity": 122,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "降低推进速度匹配排土能力",
+              "描述": "匹配原则​​，推进速度（mm/min）≤螺旋机排土能力（m³/h）×60/刀盘开挖面积（㎡）。"
+            },
+            "elementId": "122"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 102,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "土仓压力过高",
+          "描述": "压实效应使黏土密实成块。"
+        },
+        "elementId": "102"
+      },
+      "end": {
+        "identity": 123,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "降低土压并加强螺旋机排土效率",
+          "描述": "同步监测地表沉降，单次调整幅度不超过0.2bar。"
+        },
+        "elementId": "123"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 102,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "土仓压力过高",
+              "描述": "压实效应使黏土密实成块。"
+            },
+            "elementId": "102"
+          },
+          "relationship": {
+            "identity": 127,
+            "start": 102,
+            "end": 123,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "127",
+            "startNodeElementId": "102",
+            "endNodeElementId": "123"
+          },
+          "end": {
+            "identity": 123,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "降低土压并加强螺旋机排土效率",
+              "描述": "同步监测地表沉降，单次调整幅度不超过0.2bar。"
+            },
+            "elementId": "123"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 103,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀盘开口率不足",
+          "描述": "设计缺陷导致渣土排出通道狭窄（一般要求>30%）。"
+        },
+        "elementId": "103"
+      },
+      "end": {
+        "identity": 124,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "设计阶段优化开口率",
+          "描述": "将原有30%开口率提升至40%，并在中心区增设200mm×300mm的辅助排渣孔。"
+        },
+        "elementId": "124"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 103,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀盘开口率不足",
+              "描述": "设计缺陷导致渣土排出通道狭窄（一般要求>30%）。"
+            },
+            "elementId": "103"
+          },
+          "relationship": {
+            "identity": 128,
+            "start": 103,
+            "end": 124,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "128",
+            "startNodeElementId": "103",
+            "endNodeElementId": "124"
+          },
+          "end": {
+            "identity": 124,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "设计阶段优化开口率",
+              "描述": "将原有30%开口率提升至40%，并在中心区增设200mm×300mm的辅助排渣孔。"
+            },
+            "elementId": "124"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 104,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀具布置不合理",
+          "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+        },
+        "elementId": "104"
+      },
+      "end": {
+        "identity": 125,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "拆除过密的固定刮刀",
+          "描述": "保留刀具间距≥150mm，优先拆除非承力区的刮刀。"
+        },
+        "elementId": "125"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 104,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀具布置不合理",
+              "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+            },
+            "elementId": "104"
+          },
+          "relationship": {
+            "identity": 129,
+            "start": 104,
+            "end": 125,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "129",
+            "startNodeElementId": "104",
+            "endNodeElementId": "125"
+          },
+          "end": {
+            "identity": 125,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "拆除过密的固定刮刀",
+              "描述": "保留刀具间距≥150mm，优先拆除非承力区的刮刀。"
+            },
+            "elementId": "125"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 104,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "刀具布置不合理",
+          "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+        },
+        "elementId": "104"
+      },
+      "end": {
+        "identity": 126,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增加撕裂刀或中心刀比例",
+          "描述": "中心区撕裂刀占比≥30%，刀具高度差保持50~80mm以增强剪切。"
+        },
+        "elementId": "126"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 104,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "刀具布置不合理",
+              "描述": "中心刀具或撕裂刀不足，黏土在低剪切区积聚。"
+            },
+            "elementId": "104"
+          },
+          "relationship": {
+            "identity": 130,
+            "start": 104,
+            "end": 126,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "130",
+            "startNodeElementId": "104",
+            "endNodeElementId": "126"
+          },
+          "end": {
+            "identity": 126,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增加撕裂刀或中心刀比例",
+              "描述": "中心区撕裂刀占比≥30%，刀具高度差保持50~80mm以增强剪切。"
+            },
+            "elementId": "126"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 105,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机磨损",
+          "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+        },
+        "elementId": "105"
+      },
+      "end": {
+        "identity": 127,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "更换螺旋叶片或修复内壁光滑度",
+          "描述": "叶片磨损量＞10mm时需堆焊碳化钨（硬度≥HRC60）；内壁抛光至粗糙度Ra≤3.2μm（原Ra通常为6.3~12.5μm）"
+        },
+        "elementId": "127"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 105,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机磨损",
+              "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+            },
+            "elementId": "105"
+          },
+          "relationship": {
+            "identity": 131,
+            "start": 105,
+            "end": 127,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "131",
+            "startNodeElementId": "105",
+            "endNodeElementId": "127"
+          },
+          "end": {
+            "identity": 127,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "更换螺旋叶片或修复内壁光滑度",
+              "描述": "叶片磨损量＞10mm时需堆焊碳化钨（硬度≥HRC60）；内壁抛光至粗糙度Ra≤3.2μm（原Ra通常为6.3~12.5μm）"
+            },
+            "elementId": "127"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 105,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机磨损",
+          "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+        },
+        "elementId": "105"
+      },
+      "end": {
+        "identity": 128,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "修复内壁光滑度",
+          "描述": "用金刚石磨头对螺旋机内壁进行镜面加工（粗糙度Ra≤1.6μm）；喷涂聚氨酯-陶瓷复合涂层（厚度0.5mm，摩擦系数＜0.1）"
+        },
+        "elementId": "128"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 105,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机磨损",
+              "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+            },
+            "elementId": "105"
+          },
+          "relationship": {
+            "identity": 132,
+            "start": 105,
+            "end": 128,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "132",
+            "startNodeElementId": "105",
+            "endNodeElementId": "128"
+          },
+          "end": {
+            "identity": 128,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "修复内壁光滑度",
+              "描述": "用金刚石磨头对螺旋机内壁进行镜面加工（粗糙度Ra≤1.6μm）；喷涂聚氨酯-陶瓷复合涂层（厚度0.5mm，摩擦系数＜0.1）"
+            },
+            "elementId": "128"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 105,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机磨损",
+          "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+        },
+        "elementId": "105"
+      },
+      "end": {
+        "identity": 129,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "堆焊耐磨涂层延长寿命",
+          "描述": "等离子弧堆焊优于手工电弧焊，涂层厚度2~3mm，耐磨性提高5~8倍。"
+        },
+        "elementId": "129"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 105,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机磨损",
+              "描述": "叶片间隙增大或内壁粗糙，排土效率下降。"
+            },
+            "elementId": "105"
+          },
+          "relationship": {
+            "identity": 133,
+            "start": 105,
+            "end": 129,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "133",
+            "startNodeElementId": "105",
+            "endNodeElementId": "129"
+          },
+          "end": {
+            "identity": 129,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "堆焊耐磨涂层延长寿命",
+              "描述": "等离子弧堆焊优于手工电弧焊，涂层厚度2~3mm，耐磨性提高5~8倍。"
+            },
+            "elementId": "129"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 106,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "停机时间过长",
+          "描述": "静态环境下黏土失水硬化。"
+        },
+        "elementId": "106"
+      },
+      "end": {
+        "identity": 130,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "停机时保持刀盘间歇转动防止黏土沉积",
+          "描述": "每停机2小时转动刀盘15分钟，转速0.5rpm，正反转交替进行。"
+        },
+        "elementId": "130"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 106,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "停机时间过长",
+              "描述": "静态环境下黏土失水硬化。"
+            },
+            "elementId": "106"
+          },
+          "relationship": {
+            "identity": 134,
+            "start": 106,
+            "end": 130,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "134",
+            "startNodeElementId": "106",
+            "endNodeElementId": "130"
+          },
+          "end": {
+            "identity": 130,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "停机时保持刀盘间歇转动防止黏土沉积",
+              "描述": "每停机2小时转动刀盘15分钟，转速0.5rpm，正反转交替进行。"
+            },
+            "elementId": "130"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 107,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "冷却系统不足",
+          "描述": "刀盘高温加速黏土脱水固结。"
+        },
+        "elementId": "107"
+      },
+      "end": {
+        "identity": 131,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增设刀盘内部冷却喷淋系统",
+          "描述": "刀盘驱动轴后端，旋转接头，耐压≥1MPa，流量30L/min；每辐条布置2个喷嘴，扇形喷嘴，孔径3mm；闭式循环系统加入冷却液，5%乙二醇水溶液。"
+        },
+        "elementId": "131"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 107,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "冷却系统不足",
+              "描述": "刀盘高温加速黏土脱水固结。"
+            },
+            "elementId": "107"
+          },
+          "relationship": {
+            "identity": 135,
+            "start": 107,
+            "end": 131,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "135",
+            "startNodeElementId": "107",
+            "endNodeElementId": "131"
+          },
+          "end": {
+            "identity": 131,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增设刀盘内部冷却喷淋系统",
+              "描述": "刀盘驱动轴后端，旋转接头，耐压≥1MPa，流量30L/min；每辐条布置2个喷嘴，扇形喷嘴，孔径3mm；闭式循环系统加入冷却液，5%乙二醇水溶液。"
+            },
+            "elementId": "131"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 108,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "配备了较大尺寸的限径肋板",
+          "描述": "结构件阻碍渣土流动，形成滞留区。"
+        },
+        "elementId": "108"
+      },
+      "end": {
+        "identity": 132,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "割除不受力的限径肋板",
+          "描述": "识别应力＜5MPa的非承力肋板（红色标记区域），保留20mm根部防断裂，切口打磨圆角R≥10mm，刀盘转速升至1.2倍工作转速验证振动值（≤2.5mm/s），每次切割不超过3块肋板，间隔72小时观察扭矩变化。"
+        },
+        "elementId": "132"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 108,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "配备了较大尺寸的限径肋板",
+              "描述": "结构件阻碍渣土流动，形成滞留区。"
+            },
+            "elementId": "108"
+          },
+          "relationship": {
+            "identity": 136,
+            "start": 108,
+            "end": 132,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "136",
+            "startNodeElementId": "108",
+            "endNodeElementId": "132"
+          },
+          "end": {
+            "identity": 132,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "割除不受力的限径肋板",
+              "描述": "识别应力＜5MPa的非承力肋板（红色标记区域），保留20mm根部防断裂，切口打磨圆角R≥10mm，刀盘转速升至1.2倍工作转速验证振动值（≤2.5mm/s），每次切割不超过3块肋板，间隔72小时观察扭矩变化。"
+            },
+            "elementId": "132"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 109,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "中心冲刷能力弱",
+          "描述": "刀盘中心部位渣土无法有效排出。"
+        },
+        "elementId": "109"
+      },
+      "end": {
+        "identity": 133,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "改进中心冲刷采用分臂分时方式",
+          "描述": "将刀盘中心冲刷系统分为3~4组喷嘴，每组独立控制，采用“工作10分钟-停歇5分钟”的循环模式。通过PLC编程实现自动切换，优先启动靠近泥饼积聚区的喷嘴组，冲刷水压维持在4~6MPa。"
+        },
+        "elementId": "133"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 109,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "中心冲刷能力弱",
+              "描述": "刀盘中心部位渣土无法有效排出。"
+            },
+            "elementId": "109"
+          },
+          "relationship": {
+            "identity": 137,
+            "start": 109,
+            "end": 133,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "137",
+            "startNodeElementId": "109",
+            "endNodeElementId": "133"
+          },
+          "end": {
+            "identity": 133,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "改进中心冲刷采用分臂分时方式",
+              "描述": "将刀盘中心冲刷系统分为3~4组喷嘴，每组独立控制，采用“工作10分钟-停歇5分钟”的循环模式。通过PLC编程实现自动切换，优先启动靠近泥饼积聚区的喷嘴组，冲刷水压维持在4~6MPa。"
+            },
+            "elementId": "133"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 134,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "高压进仓，清除已板结了的泥饼",
+          "描述": "首先建立3bar气压平衡掌子面，作业人员经气闸舱减压训练后，佩戴正压呼吸器进入土仓。使用风镐（冲击能量≥60J）破碎泥饼，配合高压水枪（压力≥20MPa）冲洗残留黏土，清除范围覆盖刀盘中心2m半径区域。单次作业限时2小时，完成后需检查刀具磨损情况。"
+        },
+        "elementId": "134"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 138,
+            "start": 92,
+            "end": 134,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "138",
+            "startNodeElementId": "92",
+            "endNodeElementId": "134"
+          },
+          "end": {
+            "identity": 134,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "高压进仓，清除已板结了的泥饼",
+              "描述": "首先建立3bar气压平衡掌子面，作业人员经气闸舱减压训练后，佩戴正压呼吸器进入土仓。使用风镐（冲击能量≥60J）破碎泥饼，配合高压水枪（压力≥20MPa）冲洗残留黏土，清除范围覆盖刀盘中心2m半径区域。单次作业限时2小时，完成后需检查刀具磨损情况。"
+            },
+            "elementId": "134"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 94,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "含水率高",
+          "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+        },
+        "elementId": "94"
+      },
+      "end": {
+        "identity": 135,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "同步注浆封闭掌子面减少渗水",
+          "描述": "在掘进同时通过超前注浆管注入速凝浆液（水泥:膨润土:水玻璃=7:2:1），注浆压力为1.2倍水土压力。注浆孔沿刀盘外周每30°布置一个，浆液扩散半径控制在1.5m内，初凝时间≤20分钟，形成止水帷幕减少地下水渗入。"
+        },
+        "elementId": "135"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 94,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "含水率高",
+              "描述": "土体孔隙水压力大，使黏土颗粒更易黏结，同时降低渣土流动性。"
+            },
+            "elementId": "94"
+          },
+          "relationship": {
+            "identity": 139,
+            "start": 94,
+            "end": 135,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "139",
+            "startNodeElementId": "94",
+            "endNodeElementId": "135"
+          },
+          "end": {
+            "identity": 135,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "同步注浆封闭掌子面减少渗水",
+              "描述": "在掘进同时通过超前注浆管注入速凝浆液（水泥:膨润土:水玻璃=7:2:1），注浆压力为1.2倍水土压力。注浆孔沿刀盘外周每30°布置一个，浆液扩散半径控制在1.5m内，初凝时间≤20分钟，形成止水帷幕减少地下水渗入。"
+            },
+            "elementId": "135"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 97,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "泡沫注入量不足",
+          "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+        },
+        "elementId": "97"
+      },
+      "end": {
+        "identity": 136,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增设备用泡沫发生器避免中断",
+          "描述": "在主泡沫发生器旁并联安装备用机组，两套系统共用发泡剂储罐但独立控制。当主系统故障或压力下降10%时，电磁阀在30秒内自动切换至备用管路，维持泡沫注入量稳定（流量波动≤5%）。备用系统每周需空载测试1次。"
+        },
+        "elementId": "136"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 97,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "泡沫注入量不足",
+              "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+            },
+            "elementId": "97"
+          },
+          "relationship": {
+            "identity": 140,
+            "start": 97,
+            "end": 136,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "140",
+            "startNodeElementId": "97",
+            "endNodeElementId": "136"
+          },
+          "end": {
+            "identity": 136,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增设备用泡沫发生器避免中断",
+              "描述": "在主泡沫发生器旁并联安装备用机组，两套系统共用发泡剂储罐但独立控制。当主系统故障或压力下降10%时，电磁阀在30秒内自动切换至备用管路，维持泡沫注入量稳定（流量波动≤5%）。备用系统每周需空载测试1次。"
+            },
+            "elementId": "136"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 102,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "土仓压力过高",
+          "描述": "压实效应使黏土密实成块。"
+        },
+        "elementId": "102"
+      },
+      "end": {
+        "identity": 137,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "开启备用排土闸门增加泄压通道",
+          "描述": "在螺旋输送机出口侧方增设液压快开式闸门（泄压面积≥0.5m²）。当土仓压力超过设定值0.3MPa时，中控室远程开启闸门泄压，同时降低螺旋机转速防止喷涌。泄压后需立即关闭闸门并检查渣土性状。"
+        },
+        "elementId": "137"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 102,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "土仓压力过高",
+              "描述": "压实效应使黏土密实成块。"
+            },
+            "elementId": "102"
+          },
+          "relationship": {
+            "identity": 141,
+            "start": 102,
+            "end": 137,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "141",
+            "startNodeElementId": "102",
+            "endNodeElementId": "137"
+          },
+          "end": {
+            "identity": 137,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "开启备用排土闸门增加泄压通道",
+              "描述": "在螺旋输送机出口侧方增设液压快开式闸门（泄压面积≥0.5m²）。当土仓压力超过设定值0.3MPa时，中控室远程开启闸门泄压，同时降低螺旋机转速防止喷涌。泄压后需立即关闭闸门并检查渣土性状。"
+            },
+            "elementId": "137"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 102,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "土仓压力过高",
+          "描述": "压实效应使黏土密实成块。"
+        },
+        "elementId": "102"
+      },
+      "end": {
+        "identity": 138,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "注入压缩空气平衡压力",
+          "描述": "通过土仓顶部进气阀注入干燥压缩空气，气压控制在0.1~0.15倍土压（最高不超过0.3MPa）。注气时同步降低螺旋机转速至正常值的70%，持续30分钟后逐渐泄压。注气前后需监测土仓内氧气含量（＞19.5%）。"
+        },
+        "elementId": "138"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 102,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "土仓压力过高",
+              "描述": "压实效应使黏土密实成块。"
+            },
+            "elementId": "102"
+          },
+          "relationship": {
+            "identity": 142,
+            "start": 102,
+            "end": 138,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "142",
+            "startNodeElementId": "102",
+            "endNodeElementId": "138"
+          },
+          "end": {
+            "identity": 138,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "注入压缩空气平衡压力",
+              "描述": "通过土仓顶部进气阀注入干燥压缩空气，气压控制在0.1~0.15倍土压（最高不超过0.3MPa）。注气时同步降低螺旋机转速至正常值的70%，持续30分钟后逐渐泄压。注气前后需监测土仓内氧气含量（＞19.5%）。"
+            },
+            "elementId": "138"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 106,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "停机时间过长",
+          "描述": "静态环境下黏土失水硬化。"
+        },
+        "elementId": "106"
+      },
+      "end": {
+        "identity": 139,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "停机前注入防腐隔离剂防止黏土硬化",
+          "描述": "停机前2小时通过刀盘注入口泵入油性隔离剂（矿物油基+有机胺），用量按刀盘表面积×0.1L/m²计算。注入后保持刀盘低速转动（0.2rpm）10分钟使药剂均匀覆盖。重启设备时需先空转5分钟清除残留剂。\n"
+        },
+        "elementId": "139"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 106,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "停机时间过长",
+              "描述": "静态环境下黏土失水硬化。"
+            },
+            "elementId": "106"
+          },
+          "relationship": {
+            "identity": 143,
+            "start": 106,
+            "end": 139,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "143",
+            "startNodeElementId": "106",
+            "endNodeElementId": "139"
+          },
+          "end": {
+            "identity": 139,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "停机前注入防腐隔离剂防止黏土硬化",
+              "描述": "停机前2小时通过刀盘注入口泵入油性隔离剂（矿物油基+有机胺），用量按刀盘表面积×0.1L/m²计算。注入后保持刀盘低速转动（0.2rpm）10分钟使药剂均匀覆盖。重启设备时需先空转5分钟清除残留剂。\n"
+            },
+            "elementId": "139"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 107,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "冷却系统不足",
+          "描述": "刀盘高温加速黏土脱水固结。"
+        },
+        "elementId": "107"
+      },
+      "end": {
+        "identity": 140,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "优化冷却水管布局",
+          "描述": "将原直列式水管改为螺旋盘管布局，管间距从150mm缩小至80mm，增加换热面积50%。冷却水流量提升至15m³/h，进水温度≤25℃。改造后需进行压力测试（1.5倍工作压力保压30分钟无泄漏）。"
+        },
+        "elementId": "140"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 107,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "冷却系统不足",
+              "描述": "刀盘高温加速黏土脱水固结。"
+            },
+            "elementId": "107"
+          },
+          "relationship": {
+            "identity": 144,
+            "start": 107,
+            "end": 140,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "144",
+            "startNodeElementId": "107",
+            "endNodeElementId": "140"
+          },
+          "end": {
+            "identity": 140,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "优化冷却水管布局",
+              "描述": "将原直列式水管改为螺旋盘管布局，管间距从150mm缩小至80mm，增加换热面积50%。冷却水流量提升至15m³/h，进水温度≤25℃。改造后需进行压力测试（1.5倍工作压力保压30分钟无泄漏）。"
+            },
+            "elementId": "140"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 141,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "增加",
+          "name": "总推力"
+        },
+        "elementId": "141"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 145,
+            "start": 92,
+            "end": 141,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "145",
+            "startNodeElementId": "92",
+            "endNodeElementId": "141"
+          },
+          "end": {
+            "identity": 141,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "增加",
+              "name": "总推力"
+            },
+            "elementId": "141"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 142,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "先增后降至无速度",
+          "name": "扭矩"
+        },
+        "elementId": "142"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 146,
+            "start": 92,
+            "end": 142,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "146",
+            "startNodeElementId": "92",
+            "endNodeElementId": "142"
+          },
+          "end": {
+            "identity": 142,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "先增后降至无速度",
+              "name": "扭矩"
+            },
+            "elementId": "142"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 143,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "降低",
+          "name": "贯入度"
+        },
+        "elementId": "143"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 147,
+            "start": 92,
+            "end": 143,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "147",
+            "startNodeElementId": "92",
+            "endNodeElementId": "143"
+          },
+          "end": {
+            "identity": 143,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "降低",
+              "name": "贯入度"
+            },
+            "elementId": "143"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 144,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘",
+          "故障表现": "空转"
+        },
+        "elementId": "144"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 148,
+            "start": 92,
+            "end": 144,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "148",
+            "startNodeElementId": "92",
+            "endNodeElementId": "144"
+          },
+          "end": {
+            "identity": 144,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘",
+              "故障表现": "空转"
+            },
+            "elementId": "144"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 141,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "增加",
+          "name": "总推力"
+        },
+        "elementId": "141"
+      },
+      "end": {
+        "identity": 145,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "液压系统",
+          "故障表现": "漏油、油高温"
+        },
+        "elementId": "145"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 141,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "增加",
+              "name": "总推力"
+            },
+            "elementId": "141"
+          },
+          "relationship": {
+            "identity": 149,
+            "start": 141,
+            "end": 145,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "149",
+            "startNodeElementId": "141",
+            "endNodeElementId": "145"
+          },
+          "end": {
+            "identity": 145,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "液压系统",
+              "故障表现": "漏油、油高温"
+            },
+            "elementId": "145"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "先增后降至无速度",
+          "name": "扭矩"
+        },
+        "elementId": "142"
+      },
+      "end": {
+        "identity": 145,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "液压系统",
+          "故障表现": "漏油、油高温"
+        },
+        "elementId": "145"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "先增后降至无速度",
+              "name": "扭矩"
+            },
+            "elementId": "142"
+          },
+          "relationship": {
+            "identity": 150,
+            "start": 142,
+            "end": 145,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "150",
+            "startNodeElementId": "142",
+            "endNodeElementId": "145"
+          },
+          "end": {
+            "identity": 145,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "液压系统",
+              "故障表现": "漏油、油高温"
+            },
+            "elementId": "145"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 141,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "增加",
+          "name": "总推力"
+        },
+        "elementId": "141"
+      },
+      "end": {
+        "identity": 146,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "温度升高",
+          "name": "作业环境"
+        },
+        "elementId": "146"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 141,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "增加",
+              "name": "总推力"
+            },
+            "elementId": "141"
+          },
+          "relationship": {
+            "identity": 151,
+            "start": 141,
+            "end": 146,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "151",
+            "startNodeElementId": "141",
+            "endNodeElementId": "146"
+          },
+          "end": {
+            "identity": 146,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "温度升高",
+              "name": "作业环境"
+            },
+            "elementId": "146"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "先增后降至无速度",
+          "name": "扭矩"
+        },
+        "elementId": "142"
+      },
+      "end": {
+        "identity": 146,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "温度升高",
+          "name": "作业环境"
+        },
+        "elementId": "146"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "先增后降至无速度",
+              "name": "扭矩"
+            },
+            "elementId": "142"
+          },
+          "relationship": {
+            "identity": 152,
+            "start": 142,
+            "end": 146,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "152",
+            "startNodeElementId": "142",
+            "endNodeElementId": "146"
+          },
+          "end": {
+            "identity": 146,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "温度升高",
+              "name": "作业环境"
+            },
+            "elementId": "146"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 144,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘",
+          "故障表现": "空转"
+        },
+        "elementId": "144"
+      },
+      "end": {
+        "identity": 147,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "损坏",
+          "name": "刀具"
+        },
+        "elementId": "147"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 144,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘",
+              "故障表现": "空转"
+            },
+            "elementId": "144"
+          },
+          "relationship": {
+            "identity": 153,
+            "start": 144,
+            "end": 147,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "153",
+            "startNodeElementId": "144",
+            "endNodeElementId": "147"
+          },
+          "end": {
+            "identity": 147,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "损坏",
+              "name": "刀具"
+            },
+            "elementId": "147"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 148,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过低",
+          "name": "刀盘中心开口率"
+        },
+        "elementId": "148"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 154,
+            "start": 92,
+            "end": 148,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "154",
+            "startNodeElementId": "92",
+            "endNodeElementId": "148"
+          },
+          "end": {
+            "identity": 148,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过低",
+              "name": "刀盘中心开口率"
+            },
+            "elementId": "148"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 149,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过高",
+          "name": "塑性指数"
+        },
+        "elementId": "149"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 155,
+            "start": 92,
+            "end": 149,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "155",
+            "startNodeElementId": "92",
+            "endNodeElementId": "149"
+          },
+          "end": {
+            "identity": 149,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过高",
+              "name": "塑性指数"
+            },
+            "elementId": "149"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 150,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "选择不当",
+          "name": "掘进模式"
+        },
+        "elementId": "150"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 156,
+            "start": 92,
+            "end": 150,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "156",
+            "startNodeElementId": "92",
+            "endNodeElementId": "150"
+          },
+          "end": {
+            "identity": 150,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "选择不当",
+              "name": "掘进模式"
+            },
+            "elementId": "150"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 151,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过高",
+          "name": "液性指数"
+        },
+        "elementId": "151"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 157,
+            "start": 92,
+            "end": 151,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "157",
+            "startNodeElementId": "92",
+            "endNodeElementId": "151"
+          },
+          "end": {
+            "identity": 151,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过高",
+              "name": "液性指数"
+            },
+            "elementId": "151"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 152,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "添加量不足或改良剂选用有误",
+          "name": "改良剂"
+        },
+        "elementId": "152"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 158,
+            "start": 92,
+            "end": 152,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "158",
+            "startNodeElementId": "92",
+            "endNodeElementId": "152"
+          },
+          "end": {
+            "identity": 152,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "添加量不足或改良剂选用有误",
+              "name": "改良剂"
+            },
+            "elementId": "152"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 153,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "容积过小，压力过大",
+          "name": "土仓"
+        },
+        "elementId": "153"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 159,
+            "start": 92,
+            "end": 153,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "159",
+            "startNodeElementId": "92",
+            "endNodeElementId": "153"
+          },
+          "end": {
+            "identity": 153,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "容积过小，压力过大",
+              "name": "土仓"
+            },
+            "elementId": "153"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 154,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "不合理",
+          "name": "刀具高差"
+        },
+        "elementId": "154"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 160,
+            "start": 92,
+            "end": 154,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "160",
+            "startNodeElementId": "92",
+            "endNodeElementId": "154"
+          },
+          "end": {
+            "identity": 154,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "不合理",
+              "name": "刀具高差"
+            },
+            "elementId": "154"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 155,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "主动搅拌棒设计不合理",
+          "name": "搅拌系统"
+        },
+        "elementId": "155"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 161,
+            "start": 92,
+            "end": 155,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "161",
+            "startNodeElementId": "92",
+            "endNodeElementId": "155"
+          },
+          "end": {
+            "identity": 155,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "主动搅拌棒设计不合理",
+              "name": "搅拌系统"
+            },
+            "elementId": "155"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 156,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "压力流量大小不当",
+          "name": "冲刷系统"
+        },
+        "elementId": "156"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 162,
+            "start": 92,
+            "end": 156,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "162",
+            "startNodeElementId": "92",
+            "endNodeElementId": "156"
+          },
+          "end": {
+            "identity": 156,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "压力流量大小不当",
+              "name": "冲刷系统"
+            },
+            "elementId": "156"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 157,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "停机过长",
+          "name": "停机时间"
+        },
+        "elementId": "157"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 163,
+            "start": 92,
+            "end": 157,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "163",
+            "startNodeElementId": "92",
+            "endNodeElementId": "157"
+          },
+          "end": {
+            "identity": 157,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "停机过长",
+              "name": "停机时间"
+            },
+            "elementId": "157"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 158,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "不合理",
+          "name": "刀具布置"
+        },
+        "elementId": "158"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 164,
+            "start": 92,
+            "end": 158,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "164",
+            "startNodeElementId": "92",
+            "endNodeElementId": "158"
+          },
+          "end": {
+            "identity": 158,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "不合理",
+              "name": "刀具布置"
+            },
+            "elementId": "158"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 159,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "延伸深度不足",
+          "name": "螺旋输送器"
+        },
+        "elementId": "159"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 165,
+            "start": 92,
+            "end": 159,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "165",
+            "startNodeElementId": "92",
+            "endNodeElementId": "159"
+          },
+          "end": {
+            "identity": 159,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "延伸深度不足",
+              "name": "螺旋输送器"
+            },
+            "elementId": "159"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 160,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "经验不足",
+          "name": "盾构机司机"
+        },
+        "elementId": "160"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 166,
+            "start": 92,
+            "end": 160,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "166",
+            "startNodeElementId": "92",
+            "endNodeElementId": "160"
+          },
+          "end": {
+            "identity": 160,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "经验不足",
+              "name": "盾构机司机"
+            },
+            "elementId": "160"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 161,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "保修不到位",
+          "name": "盾构设备"
+        },
+        "elementId": "161"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 167,
+            "start": 92,
+            "end": 161,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "167",
+            "startNodeElementId": "92",
+            "endNodeElementId": "161"
+          },
+          "end": {
+            "identity": 161,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "保修不到位",
+              "name": "盾构设备"
+            },
+            "elementId": "161"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 162,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地下水影响"
+        },
+        "elementId": "162"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 168,
+            "start": 92,
+            "end": 162,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "168",
+            "startNodeElementId": "92",
+            "endNodeElementId": "162"
+          },
+          "end": {
+            "identity": 162,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地下水影响"
+            },
+            "elementId": "162"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 163,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "渣土改良的效果不佳"
+        },
+        "elementId": "163"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 169,
+            "start": 92,
+            "end": 163,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "169",
+            "startNodeElementId": "92",
+            "endNodeElementId": "163"
+          },
+          "end": {
+            "identity": 163,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "渣土改良的效果不佳"
+            },
+            "elementId": "163"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 152,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "添加量不足或改良剂选用有误",
+          "name": "改良剂"
+        },
+        "elementId": "152"
+      },
+      "end": {
+        "identity": 164,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "渣土改良的效果不佳"
+        },
+        "elementId": "164"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 152,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "添加量不足或改良剂选用有误",
+              "name": "改良剂"
+            },
+            "elementId": "152"
+          },
+          "relationship": {
+            "identity": 170,
+            "start": 152,
+            "end": 164,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "170",
+            "startNodeElementId": "152",
+            "endNodeElementId": "164"
+          },
+          "end": {
+            "identity": 164,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "渣土改良的效果不佳"
+            },
+            "elementId": "164"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 149,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过高",
+          "name": "塑性指数"
+        },
+        "elementId": "149"
+      },
+      "end": {
+        "identity": 165,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "土体黏度过高"
+        },
+        "elementId": "165"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 149,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过高",
+              "name": "塑性指数"
+            },
+            "elementId": "149"
+          },
+          "relationship": {
+            "identity": 171,
+            "start": 149,
+            "end": 165,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "171",
+            "startNodeElementId": "149",
+            "endNodeElementId": "165"
+          },
+          "end": {
+            "identity": 165,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "土体黏度过高"
+            },
+            "elementId": "165"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 151,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过高",
+          "name": "液性指数"
+        },
+        "elementId": "151"
+      },
+      "end": {
+        "identity": 165,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "土体黏度过高"
+        },
+        "elementId": "165"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 151,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过高",
+              "name": "液性指数"
+            },
+            "elementId": "151"
+          },
+          "relationship": {
+            "identity": 172,
+            "start": 151,
+            "end": 165,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "172",
+            "startNodeElementId": "151",
+            "endNodeElementId": "165"
+          },
+          "end": {
+            "identity": 165,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "土体黏度过高"
+            },
+            "elementId": "165"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 92,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "刀盘结泥饼"
+        },
+        "elementId": "92"
+      },
+      "end": {
+        "identity": 166,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "待上方地层及前方掌子面趋于较稳定状态时，借机置换为浓泥浆建立泥膜，降低开挖仓液位同时补气建仓，此时专业潜水员实行高压进仓，分别利用高压水枪切割、液压镐凿除、手动钢钎凿除等方式，彻底清除已经板结了的厚泥饼。",
+          "name": "人工带压进仓清理"
+        },
+        "elementId": "166"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "刀盘结泥饼"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 173,
+            "start": 92,
+            "end": 166,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "173",
+            "startNodeElementId": "92",
+            "endNodeElementId": "166"
+          },
+          "end": {
+            "identity": 166,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "待上方地层及前方掌子面趋于较稳定状态时，借机置换为浓泥浆建立泥膜，降低开挖仓液位同时补气建仓，此时专业潜水员实行高压进仓，分别利用高压水枪切割、液压镐凿除、手动钢钎凿除等方式，彻底清除已经板结了的厚泥饼。",
+              "name": "人工带压进仓清理"
+            },
+            "elementId": "166"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 158,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "不合理",
+          "name": "刀具布置"
+        },
+        "elementId": "158"
+      },
+      "end": {
+        "identity": 167,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "采用电刨的动火作业方式将内侧的大尺寸限径肋板割除",
+          "name": "割除不受力的限径肋板"
+        },
+        "elementId": "167"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 158,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "不合理",
+              "name": "刀具布置"
+            },
+            "elementId": "158"
+          },
+          "relationship": {
+            "identity": 174,
+            "start": 158,
+            "end": 167,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "174",
+            "startNodeElementId": "158",
+            "endNodeElementId": "167"
+          },
+          "end": {
+            "identity": 167,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "采用电刨的动火作业方式将内侧的大尺寸限径肋板割除",
+              "name": "割除不受力的限径肋板"
+            },
+            "elementId": "167"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 158,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "不合理",
+          "name": "刀具布置"
+        },
+        "elementId": "158"
+      },
+      "end": {
+        "identity": 168,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "将中心区域每个轨迹由原有的3对正反转固定刮刀变更为仅保留1～2对固定刮刀，多余的固定刮刀在清理干净其两侧的泥饼后，利用气动或液压扳手将其拆除",
+          "name": "拆除过密的固定刮刀"
+        },
+        "elementId": "168"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 158,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "不合理",
+              "name": "刀具布置"
+            },
+            "elementId": "158"
+          },
+          "relationship": {
+            "identity": 175,
+            "start": 158,
+            "end": 168,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "175",
+            "startNodeElementId": "158",
+            "endNodeElementId": "168"
+          },
+          "end": {
+            "identity": 168,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "将中心区域每个轨迹由原有的3对正反转固定刮刀变更为仅保留1～2对固定刮刀，多余的固定刮刀在清理干净其两侧的泥饼后，利用气动或液压扳手将其拆除",
+              "name": "拆除过密的固定刮刀"
+            },
+            "elementId": "168"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 156,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "压力流量大小不当",
+          "name": "冲刷系统"
+        },
+        "elementId": "156"
+      },
+      "end": {
+        "identity": 169,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "采用分臂分时方式，提高刀盘中心体局部瞬间冲刷能量；借鉴水刀（200bar，100L/min）冷态切割经验，经过物料闸而非中心回转接头，停机切割既成泥饼；重新设计加工内带冲刷管道的中心刀筒及中心刀具，实现掘进期间连续性冲刷",
+          "name": "改进中心冲刷"
+        },
+        "elementId": "169"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 156,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "压力流量大小不当",
+              "name": "冲刷系统"
+            },
+            "elementId": "156"
+          },
+          "relationship": {
+            "identity": 176,
+            "start": 156,
+            "end": 169,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "176",
+            "startNodeElementId": "156",
+            "endNodeElementId": "169"
+          },
+          "end": {
+            "identity": 169,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "采用分臂分时方式，提高刀盘中心体局部瞬间冲刷能量；借鉴水刀（200bar，100L/min）冷态切割经验，经过物料闸而非中心回转接头，停机切割既成泥饼；重新设计加工内带冲刷管道的中心刀筒及中心刀具，实现掘进期间连续性冲刷",
+              "name": "改进中心冲刷"
+            },
+            "elementId": "169"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 150,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "选择不当",
+          "name": "掘进模式"
+        },
+        "elementId": "150"
+      },
+      "end": {
+        "identity": 170,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "增加环压差或注入压缩空气，可以在掘进头和地层之间形成一定的气压差。这种气压差会减少土壤颗粒与盾构机刀具或刀盘表面的接触力，从而降低土壤黏附在设备表面上的可能性，减少了结泥饼的形成。",
+          "name": "气压辅助掘进"
+        },
+        "elementId": "170"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 150,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "选择不当",
+              "name": "掘进模式"
+            },
+            "elementId": "150"
+          },
+          "relationship": {
+            "identity": 177,
+            "start": 150,
+            "end": 170,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "177",
+            "startNodeElementId": "150",
+            "endNodeElementId": "170"
+          },
+          "end": {
+            "identity": 170,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "增加环压差或注入压缩空气，可以在掘进头和地层之间形成一定的气压差。这种气压差会减少土壤颗粒与盾构机刀具或刀盘表面的接触力，从而降低土壤黏附在设备表面上的可能性，减少了结泥饼的形成。",
+              "name": "气压辅助掘进"
+            },
+            "elementId": "170"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 152,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "添加量不足或改良剂选用有误",
+          "name": "改良剂"
+        },
+        "elementId": "152"
+      },
+      "end": {
+        "identity": 171,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "方法": "过向盾构机的刀具或刀盘周围喷射或注入泡沫剂，可以在切削和挤压土层的同时，将土壤表面包裹在泡沫剂的泡沫中，从而减少土壤与设备表面的直接接触，防止结泥饼的形成。",
+          "name": "注入泡沫剂"
+        },
+        "elementId": "171"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 152,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "添加量不足或改良剂选用有误",
+              "name": "改良剂"
+            },
+            "elementId": "152"
+          },
+          "relationship": {
+            "identity": 178,
+            "start": 152,
+            "end": 171,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "178",
+            "startNodeElementId": "152",
+            "endNodeElementId": "171"
+          },
+          "end": {
+            "identity": 171,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "方法": "过向盾构机的刀具或刀盘周围喷射或注入泡沫剂，可以在切削和挤压土层的同时，将土壤表面包裹在泡沫剂的泡沫中，从而减少土壤与设备表面的直接接触，防止结泥饼的形成。",
+              "name": "注入泡沫剂"
+            },
+            "elementId": "171"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 153,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "容积过小，压力过大",
+          "name": "土仓"
+        },
+        "elementId": "153"
+      },
+      "end": {
+        "identity": 172,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增加容积"
+        },
+        "elementId": "172"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 153,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "容积过小，压力过大",
+              "name": "土仓"
+            },
+            "elementId": "153"
+          },
+          "relationship": {
+            "identity": 179,
+            "start": 153,
+            "end": 172,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "179",
+            "startNodeElementId": "153",
+            "endNodeElementId": "172"
+          },
+          "end": {
+            "identity": 172,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增加容积"
+            },
+            "elementId": "172"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 159,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "延伸深度不足",
+          "name": "螺旋输送器"
+        },
+        "elementId": "159"
+      },
+      "end": {
+        "identity": 173,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "延长螺旋输送机的长度",
+          "解释": "将螺旋输送机的长度适当延长可以增加土壤在输送过程中的停留时间，减少土壤与设备表面的摩擦和接触时间，从而降低结泥饼的形成可能性。"
+        },
+        "elementId": "173"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 159,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "延伸深度不足",
+              "name": "螺旋输送器"
+            },
+            "elementId": "159"
+          },
+          "relationship": {
+            "identity": 180,
+            "start": 159,
+            "end": 173,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "180",
+            "startNodeElementId": "159",
+            "endNodeElementId": "173"
+          },
+          "end": {
+            "identity": 173,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "延长螺旋输送机的长度",
+              "解释": "将螺旋输送机的长度适当延长可以增加土壤在输送过程中的停留时间，减少土壤与设备表面的摩擦和接触时间，从而降低结泥饼的形成可能性。"
+            },
+            "elementId": "173"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 155,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "主动搅拌棒设计不合理",
+          "name": "搅拌系统"
+        },
+        "elementId": "155"
+      },
+      "end": {
+        "identity": 174,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "重新设计搅拌棒，提高搅拌效率和土壤均匀性"
+        },
+        "elementId": "174"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 155,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "主动搅拌棒设计不合理",
+              "name": "搅拌系统"
+            },
+            "elementId": "155"
+          },
+          "relationship": {
+            "identity": 181,
+            "start": 155,
+            "end": 174,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "181",
+            "startNodeElementId": "155",
+            "endNodeElementId": "174"
+          },
+          "end": {
+            "identity": 174,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "重新设计搅拌棒，提高搅拌效率和土壤均匀性"
+            },
+            "elementId": "174"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 155,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "主动搅拌棒设计不合理",
+          "name": "搅拌系统"
+        },
+        "elementId": "155"
+      },
+      "end": {
+        "identity": 175,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期检查和调整搅拌棒的性能"
+        },
+        "elementId": "175"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 155,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "主动搅拌棒设计不合理",
+              "name": "搅拌系统"
+            },
+            "elementId": "155"
+          },
+          "relationship": {
+            "identity": 182,
+            "start": 155,
+            "end": 175,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "182",
+            "startNodeElementId": "155",
+            "endNodeElementId": "175"
+          },
+          "end": {
+            "identity": 175,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期检查和调整搅拌棒的性能"
+            },
+            "elementId": "175"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 160,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "经验不足",
+          "name": "盾构机司机"
+        },
+        "elementId": "160"
+      },
+      "end": {
+        "identity": 176,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "加强操作员的培训"
+        },
+        "elementId": "176"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 160,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "经验不足",
+              "name": "盾构机司机"
+            },
+            "elementId": "160"
+          },
+          "relationship": {
+            "identity": 183,
+            "start": 160,
+            "end": 176,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "183",
+            "startNodeElementId": "160",
+            "endNodeElementId": "176"
+          },
+          "end": {
+            "identity": 176,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "加强操作员的培训"
+            },
+            "elementId": "176"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 162,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地下水影响"
+        },
+        "elementId": "162"
+      },
+      "end": {
+        "identity": 177,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "使用水泵和排水系统"
+        },
+        "elementId": "177"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 162,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地下水影响"
+            },
+            "elementId": "162"
+          },
+          "relationship": {
+            "identity": 184,
+            "start": 162,
+            "end": 177,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "184",
+            "startNodeElementId": "162",
+            "endNodeElementId": "177"
+          },
+          "end": {
+            "identity": 177,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "使用水泵和排水系统"
+            },
+            "elementId": "177"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 148,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过低",
+          "name": "刀盘中心开口率"
+        },
+        "elementId": "148"
+      },
+      "end": {
+        "identity": 178,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "调整刀盘设计"
+        },
+        "elementId": "178"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 148,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过低",
+              "name": "刀盘中心开口率"
+            },
+            "elementId": "148"
+          },
+          "relationship": {
+            "identity": 185,
+            "start": 148,
+            "end": 178,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "185",
+            "startNodeElementId": "148",
+            "endNodeElementId": "178"
+          },
+          "end": {
+            "identity": 178,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "调整刀盘设计"
+            },
+            "elementId": "178"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 148,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "过低",
+          "name": "刀盘中心开口率"
+        },
+        "elementId": "148"
+      },
+      "end": {
+        "identity": 179,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期评估刀盘性能"
+        },
+        "elementId": "179"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 148,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "过低",
+              "name": "刀盘中心开口率"
+            },
+            "elementId": "148"
+          },
+          "relationship": {
+            "identity": 186,
+            "start": 148,
+            "end": 179,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "186",
+            "startNodeElementId": "148",
+            "endNodeElementId": "179"
+          },
+          "end": {
+            "identity": 179,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期评估刀盘性能"
+            },
+            "elementId": "179"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 153,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "容积过小，压力过大",
+          "name": "土仓"
+        },
+        "elementId": "153"
+      },
+      "end": {
+        "identity": 180,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "表现": "调整盾构机推进速度和土压平衡,定期清洗和维护土仓内部设备",
+          "name": "土仓压力平衡"
+        },
+        "elementId": "180"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 153,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "容积过小，压力过大",
+              "name": "土仓"
+            },
+            "elementId": "153"
+          },
+          "relationship": {
+            "identity": 187,
+            "start": 153,
+            "end": 180,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "187",
+            "startNodeElementId": "153",
+            "endNodeElementId": "180"
+          },
+          "end": {
+            "identity": 180,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "表现": "调整盾构机推进速度和土压平衡,定期清洗和维护土仓内部设备",
+              "name": "土仓压力平衡"
+            },
+            "elementId": "180"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 165,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "土体黏度过高"
+        },
+        "elementId": "165"
+      },
+      "end": {
+        "identity": 181,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "注入膨润剂",
+          "解释": "改变土壤颗粒之间的相互作用，提高土壤的润湿性和流动性，从而减少土壤的黏附和压实，预防结泥饼的形成。"
+        },
+        "elementId": "181"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 165,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "土体黏度过高"
+            },
+            "elementId": "165"
+          },
+          "relationship": {
+            "identity": 188,
+            "start": 165,
+            "end": 181,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "188",
+            "startNodeElementId": "165",
+            "endNodeElementId": "181"
+          },
+          "end": {
+            "identity": 181,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "注入膨润剂",
+              "解释": "改变土壤颗粒之间的相互作用，提高土壤的润湿性和流动性，从而减少土壤的黏附和压实，预防结泥饼的形成。"
+            },
+            "elementId": "181"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 161,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "保修不到位",
+          "name": "盾构设备"
+        },
+        "elementId": "161"
+      },
+      "end": {
+        "identity": 182,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期维护和检修"
+        },
+        "elementId": "182"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 161,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "保修不到位",
+              "name": "盾构设备"
+            },
+            "elementId": "161"
+          },
+          "relationship": {
+            "identity": 189,
+            "start": 161,
+            "end": 182,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "189",
+            "startNodeElementId": "161",
+            "endNodeElementId": "182"
+          },
+          "end": {
+            "identity": 182,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期维护和检修"
+            },
+            "elementId": "182"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

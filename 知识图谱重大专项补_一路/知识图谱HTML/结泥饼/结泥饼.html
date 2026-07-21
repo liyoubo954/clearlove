@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>知识图谱</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="">
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/graph.css" />
+</head>
+<body>
+
+<!-- 第一个布局 绘制知识图谱主图 -->
+<div style="text-align: center; position:relative;">
+    <svg width="1000" height="900" style="margin-right:80px;margin-bottom:-20px;" id="svg1">
+    </svg>
+    <!-- 绘制右边显示结果 -->
+    <div id="info">
+        <h4></h4>
+    </div>
+</div>
+<!-- 增加D3元素库 -->
+<script src="js/d3.v4.min.js"></script>
+<!-- 绘制图例 -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        // 定义svg变量将布局svg1选出来
+        var svg = d3.select("#svg1"),
+            width = svg.attr("width"),
+            height = svg.attr("height");
+        var g = svg.append("g").attr("class","graph");
+        var defs = svg.append("defs");
+        defs.append("marker").attr("id","arrow").attr("viewBox","0 -5 10 10").attr("refX",10).attr("refY",0).attr("markerWidth",6).attr("markerHeight",6).attr("orient","auto")
+            .append("path").attr("d","M0,-5L10,0L0,5").attr("fill","#bbb");
+        var relColors = { '分类':'#66c2a5','导致':'#fc8d62','成因':'#8da0cb','包括':'#e78ac3','方法':'#a6d854','造成':'#ffd92f' };
+        // 自定义图标及颜色（数组保证一一对应）
+        // names 图例名称变量制作图标
+        // labels 节点的标签名称（与records.json中保证相同）
+        // colors 图例颜色
+        // url json文件的路径
+        var names = ['风险名称', '原因', '措施', '现象']
+        var labels = ['风险名称', '原因', '措施', '现象']
+        var colors = ['#F16667', '#F79767', '#7ff55a', '#55ffff']
+        var url = 'data/结泥饼.json'
+
+        // 背景颜色设置 补充CSS样式设置字体布局
+        for (var i = 0; i < names.length; i++) {
+            $('#indicator').append("<div><span style='background-color:" + colors[i] + "'></span>" + names[i] +
+                "</div>")
+        }
+
+        // 利用d3.forceSimulation()定义关系图 包括设置边link、排斥电荷charge、关系图中心点
+        var simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(d => d.id).distance(110))
+            .force("charge", d3.forceManyBody().strength(-180))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide().radius(d => d.label === labels[0] ? 28 : 22))
+            .force("radial", d3.forceRadial(d => d.label === labels[0] ? 0 : 260, width / 2, height / 2).strength(0.02))
+            .alpha(1)
+            .alphaDecay(0.02);
+        // 图数据
+        var graph
+        let nodes = []
+        let links = [] // 存放节点和关系
+        let nodeSet = [] // 存放去重后nodes的id
+        //d3.json获取数据
+        d3.json(url, function (error, data) {
+            if (error) throw error
+            graph = data
+            console.log(graph[0].n)
+            for (let item of graph) {
+                for (let segment of item.p.segments) {
+                    // 重新更改data格式
+                    if (nodeSet.indexOf(segment.start.identity) == -1) {
+                        nodeSet.push(segment.start.identity)
+                        nodes.push({
+                            id: segment.start.identity,
+                            label: segment.start.labels[0],
+                            properties: segment.start.properties
+                        });
+                    }
+                    if (nodeSet.indexOf(segment.end.identity) == -1) {
+                        nodeSet.push(segment.end.identity)
+                        nodes.push({
+                            id: segment.end.identity,
+                            label: segment.end.labels[0],
+                            properties: segment.end.properties
+                        });
+                    }
+                    links.push({
+                        source: segment.relationship.start,
+                        target: segment.relationship.end,
+                        type: segment.relationship.type,
+                        properties: segment.relationship.properties
+                    });
+                }
+            }
+            console.log(nodes)
+            console.log(links)
+
+            function getNodeId(nodeOrId) {
+                return typeof nodeOrId === "object" ? nodeOrId.id : nodeOrId;
+            }
+
+            function getLinkKey(source, target) {
+                return getNodeId(source) + "->" + getNodeId(target);
+            }
+
+            function buildGraphHelpers() {
+                var nodesById = {};
+                var rootRiskNode = null;
+                var rootCauseIds = [];
+                var rootCauseIdSet = {};
+                var outgoingMap = {};
+                var incomingMap = {};
+
+                nodes.forEach(function(item) {
+                    nodesById[item.id] = item;
+                    if (item.label === labels[0]) {
+                        rootRiskNode = item;
+                    }
+                });
+
+                links.forEach(function(item) {
+                    var sourceId = getNodeId(item.source);
+                    var targetId = getNodeId(item.target);
+
+                    if (!outgoingMap[sourceId]) {
+                        outgoingMap[sourceId] = [];
+                    }
+                    if (!incomingMap[targetId]) {
+                        incomingMap[targetId] = [];
+                    }
+
+                    outgoingMap[sourceId].push({
+                        sourceId: sourceId,
+                        targetId: targetId,
+                        type: item.type
+                    });
+                    incomingMap[targetId].push({
+                        sourceId: sourceId,
+                        targetId: targetId,
+                        type: item.type
+                    });
+                });
+
+                if (!rootRiskNode) {
+                    return {
+                        riskId: null,
+                        nodesById: nodesById,
+                        rootCauseIds: rootCauseIds,
+                        rootCauseIdSet: rootCauseIdSet,
+                        outgoingMap: outgoingMap,
+                        incomingMap: incomingMap
+                    };
+                }
+
+                (outgoingMap[rootRiskNode.id] || []).forEach(function(item) {
+                    var targetId = item.targetId;
+                    var targetNode = nodesById[targetId];
+                    if (targetNode && targetNode.label === labels[1]) {
+                        rootCauseIds.push(targetId);
+                        rootCauseIdSet[targetId] = true;
+                    }
+                });
+
+                return {
+                    riskId: rootRiskNode.id,
+                    nodesById: nodesById,
+                    rootCauseIds: rootCauseIds,
+                    rootCauseIdSet: rootCauseIdSet,
+                    outgoingMap: outgoingMap,
+                    incomingMap: incomingMap
+                };
+            }
+
+            var graphHelper = buildGraphHelpers();
+
+            function buildActiveBranchState(branchRootId) {
+                var visibleNodeSet = {};
+                var visibleLinkSet = {};
+
+                if (!branchRootId || !graphHelper.riskId) {
+                    return {
+                        visibleNodeSet: visibleNodeSet,
+                        visibleLinkSet: visibleLinkSet
+                    };
+                }
+
+                visibleNodeSet[graphHelper.riskId] = true;
+                visibleNodeSet[branchRootId] = true;
+                visibleLinkSet[getLinkKey(graphHelper.riskId, branchRootId)] = true;
+
+                var queue = [branchRootId];
+                var visited = {};
+                visited[branchRootId] = true;
+
+                while (queue.length) {
+                    var currentId = queue.shift();
+                    var nextLinks = graphHelper.outgoingMap[currentId] || [];
+
+                    nextLinks.forEach(function(item) {
+                        visibleNodeSet[item.targetId] = true;
+                        visibleLinkSet[getLinkKey(item.sourceId, item.targetId)] = true;
+
+                        if (!visited[item.targetId]) {
+                            visited[item.targetId] = true;
+                            queue.push(item.targetId);
+                        }
+                    });
+                }
+
+                return {
+                    visibleNodeSet: visibleNodeSet,
+                    visibleLinkSet: visibleLinkSet
+                };
+            }
+
+            function getActiveBranchId(nodeId) {
+                if (nodeId == graphHelper.riskId) {
+                    return null;
+                }
+
+                if (graphHelper.rootCauseIdSet[nodeId]) {
+                    return nodeId;
+                }
+
+                var queue = [nodeId];
+                var visited = {};
+                visited[nodeId] = true;
+
+                while (queue.length) {
+                    var currentId = queue.shift();
+                    var previousLinks = graphHelper.incomingMap[currentId] || [];
+
+                    for (var i = 0; i < previousLinks.length; i++) {
+                        var sourceId = previousLinks[i].sourceId;
+                        if (sourceId == graphHelper.riskId) {
+                            continue;
+                        }
+                        if (graphHelper.rootCauseIdSet[sourceId]) {
+                            return sourceId;
+                        }
+                        if (!visited[sourceId]) {
+                            visited[sourceId] = true;
+                            queue.push(sourceId);
+                        }
+                    }
+                }
+
+                return null;
+            }
+
+            function getDefaultBranchId() {
+                return graphHelper.rootCauseIds.length ? graphHelper.rootCauseIds[0] : null;
+            }
+
+            function isDirectlyConnected(nodeId, otherNodeId) {
+                for (var i = 0; i < links.length; i++) {
+                    var sourceId = getNodeId(links[i].source);
+                    var targetId = getNodeId(links[i].target);
+                    if ((sourceId == nodeId && targetId == otherNodeId) ||
+                        (sourceId == otherNodeId && targetId == nodeId)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            // D3映射数据至HTML中
+            // g用于绘制所有边,selectALL选中所有的line,并绑定数据data(graph.links),enter().append("line")添加元素
+            // 数据驱动文档,设置边的粗细
+            var linkGroup = g.append("g").attr("class", "links").selectAll("g").data(links).enter().append("g");
+
+            var link = linkGroup.append("path")
+                .attr("class", "link")
+                .attr("stroke", d => relColors[d.type] || "#bbb")
+                .attr("stroke-width", 2)
+                .attr("fill", "none")
+                .attr("marker-end", "url(#arrow)")
+                .attr("id", function(d, i) { return "linkPath-" + i; });
+
+            var labelPath = linkGroup.append("path")
+                .attr("class", "label-path")
+                .attr("fill", "none")
+                .attr("stroke", "none")
+                .attr("id", function(d, i) { return "labelPath-" + i; });
+
+            var linkLabel = linkGroup.append("text")
+                .attr("class", "link-label")
+                .attr("fill", "#fff")
+                .attr("font-size", "12px")
+                .attr("text-anchor", "middle")
+                .attr("dominant-baseline", "middle") // 垂直居中
+                .append("textPath")
+                .attr("xlink:href", function(d, i) { return "#labelPath-" + i; })
+                .attr("startOffset", "50%")
+                .text(function(d) { return "-" + d.type + "→"; });
+
+
+            // 添加所有的点
+            var node = g.append("g")
+                .attr("class", "nodes")
+                .selectAll("g")
+                .data(nodes)
+                .enter()
+                .append("g")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            node.append("circle")
+                .attr("r", function (d) {
+                    let size = 25;
+                    switch (d.label) {
+                        case labels[0]:
+                            break;
+                        case labels[1]:
+                            size = 20;
+                            break;
+                        case labels[2]:
+                            size = 20;
+                            break;
+                        default:
+                            size = 20;
+                            break;
+                    }
+                    return size;
+                })
+                .attr("fill", function (d) {
+                    for (let i = 0; i < labels.length; i++) {
+                        if (d.label === labels[i]) return colors[i];
+                    }
+                })
+                .attr("stroke", "none")
+                .attr("name", function(d) {
+                    return d.properties.name;
+                })
+                .attr("id", function (d) {
+                    return d.id;
+                })
+                .on("click", function(d) {
+                    if (!dragging) {
+                        updateInfoPanel(d.id);
+                    }
+                })
+                .on("mouseenter", function(d) {
+                    if (!dragging) {
+                        updateInfoPanel(d.id);
+                    }
+                });
+
+            node.append("text")
+                .attr("text-anchor", "middle")
+                .attr("dy", "0.35em")
+                .style("font-size", function (d) {
+                    let size = 15;
+                    switch (d.label) {
+                        case labels[0]:
+                            size = 15;
+                            break;
+                        case labels[1]:
+                            size = 10;
+                            break;
+                        case labels[2]:
+                            size = 10;
+                            break;
+                        default:
+                            size = 10;
+                            break;
+                    }
+                    return size + "px";
+                })
+                .text(function (d) {
+                    let name = d.properties.name;
+                    let maxLength = 3;
+                    if (name.length > maxLength) {
+                        return name.substring(0, maxLength) + '...';
+                    }
+                    return name;
+                });
+
+            var dummy = 0;
+
+            var text = svg.append("g").attr("class", "texts").selectAll("text").data(nodes).enter()
+                .append("text").attr("font-size", function (d) {
+                    let size = 30;
+                    switch (d.label) {
+                        case labels[0]:
+                            size = 25;
+                            break;
+                        case labels[1]:
+                            size = 10;
+                            break;
+                        case labels[2]:
+                            size = 10;
+                            break;
+                        default:
+                            size = 10;
+                            break;
+                    }
+                    return size + "px";
+                })
+                .attr("fill", function (d) {
+                    for (let i = 0; i < labels.length; i++) {
+                        if (d.label === labels[i]) return colors[i];
+                    }
+                })
+                .attr('name', function (d) {
+                    return d.properties.name;
+                })
+                .attr("text-anchor", "middle")
+                .text(function (d) {
+                    return d.properties.name;
+                });
+
+            node.append("title").text(d => d.properties.name)
+
+            simulation.nodes(nodes).on("tick", ticked);
+
+            simulation.force("link")
+                .links(links)
+                .distance(d => {
+                    let distance = 60
+                    switch (d.source.label) {
+                        case labels[0]:
+                            distance += 40;
+                            break;
+                        case labels[1]:
+                            distance += 40;
+                            break;
+                        case labels[2]:
+                            distance += 40;
+                            break;
+                        default:
+                            distance += 40;
+                            break;
+                    }
+                    switch (d.target.label) {
+                        case labels[0]:
+                            distance += 30;
+                            break;
+                        case labels[1]:
+                            distance += 30;
+                            break;
+                        case labels[2]:
+                            distance += 30;
+                            break;
+                        default:
+                            distance += 30;
+                            break;
+                    }
+                    return distance
+                });
+
+            function ticked() {
+                updateLinkPositions();
+                updateNodePositions();
+            }
+
+            function getNodeRadiusByLabel(label) {
+                return label === labels[0] ? 25 : 20;
+            }
+
+            function getLinkLabelGapHalf(d) {
+                return Math.max(28, d.type.length * 7 + 12);
+            }
+
+            function getClippedLinkGeometry(d) {
+                var dx = d.target.x - d.source.x;
+                var dy = d.target.y - d.source.y;
+                var dr = Math.sqrt(dx * dx + dy * dy);
+
+                if (dr === 0) {
+                    return null;
+                }
+
+                var sourceOffset = getNodeRadiusByLabel(d.source.label) + 1;
+                var targetOffset = getNodeRadiusByLabel(d.target.label) + 7;
+
+                var sourceX = d.source.x + (dx * sourceOffset) / dr;
+                var sourceY = d.source.y + (dy * sourceOffset) / dr;
+                var targetX = d.target.x - (dx * targetOffset) / dr;
+                var targetY = d.target.y - (dy * targetOffset) / dr;
+
+                var clippedDx = targetX - sourceX;
+                var clippedDy = targetY - sourceY;
+                var clippedDr = Math.sqrt(clippedDx * clippedDx + clippedDy * clippedDy);
+
+                return {
+                    sourceX: sourceX,
+                    sourceY: sourceY,
+                    targetX: targetX,
+                    targetY: targetY,
+                    dx: clippedDx,
+                    dy: clippedDy,
+                    dr: clippedDr
+                };
+            }
+
+            function updateLinkPositions() {
+                link.attr("d", function(d) {
+                    var geometry = getClippedLinkGeometry(d);
+                    if (!geometry) {
+                        return "M" + d.source.x + "," + d.source.y + " L" + d.target.x + "," + d.target.y;
+                    }
+
+                    var gapHalf = getLinkLabelGapHalf(d);
+                    if (geometry.dr <= gapHalf * 2 + 12) {
+                        return "M" + geometry.sourceX + "," + geometry.sourceY + " L" + geometry.targetX + "," + geometry.targetY;
+                    }
+
+                    var middleX = (geometry.sourceX + geometry.targetX) / 2;
+                    var middleY = (geometry.sourceY + geometry.targetY) / 2;
+                    var gapStartX = middleX - (geometry.dx * gapHalf) / geometry.dr;
+                    var gapStartY = middleY - (geometry.dy * gapHalf) / geometry.dr;
+                    var gapEndX = middleX + (geometry.dx * gapHalf) / geometry.dr;
+                    var gapEndY = middleY + (geometry.dy * gapHalf) / geometry.dr;
+
+                    return "M" + geometry.sourceX + "," + geometry.sourceY +
+                        " L" + gapStartX + "," + gapStartY +
+                        " M" + gapEndX + "," + gapEndY +
+                        " L" + geometry.targetX + "," + geometry.targetY;
+                });
+                labelPath.attr("d", function(d) {
+                    var geometry = getClippedLinkGeometry(d);
+                    if (!geometry) {
+                        return "M" + d.source.x + "," + d.source.y + " L" + d.target.x + "," + d.target.y;
+                    }
+
+                    var angle = Math.atan2(geometry.targetY - geometry.sourceY, geometry.targetX - geometry.sourceX) * 180 / Math.PI;
+                    if (angle > 90 || angle < -90) {
+                        return "M" + geometry.targetX + "," + geometry.targetY + " L" + geometry.sourceX + "," + geometry.sourceY;
+                    } else {
+                        return "M" + geometry.sourceX + "," + geometry.sourceY + " L" + geometry.targetX + "," + geometry.targetY;
+                    }
+                });
+            }
+
+
+
+
+
+
+            function updateNodePositions() {
+                node.attr("transform", function (d) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            }
+
+            function updateInfoPanel(nodeId) {
+                $('#info p').remove();
+                for (let item of nodes) {
+                    if (item.id == nodeId) {
+                        for (var key in item.properties) {
+                            $('#info').append('<p><span>' + key + '</span>' + item.properties[key] + '</p>').css('text-align', 'left');
+                        }
+                    }
+                }
+            }
+
+            function applyBranchHighlight(branchId) {
+                var activeBranchState = buildActiveBranchState(branchId);
+
+                d3.select('#svg1 .nodes').selectAll('circle').attr('class', function (d) {
+                    return activeBranchState.visibleNodeSet[d.id] ? '' : 'inactive';
+                });
+
+                d3.select('#svg1 .nodes').selectAll('text').attr('class', function (d) {
+                    return activeBranchState.visibleNodeSet[d.id] ? '' : 'inactive';
+                });
+
+                d3.select('#svg1 .links').selectAll('.link').attr('class', function (d) {
+                    return activeBranchState.visibleLinkSet[getLinkKey(d.source, d.target)] ? 'link' : 'link inactive';
+                });
+
+                d3.select('#svg1 .links').selectAll('.label-path').attr('class', function (d) {
+                    return activeBranchState.visibleLinkSet[getLinkKey(d.source, d.target)] ? 'label-path' : 'label-path inactive';
+                });
+
+                d3.select('#svg1 .links').selectAll('text').attr('class', function (d) {
+                    return activeBranchState.visibleLinkSet[getLinkKey(d.source, d.target)] ? 'link-label' : 'link-label inactive';
+                });
+
+                d3.select('#svg1 .texts').selectAll('text').attr('class', function (d) {
+                    return activeBranchState.visibleNodeSet[d.id] ? '' : 'inactive';
+                });
+            }
+
+            var defaultBranchId = getDefaultBranchId();
+            if (defaultBranchId) {
+                updateInfoPanel(defaultBranchId);
+                applyBranchHighlight(defaultBranchId);
+            }
+        });
+        // 拖动函数代码
+        var dragging = false;
+
+        // 开始拖动并更新相应的点
+        function dragstarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+            dragging = true;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+            updateLinkPositions();  // 更新边的位置
+            updateNodePositions();  // 更新节点的位置
+        }
+
+        function dragended(d) {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+            dragging = false;
+        }
+
+        svg.call(d3.zoom().scaleExtent([0.3, 3]).on('zoom', function(){
+            g.attr('transform', d3.event.transform);
+        }));
+
+        setTimeout(() => { simulation.alphaTarget(0); }, 10000);
+
+    });
+</script>
+</body>
+</html>

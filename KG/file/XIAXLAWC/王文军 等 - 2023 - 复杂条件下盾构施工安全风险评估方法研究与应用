@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>拼图校验-中国知网</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script src="../js/common.js"></script>
+    <script type="text/javascript" src="https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js"></script>
+</head>
+
+<body>
+    <h3 class="tipText">提示</h3>
+    <div class="embed-wrapper">
+        <div id="captcha-element"></div>
+        <h4 class="downLoading">验证成功，请稍等，正在下载中...</h4>
+    </div>
+</body>
+<script>
+    var url = QueryString("returnUrl")
+    var decodedUrl = decodeURIComponent(url);
+    const idMatch = decodedUrl.match(/[?&]id=([^&]*)/);
+    const id = idMatch ? decodeURIComponent(idMatch[1]) : null;
+    var lang = QueryString("lang")
+    var slideLang, failTip, timeOutTip
+    if (lang == "zh-TW") {
+        slideLang = "tw"
+        failTip = '驗證未通過，請重新驗證！'
+        timeOutTip = "您操作已超時，請重新打開文獻！"
+    } else if (lang == "en-US") {
+        slideLang = "en"
+        failTip = 'Verification failed, please verify again!'
+        timeOutTip = "Your operation has timed out, please reopen the document!"
+        $(".tipText").text("Hint")
+    } else {
+        slideLang = "cn"
+        failTip = '验证未通过，请重新验证！'
+        timeOutTip = "您操作已超时，请重新打开文献！"
+    }
+    let captcha;
+    var verifyResult
+    initAliyunCaptcha({
+        SceneId: 'cqahckh0', // 场景ID。通过步骤一添加验证场景后，您可以在验证码场景列表，获取该场景的场景ID
+        prefix: '1p3paw', // 身份标。开通阿里云验证码2.0后，您可以在控制台概览页面的实例基本信息卡片区域，获取身份标
+        mode: 'embed', // 验证码模式。embed表示要集成的验证码模式为嵌入式。无需修改
+        element: '#captcha-element', // 页面上预留的渲染验证码的元素，与原代码中预留的页面元素保持一致。
+        button: '#button', // 触发业务请求的元素。button表示单击登录按钮后，触发captchaVerifyCallback函数。您可以根据实际使用的元素修改element的值
+        captchaVerifyCallback: captchaVerifyCallback, // 业务请求(带验证码校验)回调函数，无需修改
+        onBizResultCallback: onBizResultCallback, // 业务请求结果回调函数，无需修改
+        getInstance: getInstance, // 绑定验证码实例函数，无需修改
+        slideStyle: {
+            width: 320,
+            height: 40,
+        }, // 滑块验证码样式，支持自定义宽度和高度，单位为px。其中，width最小值为320 px
+        language: slideLang,
+        immediate: true, // 完成验证后，是否立即发送验证请求（调用captchaVerifyCallback函数）
+        region: 'cn' //验证码示例所属地区，支持中国内地（cn）、新加坡（sgp）
+    });
+
+    // 绑定验证码实例函数。该函数为固定写法，无需修改
+    function getInstance(instance) {
+        captcha = instance;
+    }
+    function captchaVerifyCallback(captchaVerifyParam) {
+        var captchaVerifyParam = {
+            "captchaVerifyParam": captchaVerifyParam,
+            "id": id
+        }
+        $.ajax({
+            type: "post",
+            url: BaseUrl.api + "/robot/check",
+            async: false,
+            data: JSON.stringify(captchaVerifyParam),
+            contentType: "application/json",
+            dataType: "json",
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (result) {
+                verifyResult = {
+                    captchaResult: result.data.captchaVerifyResult, // 验证码验证是否通过，boolean类型，必选
+                    bizResult: result.data.bizResult, // 业务验证是否通过，boolean类型，可选，若为无业务验证结果的场景，bizResult可以为空
+                };
+                if (verifyResult.captchaResult) {
+                    onBizResultCallback(verifyResult.bizResult)
+                } else {
+                    alert(failTip);
+                    location.reload();
+                }
+            },
+            error: function (xmlHttpRequest, textStatus, errorThrown) {
+                console.log(textStatus);
+            }
+        })
+    }
+
+    // 业务请求结果回调函数
+    function onBizResultCallback(bizResult) {
+        if (bizResult) {
+            window.location.href = url;
+            setTimeout(() => {
+                $("#captcha-element").hide()
+                $(".downLoading").show()
+            }, 900)
+        } else {
+            alert(timeOutTip);
+            location.reload();
+        }
+    }
+</script>
+
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        width: 100%;
+        height: 80px;
+        background: #1c66e6;
+        text-align: center;
+        line-height: 80px;
+        font-size: 24px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .embed-wrapper {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h4 {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        margin-top: 12%;
+        font-size: 26px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: #1c66e6;
+        display: none;
+    }
+</style>

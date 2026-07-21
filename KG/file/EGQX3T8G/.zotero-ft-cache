@@ -1,0 +1,1018 @@
+第 44 卷第 2 期 岩 土 力 学 Vol.44 No.2 2023 年 2 月 Rock and Soil Mechanics Feb. 2023
+收稿日期:2022-04-03 录用日期:2022-08-02
+基金项目:中铁二十局集团第五工程有限公司科研计划项目(No. CR2005-5-JS-2021-009)。
+This work was supported by the Scientific Research Project of No.5 Engineering Corporation Limited of China Railway 20th Bureau Group (CR2005-5-JS2021-009).
+第一作者简介:阮永芬,女,1964 年生,博士,教授,主要从事岩土与隧道工程研究方面的教学及科研工作。E-mail: rryy64@163.com 通讯作者:张虔,男,1998 年生,硕士研究生,主要从事隧道工程方面的研究。E-mail: zq17863055748@163.com
+DOI:10.16285/j.rsm.2022.0437
+基于C-V-T模型的盾构穿越既有桥梁施工风险评估
+阮永芬 1,张 虔 1,乔文件 2,裴利华 3,闫 明 2,郭宇航 2
+(1. 昆明理工大学 建筑工程学院,云南 昆明 650500;2. 中铁二十局集团第五工程有限公司,云南 昆明 650000; 3. 中铁四院集团西南勘察设计有限公司,云南 昆明 650206)
+摘 要:由于城市轨道交通建设逐年增多,新建隧道与既有桥梁间冲突愈发明显。针对盾构隧道穿越既有桥梁施工风险问题,
+基于系统思想引入 C-V-T 模型将待评工程风险划为后果严重性(C)、既有桥梁系统脆弱性(V)与新建隧道系统威胁性(T), 构建致灾-承灾-灾后三系统风险评估流程。引入双因素突变理论并建立三级指标体系,得出既有桥梁突变级数,以定量表达 脆弱性。采用交互矩阵衡量新建隧道指标间交叉影响,给出指标-系统权法,并利用多维云及正向发生器优化算法,客观表
+达多定量指标与定性概念间复杂映射关系及转换态势,以提升 T 值准确性。明确了后果严重性分级标准,给出三系统风险评 估结果耦合方法,由此构建盾构穿越既有桥梁施工风险综合评估模型。将该模型应用于昆明地铁 5 号线穿越怡心桥工程风险 评估中,评估结果与工程实际情况吻合,施工监测数据验证了评估模型的合理性、规范性与适用性。该研究成果有效保证了
+施工期间桥梁安全与正常使用,可为近似工程提供借鉴与参考。 关 键 词:隧道工程;风险评估;多维云;盾构穿越;突变理论;交互矩阵
+中图分类号:U 455 文献标识码:A 文章编号:1000-7598 (2023) 02-0552-11
+Construction risk assessment of shield crossing existing bridge based on C-V-T model
+RUAN Yong-fen1, ZHANG Qian1, QIAO Wen-jian2, PEI Li-hua3, YAN Ming2, GUO Yu-hang2
+(1. Faculty of Civil Engineering and Mechanics, Kunming University of Science and Technology, Kunming, Yunnan 650500, China; 2. No.5 Engineering Corporation Limited of China Railway 20th Bureau Group, Kunming, Yunnan 650000, China; 3. Southwest Survey and Design Co., Ltd., of China Railway Fourth Institute Group, Kunming, Yunnan 650206, China)
+Abstract: As urban rail transit construction increases year by year, conflicts between new tunnels and existed bridges become increasingly obvious. Aiming at the risk assessment problem of shield tunnel crossing the existing bridge construction, and based on the system idea, we introduce the C-V-T model to classify the engineering risk into consequence severity, which is called C; the vulnerability of the existing bridge system, which is called V; and the threat of the new tunnel system, which is referred to as T, so as to construct a three-system risk assessment process of disaster-causing, disaster-bearing and post-disaster. By introducing the two-factor catastrophe theory to establish a three-level index system, we obtain the catastrophe progression of the existing bridge to express its vulnerability. In order to improve the accuracy of T-value, we use the interaction matrix to measure the cross influence between the indicators of the new tunnel, and then give the indicator-system weight method. Finally, introducing the complex mapping relationship and transformation situation between the quantitative indicators and qualitative concepts to express multi-dimensional cloud and forward generator optimization algorithm objectively. Additionally, we clarify the consequence severity grading criteria, by which defining the direct economic loss, the surrounding environmental loss and human casualty, give the coupling method of the three system risk assessment results, and thus build a comprehensive assessment model for the construction risk of shield crossing existing bridges. We apply the proposed model to the risk assessment of Yixin Bridge Crossing Project of Kunming Metro Line 5, which shows that the evaluation results match with the actual situation of the project. The construction monitoring data also verifies the rationality, standardization and applicability of this model. Keywords: tunnel engineering; risk assessment; multidimensional cloud; shield crossing; mutation theory; interaction matrix
+
+
+第 2 期 阮永芬等:基于 C-V-T 模型的盾构穿越既有桥梁施工风险评估 553
+1引言
+随着城市轨道交通建设的逐年增多,公共交通
+运输网络逐渐完善,新建地下工程与既有建构筑物
+的冲突愈加明显[1],对新建盾构隧道穿越既有桥梁
+施工进行有效风险评估与灾害控制,确保安全高效
+施工成为地下工程领域亟需解决的问题。
+近年来,愈来愈多的专家学者参与盾构隧道穿
+越工程风险评估研究。主要有定量评估模型的改进[2]
+及利用数值模拟提出风险控制指标[3-4]等路线。陈洁
+金等[2]在对隧道下穿既有桥梁风险评估的研究中引
+入了故障树与模糊数学理论,建立了基于模糊故障
+树的评估模型。但该模型过于依赖统计数据,对施
+工人员素质要求高,工程应用有限。张海彦等[3]在
+盾构穿越既有混凝土桥梁结构的研究中采用有限元
+计算给出了明确的风险控制指标。苏洁等[4]运用
+FLAC3D 数值模拟手段建立了穿越桥梁隧道工程全
+过程风险评估及控制体系,但在评估中仅考虑既有
+桥梁的当前状态,缺乏对新建隧道影响性的评估。
+Liu[5]在对风险评估模型的研究中指出风险评估应
+从致灾、承灾与灾后 3 个角度进行分析,并给出了
+风险定量计算公式,为建立全面可靠的评估流程提
+供了参考。卢春林[6]对 Kent 法进行改进并用于浅埋
+暗挖隧道穿越桥梁风险评估中,提出了以风险综合
+指数 CRCI 定量表示施工风险程度,但其存在指标
+划分混乱,取值模糊,主观性过高等问题。阮永芬
+等[7]引入云模型算法并优化了权重计算法,构建了
+组合赋权云评估体系。但一维云处理多参数交互问
+题的效率较低,从而导致评估结果与实际不符。卢
+鑫月等[8]将动态贝叶斯网络与模糊评价理论相结合,
+建立了地铁隧道施工动态风险评估,但仅对施工状
+态进行评估,所得结果是否全面严谨还有待验证。
+其次,各项研究对风险评估的定义及流程存在较
+大出入。国家标准《系统安全性通用大纲》(GJB 900
+90)[9]及《城市轨道交通地下工程建设风险管理规
+范》(GB 50652―2011)[10]中定义风险 R = T × C , 即风险 R 为不利事件或事故发生的概率(频率)T
+及其损失 C 的组合。或是从系统脆弱性出发[6],将
+风险定义为承灾系统脆弱性与后果严重性综合作用
+的结果。Liu[5]、Arnold 等[11]在总结分析了传统风险
+评估模型后均认为,风险评估应重点考虑三要素,
+即致灾系统、承灾系统与灾害后果。归纳现有研究
+成果可知,随着信息与计算机技术的迅速发展,常
+规评估方法或规范公式存在明显局限性,不能真实
+反映待评估系统特性,无法充分有效地利用施工、
+监测及勘察数据。同时,现有评估模型存在一定的
+评估指标考虑不全面,指标划分不明确,主观性较
+大,无法解决多参交互作用等问题,从而导致模型
+适用性低,工程应用受限。
+为此,本文针对盾构穿越工程施工特性引入
+C-V-T 评估模型,将风险评估划分为后果严重性
+(C)、既有桥梁系统脆弱性(V)及新建隧道系统
+威胁性(T)三方面。针对既有桥梁承灾特性引入
+双因素突变理论构建多级指标体系,以真实反映桥
+梁系统突变风险。引入交互矩阵评判新建隧道系统
+多因素交叉、综合影响系统威胁性特征,并给出指
+标权算法。此外,将一维云拓展至多维真实反映多
+定量指标与多定性概念间复杂映射关系,建立交互
+作用影响下 7 维云综合评估模型。将三系统评估结
+果耦合得出最终风险评估等级,由此建立盾构穿越
+既有桥梁施工风险评估模型及控制措施实施流程,
+辅助工程施工方案调整。将该风险评估模型应用于
+昆明地铁 5 号线实际穿越工程工前评估中,对比分
+析结果与工后实际情况,从而验证模型的严谨性、
+合理性及适用性。
+2 C-V-T 风险评估模型
+2.1 评估模型的构建
+风险评估近年来发展迅速,其是对一系列社会
+活动带来的风险程度、后果严重性等进行评估并控
+制以实现防灾减灾目的,被广泛应用于岩土、采矿、
+环境及航空等众多领域[4-8, 12-16]。针对盾构穿越既有
+桥梁施工的系统特异性,将其划分为新建隧道系统、
+既有桥梁系统与场地环境三部分。遵循三要素原则,
+可认为风险评估结果 R(risk)应由新建隧道系统威
+胁性 T(threat)、既有桥梁系统脆弱性 V(vulnerability) 及后果严重性 C(consequence)的交集决定,如图 1
+所示,具体可表达为
+R = (C × T ) ×V (1)
+图 1 C-V-T 风险评估模型示意图
+Fig.1 Schematic diagram of C-V-T risk assessment model
+R
+T
+CV
+
+
+554 岩 土 力 学 2023 年
+则 T ×V 可视为风险发生概率,C 为损失。当承
+灾系统特性不明显时,R 为 C 与 T 的组合。
+根据各系统固有特性,本文拟采用突变算法与
+多维云模型定量或定性表达 V、T。
+2.2 突变数学描述
+突变数学是一种解释事物跳跃性发展变化的
+理论,认为系统发展变化可由势函数表达,势函数
+的“洼”为稳定状态,当系统控制变量发生变化后,
+势函数经历短暂的不稳定状态进入新的“洼”,这
+一过程可表征突变现象的内在机制。这一思想与风
+险评估中承灾系统因外界扰动偏离稳定状态产生突
+变的特性相符,近年来逐渐被应用至系统脆弱性研
+究中。突变理论模型包含 7 种基本初等突变类型,
+最常用的有折迭型、尖点型、燕尾型与蝴蝶型。突
+变理论评价模型的基本步骤[15-16]如下:
+2.2.1 构建层次评价结构
+将多个评价指标据层次关系排列成树状结构,
+逐层分解至基础节点,各节点按重要性不同进行排
+序。依据控制变量个数划分不同突变模型(见图 2),
+图中根节点 x 为状态变量,叶节点 t、u、v、w 为控
+制变量,重要性由左至右依次递减。
+2.2.2 指标去量纲及归一化
+为消除评估指标计量单位的影响,通过标准化
+方程将定量型指标实际值转为标准值,定性型指标
+根据描述性语言评定标准值,取值区间为 0~1。实
+际值标准化方程为
+min max min
+max max min
+( )/( )
+( )/( )
+x xx x x
+x xx x x
+' = - - ■■
+'= - - ■
+越小越优型:
+越大越优型: (2)
+式中:x' 、x 分别为评价指标标准值及实际值; max
+x、
+min
+x 分别为评价指标最大值及最小值。
+图 2 初等突变模型结构图
+Fig.2 Structure diagram of elementary mutation model
+假定评价系统势函数为 F(x),F(x)所有临界点
+集合 M 称为平衡曲面,M 上的任意点均满足 F '(x) =
+0,令 F(x)的二阶导 F ''(x) = 0,则可得 M 的所有奇
+点,联立{ F '(x) = 0; F ''(x) = 0}可得分歧方程组,
+并导出归一化公式 f (x) ,分歧方程组成立的解集为
+评价系统的突变解集。各初等突变模型势函数 F(x)、
+平衡曲面 M 及归一化公式 f (x) 如表 1 所示。
+表 1 初等突变模型方程
+Table1 Equation of elementary catastrophe model
+突变类型 变量 势函数 平衡曲面方程 归一化解 折迭突变 1 3
+f (x) = x + ux 3x2 + u xu = u
+尖点突变 2 4 2
+f (x) = x + ux + vx 4x3 + 2ux + v 3
+,
+uv
+x = ux = v
+燕尾突变 3 5 3 2
+f (x) = x + ux + vx + wx 4 2
+5x + 3ux + 2vx + w 3 4
+,,
+uvw
+x = ux = vx = w
+蝴蝶突变 4 6 4 3 2
+f ( x) = x + tx + ux + vx + wx 5 4 2
+6x + 4tx + 3ux + 2vx + w 3 5
+4
+, ,,
+tu v w
+x= tx = ux = vx = w
+2.2.3 确定突变级数
+据系统层次结构选择相应模型,由叶节点指标
+(控制变量)标准值代入 f (x) 得根节点处指标(状
+态变量)突变级数 X,向上逐层计算至最高级节点。
+当控制变量间无明显相关性时取最小值,当控制变
+量间有明显相关性时取平均值:
+无明显相关性时: min{ i}
+X = x (3)
+有明显相关性时:
+1
+( )/
+n
+i
+i
+X xn
+=
+= Σ (4)
+2.3 交互矩阵-多维云 2.3.1 交互矩阵
+交互矩阵是岩土工程中最经典的系统问题分析
+法[17],考虑到致灾系统多个指标存在相互影响且共
+同决定脆弱性,本文引入交互矩阵进行权重计算以
+充分考虑各指标交叉影响,矩阵计算表如表 2 所示。
+表 2 交互矩阵计算表
+Table 2 Interaction matrix calculation table
+a1 I12 ...
+Ei
+I21 a2 Iij
+... a3 ...
+Iij ...
+... an
+Ci A
+x
+折迭突变
+u
+x
+尖点突变
+uv
+x
+燕尾突变
+uw
+v
+x
+蝴蝶突变
+uv
+tw
+
+
+第 2 期 阮永芬等:基于 C-V-T 模型的盾构穿越既有桥梁施工风险评估 555
+评价系统指标集设为 1 2
+[, , ,, , ]
+in
+A= a a ... a ... a , 设 Iij 为第 j 个指标 a j 对第 i 个指标 ai 的影响,Iij 由
+定性评语集 V 表示, 1 2
+[ , , , k]
+V = v v ... v ,其中 vi+1 > vi ,Iij 对应评语集 V 中定性表达,由 Delphi 法确定。
+生成 n×n 矩阵,将各指标输入对角线处,将 Iij 填入
+第 i 行第 j 列。评语集 V 由影响程度大小定量表达
+为[1, 2, 3, 4, 5],其中 1 为无影响,5 为决定性影响。
+故有每列和
+1
+n
+ij
+i
+CI
+=
+= Σ 表示指标对系统的影响,
+每行和
+1
+n
+ij
+j
+EI
+=
+= Σ 表示系统对指标的影响。则指标权
+重集W = [ 1 2
+, ,,,,
+in
+w w ... w ... w ]可由下式确定:
+1
+()
+ii
+in
+ii
+i
+CE
+w
+CE
+=
++
+= +
+Σ
+(5)
+式中: wi 为第 i 个指标权重。 2.3.2 多维云模型及发生器算法 2004 年李德毅院士首次提出云模型原理[18],该
+模型可实现客观事物随机性与模糊性指标的定性定量映射转化,现已被广泛应用到岩土、矿业、冶 金、化工等领域[19-21]。多维云模型是在一维云模型
+的基础上推广而来的,其克服了一维云模型计算过 程繁琐、算法效率慢的缺点,使得模型更直接、有 效地处理多元风险评估问题。本文采用该模型进行
+致灾系统威胁性的评估,模型原理及算法如下:
+设 12
+[ , , , m]
+U x x ... x 为 m 维定量论域,Q 为 U 上 的定性概念,若 x 为 U 中的定量值,则 1 2
+[ , , , m]
+Xx x ...x
+可视为定性概念 Q 的一次随机实现。若 X 服从正态
+分布 1 2
+[ , , , m]
+Xx x ...x ~ 1 2
+N( ( , , , m ),
+Ex Ex Ex ... Ex
+2 12
+( , , , ))
+m
+En En En En
+'' ' '
+... , En' 亦 满 足 正 态 分 布
+12
+( , , , m)
+En En En En
+'' '
+' ... ~ 12
+N( ( , , , m ),
+En En En ... En
+1
+He(He , 2
+2, , ) )
+m
+He ... He ,期望 Ex、熵值 En、超熵 He 为整体表征 X 的 3 个数字特征。进而 X 对 Q 的
+隶属度满足 1 2
+( , , , m)
+μ x x ...x
+2
+2
+1
+()
+exp 2( )
+mi i
+ii
+x Ex En
+=
+■■
+
+= |- |
+'
+■■
+Σ,
+则称 1 2
+[ , , , m]
+X x x ... x 为定量论域 U 上分布的 m 维正
+态云。
+He 代表 En 的不确定程度,根据经验取 0.01~
+0.1。Ex 代表论域空间 U 的中心值,由评价等级区
+间最值 max
+N 、 min
+N 确定:
+max min
+Ex = (N + N ) / 2 (6)
+En 表示定性概念的不确定程度,由对应评价等
+级区间取值范围确定:
+max min
+En = (N - N ) / 3 (7)
+云发生器即云的生成算法可实现定性概念与定
+量指标间相互转化,定性概念到定量表达的映射关
+系由正向云发生器生成,其根据云的数字特征(Ex,
+En,He)产生多个云滴,具体算法如下:
+(1)以 1 2
+( , , , m)
+En En En ... En 为期望, 1
+He(He ,
+2
+2, , m)
+He ... He 为方差生成正态分布随机数集 En'
+12
+( , , , m)
+En En En
+'' '
+...。
+(2)以 1 2
+( , , , m)
+Ex Ex Ex ... Ex 为期望, 1
+En (En ',
+'
+2
+2 , , m)
+En En
+' ... 为方差生成正态分布随机数集 X[x1,
+2, , m]
+x ...x 。
+(3)计算隶属度
+2
+12 2
+1
+()
+( , , , ) exp 2( )
+m i ij
+j m i ij
+x Ex
+x x x En
+μ
+=
+■■
+
+= |- |
+||
+■■
+Σ
+... (8)
+式中: 1 2
+(, , , )
+jm
+μ x x ... x 为 X 对第 j 个评价等级的隶
+属度; ij
+Ex 为第 i 个指标于第 j 评价等级的期望值;
+ij
+En 为第 i 个指标于第 j 评价等级的熵值。
+(4)重复步骤(1)~(3)多次,一般取 1 500~
+2 000 次,生成多个云滴构成一朵 m 维云。
+3 盾构穿越既有桥梁施工风险评估
+针对盾构穿越工程三系统的特性,基于 2.1 节所
+述 C-V-T 风险评估模型思想,首先采用突变理论对既
+有桥梁系统脆弱性(V)进行评估,并利用交互矩阵
+多维云模型评估新建隧道威胁性(T)。依据现行规范[10]
+及现有研究成果[12],按式(1)将二维综合评估结果
+推广至三维,得出盾构穿越既有桥梁施工最终风险
+评估结果(R),采用五标度进行评估等级划分即[I
+II III IV V]。其中,I为风险低,可按设计方案正
+常施工;II为风险较低,需加强施工监测并采取动
+态管控;III为风险较大,需进行实时监测并加强隔
+离桩、注浆加固或盾构参数调整等辅助加固措施;
+IV为风险性大,应进行多轮加固、穿越方案优化,
+并检测评估至处理后残余风险可接受;V为风险性
+极大,完全不可接受,应放弃该方案。基于 C-V-T
+模型的盾构穿越既有桥梁风险评估流程如图 3 所示。
+图 3 基于 C-V-T 模型的盾构穿越既有桥梁风险评估流程图 Fig.3 Risk assessment flow chart of shield crossing existing bridge based on C-V-T model
+(指标重要 性排序)
+因素识别
+Delphi 法
+突变模型
+V脆弱性
+既 有 桥 梁 系 统
+(指标集) (突变
+级数) 承灾
+实施辅助措施
+损失识别
+国家规范
+严重性C
+R风险
+场 地 环 境
+(指损标失)
+灾后
+(分级
+标准)
+因素识别
+交互矩阵
+多维云模型
+威胁性T
+新 建 隧 道 系 统
+(指标集)
+(m维云)
+(隶属度) 致灾
+方案优化
+(数字特征集)
+(指标层次结构)
+(指标
+权集)
+
+
+556 岩 土 力 学 2023 年
+3.1 后果严重性(C)评估
+国家标准《系统安全性通用大纲》(GJB 900
+90)[9]、《城市轨道交通岩土工程勘察规范》(GB
+50307-2012)[21]及 2018 年住建部印发的《大型工
+程技术风险控制要点》[22]中均指出后果严重性的定
+义并给出分级标准,严重性评估等级充分考虑了直
+接经济损失、周边环境影响损失和人员伤亡的因素,
+具体可依据表 3 确定。
+表 3 后果严重性评估标准
+Table 3 Evaluation criteria for severity of consequences
+等级 直接经济损失/万元 伤亡人数/人 周边环境影响 一级 <1 000 死亡<3 或重伤<10 发生少量污染或破坏 二级 [1 000, 4 000) 死亡[3,10)或重伤[10,40) 发生轻度污染或破坏 三级 [4 000, 7 000) 死亡[10,20)或重伤[40,70) 发生中度污染或破坏 四级 [7 000, 10 000) 死亡[20,30)或重伤[70,100) 发生较重污染或破坏 五级 ≥10 000 死亡≥30 或重伤≥100 发生严重污染或破坏
+3.2 既有桥梁系统脆弱性(V)评估
+3.2.1 评估指标识别
+总结现有国内外对既有建筑物脆弱性的研究
+成果,可知脆弱性的构成主要有单因素、双因素、
+三因素理论[2, 7, 13]。其中,双因素包括系统对外界扰
+动的敏感度 S 及适应度 F;三因素理论则认为若系
+统处于扰动环境中,在双因素理论的基础上还包含
+扰动发生的概率即暴露度 E。本文认为从评估模型
+的基本假定去判定,暴露度定义与新建隧道系统威
+胁性定义相近,描述对象倾向于新建隧道系统,并
+不具备突变的特征。故双因素理论更加合理,突变
+理论对其适用性更高。
+因此,本文采用双因素理论评估既有桥梁脆弱
+性,依据行业标准《城市桥梁养护技术标准》
+(CJJ 99-2017)[23]、《城市桥梁检测与评定技术规
+范》(CJJ/T 233-2015)[24]与现有研究成果[2-7, 25]并
+结合工程经验进行因素识别与分级。将评估等级定
+为一级微度脆弱,二级轻度脆弱,三级中度脆弱,
+四级重度脆弱,五级极度脆弱。脆弱性评估指标体
+系及指标分级标准如图 4 与表 4 所示。
+图 4 脆弱性 V 评估指标层次结构
+Fig.4 Hierarchy of vulnerability V assessment indexes
+表 4 脆弱性评估指标分级标准
+Table 4 Classification standards of vulnerability assessment indexes
+评价指标 一级(0.0~0.2) 二级(0.2~0.4) 三级(0.4~0.6) 四级(0.6~0.8) 五级(0.8~1.0) 地下水 S11 水位稳定 水位较稳定 水位轻微变化 水位中等变化 水位严重变化 围岩等级 S12 I级、II级 III级 IV级 V级 VI级 变形特性 S13 低压缩性 中低压缩性 中压缩性 中高压缩性 高压缩性
+外观 S21
+表面无破损、露筋、
+裂缝 轻微破损、无露筋 裂缝较浅且无发展 裂缝较深、钢筋裸露 裂缝逐渐发展、
+露筋严重 结构状态 S22 A 级 B 级 C 级 D 级 E 级 完好状态 S23 A 级 B 级 C 级 D 级 E 级 维护类型 S24 V类维护 IV类维护 III类维护 II类维护 I类维护 结构形式 S31 简支梁桥(0.0~0.6),连续梁桥、刚构桥(0.2~0.8),弯桥、坡桥等异形桥(0.4~1.0) 基础形式 S32 沉井、沉箱基础(0.0~0.4),端承、摩擦桩基础(0.2~0.6),筏片、条形、独立浅基础(0.4~1.0) 基础埋深 S33 隧道底板以下 平行隧道底板 顶拱底板之间 平行隧道顶拱 隧道顶拱以上 路面结构 F11 多层沥青铺装 单层沥青铺装 沥青-混凝土铺装 钢筋混凝土铺装 素混凝土铺装 变形设施 F12 设施完善 设施较完善 设施完善但变形能力差 设施不完善变形能力差 变形能力丧失 变形余量 F21 设计标准的 80%以上 设计标准的 60%~80% 设计标准的 40%~60% 设计标准的 20%~40% 设计标准的 20%以下 可调整性 F22 整体结构易调整 局部结构易调整 整体结构调整困难 局部结构调整困难 结构无法调整
+注:S22、S23、S24 按《城市桥梁养护技术标准》(CJJ99-2017)相关公式计算。
+既 有 桥 梁 脆 弱 性 V
+敏感度 S
+适应度 F
+健康度 S2
+结构特性S3
+地层特性S1
+地下水 S11
+围岩等级S12
+变形特征S13
+外观S21
+结构状态 S22
+完好状态S23
+维护类型 S24
+结构形式S31
+基础形式 S32
+基础埋深S33
+路面结构 F11
+变形设施F12
+变形余量F21
+可调整性F22
+行车系统F1
+变形特性F2
+
+
+第 2 期 阮永芬等:基于 C-V-T 模型的盾构穿越既有桥梁施工风险评估 557
+3.2.2 突变评估模型的建立
+基于 Delphi 法由 3 位隧道工程领域专家对图 4
+中的评估指标进行重要性排序并推算相关性,将排
+序后的指标层次关系分别代入如图 2 所示的突变模
+型,分别运用表 1 中相应归一化公式计算控制变量
+突变级数,据相关性程度选取式(3)、(4)求出状
+态变量突变级数。然后将状态变量作为上一级控制
+变量逐级向上直至得出脆弱性 V 的突变级数。指标
+重要性排序、所用模型及计算逻辑如表 5 所示。将
+各等级指标标准值代入突变评估模型,得出突变级
+数分级标准如下:一级 0~0.871 1,二级 0.871 1~
+0.924 1,三级 0.924 1~0.956 8,四级 0.956 8~0.980 9, 五级 0.980 9~1.000 0。
+表 5 脆弱性突变评估算法
+Table 5 Algorithm of vulnerability mutation assessment model
+既有桥梁脆弱性 V(折迭型):SUM
+S (燕尾型):A,MIN F (尖点型):B,MIN S1 (燕尾型):A,SUM S2 (蝴蝶型):C,MIN S3 (燕尾型):B,MIN F1 (尖点型):B,SUM F2 (尖点型):A,MIN S11:C S12:A S13:B S21:D S22:B S23:C S24:A S31:A S32:B S33:C F11:B F12:A F21:A F21:B
+注:表中()内为突变类型;“:”后 A、B、C、D 为重要性排序;MIN 为大中取小运算;SUM 为取和求平均运算。
+3.3 新建隧道系统威胁性(T)评估
+3.3.1 评估指标识别
+目前对盾构隧道穿越既有桥梁的影响研究主
+要集中于对地表沉降规律与既有桥梁变形两方面,
+本文综合国内外这两方面的研究成果并结合工程经
+验进行因素识别,选取覆跨比、隧道直径、相对位
+置、穿越形式、施工水平、监控管理、辅助方案为
+评估指标。评估等级确定为一级威胁性小,二级威
+胁性较小,三级威胁性中等,四级威胁性较大,五
+级威胁性大。定量指标采用统计值无需标准化,定
+性指标按评价语句定量表示为 0~1。指标分级标准
+依据各指标对地表沉降、桥梁变形的影响规律及工
+程管理领域风险评估标准确定[2-6, 13, 26]。其中,覆跨
+比为隧道拱顶埋深与隧道直径之比。相对位置 x3 为
+盾构掘进引起的 2R-45°潜在地层破裂面(与 2 倍
+隧道半径扰动区下边缘相切且与地面夹角为 45°
+的面)与桥梁基础的相对截面位置,可综合统筹盾
+构-基础水平与竖向关系。限于篇幅,具体分区方法
+详见文献[6]。威胁性评估指标分级标准如表 6 所
+示。
+表 6 威胁性评估指标分级标准
+Table 6 Classification standard of threat assessment index
+评价指标 一级(0.0~0.2) 二级(0.2~0.4) 三级(0.4~0.6) 四级(0.6~0.8) 五级(0.8~1.0) 覆跨比 x1 ≥2.75 2.5~2.75 2.0~2.5 1.5~2.0 ≤1.5 隧道直径 x2 ≤4.0 m 4.0~6.5 m 6.5~8.0 m 8.0~9.0 m ≥9.0 m 相对位置 x3 C 区 B~C 区 B 区 A~B 区 A 区 穿越形式 x4 横穿 斜穿 少里程纵穿 多里程纵穿 全里程纵穿
+施工水平 x5
+方案合理可行,技术、机 械成熟有效,管理严格规 范,总体优秀
+方案合理可行,某些 技术适用一般,管理 较为严格,总体较优
+方案较为合理,技术较为 适用,施工管理较为严 格,总体良好
+方案可行性一般,技 术机械适用性较差, 管理松懈,总体较差
+方案可行性一般,技术、 机械不成熟,管理很散 漫,总体很差
+监控管理 x6 监测信息全面,反馈数据
+及时,可有效指导施工
+监测信息全面,反馈 较及时,可有效指导 施工
+监测较全面,反馈较及 时,指导施工有效性一般
+监测较全面,反馈较 及时,指导施工有效 性一般
+监测不全面,反馈不及 时,不能有效指导施工
+辅助方案 x7
+预先采取隔离桩、注浆加 固、工法优化等辅助措 施,并具备主动顶升方案
+预先采取隔离桩、注 浆加固、工法优化等 辅助措施
+监控方案可指导施工中 采取隔离桩、注浆加固、 工法优化等辅助措施
+隔离桩施工困难,但 可采取注浆加固、工 法优化等措施
+无法实施注浆加固、超前 注浆、隔离桩施工等,仅 具备工法优化方案
+3.3.2 交互矩阵-多维云评估模型的建立
+将表 6 中指标输入交互矩阵计算表,综合多位
+专家交互影响度评估意见以弱化主观性,计算 Ci 与
+Ei 并代入式(5)计算权重集 W,限于篇幅给出最
+终计算结果W = [0.156 0.133 0.134 0.121 0.156
+0.147 0.153]。据多维云模型原理及式(6)、(7)提
+取 7 维云模型数字特征集[ i
+Ex , i
+En , i
+He ]5×7,
+将数字特征集输入多维云正向发生器可得 5 朵 7 维
+云,以隧道直径、跨覆比、相对位置两两组合为例生
+成云,如图 5 所示。将所得权重集与式(8)耦合可
+得隶属度计算式为
+2
+12 2
+1
+()
+( , , , ) exp 2( )
+m i i ij
+j m i ij
+w x Ex
+x x x En
+μ
+=
+■■
+
+= |- |
+||
+■■
+Σ
+... (9)
+由于计算出的隶属度不符合常规表达,将其进行
+
+
+558 岩 土 力 学 2023 年
+标准化(见式(10)),使其满足归一化要求,即
+5
+1
+1
+j
+j
+μ
+=
+'=
+Σ ,0≤ μ'j ≤1,评估等级依据最大隶属度[19]
+原则确定。
+5
+1
+j j
+j
+j
+μ
+μ μ
+=
+'=
+Σ
+(10)
+(a) 覆跨比与隧道直径三维云
+(b) 隧道直径与相对位置三维云
+图 5 双因素三维云图
+Fig.5 Two-factor three-dimensional cloud image
+3.4 盾构穿越既有桥梁施工风险(R)的确定
+将现有 C-T、C-V 评估模型最终风险评估等级
+的确定准则[7, 11-12]推广至三维空间,依据 3.1 节所得
+后果严重性评估等级、3.2 节所得既有桥梁系统脆弱
+性评估等级与 3.3 节所得新建隧道系统威胁性评估
+等级确定 C-V-T 评估模型的最终风险分级标准,并
+建立风险等级三维确定准则矩阵,如图 6 所示,绿
+色截面为等级临界面。将三维矩阵各点绘制为三维
+图,如图 7 所示,由图可得最终风险的评估等级。
+4 案例分析
+4.1 工程概况
+拟建昆明轨道交通 5 号线怡广区间采用直径 D
+为 6.5 m 盾构施工,期间盾构双线全断面侧穿怡心
+桥。怡心桥结构形式为 T 墩板简支梁桥,基础为
+Φ1 500 mm 钻孔灌注桩,桩长约为 48 m,桩基距盾
+构外廓平均 7.06 m。盾构左右线中心距为 15 m,隧
+道平均埋深约为 19.795 m。工程总体平面图如图 8
+所示,隧道左右线与桥梁剖面位置如图 9 所示。
+桥梁桩基所处地层主要是由人工填土、泥炭质
+土、粉质黏土、粉土、粉砂混合碎石构成的松散介
+质,据《铁路隧道设计规范》(TB 10003-2016)[27]
+围岩等级确定为VI级,因泥炭质土分布较多地层综
+合压缩性较高。勘察期间于钻孔内测得稳定水位为
+地表下 1.40~2.30 m,地下水与地表水相互间的水
+力联系较为密切,相互补给,主要受大气降水和外
+图 6 风险确定准则
+Fig.6 Determination criteria for risk
+图 7 风险分级标准
+Fig.7 Classification criteria for risk
+图 8 总体平面图
+Fig.8 General plan diagram
+I II III IV V
+怡心桥
+滇壹酒店
+滇池路 掘进方向 左线中心线
+隔离桩
+袖阀管注浆 N
+右线中心线
+一级
+二级
+三级
+四级
+五级
+一级
+二级
+三级
+四级
+五级
+R
+
+
+第 2 期 阮永芬等:基于 C-V-T 模型的盾构穿越既有桥梁施工风险评估 559
+图 9 桥梁与盾构隧道剖面图
+Fig.9 Cross sections of bridge and shield tunnel
+围含水层的侧向补给,施工对地下水位影响较小。
+桥梁为简支梁桥,结构可调整性较高,桥梁混凝土
+表面未见严重破损、裂缝及露筋,桥梁支座结构完
+好未见脱空,桥梁为城市次干路桥梁,养护标准为
+IV级维护。结构状态、完好状态据《城市桥梁养护
+技术标准》[23]评定为 A 级与 B 级。路面为沥青混凝
+土基层铺装,路面变形缝设置完善,施工前测其桥
+墩纵向有微小不均匀沉降可忽略,承台倾斜约为
+0.015%,设计允许可变形量较大。既有桥梁评估指
+标标准化后的标准值如表 7 所示。
+表 7 既有桥梁评估指标标准值
+Table7 Standard values of existing bridge evaluation indexes
+指标 标准值 指标 标准值
+S11 0.30 S31 0.60 S12 0.85 S32 0.30 S13 0.55 S33 0.10 S21 0.25 F11 0.50 S22 0.15 F12 0.35 S23 0.25 F21 0.25 S24 0.30 F22 0.15
+由图 8、9 可得覆跨比为 3.04。相对位置综合文
+献[6, 25]给出的方法计算为 A 区,并考虑端承摩擦
+桩的影响,x3 取为 0.75。穿越形式为全里程纵穿。
+为避免盾构施工对桥梁基础产生过大扰动,盾构穿
+越前拟对桩基础进行袖伐管注浆加固至隧道底以下
+3 m,并用双排梅花形间隔布置 Φ150 mm@400 mm 钢管灌注桩以隔断地层损失引起的地层变形向桥基
+扩展。施工前多次组织专家对施工方案进行会审,
+结合目前研究成果与工程经验对穿越工法进行优
+化。为保证施工期间怡心桥正常使用,施工单位建
+立全方位实时监控反馈系统,施工期间可实时调整
+施工工艺并进行补注浆液主动抬升。新建隧道评估
+指标统计值见表 8。
+表 8 新建隧道评估指标统计值
+Table 8 Statistics of new tunnel evaluation indexes
+指标 x1 x2 / m x3 x4 x5 x6 x7
+统计值 3.04 6.5 0.75 0.85 0.20 0.45 0.10
+4.2 风险评估及结果分析
+4.2.1 风险评估
+工程所在场地位于昆明市西山区滇池路,场地
+紧邻昆明中级法院等政府机关单位及滇池时代、中
+央广场等大型商城,车流量较大,一旦发生灾害将
+严重影响人民出行安全,造成经济损失。据住建部
+印发的《大型工程技术风险控制要点》[22]中灾害后
+果分级原则确定后果严重性评估等级为三级。将表 7
+中评估指标标准值代入 3.2.2 节脆弱性突变评估模型
+算法中,可得既有桥梁脆弱性突变级数 X = 0.899 7,
+据突变级数分级标准得怡心桥脆弱性评估所属等级
+为二级轻度脆弱。将新建隧道评估指标统计值代入
+12
+[ , , , m]
+X x x ... x 视为一次随机实现,运用 Matlab 语
+言将其输入 3.3.2 节所述的交互矩阵-多维云评估模
+型中得 μ' = [0.020 7 0.837 0 0.142 3 0 0],据最 大隶属度原则确定新建隧道系统威胁性等级为二级
+威胁性较小。查图 7 可知,风险评估等级为II风险
+较低,加强监测管理后可正常施工。
+4.2.2 结果分析
+风险评估结果符合对施工方案的预期,工程中
+进一步加强监测优化动态管控体系,将桥梁实时状
+态与评估模型相结合,间断性更新评估等级。最终
+盾构左右线于 2020 年 4-9 月如期掘进并顺利通过
+怡心桥,施工期间进行桩基动态注浆加固,沉降预
+警值设为 ± 7 mm。桥墩横向两侧面设有沉降监测点
+共计 36 个。将施工期间临近侧各桥墩累计沉降绘制
+为历时曲线如图 10 所示。
+由图 10 可看出,全阶段各桥墩变形均未触发预
+警。盾构掌子面距桥墩 30 m 左右,掘进临近桥墩
+时开始出现小幅度沉降并随盾构掘进逐渐增大,至
+掌子面通过后逐渐稳定。由隧道开挖造成的最终沉
+降可知,盾构穿越对怡心桥两端桥墩影响较小,中
+部桥墩影响较大。因此,盾构机参数应在掌子面距
+既有桥梁约 1 倍纵向沉降槽距离时进行调整,降低
+掘进速度与推力,适当增大掌子面土压,缓慢平稳
+通过穿越段。期间对地表沉降,桥墩变形较大处开
+盾构穿越轮廓线
+10.31 m 15.00 m 3.25 m
+Φ80 mm@1 000 mm袖阀管 承台下2 m至隧道底以下3 m
+2.3 m
+桩径1.5 m
+48 m
+2 m 怡心桥
+地表
+1 889.25 m
+8.00 m
+10.00 m
+13.40 m
+18.40 m
+28.60 m
+23.60 m
+25.40 m
+27.30 m
+50.70 m
+52.00 m
+19.795 m
+21.00 m
+(1) 2素填土
+Jz–III16–怡心7
+(2) 2–2泥炭质土 (2) 3–3粉质黏土
+(2) 4–4粉质黏土 (2) 2–3泥炭质土
+(3) 3–4粉土 (3) 1–3泥炭质土 (3) 2–3泥炭质土
+(4) 4–3粉砂
+
+
+560 岩 土 力 学 2023 年
+展二次注浆,特别是桥梁中段做到随沉随注。同时,
+路线设计中应尽量避免出现平纵曲线设计,将盾尾
+间隙控制在最低,以保证同步注浆质量,有效控制
+地表及建构筑物沉降。
+施工期间上部结构适应性良好,未见明显裂缝
+与错动,实现了桥梁全过程正常运行。监测数据表
+明施工前采用本文评估模型所得结果的准确性,该
+模型可用于预估穿越施工风险并可指导穿越工程设
+计与施工方案优化。由评估结果可知,新建隧道覆
+跨比对其威胁性影响最大,施工水平与辅助加固措
+施次之,穿越形式的影响最小。同时,此次工程的
+成功实施表明,加强施工与监测管理并积极制定实
+施隔离桩或动态补注浆液等辅助方案可有效控制既
+有桥梁工中变形,显著降低隧道穿越施工风险。
+图 10 桥墩沉降历时曲线
+Fig.10 Settlement-time history of bridge pier
+5结论
+本文总结分析盾构穿越既有桥梁施工风险常规
+评估模型的局限与不足后,基于系统思想引入
+C-V-T 模型,建立了多系统的评估模型及控制体系,
+所得具体结论如下:
+(1)引入 C-V-T 风险评估理论将待评估对象划
+分为后果严重性、既有桥梁系统脆弱性与新建隧道
+系统威胁性 3 个方面,明确致灾-承灾-灾后的三系
+统评估流程与风险计算方法,可真实全面地反映盾
+构穿越工程待估系统特性。
+(2)给出考虑直接经济损失、周边环境影响损
+失和人员伤亡的后果严重性分级标准。基于双因素
+突变理论选取 14 个评价指标建立了包含多种突变
+类型的既有桥梁脆弱性评估模型。综合考虑了地层
+特性、健康度与结构敏感度及桥梁行车体系对扰动
+的适应性。
+(3)引入交互矩阵衡量新建隧道系统多指标交
+叉影响,并给出考虑多指标交互作用的权重计算法。
+多维云模型及优化云正向发生器算法可反映多定量
+指标与定性概念间复杂的映射关系与转换态势,克
+服了传统一维云计算繁琐、主观影响大与指标不全
+等缺点。最终耦合三系统评估等级得出综合风险评
+估结果,由此建立的评估模型定义明确、指标全面、
+算法合理,所得结果可精准表达工程施工风险状况。
+(4)将该模型应用于实际穿越工程中,分析结
+论与工程实际情况吻合,有效保证了工程计划的顺
+利实施。评估结果显示新建隧道覆跨比、施工管理
+及辅助加固措施对穿越工程风险性存在较大影响,
+积极实施隔离桩与动态注浆可有效控制既有桥梁在
+施工过程中的变形。该模型可对多种方案进行评估,
+优化其不利指标并与监测数据结合动态更新风险级
+别,为施工参数调整提供有力支持。该评估模型及
+控制体系为风险评估提供了新的角度,可为近似工
+程提供借鉴与参考。
+另外,本文模型指标体系与计算逻辑是基于案
+例工程构建的。当场地环境与工程情况变化后,可
+能存在需增、减部分指标,适用性会有所降低的情
+况。故应用本文模型时,可针对具体工程特性适当
+调整指标及计算逻辑。同时,本文模型仅考虑了施
+工阶段的风险性,应进一步从轨道交通设计、施工
+及运行多方位全过程出发,对待建轨道交通系统开
+展风险评估研究并实施控制,以期加强各相关学科
+间联系,实现时空效应下设计规范施工、施工考虑
+运营需求、运营需求指导工程设计的全闭环实施。
+参考文献
+[1] 毛保华, 姜帆, 刘迁, 等. 城市轨道交通[M]. 北京: 科
+学出版社, 2001.
+MAO Bao-hua, JIANG Fan, LIU Qian, et al. City orbit
+04-01 04-16 05-01 05-16 05-31 06-15 06-30 07-15 07-30 08-14 08-29 09-13 09-28
+–12
+–10
+–8
+–6
+–4
+–2
+0
+2
+4
+6
+8
+10
+12
+累计沉降/ mm
+日期/月-日
+JGC7-1 JGC9-1 JGC11-1 JGC13-1 JGC15-1 JGC17-1 JGC19-1 JGC21-1 JGC23-1
+
+
+第 2 期 阮永芬等:基于 C-V-T 模型的盾构穿越既有桥梁施工风险评估 561
+traffic[M]. Beijing: Science Press, 2001.
+[2] 陈洁金, 张永杰. 下穿既有桥梁隧道施工风险定量评
+估方法[J]. 中南大学学报(自然科学版), 2015, 46(5):
+1862-1868.
+CHEN Jie-jin, ZHANG Yong-jie. Quantitative risk
+assessment model of tunnel construction under passing
+existing bridges[J]. Journal of Central South University
+(Science and Technology), 2015, 46(5): 1862-1868.
+[3] 张海彦, 何平, 胡友刚, 等. 盾构隧道穿越既有混凝土
+桥梁结构的风险控制指标[J]. 中国铁道科学, 2014,
+35(3): 47-55.
+ZHANG Hai-yan, HE Ping, HU You-gang, et al. Risk
+control values of shield tunnel crossing existing concrete
+bridge structure[J]. China Railway Science, 2014, 35(3):
+47-55.
+[4] 苏洁, 张顶立, 周正宇, 等. 地铁隧道穿越既有桥梁安
+全风险评估及控制[J]. 岩石力学与工程学报, 2015, 34
+(增刊 1): 3188-3195.
+SU Jie, ZHANG Ding-li, ZHOU Zheng-yu, et al. Safety
+risk assessment and control of existing bridgecrossed by
+tunnel construction[J]. Chinese Journal of Rock
+Mechanics and Engineering, 2015, 34(Suppl.1): 3188
+3195.
+[5] LIU H P. Hierarchical risk assessment of water supply
+systems[D]. Sydney: Loughborough University, 2007.
+[6] 卢春林. 浅埋暗挖隧道穿越既有桥梁风险评估方法研
+究[J]. 铁道科学与工程学报, 2016, 13(6): 1156-1164.
+LU Chun-lin. Study on risk assessment methods of
+shallow embedded tunnel across the existing bridge[J].
+Journal of Railway Science and Engineering, 2016,
+13(6): 1156- 1164.
+[7] 阮永芬, 陈赵慧, 吴龙, 等. 基于可拓云理论的泥炭质
+土场地沉降风险评价[J]. 安全与环境学报, 2020, 20(1):
+59-67.
+RUAN Yong-fen, CHEN Zhao-hui, WU Long, et al. Risk
+assessment of peatland settlement grade based on
+extension cloud theory[J]. Journal of Safety and
+Environment, 2020, 20(1): 59-67.
+[8] 卢鑫月, 许成顺, 侯本伟, 等. 基于动态贝叶斯网络的
+地铁隧道施工风险评估[J]. 岩土工程学报, 2022, 44(3):
+492-501.
+LU Xin-yue, XU Cheng-shun, HOU Ben-wei, et al. Risk
+assessment of metro construction based on dynamic
+Bayesian network[J]. Chinese Journal of Geotechnical
+Engineering, 2022, 44(3): 492-501.
+[9] 国防科学技术工业委员会. GJB 900-90 系统安全性
+通用大纲[S]. 北京: 国家国防科技工业局, 1990.
+Commission of Science, Technology and Industry for
+National Defense. GJB 900-90 General program of
+system safety[S]. Beijing: State Administration of Science,
+Technology and Industry for National Defense, 1990.
+[10] 中华人民共和国住房和城乡建设部. GB 50652-2011
+城市轨道交通地下工程建设风险管理规范[S]. 北京:
+中国建筑工业出版社, 2011.
+Ministry of Housing and Urban-Rural Development of
+the People’s Republic of China. GB 50652-2011 Code
+for risk management of underground works in urban rail
+transit[S]. Beijing: China Architecture & Building Press,
+2011.
+[11] ARNOLD B B, ROBERT J E, PATRICIA K F, et al.
+Ascalable systems approach for critical infrastructure
+security[R]. Albuquerque: Sandia National Laboratories
+of USA, 2002.
+[12] 白海卫, 宋守信, 王剑晨. 基于脆弱性的地下工程穿越
+施工风险评价与控制[J]. 安全与环境学报, 2019, 19(5):
+1504-1510.
+BAI Hai-wei, SONG Shou-xin, WANG Jian-chen. Risk
+analysis and control based on the vulnerability for the
+new buildings near the already existing metrotraffic
+system[J]. Journal of Safety and Environment, 2019,
+19(5): 1504-1510.
+[13] MCGILL W L, AYYUB B M, KAMINSKIY M. Risk
+analysis for critical asset protection risk analysis[J]. Risk
+Analysis, 2007, 27(5): 1265-1281.
+[14] WILDGEN W. Catastrophe theoretic semantics: an
+elaboration and application of René Thom's theory[M].
+Amsterdam: John Benjamins Publishing Company, 1982.
+[15] 宋盛渊, 王清, 潘玉珍, 等. 基于突变理论的滑坡危险
+性评价[J]. 岩土力学, 2014, 35(增刊 2): 422-428.
+SONG Sheng-yuan, WANG Qing, PAN Yu-zhen, et al.
+Evaluation of landslide susceptibility degree based on
+catastrophe theory[J]. Rock and Soil Mechanics, 2014,
+35(Suppl.2): 422-428.
+[16] 蒋腾飞, 姜谙男, 许梦飞, 等. 基于尖点突变理论和爆
+破累积损伤模型的岩溶基坑防突厚度研究[J]. 岩石力
+学与工程学报, 2021, 40(9): 1902-1913.
+JIANG Teng-fei, JIANG An-nan, XU Meng-fei, et al.
+Study on the thickness of karst foundation pits against
+outburst based on sharp point catastrophe theory and
+blasting cumulative damage model[J]. Chinese Journal
+
+
+562 岩 土 力 学 2023 年
+of Rock Mechanics and Engineering, 2021, 40(9):
+1902-1913.
+[17] 柳中海, 范波涛, 杨昌兰. 交互效应矩阵理论及应用[J].
+济南大学学报, 1994, 4(2): 73-77.
+LIU Zhong-hai, FAN Bo-tao, YANG Chang-lan. The
+alternate effect matrix theory and its application[J].
+Journal of Jinan University, 1994, 4(2): 73-77.
+[18] 李德毅, 刘常昱, 杜鹢, 等. 不确定性人工智能[J]. 软
+件学报, 2004, 15(11): 1583-1594.
+LI De-yi, LIU Chang-yu, DU Yi, et al. Artificial
+intelligence with uncertainty[J]. Journal of Software,
+2004, 15(11): 1583-1594.
+[19] 汪明武, 王霄, 龙静云, 等. 基于多维联系正态云模型
+的泥石流危险性评价[J]. 应用基础与工程科学学报,
+2021, 29(2): 368-375.
+WANG Ming-wu, WANG Xiao, LONG Jing-yun, et al.
+Risk assessment of debris flow based on multi
+dimensional connection normal cloud model[J]. Journal of
+Basic Science and Engineering, 2021, 29(2): 368-375.
+[20] 张军, 陈征宙, 刘登峰. 基于云模型的岩质边坡稳定性
+评估研究[J]. 水文地质工程地质, 2014, 41(6): 44-50.
+ZHANG Jun, CHEN Zheng-zhou, LIU Deng-feng.
+Stability evaluation of a rock slope based on the cloud
+model[J]. Hydrogeology & Engineering Geology, 2014,
+41(6): 44-50.
+[21] 北京市规划委员会. GB 50307-2012 城市轨道交通岩
+土工程勘察规范[S]. 北京: 中国计划出版社, 2012.
+Beijing Municipal Commission of Planning. GB 50307
+2012 Code for geotechnical investigations of urban rail
+transit[S]. Beijing: China Planning Press, 2012.
+[22] 中华人民共和国住房和城乡建设部. 大型工程技术风
+险控制要点[M]. 北京: 中国建材工业出版社, 2018.
+Ministry of Housing and Urban-Rural Development of
+the People’s Republic of China. Major engineering
+technical risk control points[M]. Beijing: China Building
+Materials Press, 2018.
+[23] 中华人民共和国住房和城乡建设部. CJJ 99-2017 城
+市 桥 梁 养 护 技 术 标 准 [S]. 北 京 : 人 民 交 通 出 版 社 ,
+2017.
+Ministry of Housing and Urban-Rural Development of
+the People’s Republic of China. CJJ 99-2017 Technical
+code of maintenance for city bridge[S]. Beijing: China
+Communications Press, 2017.
+[24] 中国建筑科学研究院. CJJ/T 233-2015 城市桥梁检测
+与 评 定 技 术 规 范 [S]. 北 京 : 中 国 建 筑 工 业 出 版 社 ,
+2015.
+China Academy of Building Research. CJJ/T 233-2015
+Technical code for urban bridge detection and evaluation
+[S]. Beijing: China Architecture and Building Press, 2015.
+[25] 武志飞. 青岛地铁 8 号线施工安全风险管理研究[D].
+济南: 山东大学, 2021.
+WU Zhi-fei. Research on construction safety risk
+management of Qingdao Metro Line 8[D]. Jinan:
+Shandong University, 2021.
+[26] SHANG Y L, SHI W J, HAN T Y, et al. Environment
+impact analysis of shield passing alongside bridge pile
+platform using three dimensional numerical simulation[J].
+IOP Conference Series: Materials Science and Engineering,
+2017, 250(1): 012031.
+[27] 中铁二院工程集团有限责任公司. TB 10003-2016 铁
+路隧道设计规范[S]. 北京: 中国铁道出版社, 2016.
+China Railway Eryuan Engineering Group Co., Ltd. TB
+10003 - 2016 Code for design of railway tunnel[S].
+Beijing: China Railway Publishing House, 2016.

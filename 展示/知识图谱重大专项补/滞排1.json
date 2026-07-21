@@ -1,0 +1,4342 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 184,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "渣土黏性过大",
+          "描述": "开挖的土体黏性非常高时，渣土容易粘附在螺旋输送机上，导致运输困难。"
+        },
+        "elementId": "184"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 190,
+            "start": 183,
+            "end": 184,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "190",
+            "startNodeElementId": "183",
+            "endNodeElementId": "184"
+          },
+          "end": {
+            "identity": 184,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "渣土黏性过大",
+              "描述": "开挖的土体黏性非常高时，渣土容易粘附在螺旋输送机上，导致运输困难。"
+            },
+            "elementId": "184"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 185,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "砂卵石地层",
+          "描述": "富含砂卵石的地层中掘进，大颗粒的石块容易卡在螺旋输送机的叶片或排土口处。"
+        },
+        "elementId": "185"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 191,
+            "start": 183,
+            "end": 185,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "191",
+            "startNodeElementId": "183",
+            "endNodeElementId": "185"
+          },
+          "end": {
+            "identity": 185,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "砂卵石地层",
+              "描述": "富含砂卵石的地层中掘进，大颗粒的石块容易卡在螺旋输送机的叶片或排土口处。"
+            },
+            "elementId": "185"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 186,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "塑性指数低",
+          "描述": "塑性指数低的土体（如粉砂）流动性差，难以形成适合螺旋输送的“塑性流”状态。"
+        },
+        "elementId": "186"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 192,
+            "start": 183,
+            "end": 186,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "192",
+            "startNodeElementId": "183",
+            "endNodeElementId": "186"
+          },
+          "end": {
+            "identity": 186,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "塑性指数低",
+              "描述": "塑性指数低的土体（如粉砂）流动性差，难以形成适合螺旋输送的“塑性流”状态。"
+            },
+            "elementId": "186"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 187,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "大块障碍物",
+          "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+        },
+        "elementId": "187"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 193,
+            "start": 183,
+            "end": 187,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "193",
+            "startNodeElementId": "183",
+            "endNodeElementId": "187"
+          },
+          "end": {
+            "identity": 187,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "大块障碍物",
+              "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+            },
+            "elementId": "187"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 188,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机驱动功率、扭矩不足",
+          "描述": "驱动系统的马力或扭矩不够时，无法提供足够的力量来转动和推送高阻力的渣土。"
+        },
+        "elementId": "188"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 194,
+            "start": 183,
+            "end": 188,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "194",
+            "startNodeElementId": "183",
+            "endNodeElementId": "188"
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机驱动功率、扭矩不足",
+              "描述": "驱动系统的马力或扭矩不够时，无法提供足够的力量来转动和推送高阻力的渣土。"
+            },
+            "elementId": "188"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 189,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机设计参数不匹配",
+          "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+        },
+        "elementId": "189"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 195,
+            "start": 183,
+            "end": 189,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "195",
+            "startNodeElementId": "183",
+            "endNodeElementId": "189"
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机设计参数不匹配",
+              "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+            },
+            "elementId": "189"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 190,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "长时间停机",
+          "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+        },
+        "elementId": "190"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 196,
+            "start": 183,
+            "end": 190,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "196",
+            "startNodeElementId": "183",
+            "endNodeElementId": "190"
+          },
+          "end": {
+            "identity": 190,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "长时间停机",
+              "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+            },
+            "elementId": "190"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 191,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机叶片或外壳磨损严重，间隙过大",
+          "描述": "长期的磨损导致叶片与外壳之间的间隙变大，渣土会在此处“空转”而无法有效前移。"
+        },
+        "elementId": "191"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 197,
+            "start": 183,
+            "end": 191,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "197",
+            "startNodeElementId": "183",
+            "endNodeElementId": "191"
+          },
+          "end": {
+            "identity": 191,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机叶片或外壳磨损严重，间隙过大",
+              "描述": "长期的磨损导致叶片与外壳之间的间隙变大，渣土会在此处“空转”而无法有效前移。"
+            },
+            "elementId": "191"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 192,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "排土口闸门开启度不足或被卡住",
+          "描述": "排土口的闸门没有完全打开或被异物卡住，会直接限制渣土的排出通道。"
+        },
+        "elementId": "192"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 198,
+            "start": 183,
+            "end": 192,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "198",
+            "startNodeElementId": "183",
+            "endNodeElementId": "192"
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "排土口闸门开启度不足或被卡住",
+              "描述": "排土口的闸门没有完全打开或被异物卡住，会直接限制渣土的排出通道。"
+            },
+            "elementId": "192"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 193,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "改良剂注入孔堵塞",
+          "描述": "用于改善土体性质的泡沫剂或膨润土无法有效注入，是排土状况恶化的前兆。"
+        },
+        "elementId": "193"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 199,
+            "start": 183,
+            "end": 193,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "199",
+            "startNodeElementId": "183",
+            "endNodeElementId": "193"
+          },
+          "end": {
+            "identity": 193,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "改良剂注入孔堵塞",
+              "描述": "用于改善土体性质的泡沫剂或膨润土无法有效注入，是排土状况恶化的前兆。"
+            },
+            "elementId": "193"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 194,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "土仓压力持续升高或剧烈波动",
+          "描述": "渣土排不出去，后续进来的土体会不断挤压土仓，导致内部压力异常升高或不稳定。"
+        },
+        "elementId": "194"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 200,
+            "start": 183,
+            "end": 194,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "200",
+            "startNodeElementId": "183",
+            "endNodeElementId": "194"
+          },
+          "end": {
+            "identity": 194,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "土仓压力持续升高或剧烈波动",
+              "描述": "渣土排不出去，后续进来的土体会不断挤压土仓，导致内部压力异常升高或不稳定。"
+            },
+            "elementId": "194"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 195,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "螺旋输送机扭矩显著增大",
+          "描述": "系统为了排出堵塞的渣土需要花费更大的力气，导致驱动电机的扭矩数值急剧上升。"
+        },
+        "elementId": "195"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 201,
+            "start": 183,
+            "end": 195,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "201",
+            "startNodeElementId": "183",
+            "endNodeElementId": "195"
+          },
+          "end": {
+            "identity": 195,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "螺旋输送机扭矩显著增大",
+              "描述": "系统为了排出堵塞的渣土需要花费更大的力气，导致驱动电机的扭矩数值急剧上升。"
+            },
+            "elementId": "195"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 196,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "排土量明显减少或完全中断",
+          "描述": "螺旋输送机出口处的出土量变得很少甚至完全没有。"
+        },
+        "elementId": "196"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 202,
+            "start": 183,
+            "end": 196,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "202",
+            "startNodeElementId": "183",
+            "endNodeElementId": "196"
+          },
+          "end": {
+            "identity": 196,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "排土量明显减少或完全中断",
+              "描述": "螺旋输送机出口处的出土量变得很少甚至完全没有。"
+            },
+            "elementId": "196"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 197,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "掘进速度减慢或停止",
+          "描述": "渣土无法排出，为了保证安全，必须降低甚至停止盾构机的掘进。"
+        },
+        "elementId": "197"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 203,
+            "start": 183,
+            "end": 197,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "203",
+            "startNodeElementId": "183",
+            "endNodeElementId": "197"
+          },
+          "end": {
+            "identity": 197,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "掘进速度减慢或停止",
+              "描述": "渣土无法排出，为了保证安全，必须降低甚至停止盾构机的掘进。"
+            },
+            "elementId": "197"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 198,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "渣土温度异常",
+          "描述": "渣土在螺旋输送机内因堵塞和摩擦而长时间挤压，会导致其温度异常升高。"
+        },
+        "elementId": "198"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 204,
+            "start": 183,
+            "end": 198,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "204",
+            "startNodeElementId": "183",
+            "endNodeElementId": "198"
+          },
+          "end": {
+            "identity": 198,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "渣土温度异常",
+              "描述": "渣土在螺旋输送机内因堵塞和摩擦而长时间挤压，会导致其温度异常升高。"
+            },
+            "elementId": "198"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 199,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "螺旋输送机壳体温度升高",
+          "描述": "内部的剧烈摩擦和高负荷运转会产生大量热量，使得螺旋输送机的外部壳体温度也随之升高。"
+        },
+        "elementId": "199"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 205,
+            "start": 183,
+            "end": 199,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "205",
+            "startNodeElementId": "183",
+            "endNodeElementId": "199"
+          },
+          "end": {
+            "identity": 199,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "螺旋输送机壳体温度升高",
+              "描述": "内部的剧烈摩擦和高负荷运转会产生大量热量，使得螺旋输送机的外部壳体温度也随之升高。"
+            },
+            "elementId": "199"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 200,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "异常的声响",
+          "描述": "设备会发出因过载、摩擦或障碍物卡滞而产生的刺耳、沉闷的异常响声。"
+        },
+        "elementId": "200"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 206,
+            "start": 183,
+            "end": 200,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "206",
+            "startNodeElementId": "183",
+            "endNodeElementId": "200"
+          },
+          "end": {
+            "identity": 200,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "异常的声响",
+              "描述": "设备会发出因过载、摩擦或障碍物卡滞而产生的刺耳、沉闷的异常响声。"
+            },
+            "elementId": "200"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "渣土黏性过大",
+          "描述": "开挖的土体黏性非常高时，渣土容易粘附在螺旋输送机上，导致运输困难。"
+        },
+        "elementId": "184"
+      },
+      "end": {
+        "identity": 201,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "注入泡沫剂",
+          "描述": "向土仓内注入泡沫剂，以增加渣土的流动性和压缩性，降低其内部摩擦力。"
+        },
+        "elementId": "201"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "渣土黏性过大",
+              "描述": "开挖的土体黏性非常高时，渣土容易粘附在螺旋输送机上，导致运输困难。"
+            },
+            "elementId": "184"
+          },
+          "relationship": {
+            "identity": 207,
+            "start": 184,
+            "end": 201,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "207",
+            "startNodeElementId": "184",
+            "endNodeElementId": "201"
+          },
+          "end": {
+            "identity": 201,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "注入泡沫剂",
+              "描述": "向土仓内注入泡沫剂，以增加渣土的流动性和压缩性，降低其内部摩擦力。"
+            },
+            "elementId": "201"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 185,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "砂卵石地层",
+          "描述": "富含砂卵石的地层中掘进，大颗粒的石块容易卡在螺旋输送机的叶片或排土口处。"
+        },
+        "elementId": "185"
+      },
+      "end": {
+        "identity": 202,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "注入改良剂",
+          "描述": "根据地质情况注入特定的改良剂（如分散剂、絮凝剂），优化渣土的物理性质。"
+        },
+        "elementId": "202"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 185,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "砂卵石地层",
+              "描述": "富含砂卵石的地层中掘进，大颗粒的石块容易卡在螺旋输送机的叶片或排土口处。"
+            },
+            "elementId": "185"
+          },
+          "relationship": {
+            "identity": 208,
+            "start": 185,
+            "end": 202,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "208",
+            "startNodeElementId": "185",
+            "endNodeElementId": "202"
+          },
+          "end": {
+            "identity": 202,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "注入改良剂",
+              "描述": "根据地质情况注入特定的改良剂（如分散剂、絮凝剂），优化渣土的物理性质。"
+            },
+            "elementId": "202"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 186,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "塑性指数低",
+          "描述": "塑性指数低的土体（如粉砂）流动性差，难以形成适合螺旋输送的“塑性流”状态。"
+        },
+        "elementId": "186"
+      },
+      "end": {
+        "identity": 203,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "添加泡沫剂或膨润土",
+          "描述": "通过添加泡沫剂来降低黏土的黏性，或通过添加膨润土在砂卵石地层中形成“泥膜”以改善其流动性。"
+        },
+        "elementId": "203"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 186,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "塑性指数低",
+              "描述": "塑性指数低的土体（如粉砂）流动性差，难以形成适合螺旋输送的“塑性流”状态。"
+            },
+            "elementId": "186"
+          },
+          "relationship": {
+            "identity": 209,
+            "start": 186,
+            "end": 203,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "209",
+            "startNodeElementId": "186",
+            "endNodeElementId": "203"
+          },
+          "end": {
+            "identity": 203,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "添加泡沫剂或膨润土",
+              "描述": "通过添加泡沫剂来降低黏土的黏性，或通过添加膨润土在砂卵石地层中形成“泥膜”以改善其流动性。"
+            },
+            "elementId": "203"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 187,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "大块障碍物",
+          "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+        },
+        "elementId": "187"
+      },
+      "end": {
+        "identity": 204,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "反转排出",
+          "描述": "尝试将螺旋输送机短暂反向转动，以松动卡住的障碍物或渣土，然后再正转排出。"
+        },
+        "elementId": "204"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 187,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "大块障碍物",
+              "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+            },
+            "elementId": "187"
+          },
+          "relationship": {
+            "identity": 210,
+            "start": 187,
+            "end": 204,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "210",
+            "startNodeElementId": "187",
+            "endNodeElementId": "204"
+          },
+          "end": {
+            "identity": 204,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "反转排出",
+              "描述": "尝试将螺旋输送机短暂反向转动，以松动卡住的障碍物或渣土，然后再正转排出。"
+            },
+            "elementId": "204"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 187,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "大块障碍物",
+          "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+        },
+        "elementId": "187"
+      },
+      "end": {
+        "identity": 205,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "停机处理",
+          "描述": "在发生严重堵塞时，必须停止掘进，打开排土口或检查口进行人工清理。"
+        },
+        "elementId": "205"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 187,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "大块障碍物",
+              "描述": "掘进过程中遇到未预见的大石头、混凝土块等障碍物，会直接卡住输送系统。"
+            },
+            "elementId": "187"
+          },
+          "relationship": {
+            "identity": 211,
+            "start": 187,
+            "end": 205,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "211",
+            "startNodeElementId": "187",
+            "endNodeElementId": "205"
+          },
+          "end": {
+            "identity": 205,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "停机处理",
+              "描述": "在发生严重堵塞时，必须停止掘进，打开排土口或检查口进行人工清理。"
+            },
+            "elementId": "205"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 188,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机驱动功率、扭矩不足",
+          "描述": "驱动系统的马力或扭矩不够时，无法提供足够的力量来转动和推送高阻力的渣土。"
+        },
+        "elementId": "188"
+      },
+      "end": {
+        "identity": 206,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "优化渣土改良",
+          "描述": "根据实时监测的参数（如扭矩、土压）不断调整改良剂的配方和注入量，进行精细化管理。"
+        },
+        "elementId": "206"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机驱动功率、扭矩不足",
+              "描述": "驱动系统的马力或扭矩不够时，无法提供足够的力量来转动和推送高阻力的渣土。"
+            },
+            "elementId": "188"
+          },
+          "relationship": {
+            "identity": 212,
+            "start": 188,
+            "end": 206,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "212",
+            "startNodeElementId": "188",
+            "endNodeElementId": "206"
+          },
+          "end": {
+            "identity": 206,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "优化渣土改良",
+              "描述": "根据实时监测的参数（如扭矩、土压）不断调整改良剂的配方和注入量，进行精细化管理。"
+            },
+            "elementId": "206"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 189,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机设计参数不匹配",
+          "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+        },
+        "elementId": "189"
+      },
+      "end": {
+        "identity": 207,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "搅拌棒优化",
+          "描述": "优化土仓内搅拌棒的布局和结构，使其能更有效地破碎土块并与改良剂混合。"
+        },
+        "elementId": "207"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 189,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机设计参数不匹配",
+              "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+            },
+            "elementId": "189"
+          },
+          "relationship": {
+            "identity": 213,
+            "start": 189,
+            "end": 207,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "213",
+            "startNodeElementId": "189",
+            "endNodeElementId": "207"
+          },
+          "end": {
+            "identity": 207,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "搅拌棒优化",
+              "描述": "优化土仓内搅拌棒的布局和结构，使其能更有效地破碎土块并与改良剂混合。"
+            },
+            "elementId": "207"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 189,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机设计参数不匹配",
+          "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+        },
+        "elementId": "189"
+      },
+      "end": {
+        "identity": 208,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "螺旋机优化",
+          "描述": "对螺旋输送机的设计进行改进，例如调整螺距或增加耐磨涂层，以适应特定地层。"
+        },
+        "elementId": "208"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 189,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机设计参数不匹配",
+              "描述": "螺旋输送机的设计（如螺距、直径、转速）与实际地质条件不符降低排土效率。"
+            },
+            "elementId": "189"
+          },
+          "relationship": {
+            "identity": 214,
+            "start": 189,
+            "end": 208,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "214",
+            "startNodeElementId": "189",
+            "endNodeElementId": "208"
+          },
+          "end": {
+            "identity": 208,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "螺旋机优化",
+              "描述": "对螺旋输送机的设计进行改进，例如调整螺距或增加耐磨涂层，以适应特定地层。"
+            },
+            "elementId": "208"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 190,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "长时间停机",
+          "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+        },
+        "elementId": "190"
+      },
+      "end": {
+        "identity": 209,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "提前排空",
+          "描述": "在计划停机前，尽量将螺旋输送机和土仓内的渣土排空，防止其固结。"
+        },
+        "elementId": "209"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 190,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "长时间停机",
+              "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+            },
+            "elementId": "190"
+          },
+          "relationship": {
+            "identity": 215,
+            "start": 190,
+            "end": 209,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "215",
+            "startNodeElementId": "190",
+            "endNodeElementId": "209"
+          },
+          "end": {
+            "identity": 209,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "提前排空",
+              "描述": "在计划停机前，尽量将螺旋输送机和土仓内的渣土排空，防止其固结。"
+            },
+            "elementId": "209"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 190,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "长时间停机",
+          "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+        },
+        "elementId": "190"
+      },
+      "end": {
+        "identity": 210,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期转动",
+          "描述": "在短时间停机期间，每隔一段时间就让螺旋输送机转动一下，防止渣土板结。"
+        },
+        "elementId": "210"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 190,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "长时间停机",
+              "描述": "长时间停止工作，土仓和螺旋输送机内的渣土会因失水而固结，增加再次启动的难度。"
+            },
+            "elementId": "190"
+          },
+          "relationship": {
+            "identity": 216,
+            "start": 190,
+            "end": 210,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "216",
+            "startNodeElementId": "190",
+            "endNodeElementId": "210"
+          },
+          "end": {
+            "identity": 210,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期转动",
+              "描述": "在短时间停机期间，每隔一段时间就让螺旋输送机转动一下，防止渣土板结。"
+            },
+            "elementId": "210"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 191,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "螺旋输送机叶片或外壳磨损严重，间隙过大",
+          "描述": "长期的磨损导致叶片与外壳之间的间隙变大，渣土会在此处“空转”而无法有效前移。"
+        },
+        "elementId": "191"
+      },
+      "end": {
+        "identity": 211,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "停机检修",
+          "描述": "利用停机时间对螺旋输送机的叶片、外壳、驱动系统等进行全面的检查和维修。"
+        },
+        "elementId": "211"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 191,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "螺旋输送机叶片或外壳磨损严重，间隙过大",
+              "描述": "长期的磨损导致叶片与外壳之间的间隙变大，渣土会在此处“空转”而无法有效前移。"
+            },
+            "elementId": "191"
+          },
+          "relationship": {
+            "identity": 217,
+            "start": 191,
+            "end": 211,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "217",
+            "startNodeElementId": "191",
+            "endNodeElementId": "211"
+          },
+          "end": {
+            "identity": 211,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "停机检修",
+              "描述": "利用停机时间对螺旋输送机的叶片、外壳、驱动系统等进行全面的检查和维修。"
+            },
+            "elementId": "211"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 192,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "排土口闸门开启度不足或被卡住",
+          "描述": "排土口的闸门没有完全打开或被异物卡住，会直接限制渣土的排出通道。"
+        },
+        "elementId": "192"
+      },
+      "end": {
+        "identity": 212,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "检查清理",
+          "描述": "打开检查口，直接观察内部情况并清理掉任何可见的障碍物或结块的渣土。"
+        },
+        "elementId": "212"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 192,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "排土口闸门开启度不足或被卡住",
+              "描述": "排土口的闸门没有完全打开或被异物卡住，会直接限制渣土的排出通道。"
+            },
+            "elementId": "192"
+          },
+          "relationship": {
+            "identity": 218,
+            "start": 192,
+            "end": 212,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "218",
+            "startNodeElementId": "192",
+            "endNodeElementId": "212"
+          },
+          "end": {
+            "identity": 212,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "检查清理",
+              "描述": "打开检查口，直接观察内部情况并清理掉任何可见的障碍物或结块的渣土。"
+            },
+            "elementId": "212"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 193,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "改良剂注入孔堵塞",
+          "描述": "用于改善土体性质的泡沫剂或膨润土无法有效注入，是排土状况恶化的前兆。"
+        },
+        "elementId": "193"
+      },
+      "end": {
+        "identity": 213,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期冲洗",
+          "描述": "在适当的时候（如停机后）使用高压水或泥浆对螺旋输送机内部进行冲洗，清除附着的土体。"
+        },
+        "elementId": "213"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 193,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "改良剂注入孔堵塞",
+              "描述": "用于改善土体性质的泡沫剂或膨润土无法有效注入，是排土状况恶化的前兆。"
+            },
+            "elementId": "193"
+          },
+          "relationship": {
+            "identity": 219,
+            "start": 193,
+            "end": 213,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "219",
+            "startNodeElementId": "193",
+            "endNodeElementId": "213"
+          },
+          "end": {
+            "identity": 213,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期冲洗",
+              "描述": "在适当的时候（如停机后）使用高压水或泥浆对螺旋输送机内部进行冲洗，清除附着的土体。"
+            },
+            "elementId": "213"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 214,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘前滞排"
+        },
+        "elementId": "214"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 220,
+            "start": 183,
+            "end": 214,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "220",
+            "startNodeElementId": "183",
+            "endNodeElementId": "214"
+          },
+          "end": {
+            "identity": 214,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘前滞排"
+            },
+            "elementId": "214"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 216,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "切削舱内滞排"
+        },
+        "elementId": "216"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 221,
+            "start": 183,
+            "end": 216,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "221",
+            "startNodeElementId": "183",
+            "endNodeElementId": "216"
+          },
+          "end": {
+            "identity": 216,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "切削舱内滞排"
+            },
+            "elementId": "216"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 215,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "出渣系统滞排"
+        },
+        "elementId": "215"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 222,
+            "start": 183,
+            "end": 215,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "222",
+            "startNodeElementId": "183",
+            "endNodeElementId": "215"
+          },
+          "end": {
+            "identity": 215,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "出渣系统滞排"
+            },
+            "elementId": "215"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 217,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "堆积",
+          "name": "滞排碴块"
+        },
+        "elementId": "217"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 223,
+            "start": 183,
+            "end": 217,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "223",
+            "startNodeElementId": "183",
+            "endNodeElementId": "217"
+          },
+          "end": {
+            "identity": 217,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "堆积",
+              "name": "滞排碴块"
+            },
+            "elementId": "217"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "堆积",
+          "name": "滞排碴块"
+        },
+        "elementId": "217"
+      },
+      "end": {
+        "identity": 218,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "结构": "碴块间无粘结力，碴块单体几何尺寸过大或分选性 、均匀性差。",
+          "name": "松散型碴块"
+        },
+        "elementId": "218"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "堆积",
+              "name": "滞排碴块"
+            },
+            "elementId": "217"
+          },
+          "relationship": {
+            "identity": 224,
+            "start": 217,
+            "end": 218,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "224",
+            "startNodeElementId": "217",
+            "endNodeElementId": "218"
+          },
+          "end": {
+            "identity": 218,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "结构": "碴块间无粘结力，碴块单体几何尺寸过大或分选性 、均匀性差。",
+              "name": "松散型碴块"
+            },
+            "elementId": "218"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "堆积",
+          "name": "滞排碴块"
+        },
+        "elementId": "217"
+      },
+      "end": {
+        "identity": 219,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "结构": "盾构切削下来的细小颗粒、碎屑在密闭舱内和刀盘区重新聚集而成半固结或固结的块状体。",
+          "name": "粘结型碴块"
+        },
+        "elementId": "219"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "堆积",
+              "name": "滞排碴块"
+            },
+            "elementId": "217"
+          },
+          "relationship": {
+            "identity": 225,
+            "start": 217,
+            "end": 219,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "225",
+            "startNodeElementId": "217",
+            "endNodeElementId": "219"
+          },
+          "end": {
+            "identity": 219,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "结构": "盾构切削下来的细小颗粒、碎屑在密闭舱内和刀盘区重新聚集而成半固结或固结的块状体。",
+              "name": "粘结型碴块"
+            },
+            "elementId": "219"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "堆积",
+          "name": "滞排碴块"
+        },
+        "elementId": "217"
+      },
+      "end": {
+        "identity": 220,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "结构": "无粘结力的细小颗粒，因盾构施工措施不当 ，被挤压后孔隙率或孔隙水含量大大降低，形成致密特性的块状体。",
+          "name": "挤压型碴块"
+        },
+        "elementId": "220"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "堆积",
+              "name": "滞排碴块"
+            },
+            "elementId": "217"
+          },
+          "relationship": {
+            "identity": 226,
+            "start": 217,
+            "end": 220,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "226",
+            "startNodeElementId": "217",
+            "endNodeElementId": "220"
+          },
+          "end": {
+            "identity": 220,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "结构": "无粘结力的细小颗粒，因盾构施工措施不当 ，被挤压后孔隙率或孔隙水含量大大降低，形成致密特性的块状体。",
+              "name": "挤压型碴块"
+            },
+            "elementId": "220"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "堆积",
+          "name": "滞排碴块"
+        },
+        "elementId": "217"
+      },
+      "end": {
+        "identity": 221,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "结构": "人工活动在地下遗留的障碍物。",
+          "name": "异物型碴块"
+        },
+        "elementId": "221"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "堆积",
+              "name": "滞排碴块"
+            },
+            "elementId": "217"
+          },
+          "relationship": {
+            "identity": 227,
+            "start": 217,
+            "end": 221,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "227",
+            "startNodeElementId": "217",
+            "endNodeElementId": "221"
+          },
+          "end": {
+            "identity": 221,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "结构": "人工活动在地下遗留的障碍物。",
+              "name": "异物型碴块"
+            },
+            "elementId": "221"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 214,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘前滞排"
+        },
+        "elementId": "214"
+      },
+      "end": {
+        "identity": 224,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "磨损",
+          "name": "刀盘"
+        },
+        "elementId": "224"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 214,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘前滞排"
+            },
+            "elementId": "214"
+          },
+          "relationship": {
+            "identity": 228,
+            "start": 214,
+            "end": 224,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "228",
+            "startNodeElementId": "214",
+            "endNodeElementId": "224"
+          },
+          "end": {
+            "identity": 224,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "磨损",
+              "name": "刀盘"
+            },
+            "elementId": "224"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 214,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘前滞排"
+        },
+        "elementId": "214"
+      },
+      "end": {
+        "identity": 225,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "磨损",
+          "name": "刀具"
+        },
+        "elementId": "225"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 214,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘前滞排"
+            },
+            "elementId": "214"
+          },
+          "relationship": {
+            "identity": 229,
+            "start": 214,
+            "end": 225,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "229",
+            "startNodeElementId": "214",
+            "endNodeElementId": "225"
+          },
+          "end": {
+            "identity": 225,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "磨损",
+              "name": "刀具"
+            },
+            "elementId": "225"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 214,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘前滞排"
+        },
+        "elementId": "214"
+      },
+      "end": {
+        "identity": 226,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "挤压或超挖",
+          "name": "土体"
+        },
+        "elementId": "226"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 214,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘前滞排"
+            },
+            "elementId": "214"
+          },
+          "relationship": {
+            "identity": 230,
+            "start": 214,
+            "end": 226,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "230",
+            "startNodeElementId": "214",
+            "endNodeElementId": "226"
+          },
+          "end": {
+            "identity": 226,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "挤压或超挖",
+              "name": "土体"
+            },
+            "elementId": "226"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 216,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "切削舱内滞排"
+        },
+        "elementId": "216"
+      },
+      "end": {
+        "identity": 222,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "密封损坏",
+          "name": "主轴承"
+        },
+        "elementId": "222"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 216,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "切削舱内滞排"
+            },
+            "elementId": "216"
+          },
+          "relationship": {
+            "identity": 231,
+            "start": 216,
+            "end": 222,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "231",
+            "startNodeElementId": "216",
+            "endNodeElementId": "222"
+          },
+          "end": {
+            "identity": 222,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "密封损坏",
+              "name": "主轴承"
+            },
+            "elementId": "222"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 215,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "出渣系统滞排"
+        },
+        "elementId": "215"
+      },
+      "end": {
+        "identity": 223,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "过度磨损",
+          "name": "螺旋机"
+        },
+        "elementId": "223"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 215,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "出渣系统滞排"
+            },
+            "elementId": "215"
+          },
+          "relationship": {
+            "identity": 232,
+            "start": 215,
+            "end": 223,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "232",
+            "startNodeElementId": "215",
+            "endNodeElementId": "223"
+          },
+          "end": {
+            "identity": 223,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "过度磨损",
+              "name": "螺旋机"
+            },
+            "elementId": "223"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 226,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "挤压或超挖",
+          "name": "土体"
+        },
+        "elementId": "226"
+      },
+      "end": {
+        "identity": 227,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "塌方或隆起"
+        },
+        "elementId": "227"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 226,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "挤压或超挖",
+              "name": "土体"
+            },
+            "elementId": "226"
+          },
+          "relationship": {
+            "identity": 233,
+            "start": 226,
+            "end": 227,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "233",
+            "startNodeElementId": "226",
+            "endNodeElementId": "227"
+          },
+          "end": {
+            "identity": 227,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "塌方或隆起"
+            },
+            "elementId": "227"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 228,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地质与环境因素"
+        },
+        "elementId": "228"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 234,
+            "start": 183,
+            "end": 228,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "234",
+            "startNodeElementId": "183",
+            "endNodeElementId": "228"
+          },
+          "end": {
+            "identity": 228,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地质与环境因素"
+            },
+            "elementId": "228"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 229,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机因素",
+          "解释": "盾构机设备选型、排碴设计不合理等原因"
+        },
+        "elementId": "229"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 235,
+            "start": 183,
+            "end": 229,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "235",
+            "startNodeElementId": "183",
+            "endNodeElementId": "229"
+          },
+          "end": {
+            "identity": 229,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机因素",
+              "解释": "盾构机设备选型、排碴设计不合理等原因"
+            },
+            "elementId": "229"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 230,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "施工因素"
+        },
+        "elementId": "230"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 236,
+            "start": 183,
+            "end": 230,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "236",
+            "startNodeElementId": "183",
+            "endNodeElementId": "230"
+          },
+          "end": {
+            "identity": 230,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "施工因素"
+            },
+            "elementId": "230"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 228,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地质与环境因素"
+        },
+        "elementId": "228"
+      },
+      "end": {
+        "identity": 231,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "脆性材料": "人工抛石、古井、古墓、加固体混凝土块、注浆块等",
+          "name": "人工障碍物",
+          "韧性材料": "钢管、锚索、塑料排水板等"
+        },
+        "elementId": "231"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 228,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地质与环境因素"
+            },
+            "elementId": "228"
+          },
+          "relationship": {
+            "identity": 237,
+            "start": 228,
+            "end": 231,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "237",
+            "startNodeElementId": "228",
+            "endNodeElementId": "231"
+          },
+          "end": {
+            "identity": 231,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "脆性材料": "人工抛石、古井、古墓、加固体混凝土块、注浆块等",
+              "name": "人工障碍物",
+              "韧性材料": "钢管、锚索、塑料排水板等"
+            },
+            "elementId": "231"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 231,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "脆性材料": "人工抛石、古井、古墓、加固体混凝土块、注浆块等",
+          "name": "人工障碍物",
+          "韧性材料": "钢管、锚索、塑料排水板等"
+        },
+        "elementId": "231"
+      },
+      "end": {
+        "identity": 232,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "预先摸排",
+          "方式": "提前制定应急预案"
+        },
+        "elementId": "232"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 231,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "脆性材料": "人工抛石、古井、古墓、加固体混凝土块、注浆块等",
+              "name": "人工障碍物",
+              "韧性材料": "钢管、锚索、塑料排水板等"
+            },
+            "elementId": "231"
+          },
+          "relationship": {
+            "identity": 238,
+            "start": 231,
+            "end": 232,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "238",
+            "startNodeElementId": "231",
+            "endNodeElementId": "232"
+          },
+          "end": {
+            "identity": 232,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "预先摸排",
+              "方式": "提前制定应急预案"
+            },
+            "elementId": "232"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 228,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地质与环境因素"
+        },
+        "elementId": "228"
+      },
+      "end": {
+        "identity": 233,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "易结泥饼地层"
+        },
+        "elementId": "233"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 228,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地质与环境因素"
+            },
+            "elementId": "228"
+          },
+          "relationship": {
+            "identity": 239,
+            "start": 228,
+            "end": 233,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "239",
+            "startNodeElementId": "228",
+            "endNodeElementId": "233"
+          },
+          "end": {
+            "identity": 233,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "易结泥饼地层"
+            },
+            "elementId": "233"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 228,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地质与环境因素"
+        },
+        "elementId": "228"
+      },
+      "end": {
+        "identity": 234,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "砂卵石地层",
+          "解释": "砂砾中夹杂着大体量的卵石和漂石，不仅刀具不易破碎，而且还会进入土（泥水）舱，导致机械损坏，如磨损搅拌棒、卡死螺旋机，或堵塞螺旋机、堵塞泥水管路等。"
+        },
+        "elementId": "234"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 228,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地质与环境因素"
+            },
+            "elementId": "228"
+          },
+          "relationship": {
+            "identity": 240,
+            "start": 228,
+            "end": 234,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "240",
+            "startNodeElementId": "228",
+            "endNodeElementId": "234"
+          },
+          "end": {
+            "identity": 234,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "砂卵石地层",
+              "解释": "砂砾中夹杂着大体量的卵石和漂石，不仅刀具不易破碎，而且还会进入土（泥水）舱，导致机械损坏，如磨损搅拌棒、卡死螺旋机，或堵塞螺旋机、堵塞泥水管路等。"
+            },
+            "elementId": "234"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 234,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "砂卵石地层",
+          "解释": "砂砾中夹杂着大体量的卵石和漂石，不仅刀具不易破碎，而且还会进入土（泥水）舱，导致机械损坏，如磨损搅拌棒、卡死螺旋机，或堵塞螺旋机、堵塞泥水管路等。"
+        },
+        "elementId": "234"
+      },
+      "end": {
+        "identity": 235,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "刀具",
+          "方式": "提前应采用重型单刃滚刀，加密刀间距或配置先行刀和刮刀；控制刀盘厚度，配置周边刀具"
+        },
+        "elementId": "235"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 234,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "砂卵石地层",
+              "解释": "砂砾中夹杂着大体量的卵石和漂石，不仅刀具不易破碎，而且还会进入土（泥水）舱，导致机械损坏，如磨损搅拌棒、卡死螺旋机，或堵塞螺旋机、堵塞泥水管路等。"
+            },
+            "elementId": "234"
+          },
+          "relationship": {
+            "identity": 241,
+            "start": 234,
+            "end": 235,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "241",
+            "startNodeElementId": "234",
+            "endNodeElementId": "235"
+          },
+          "end": {
+            "identity": 235,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "刀具",
+              "方式": "提前应采用重型单刃滚刀，加密刀间距或配置先行刀和刮刀；控制刀盘厚度，配置周边刀具"
+            },
+            "elementId": "235"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 228,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "地质与环境因素"
+        },
+        "elementId": "228"
+      },
+      "end": {
+        "identity": 236,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "断层破碎带": "有体量和强度不均的碎石块，滚刀不易破碎",
+          "name": "断层破碎带地层",
+          "节理裂隙发育地带": "岩石容易崩解，在掘进中形成大小不一的碎石块"
+        },
+        "elementId": "236"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 228,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "地质与环境因素"
+            },
+            "elementId": "228"
+          },
+          "relationship": {
+            "identity": 242,
+            "start": 228,
+            "end": 236,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "242",
+            "startNodeElementId": "228",
+            "endNodeElementId": "236"
+          },
+          "end": {
+            "identity": 236,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "断层破碎带": "有体量和强度不均的碎石块，滚刀不易破碎",
+              "name": "断层破碎带地层",
+              "节理裂隙发育地带": "岩石容易崩解，在掘进中形成大小不一的碎石块"
+            },
+            "elementId": "236"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 236,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "断层破碎带": "有体量和强度不均的碎石块，滚刀不易破碎",
+          "name": "断层破碎带地层",
+          "节理裂隙发育地带": "岩石容易崩解，在掘进中形成大小不一的碎石块"
+        },
+        "elementId": "236"
+      },
+      "end": {
+        "identity": 237,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "综合处理",
+          "方式": "采用线路调线调坡、补充勘探、预处理 、注浆加固、盾构机直 接掘进通过和洞内进行处理等措施"
+        },
+        "elementId": "237"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 236,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "断层破碎带": "有体量和强度不均的碎石块，滚刀不易破碎",
+              "name": "断层破碎带地层",
+              "节理裂隙发育地带": "岩石容易崩解，在掘进中形成大小不一的碎石块"
+            },
+            "elementId": "236"
+          },
+          "relationship": {
+            "identity": 243,
+            "start": 236,
+            "end": 237,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "243",
+            "startNodeElementId": "236",
+            "endNodeElementId": "237"
+          },
+          "end": {
+            "identity": 237,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "综合处理",
+              "方式": "采用线路调线调坡、补充勘探、预处理 、注浆加固、盾构机直 接掘进通过和洞内进行处理等措施"
+            },
+            "elementId": "237"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 229,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机因素",
+          "解释": "盾构机设备选型、排碴设计不合理等原因"
+        },
+        "elementId": "229"
+      },
+      "end": {
+        "identity": 238,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "设备选型不当",
+          "解释": "就防滞排而言，砂卵石地层采用土压盾构机更有优势"
+        },
+        "elementId": "238"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 229,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机因素",
+              "解释": "盾构机设备选型、排碴设计不合理等原因"
+            },
+            "elementId": "229"
+          },
+          "relationship": {
+            "identity": 244,
+            "start": 229,
+            "end": 238,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "244",
+            "startNodeElementId": "229",
+            "endNodeElementId": "238"
+          },
+          "end": {
+            "identity": 238,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "设备选型不当",
+              "解释": "就防滞排而言，砂卵石地层采用土压盾构机更有优势"
+            },
+            "elementId": "238"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 229,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机因素",
+          "解释": "盾构机设备选型、排碴设计不合理等原因"
+        },
+        "elementId": "229"
+      },
+      "end": {
+        "identity": 239,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "设计不合理"
+        },
+        "elementId": "239"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 229,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机因素",
+              "解释": "盾构机设备选型、排碴设计不合理等原因"
+            },
+            "elementId": "229"
+          },
+          "relationship": {
+            "identity": 245,
+            "start": 229,
+            "end": 239,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "245",
+            "startNodeElementId": "229",
+            "endNodeElementId": "239"
+          },
+          "end": {
+            "identity": 239,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "设计不合理"
+            },
+            "elementId": "239"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 239,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "设计不合理"
+        },
+        "elementId": "239"
+      },
+      "end": {
+        "identity": 240,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+          "name": "土压式盾构机",
+          "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+        },
+        "elementId": "240"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 239,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "设计不合理"
+            },
+            "elementId": "239"
+          },
+          "relationship": {
+            "identity": 246,
+            "start": 239,
+            "end": 240,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "246",
+            "startNodeElementId": "239",
+            "endNodeElementId": "240"
+          },
+          "end": {
+            "identity": 240,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+              "name": "土压式盾构机",
+              "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+            },
+            "elementId": "240"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 239,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "设计不合理"
+        },
+        "elementId": "239"
+      },
+      "end": {
+        "identity": 241,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+          "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+          "name": "泥水式盾构机"
+        },
+        "elementId": "241"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 239,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "设计不合理"
+            },
+            "elementId": "239"
+          },
+          "relationship": {
+            "identity": 247,
+            "start": 239,
+            "end": 241,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "247",
+            "startNodeElementId": "239",
+            "endNodeElementId": "241"
+          },
+          "end": {
+            "identity": 241,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+              "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+              "name": "泥水式盾构机"
+            },
+            "elementId": "241"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 240,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+          "name": "土压式盾构机",
+          "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+        },
+        "elementId": "240"
+      },
+      "end": {
+        "identity": 242,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施2": "加强主动搅动棒设计，主动搅动棒活动区域应覆盖螺旋机口或排泥口附近",
+          "name": "搅拌棒",
+          "措施1": "采用较大主轴承，加大牛腿中心体积"
+        },
+        "elementId": "242"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 240,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+              "name": "土压式盾构机",
+              "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+            },
+            "elementId": "240"
+          },
+          "relationship": {
+            "identity": 248,
+            "start": 240,
+            "end": 242,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "248",
+            "startNodeElementId": "240",
+            "endNodeElementId": "242"
+          },
+          "end": {
+            "identity": 242,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施2": "加强主动搅动棒设计，主动搅动棒活动区域应覆盖螺旋机口或排泥口附近",
+              "name": "搅拌棒",
+              "措施1": "采用较大主轴承，加大牛腿中心体积"
+            },
+            "elementId": "242"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 240,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+          "name": "土压式盾构机",
+          "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+        },
+        "elementId": "240"
+      },
+      "end": {
+        "identity": 243,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施2": "加大螺旋机工作扭矩和脱困扭矩，螺旋机设置碴土改良剂注入口",
+          "name": "螺旋机",
+          "措施1": "适当加大螺旋机直径，采用带式螺带"
+        },
+        "elementId": "243"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 240,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "搅拌棒": "被动搅拌棒在搅拌过程中会存在盲区，无法有效控制土仓内的滞排",
+              "name": "土压式盾构机",
+              "螺旋机": "直径不足、轴式螺带导致过碴尺寸不足；应急人工清理设施不足"
+            },
+            "elementId": "240"
+          },
+          "relationship": {
+            "identity": 249,
+            "start": 240,
+            "end": 243,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "249",
+            "startNodeElementId": "240",
+            "endNodeElementId": "243"
+          },
+          "end": {
+            "identity": 243,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施2": "加大螺旋机工作扭矩和脱困扭矩，螺旋机设置碴土改良剂注入口",
+              "name": "螺旋机",
+              "措施1": "适当加大螺旋机直径，采用带式螺带"
+            },
+            "elementId": "243"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 241,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+          "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+          "name": "泥水式盾构机"
+        },
+        "elementId": "241"
+      },
+      "end": {
+        "identity": 244,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施": "采用单泥水舱设计,排浆管尽量前伸靠近泥水舱",
+          "name": "泥水舱"
+        },
+        "elementId": "244"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 241,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+              "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+              "name": "泥水式盾构机"
+            },
+            "elementId": "241"
+          },
+          "relationship": {
+            "identity": 250,
+            "start": 241,
+            "end": 244,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "250",
+            "startNodeElementId": "241",
+            "endNodeElementId": "244"
+          },
+          "end": {
+            "identity": 244,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施": "采用单泥水舱设计,排浆管尽量前伸靠近泥水舱",
+              "name": "泥水舱"
+            },
+            "elementId": "244"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 241,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+          "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+          "name": "泥水式盾构机"
+        },
+        "elementId": "241"
+      },
+      "end": {
+        "identity": 245,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施": "减少管路弯头；加大循环系统循环能力，加大泵动力，加大泥浆流速；加入逆循环模式",
+          "name": "泥水循环系统"
+        },
+        "elementId": "245"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 241,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "泥水循环系统": "管路弯头较多、直径较小，泥水循环无逆循环模式",
+              "泥水舱": "排浆口的隔栅网格太小；碴土从刀盘到进入排浆管路的路径过长",
+              "name": "泥水式盾构机"
+            },
+            "elementId": "241"
+          },
+          "relationship": {
+            "identity": 251,
+            "start": 241,
+            "end": 245,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "251",
+            "startNodeElementId": "241",
+            "endNodeElementId": "245"
+          },
+          "end": {
+            "identity": 245,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施": "减少管路弯头；加大循环系统循环能力，加大泵动力，加大泥浆流速；加入逆循环模式",
+              "name": "泥水循环系统"
+            },
+            "elementId": "245"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 246,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "减慢或停止推进",
+          "name": "掘进速度"
+        },
+        "elementId": "246"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 252,
+            "start": 183,
+            "end": 246,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "252",
+            "startNodeElementId": "183",
+            "endNodeElementId": "246"
+          },
+          "end": {
+            "identity": 246,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "减慢或停止推进",
+              "name": "掘进速度"
+            },
+            "elementId": "246"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 247,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "大幅度增加",
+          "name": "贯入度"
+        },
+        "elementId": "247"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 253,
+            "start": 183,
+            "end": 247,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "253",
+            "startNodeElementId": "183",
+            "endNodeElementId": "247"
+          },
+          "end": {
+            "identity": 247,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "大幅度增加",
+              "name": "贯入度"
+            },
+            "elementId": "247"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 248,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "大幅度增加",
+          "name": "推进力"
+        },
+        "elementId": "248"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 254,
+            "start": 183,
+            "end": 248,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "254",
+            "startNodeElementId": "183",
+            "endNodeElementId": "248"
+          },
+          "end": {
+            "identity": 248,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "大幅度增加",
+              "name": "推进力"
+            },
+            "elementId": "248"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "滞排"
+        },
+        "elementId": "183"
+      },
+      "end": {
+        "identity": 249,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "大幅度增加",
+          "name": "扭矩"
+        },
+        "elementId": "249"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "滞排"
+            },
+            "elementId": "183"
+          },
+          "relationship": {
+            "identity": 255,
+            "start": 183,
+            "end": 249,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "255",
+            "startNodeElementId": "183",
+            "endNodeElementId": "249"
+          },
+          "end": {
+            "identity": 249,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "大幅度增加",
+              "name": "扭矩"
+            },
+            "elementId": "249"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 230,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "施工因素"
+        },
+        "elementId": "230"
+      },
+      "end": {
+        "identity": 250,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "刀具没能有效地破岩，碴土改良效果不佳，过大的碴块就会造成滞排",
+          "name": "土压式盾构机"
+        },
+        "elementId": "250"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 230,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "施工因素"
+            },
+            "elementId": "230"
+          },
+          "relationship": {
+            "identity": 256,
+            "start": 230,
+            "end": 250,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "256",
+            "startNodeElementId": "230",
+            "endNodeElementId": "250"
+          },
+          "end": {
+            "identity": 250,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "刀具没能有效地破岩，碴土改良效果不佳，过大的碴块就会造成滞排",
+              "name": "土压式盾构机"
+            },
+            "elementId": "250"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 230,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "施工因素"
+        },
+        "elementId": "230"
+      },
+      "end": {
+        "identity": 251,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥浆性能与参数的不佳对滞排现象发生的几率和程度会产不同的影响",
+          "name": "泥水式盾构机"
+        },
+        "elementId": "251"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 230,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "施工因素"
+            },
+            "elementId": "230"
+          },
+          "relationship": {
+            "identity": 257,
+            "start": 230,
+            "end": 251,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "257",
+            "startNodeElementId": "230",
+            "endNodeElementId": "251"
+          },
+          "end": {
+            "identity": 251,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥浆性能与参数的不佳对滞排现象发生的几率和程度会产不同的影响",
+              "name": "泥水式盾构机"
+            },
+            "elementId": "251"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 250,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "刀具没能有效地破岩，碴土改良效果不佳，过大的碴块就会造成滞排",
+          "name": "土压式盾构机"
+        },
+        "elementId": "250"
+      },
+      "end": {
+        "identity": 252,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施": "使用合适的碴土改良添加剂对土仓和刀盘前碴土改良，改善碴土和易性，使得土仓内形成塑性流动化的泥土，以维持土舱内土压与开挖面动态平衡",
+          "name": "碴土改良"
+        },
+        "elementId": "252"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 250,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "刀具没能有效地破岩，碴土改良效果不佳，过大的碴块就会造成滞排",
+              "name": "土压式盾构机"
+            },
+            "elementId": "250"
+          },
+          "relationship": {
+            "identity": 258,
+            "start": 250,
+            "end": 252,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "258",
+            "startNodeElementId": "250",
+            "endNodeElementId": "252"
+          },
+          "end": {
+            "identity": 252,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施": "使用合适的碴土改良添加剂对土仓和刀盘前碴土改良，改善碴土和易性，使得土仓内形成塑性流动化的泥土，以维持土舱内土压与开挖面动态平衡",
+              "name": "碴土改良"
+            },
+            "elementId": "252"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 251,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥浆性能与参数的不佳对滞排现象发生的几率和程度会产不同的影响",
+          "name": "泥水式盾构机"
+        },
+        "elementId": "251"
+      },
+      "end": {
+        "identity": 253,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "措施2": "通过刀盘自配+外置冲刷系统对卸渣槽、中心区域刀盘和刀筒进行高压冲刷",
+          "name": "泥浆性能与参数优化",
+          "措施1": "使用离心机+絮凝剂、压滤机对泥浆进行二次处理",
+          "措施3": "现象优化，提高掘进效率，达到快速、高效、安全掘进目的"
+        },
+        "elementId": "253"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 251,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥浆性能与参数的不佳对滞排现象发生的几率和程度会产不同的影响",
+              "name": "泥水式盾构机"
+            },
+            "elementId": "251"
+          },
+          "relationship": {
+            "identity": 259,
+            "start": 251,
+            "end": 253,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "259",
+            "startNodeElementId": "251",
+            "endNodeElementId": "253"
+          },
+          "end": {
+            "identity": 253,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "措施2": "通过刀盘自配+外置冲刷系统对卸渣槽、中心区域刀盘和刀筒进行高压冲刷",
+              "name": "泥浆性能与参数优化",
+              "措施1": "使用离心机+絮凝剂、压滤机对泥浆进行二次处理",
+              "措施3": "现象优化，提高掘进效率，达到快速、高效、安全掘进目的"
+            },
+            "elementId": "253"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题名</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js?v=1.1.3"></script>
+    <script src="js/dzconfirm.js?v=1.1.3"></script>
+    <script src="js/fee_DZHY3.js?v=1.1.3"></script>
+    <link href="style/mc-d-cz.css?v=1.1.3" rel="stylesheet">
+    <link href="style/mc-d3.css?v=1.1.3" rel="stylesheet">
+    <link href="style/phone.css?v=1.1.3" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="w1100pxAuto clearfix">
+            <div class="left">
+                <a href="https://www.cnki.net/" class="logo-cnki" target="_blank">
+                    <img src="./images/dz_d/logo-cnki.png" alt="">
+                </a>
+            </div>
+            <div class="nav right clearfix">
+                <!-- <a class="nav-item" href="https://member.cnki.net/typeset/" target="_blank">智能排版</a> -->
+                <a class="nav-item" href="https://member.cnki.net/" target="_blank">会员中心</a>
+                <a class="nav-item" href="https://member.cnki.net/kcenter/zk/young.html" target="_blank">学生福利</a>
+                <a class="nav-item download-app">
+                    下载APP
+                    <div class="download-app-ewm">
+                        <img src="./images/dz_d/qrcode3.png" alt="下载App">
+                    </div>
+                </a>
+                <div class="user">
+                    <div class="username clearfix" style="cursor: pointer;">
+                        <span id="userName"></span>
+                        <i class="dropdown-caret"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a href="" target="_blank" id="userCenter"><img src="./images/dz_d/icon-user.png"
+                                    alt=""><span>个人中心</span></a></li>
+                        <li><a onclick="swithuser(false);" style="cursor: pointer;"><img
+                                    src="./images/dz_d/icon-logout.png" alt=""><span>退出</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flow-container clearfix">
+        <div id="flow_left" class="flow-left">
+            <div class="user-info">
+                <a class="user-avatar" href="" target="_blank"><img src="./images/dz_d/user.jpg" alt=""></a>
+                <div class="user-name">
+                    <a href="" target="_blank" id="user-name"></a>
+                    <img class="icon-vip" src="" width="20" alt="" style="display: none;">
+                    <img class="icon-student" src="./images/dz_d/icon-student.png" alt="" style="display: none;">
+                </div>
+            </div>
+            <div class="sv">
+                <div class="sv-title">—— 知网会员服务 ——</div>
+            </div>
+            <div class="sv">
+                <div class="vip-benefits">
+                    <a href="https://member.cnki.net/kcenter/memcard/buy?ct=zpln" target="_blank">
+                        <ul>
+                            <li>
+                                <img src="./images/lefticon1.png">
+                                <span class="iconTitle">文献服务</span>
+                            </li>
+                            <li>
+                                <span>· 期刊文献</span>
+                                <span>· 会议论文</span>
+                            </li>
+                            <li>
+                                <span>· 博士论文</span>
+                                <span>· 硕士论文</span>
+                            </li>
+                            <li>
+                                <span>· 中国专利</span>
+                                <span>· 年鉴全文</span>
+
+                            </li>
+                            <li>
+                                <span>· 工具书</span>
+                                <span>· 科技成果</span>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <img src="./images/lefticon2.png">
+                                <span class="iconTitle">工具服务</span>
+                            </li>
+                            <li>
+                                <span>· 学术情报</span>
+                                <span>· 期刊排版</span>
+                            </li>
+                            <li>
+                                <span>· 学术翻译</span>
+                                <span style="width: 105px;">· APP精美字体包</span>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <img src="./images/lefticon3.png">
+                                <span class="iconTitle">专享折扣</span>
+                            </li>
+                            <li>
+                                <span style="width: 200px;">· 期刊/图书/课程等专享折扣</span>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <a class="btn-join1" href="https://member.cnki.net/kcenter/memcard/buy?ct=zpln"
+                    target="_blank">查看详情>></a></a></a>
+            </div>
+            <div class="ai aiTitle" style="display: none;">
+                <img src="./images/lefticon4.png" alt="">
+                <div style="margin-left: 9px;">
+                    <h2>AI学术研究助手</h2>
+                    <h3>赋能科研效率与质量双提升</h3>
+                </div>
+            </div>
+            <div class="ai" style="display: none;">
+                <div class="vip-benefits">
+                    <a onclick="toAI()">
+                        <ul>
+                            <li>
+                                <img src="./images/lefticon7.png">
+                                <span class="AIicon">AI增强检索</span>
+                            </li>
+                            <li>
+                                <span>· AI学术问答</span>
+                                <span>· AI增强检索</span>
+                            </li>
+                            <li>
+                                <span>· 可信增强</span>
+                                <span>· 可控生成</span>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <img src="./images/lefticon5.png">
+                                <span class="AIicon">AI辅助研读</span>
+                            </li>
+                            <li>
+                                <span>· AI单篇研读</span>
+                                <span>· AI专题研究</span>
+                            </li>
+                            <li>
+                                <span>· AI智能伴读</span>
+                                <span>· AI学术翻译</span>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <img src="./images/lefticon6.png">
+                                <span class="AIicon">AI辅助创作</span>
+                            </li>
+                            <li>
+                                <span>· AI资料研参</span>
+                                <span>· AI对话写作</span>
+                            </li>
+                            <li>
+                                <span>· AI智能伴写</span>
+                                <span>· AI润色批改</span>
+                            </li>
+
+                        </ul>
+                    </a>
+                </div>
+                <a class="btn-join" onclick="toAI()">开始使用</a>
+            </div>
+        </div>
+        <div class="flow-right">
+            <div class="article-title">
+                <img id="titleImg" src="" alt="" style="width: 24px;"><span id="title">《包装机械》精品课程建设 张炜 66_70</span>
+            </div>
+            <div class="article-info">
+                <div class="article-author">分类刊名</div>
+                <div class="article-source">来源年期</div>
+                <div class="article-page">
+                    <p id="price1" hidden> </p>
+                    <p id="price2" hidden>【价 格】 免费</p>
+                    <div id="price3" style="display: none;">
+                        <text class="price-3">折扣价格
+                        </text>
+                        <span class="item-price-origin"></span>
+                        <span class="item-student-label">学生专享</span>
+                    </div>
+                </div>
+                <div style="height: 11px;position: relative;margin-top: -22px;padding-bottom: 17px;" class="">
+                    <a href="https://member.cnki.net/audownload.html"
+                        style="background-color: #1b66e6;color: #fff;position: absolute;width: 135px;FONT-WEIGHT: 100;border-radius: 6px;text-align: center;font-size: 13px;cursor: pointer;height: 31px;right: 0;"
+                        target="_blank">作者本人免费下载&gt;</a>
+                </div>
+            </div>
+            <div class="article-btns" style="display: none;">
+                <!-- 下载 -->
+                <div id="downSubmit" class="btn btn3" onclick="ConfimDownLoad()"></div>
+                <div class="btn btn4" onclick="ConfimDownLoad(1)">Al辅助研读本文</div>
+            </div>
+            <p id="downTip"></p>
+            <div class="article-notice" style="display: none;">
+                <p>温馨提示：</p>
+                <p>1. AI学术研究助手提供AI赋能学习研究全流程的智能服务，大幅提升学习研究效率与质量。<a onclick="toAI()">开始使用>></a></p>
+                <p>2. 咨询热线:400-819-9993 010-62985026</p>
+                <div class="qrcode" style="top:20px; right:0;">
+                    <img style="width:120px;height:120px;margin-bottom:5px;" alt="" id="phoneQrCode">
+                    <div style="text-align:center;">手机知网APP</div>
+                </div>
+            </div>
+            <div id="BarAdvertising_container" ></div>
+            <div class="memberCenter">
+                <div class="wayText">选择下载方式：</div>
+                <div class="memberBox">
+                    <a id="zhifu" href="" target="_blank" onclick="showRecharge()">
+                        <div class="memberLeft">
+                            <div class="title">
+                                <img src="./images/text1.png" alt="">
+                                <h2 id="rechargeText">单篇下载</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>￥</span>
+                                    <span class="pricetext"></span>
+                                </li>
+                                <li class="li_tip">仅当前文献</li>
+                            </ul>
+
+                            <h1 id="rechargeText1">
+                                仅下载本文
+                            </h1>
+                        </div>
+                    </a>
+                    <a href="https://member.cnki.net/kcenter/memcard/buy?ct=zpln" target="_blank">
+                        <div class="zhiMember">
+                            <div class="title" style="margin-left: 22px;">
+                                <img src="./images/text2.png" alt="">
+                                <h2>“智+”会员</h2>
+                            </div>
+                            <h3 class="desPrice">单篇文献低至0.26元起</h3>
+                            <div class="content">
+                                <div class="dot">
+                                    <span>·</span>
+                                    <span>·</span>
+                                    <span>·</span>
+                                </div>
+                                <div class="contentBox">
+                                    <ul class="contentText">
+                                        <li>
+                                            <sapn class="red">4类</sapn>文献资源包
+                                        </li>
+                                        <li class="desText">期刊文献、会议论文、博硕士论文</li>
+                                    </ul>
+                                    <ul class="contentText columnMargin1">
+                                        <li>
+                                            <sapn class="red">4类</sapn>工具应用
+                                        </li>
+                                        <li class="desText">学术情报、期刊排版、学术翻译等</li>
+                                    </ul>
+                                    <ul class="contentText columnMargin2">
+                                        <li>书刊<sapn class="red">5折</sapn>优惠 </li>
+                                        <li class="desText"> 图书、课程、有声书等</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h2 class="memberBtn">
+                                开通会员
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="https://member.cnki.net/kcenter/memcard/buy?ct=hpln" target="_blank">
+                        <div class="huiMember">
+                            <div class="title" style="margin-left: 17px;">
+                                <img src="./images/text3.png" alt="">
+                                <h2>“慧+”超级会员</h2>
+                            </div>
+                            <h3 class="desPrice" style="margin-left: 106px;">尊享8类文献服务</h3>
+                            <div class="content">
+                                <div class="dot" style="height: 134px;">
+                                    <span>·</span>
+                                    <span>·</span>
+                                    <span>·</span>
+                                </div>
+                                <div class="contentBox">
+                                    <ul class="contentText">
+                                        <li>
+                                            <sapn class="red">8类</sapn>文献资源包
+                                        </li>
+                                        <li class="desText" style="line-height: 17px;">4类文献资源包、专利、年鉴、成果、 万部工具书</li>
+                                    </ul>
+                                    <ul class="contentText columnMargin3">
+                                        <li>
+                                            <sapn class="red">尊享版</sapn>工具应用
+                                        </li>
+                                        <li class="desText"> 学术情报、期刊排版、学术翻译等</li>
+                                    </ul>
+                                    <ul class="contentText columnMargin4">
+                                        <li>书刊<sapn class="red">4折</sapn>优惠 </li>
+                                        <li class="desText"> 图书、课程、有声书等</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h2 class="memberBtn">
+                                开通会员
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="err-notice">
+                <p id="errParent"></p>
+                <p id="errSelf"></p>
+            </div>
+            <input id="CardOrFee" name="CardOrFee" type="hidden" value="3">
+            <input id="downfilename" name="downfilename" type="hidden" value="BZGC2020041900F">
+            <div id="downloadinfo" style="display: none;">
+                <div class="successIcon">
+                    <img style="width: 30px; padding-right: 12px; " src="./images/success.png" />
+                    <span>您已支付成功！</span>
+                </div>
+                <p id="aiBtn" onclick="window.close()">返回查看全文</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inner clearfix">
+            <div class="footer-l left" style="padding: 0 20px 0 20px;">
+                <a href="http://www.cnki.net/" class="footer-logo" target="_blank" title="中国知网"></a>
+                <ul>
+                    <li>京ICP证040431号</li>
+                    <li><a href="https://piccache.cnki.net/index/images/gb/416.jpg"
+                            target="_blank">网络出版服务许可证网出证(京)字第416号</a></li>
+                    <li>京公网安备11010802020460号</li>
+                </ul>
+                <div class="copy-icon">
+                    <a href="https://ss.knet.cn/verifyseal.dll?sn=e13111111010043364isll000000&amp;a=1&amp;pa=0.08881110103584755"
+                        target="_blank"><img src="./images/dz_d/copy-icon1.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-r left clearfix">
+                <ul class="footerNav-icon">
+                    <li><a href="http://service.cnki.net/helpcenter/Html/index.html?randomNum=942" class="footNav-help"
+                            target="_blank"><i></i><span>帮助中心</span></a></li>
+                    <li><a href="http://vipcard.cnki.net/ec/service/xszn/xszn.html" class="footNav-guide"
+                            target="_blank"><i></i><span>新手指南</span></a></li>
+                    <li><a href="http://vipcard.cnki.net/ec/czzx/czgg/cjwt.html" class="footNav-faq"
+                            target="_blank"><i></i><span>常见问题</span></a></li>
+                    <li><a class="footNav-recharge" target="_blank"><i></i><span>数字出版</span></a></li>
+                </ul>
+                <ul>
+                    <li>订购热线：400-819-9993 010-62982499</li>
+                    <li>服务咨询：<a href="https://service.cnki.net" target="_blank">service.cnki.net</a></li>
+                    <li>服务邮箱：<a target="_blank" href="mailto:help@cnki.net">help@cnki.net</a></li>
+                    <li>《中国学术期刊（光盘版）》电子杂志社有限公司 </li>
+                </ul>
+                <ul style="visibility: hidden;">
+                    <li>在线咨询：<a href="https://service.cnki.net" target="_blank">service.cnki.net</a></li>
+                    <li>服务邮箱：<a href="javascript:void(0)">help@cnki.net</a>
+                    </li>
+                </ul>
+                <div class="erweima left">
+                    <img src="./images/dz_d/qrcode2.png" alt="">
+                    <p>关注我们<br></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="cz-background"> </div>
+    <div class="cz-alert">
+        <div style="background:#f4f4f4;border-radius:8px 8px 0 0;padding:9px">
+            <div
+                style="background: url('./images/alerticon.png') left 5px no-repeat; font-size: 16px; float: left; padding-top: 3px; padding-left: 27px;padding-bottom:3px;">
+                充值提示</div>
+            <a class="cz-close">×</a>
+            <div style="clear:both;"></div>
+        </div>
+        <div style="padding:30px 26px 20px 26px;background:white;border-radius:0 0 8px 8px;">
+            <div style="font-size:20px;text-align:center;">请您在打开的页面完成充值</div>
+            <div style="padding-top:9px;color:#9c9c9c;text-align:center;font-size:16px;">完成充值前，请不要关闭此弹窗</div>
+            <div style="margin-top:29px;">
+                <a class="cz-btn-left" href="" target="_blank">充值失败，重新充值</a>
+                <a class="cz-btn-right" onclick="hideRecharge()">充值成功</a>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="pcneedregTmpuse" class="phone-box" style="display:none;">
+        <div class="phone-box-shadow"></div>
+        <div class="phone-alert">
+            <div class="phone-alert-top phone-clearfix">
+                <a id="phonealertbodyClose2" class="phone-alert-return"> &lt; 扫码验证 </a>
+                <a id="phonealertbodyCloseX" class="phone-alert-close">
+                    <img src="./images/phone/phone-3.png" alt="">
+                </a>
+            </div>
+            <div id="phonealertbody" class="phone-alert-body">
+                <div class="phone-alert-title2">会员临时使用权限</div>
+                <div class="phone-alert-subtitle">
+                    若您目前无法使用<span>手机知网APP</span>验证会员身份，<br>为您提供<span>会员临时使用权限</span>。
+                </div>
+                <div class="phone-alert-table">
+                    <input id="tempusenum" name="tempusenum" type="hidden" value="0">
+                    <input id="TempCardId" name="TempCardId" type="hidden" value="">
+
+                    <div class="phone-table-text">会员账号：<span class="memberName"></span></div>
+                    <div class="phone-table-text">可用次数：<span class="meTimes">0 次</span></div>
+                </div>
+                <div class="phone-alert-btns phone-clearfix">
+                    <a id="phonealertbodyClose" class="phone-alert-btn1"> 本次不使用 </a>
+                    <a class="phone-alert-btn2"> 确认使用 </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 显示注册弹窗 -->
+    <div id="pcneedregister" class="phone-box" style="display: none;">
+        <div class="phone-box-shadow"></div>
+        <div class="phone-alert">
+            <div class="phone-alert-top phone-clearfix">
+                <a class="phone-alert-close" onclick="closePcneedregister()">
+                    <img class="phone-alert-close-img" src="./images/phone/phone-3.png" />
+                </a>
+            </div>
+            <div class="phone-alert-title">
+                为确保您本人操作，请打开<span style="color:red;">手机知网最新版(V8.6.1)</span><br />
+                扫码验证会员身份，验证后使用会员权限下载
+            </div>
+
+            <div class="phone-alert-help">
+                扫码帮助
+                <img class="help-icon" src="./images/phone/phone-9.png" alt="" />
+                <div class="phone-alert2" style="cursor: auto;">
+                    <div class="phone-alert2-content">
+                        <div class="phone-alert2-text1 phone-clearfix">
+                            <div class="phone-alert2-text-number">1</div>
+                            <span>扫码下载手机知网 V8.6.1</span>
+                        </div>
+                        <div class="phone-alert2-text2">
+                            旧版手机知网APP不支持此功能，请<br />升级至最新版后使用
+                        </div>
+                        <img class="phone-alert2-img1" src="./images/phone/phone-4.png" alt="" />
+                        <div class="phone-alert2-text3 phone-clearfix">
+                            <div class="phone-alert2-text-number">2</div>
+                            <span>打开APP > 首页右上角扫一扫</span>
+                        </div>
+                        <img class="phone-alert2-img2" src="./images/phone/phone-10.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="phone-alert-pic-container">
+                <img id="pcneedregisterimg" style="height:150px;" src="" alt="" />
+            </div>
+            <a id="pcneedregTmpuseopen" class="phone-info" style="display: none;"> 手机不在身边？ </a>
+            <div id="reloadpage" class="phone-reload" style="display:none;">
+                <div class="phone-reload-title">已超时，请重新登录下载</div>
+                <div class="phone-reload-btn" onclick="reloadlocal();">刷新重试</div>
+            </div>
+            <div id="phonereload" class="phone-reload" style="display:none;">
+                <div class="phone-reload-title">请刷新二维码</div>
+                <div id="phonereloadfresh" class="phone-reload-btn" onclick="reloadpcneedregister();">点击刷新</div>
+            </div>
+        </div>
+        <div id="phonetccg" class="phone-alert" style="display:none;">
+            <p style="text-align:center;margin-top: 60px;margin-bottom:20px;color:blue;">验证成功</p>
+            <p style="text-align: center;">正在下载文献，请您耐心等待</p>
+            <input type="button" onclick="closereghister();" class="phone-alert2-btn"
+                style=" margin-top: 80px;border: none;" value="我知道了" />
+        </div>
+    </div>
+    <!-- 超限弹窗 -->
+    <div id="pcneedregister-1" class="phone-box" style="display: none;">
+        <div class="phone-box-shadow"></div>
+        <div class="phone-alert">
+            <div class="phone-alert-top phone-clearfix">
+                <a class="phone-alert-close" onclick="closePcneedregister()">
+                    <img class="phone-alert-close-img" src="./images/phone/phone-3.png" alt="" />
+                </a>
+            </div>
+            <div class="phone-alert-title">
+                您 <span id="overtime">超限时间</span>内使用的终端设备数已达上限<br />
+                请使用<span>手机知网APP</span>扫码管理设备后，刷新此页面重新认证
+            </div>
+            <div class="phone-alert-help">
+                扫码帮助
+                <img class="help-icon" src="./images/phone/phone-9.png" alt="" />
+                <div class="phone-alert2" style="cursor: auto;">
+                    <div class="phone-alert2-content">
+                        <div class="phone-alert2-text1 phone-clearfix">
+                            <div class="phone-alert2-text-number">1</div>
+                            <span>扫码下载手机知网 V8.6.1</span>
+                        </div>
+                        <div class="phone-alert2-text2">
+                            旧版手机知网APP不支持此功能，请<br />升级至最新版后使用
+                        </div>
+                        <img class="phone-alert2-img1" src="./images/phone/phone-4.png" alt="" />
+                        <div class="phone-alert2-text3 phone-clearfix">
+                            <div class="phone-alert2-text-number">2</div>
+                            <span>打开APP > 首页右上角扫一扫</span>
+                        </div>
+                        <img class="phone-alert2-img2" src="./images/phone/phone-10.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="phone-alert-pic-container phone-alert-pic-container2">
+                <img id="pcneedregisterimg-1" style="height:150px;" src="" alt="" />
+            </div>
+            <a id="pcneedregclose2" class="yz-alert-btn" onclick="reloadlocal();">我已管理完成设备，重新认证</a>
+            <!-- 隐藏重新刷新二维码 -->
+            <div class="phone-reload" style="display: none">
+                <div class="phone-reload-title">请重新刷新二维码</div>
+                <div class="phone-reload-btn" onclick="reloadpcneedregister();">点击刷新</div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        //主弹窗
+        function closePcneedregister() {
+            $("#pcneedregister").hide();
+            $("#pcneedregister-1").hide();
+            checkRegsu = false;
+        };
+        // 临时使用 按钮
+        $("#pcneedregTmpuseopen").on("click", function () {
+            $("#pcneedregister").hide();
+            $("#pcneedregTmpuse").show();
+        });
+        // 本次不使用 按钮
+        $("#phonealertbodyClose").on("click", function () {
+            $("#pcneedregTmpuse").hide();
+            $("#pcneedregister").show();
+        });
+        // <扫码验证 按钮
+        $("#phonealertbodyClose2").on("click", function () {
+            $("#pcneedregTmpuse").hide();
+            $("#pcneedregister").show();
+        });
+        // X 关闭 全部 回到扣费页
+        $("#phonealertbodyCloseX").on("click", function () {
+            $("#pcneedregTmpuse").hide();
+            $("#pcneedregister").hide();
+            checkRegsu = false;
+            //$("#pcneedregister").show();
+        });
+
+        function closereghister() {
+            //$("#pcneedregTmpuse").hide();
+            $("#pcneedregister").hide();
+            $("#CardOrFee").val("3");
+            checkRegsu = false;
+        }
+        //关闭 下载按钮
+        function disabledownbtn() {
+            var button = $("#downSubmit");
+            if (button.length > 0) {
+                button.attr("disabled", "true");
+                button.off("click");
+                button.hide();
+            }
+        }
+        //确认使用 按钮
+        $(".phone-alert-btn2").on("click", function () {
+            devusetemp();
+        });
+    </script>
+    <script>
+
+
+        /*显示充值遮罩*/
+        function showRecharge() {
+            setTimeout(function () {
+                $('div.cz-background').show();
+                $('div.cz-alert').show(); 100
+            })
+
+        };
+        function showValidate() {
+            $('div.cz-background').show();
+            $('div.cz-alert').show();
+        };
+
+        /*隐藏充值遮罩刷新父页面*/
+        function hideRecharge() {
+            $('div.cz-background').hide();
+            $('div.cz-alert').hide();
+            reloadlocal()
+        };
+
+        /*充值弹层*/
+        $(function () {
+            $('.cz-close').on('click', function () {
+                $('div.cz-background').hide();
+                $('div.cz-alert').hide();
+            });
+        });
+
+        var showQr = false;
+
+    </script>
+
+</body>
+
+</html>

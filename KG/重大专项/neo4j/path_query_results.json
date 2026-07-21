@@ -1,0 +1,193 @@
+[
+  {
+    "query_type": "simple_path",
+    "description": "两个节点之间的直接关系",
+    "paths": [
+      {
+        "path_length": 1,
+        "start_node": {
+          "id": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          }
+        },
+        "relationships": [
+          {
+            "id": 43,
+            "type": "措施方法",
+            "properties": {},
+            "start_node_id": 0,
+            "end_node_id": 42
+          }
+        ],
+        "end_node": {
+          "id": 42,
+          "labels": [
+            "措施",
+            "Entity"
+          ],
+          "properties": {
+            "方法": "首先建立3bar气压平衡掌子面，作业人员经气闸舱减压训练后，佩戴正压呼吸器进入土仓。使用风镐（冲击能量≥60J）破碎泥饼，配合高压水枪（压力≥20MPa）冲洗残留黏土，清除范围覆盖刀盘中心2m半径区域。单次作业限时2小时，完成后需检查刀具磨损情况。",
+            "name": "高压进仓，清除已板结了的泥饼"
+          }
+        }
+      },
+      {
+        "path_length": 1,
+        "start_node": {
+          "id": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          }
+        },
+        "relationships": [
+          {
+            "id": 21,
+            "type": "表现现象",
+            "properties": {},
+            "start_node_id": 0,
+            "end_node_id": 22
+          }
+        ],
+        "end_node": {
+          "id": 22,
+          "labels": [
+            "参数原因",
+            "Entity"
+          ],
+          "properties": {
+            "表现": "推进速度下降30%-70%，导致延长工期，增加刀盘暴露于黏土地层的时间。",
+            "name": "掘进速度降低"
+          }
+        }
+      },
+      {
+        "path_length": 1,
+        "start_node": {
+          "id": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          }
+        },
+        "relationships": [
+          {
+            "id": 20,
+            "type": "表现现象",
+            "properties": {},
+            "start_node_id": 0,
+            "end_node_id": 21
+          }
+        ],
+        "end_node": {
+          "id": 21,
+          "labels": [
+            "参数原因",
+            "Entity"
+          ],
+          "properties": {
+            "表现": "每转切削深度下降50%以上，掘进效率降低，单位进尺能耗增加。",
+            "name": "刀盘贯入度大为减少"
+          }
+        }
+      },
+      {
+        "path_length": 1,
+        "start_node": {
+          "id": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          }
+        },
+        "relationships": [
+          {
+            "id": 19,
+            "type": "表现现象",
+            "properties": {},
+            "start_node_id": 0,
+            "end_node_id": 20
+          }
+        ],
+        "end_node": {
+          "id": 20,
+          "labels": [
+            "参数原因",
+            "Entity"
+          ],
+          "properties": {
+            "表现": "红外监测显示中心温度从常温骤升至80℃以上。中心区渣土滞留摩擦生热+冷却不足，高温进一步硬化泥饼。",
+            "name": "刀盘中心体温升加快甚至达到高温"
+          }
+        }
+      },
+      {
+        "path_length": 1,
+        "start_node": {
+          "id": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          }
+        },
+        "relationships": [
+          {
+            "id": 18,
+            "type": "表现现象",
+            "properties": {},
+            "start_node_id": 0,
+            "end_node_id": 19
+          }
+        ],
+        "end_node": {
+          "id": 19,
+          "labels": [
+            "参数原因",
+            "Entity"
+          ],
+          "properties": {
+            "表现": "扭矩持续接近设计最大值。",
+            "name": "刀盘驱动力矩经常维持在额定扭矩"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query_type": "multi_hop_path",
+    "description": "多跳路径查询(1-3跳)",
+    "paths": []
+  },
+  {
+    "query_type": "shortest_path",
+    "description": "最短路径查询",
+    "paths": []
+  },
+  {
+    "query_type": "all_shortest_paths",
+    "description": "所有最短路径查询",
+    "paths": []
+  }
+]

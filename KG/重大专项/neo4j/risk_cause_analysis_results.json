@@ -1,0 +1,50 @@
+[
+  {
+    "query_target": "掘进速度降低",
+    "analysis_timestamp": "2024-12-19",
+    "connected_causes": {
+      "count": 0,
+      "causes": []
+    },
+    "paths_to_risk_names": {
+      "count": 0,
+      "paths": []
+    },
+    "paths_to_measures": {
+      "count": 0,
+      "paths": []
+    }
+  },
+  {
+    "query_target": "刀盘扭矩增大",
+    "analysis_timestamp": "2024-12-19",
+    "connected_causes": {
+      "count": 0,
+      "causes": []
+    },
+    "paths_to_risk_names": {
+      "count": 0,
+      "paths": []
+    },
+    "paths_to_measures": {
+      "count": 0,
+      "paths": []
+    }
+  },
+  {
+    "query_target": "土压力波动",
+    "analysis_timestamp": "2024-12-19",
+    "connected_causes": {
+      "count": 0,
+      "causes": []
+    },
+    "paths_to_risk_names": {
+      "count": 0,
+      "paths": []
+    },
+    "paths_to_measures": {
+      "count": 0,
+      "paths": []
+    }
+  }
+]

@@ -1,0 +1,3917 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 323,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "选型不当或荷载过大",
+          "描述": "选用的主轴承型号无法满足实际地质条件下的载荷要求，或掘进中长期超负荷运转。"
+        },
+        "elementId": "323"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 330,
+            "start": 322,
+            "end": 323,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "330",
+            "startNodeElementId": "322",
+            "endNodeElementId": "323"
+          },
+          "end": {
+            "identity": 323,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "选型不当或荷载过大",
+              "描述": "选用的主轴承型号无法满足实际地质条件下的载荷要求，或掘进中长期超负荷运转。"
+            },
+            "elementId": "323"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 324,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "微动磨损",
+          "描述": "在两个紧密接触面之间发生微小、高频的相对振动，导致表面材料逐渐磨损剥落。"
+        },
+        "elementId": "324"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 331,
+            "start": 322,
+            "end": 324,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "331",
+            "startNodeElementId": "322",
+            "endNodeElementId": "324"
+          },
+          "end": {
+            "identity": 324,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "微动磨损",
+              "描述": "在两个紧密接触面之间发生微小、高频的相对振动，导致表面材料逐渐磨损剥落。"
+            },
+            "elementId": "324"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 325,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "异物进入",
+          "描述": "由于密封失效，导致地下水、泥沙、石块等坚硬颗粒物进入轴承内部，造成滚道和滚动体的划伤或磨损。"
+        },
+        "elementId": "325"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 332,
+            "start": 322,
+            "end": 325,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "332",
+            "startNodeElementId": "322",
+            "endNodeElementId": "325"
+          },
+          "end": {
+            "identity": 325,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "异物进入",
+              "描述": "由于密封失效，导致地下水、泥沙、石块等坚硬颗粒物进入轴承内部，造成滚道和滚动体的划伤或磨损。"
+            },
+            "elementId": "325"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 326,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "接触疲劳",
+          "描述": "在长期交变应力的作用下，轴承滚道或滚动体表面下产生微小裂纹，并逐渐扩展至表面形成麻点或剥落。"
+        },
+        "elementId": "326"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 333,
+            "start": 322,
+            "end": 326,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "333",
+            "startNodeElementId": "322",
+            "endNodeElementId": "326"
+          },
+          "end": {
+            "identity": 326,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "接触疲劳",
+              "描述": "在长期交变应力的作用下，轴承滚道或滚动体表面下产生微小裂纹，并逐渐扩展至表面形成麻点或剥落。"
+            },
+            "elementId": "326"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 327,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "描述": "润滑油脂因污染、氧化、耗尽或乳化而失去润滑性能，无法在金属表面间形成有效油膜。"
+        },
+        "elementId": "327"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 334,
+            "start": 322,
+            "end": 327,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "334",
+            "startNodeElementId": "322",
+            "endNodeElementId": "327"
+          },
+          "end": {
+            "identity": 327,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "描述": "润滑油脂因污染、氧化、耗尽或乳化而失去润滑性能，无法在金属表面间形成有效油膜。"
+            },
+            "elementId": "327"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 328,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "主驱动轴承油脂量不足",
+          "描述": "未能向上万个滚柱及时、足量地供给润滑油脂，导致轴承干摩擦或润滑不良。"
+        },
+        "elementId": "328"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 335,
+            "start": 322,
+            "end": 328,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "335",
+            "startNodeElementId": "322",
+            "endNodeElementId": "328"
+          },
+          "end": {
+            "identity": 328,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "主驱动轴承油脂量不足",
+              "描述": "未能向上万个滚柱及时、足量地供给润滑油脂，导致轴承干摩擦或润滑不良。"
+            },
+            "elementId": "328"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 329,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "水土压力过大",
+          "描述": "掘进面的水土压力超过了密封系统的承受极限，不仅可能导致异物侵入，也会对主轴承产生巨大的附加荷载。"
+        },
+        "elementId": "329"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 336,
+            "start": 322,
+            "end": 329,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "336",
+            "startNodeElementId": "322",
+            "endNodeElementId": "329"
+          },
+          "end": {
+            "identity": 329,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "水土压力过大",
+              "描述": "掘进面的水土压力超过了密封系统的承受极限，不仅可能导致异物侵入，也会对主轴承产生巨大的附加荷载。"
+            },
+            "elementId": "329"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 330,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "维护不当",
+          "描述": "未按照规程进行定期的油脂加注、更换、密封检查和状态监测，导致隐患未能及时发现和处理。"
+        },
+        "elementId": "330"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 337,
+            "start": 322,
+            "end": 330,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "337",
+            "startNodeElementId": "322",
+            "endNodeElementId": "330"
+          },
+          "end": {
+            "identity": 330,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "维护不当",
+              "描述": "未按照规程进行定期的油脂加注、更换、密封检查和状态监测，导致隐患未能及时发现和处理。"
+            },
+            "elementId": "330"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 331,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "电流通过轴承",
+          "描述": "变频驱动等系统产生的电位差导致杂散电流穿过轴承，在滚道表面烧蚀出微小的凹坑，即电蚀现象。"
+        },
+        "elementId": "331"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 338,
+            "start": 322,
+            "end": 331,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "338",
+            "startNodeElementId": "322",
+            "endNodeElementId": "331"
+          },
+          "end": {
+            "identity": 331,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "电流通过轴承",
+              "描述": "变频驱动等系统产生的电位差导致杂散电流穿过轴承，在滚道表面烧蚀出微小的凹坑，即电蚀现象。"
+            },
+            "elementId": "331"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 332,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "严重损坏",
+          "描述": "初期的微小损伤未能得到控制，持续发展累积，最终演变为断裂、卡死等不可逆的严重故障状态。"
+        },
+        "elementId": "332"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 339,
+            "start": 322,
+            "end": 332,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "339",
+            "startNodeElementId": "322",
+            "endNodeElementId": "332"
+          },
+          "end": {
+            "identity": 332,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "严重损坏",
+              "描述": "初期的微小损伤未能得到控制，持续发展累积，最终演变为断裂、卡死等不可逆的严重故障状态。"
+            },
+            "elementId": "332"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 333,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "超使用寿命",
+          "描述": "主轴承的实际工作时间或掘进里程已经达到了其设计的使用寿命上限，故障概率显著增加。"
+        },
+        "elementId": "333"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 340,
+            "start": 322,
+            "end": 333,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "340",
+            "startNodeElementId": "322",
+            "endNodeElementId": "333"
+          },
+          "end": {
+            "identity": 333,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "超使用寿命",
+              "描述": "主轴承的实际工作时间或掘进里程已经达到了其设计的使用寿命上限，故障概率显著增加。"
+            },
+            "elementId": "333"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 334,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进力异常",
+          "描述": "主轴承损坏导致刀盘旋转阻力增大，进而使得整机推进所需的油缸总推力也出现异常波动或升高。"
+        },
+        "elementId": "334"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 341,
+            "start": 322,
+            "end": 334,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "341",
+            "startNodeElementId": "322",
+            "endNodeElementId": "334"
+          },
+          "end": {
+            "identity": 334,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进力异常",
+              "描述": "主轴承损坏导致刀盘旋转阻力增大，进而使得整机推进所需的油缸总推力也出现异常波动或升高。"
+            },
+            "elementId": "334"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 335,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "扭矩异常",
+          "描述": "驱动刀盘旋转所需的扭矩值持续偏高、剧烈波动或突然增大。"
+        },
+        "elementId": "335"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 342,
+            "start": 322,
+            "end": 335,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "342",
+            "startNodeElementId": "322",
+            "endNodeElementId": "335"
+          },
+          "end": {
+            "identity": 335,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "扭矩异常",
+              "描述": "驱动刀盘旋转所需的扭矩值持续偏高、剧烈波动或突然增大。"
+            },
+            "elementId": "335"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 336,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进速度下降",
+          "描述": "由于旋转受阻和扭矩异常，为保护设备，操作手不得不降低掘进速度。"
+        },
+        "elementId": "336"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 343,
+            "start": 322,
+            "end": 336,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "343",
+            "startNodeElementId": "322",
+            "endNodeElementId": "336"
+          },
+          "end": {
+            "identity": 336,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进速度下降",
+              "描述": "由于旋转受阻和扭矩异常，为保护设备，操作手不得不降低掘进速度。"
+            },
+            "elementId": "336"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 337,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘转速不稳定或受阻",
+          "描述": "刀盘在旋转时出现速度不均匀、晃动、卡顿甚至无法转动的情况。"
+        },
+        "elementId": "337"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 344,
+            "start": 322,
+            "end": 337,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "344",
+            "startNodeElementId": "322",
+            "endNodeElementId": "337"
+          },
+          "end": {
+            "identity": 337,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘转速不稳定或受阻",
+              "描述": "刀盘在旋转时出现速度不均匀、晃动、卡顿甚至无法转动的情况。"
+            },
+            "elementId": "337"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 338,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "轴承温度异常升高",
+          "描述": "轴承内部因摩擦加剧而产生大量热量，通过温度传感器可以监测到其温度超过了警戒值。"
+        },
+        "elementId": "338"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 345,
+            "start": 322,
+            "end": 338,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "345",
+            "startNodeElementId": "322",
+            "endNodeElementId": "338"
+          },
+          "end": {
+            "identity": 338,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "轴承温度异常升高",
+              "描述": "轴承内部因摩擦加剧而产生大量热量，通过温度传感器可以监测到其温度超过了警戒值。"
+            },
+            "elementId": "338"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 339,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "振动水平和振动信号特征异常",
+          "描述": "通过振动监测系统，发现主驱动系统的振动幅值异常增大，或在频谱分析中出现了轴承故障的特征频率。"
+        },
+        "elementId": "339"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 346,
+            "start": 322,
+            "end": 339,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "346",
+            "startNodeElementId": "322",
+            "endNodeElementId": "339"
+          },
+          "end": {
+            "identity": 339,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "振动水平和振动信号特征异常",
+              "描述": "通过振动监测系统，发现主驱动系统的振动幅值异常增大，或在频谱分析中出现了轴承故障的特征频率。"
+            },
+            "elementId": "339"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 340,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主驱动系统发出异常噪音",
+          "描述": "能听到从主驱动部位传来“咔咔”、“嗡嗡”或沉闷的金属摩擦、撞击等不正常的声音。"
+        },
+        "elementId": "340"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 347,
+            "start": 322,
+            "end": 340,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "347",
+            "startNodeElementId": "322",
+            "endNodeElementId": "340"
+          },
+          "end": {
+            "identity": 340,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主驱动系统发出异常噪音",
+              "描述": "能听到从主驱动部位传来“咔咔”、“嗡嗡”或沉闷的金属摩擦、撞击等不正常的声音。"
+            },
+            "elementId": "340"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 323,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "选型不当或荷载过大",
+          "描述": "选用的主轴承型号无法满足实际地质条件下的载荷要求，或掘进中长期超负荷运转。"
+        },
+        "elementId": "323"
+      },
+      "end": {
+        "identity": 341,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "组合安装和维护保养",
+          "描述": "确保主轴承在制造和组装阶段就得到精确安装，并结合严格的后期维护保养计划。"
+        },
+        "elementId": "341"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 323,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "选型不当或荷载过大",
+              "描述": "选用的主轴承型号无法满足实际地质条件下的载荷要求，或掘进中长期超负荷运转。"
+            },
+            "elementId": "323"
+          },
+          "relationship": {
+            "identity": 348,
+            "start": 323,
+            "end": 341,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "348",
+            "startNodeElementId": "323",
+            "endNodeElementId": "341"
+          },
+          "end": {
+            "identity": 341,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "组合安装和维护保养",
+              "描述": "确保主轴承在制造和组装阶段就得到精确安装，并结合严格的后期维护保养计划。"
+            },
+            "elementId": "341"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 324,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "微动磨损",
+          "描述": "在两个紧密接触面之间发生微小、高频的相对振动，导致表面材料逐渐磨损剥落。"
+        },
+        "elementId": "324"
+      },
+      "end": {
+        "identity": 342,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "操作与润滑",
+          "描述": "严格遵守操作规程，避免野蛮施工，并确保润滑系统按时、按量、按质地供给润滑剂。"
+        },
+        "elementId": "342"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 324,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "微动磨损",
+              "描述": "在两个紧密接触面之间发生微小、高频的相对振动，导致表面材料逐渐磨损剥落。"
+            },
+            "elementId": "324"
+          },
+          "relationship": {
+            "identity": 349,
+            "start": 324,
+            "end": 342,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "349",
+            "startNodeElementId": "324",
+            "endNodeElementId": "342"
+          },
+          "end": {
+            "identity": 342,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "操作与润滑",
+              "描述": "严格遵守操作规程，避免野蛮施工，并确保润滑系统按时、按量、按质地供给润滑剂。"
+            },
+            "elementId": "342"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 325,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "异物进入",
+          "描述": "由于密封失效，导致地下水、泥沙、石块等坚硬颗粒物进入轴承内部，造成滚道和滚动体的划伤或磨损。"
+        },
+        "elementId": "325"
+      },
+      "end": {
+        "identity": 343,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "密封检查",
+          "描述": "定期检查和维护主轴承的多道密封系统，确保其完好有效，防止任何污染物进入。"
+        },
+        "elementId": "343"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 325,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "异物进入",
+              "描述": "由于密封失效，导致地下水、泥沙、石块等坚硬颗粒物进入轴承内部，造成滚道和滚动体的划伤或磨损。"
+            },
+            "elementId": "325"
+          },
+          "relationship": {
+            "identity": 350,
+            "start": 325,
+            "end": 343,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "350",
+            "startNodeElementId": "325",
+            "endNodeElementId": "343"
+          },
+          "end": {
+            "identity": 343,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "密封检查",
+              "描述": "定期检查和维护主轴承的多道密封系统，确保其完好有效，防止任何污染物进入。"
+            },
+            "elementId": "343"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 326,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "接触疲劳",
+          "描述": "在长期交变应力的作用下，轴承滚道或滚动体表面下产生微小裂纹，并逐渐扩展至表面形成麻点或剥落。"
+        },
+        "elementId": "326"
+      },
+      "end": {
+        "identity": 344,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "控制监测",
+          "描述": "利用在线监测系统，对轴承的温度、振动、驱动扭矩等关键参数进行7x24小时不间断的监控和预警。"
+        },
+        "elementId": "344"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 326,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "接触疲劳",
+              "描述": "在长期交变应力的作用下，轴承滚道或滚动体表面下产生微小裂纹，并逐渐扩展至表面形成麻点或剥落。"
+            },
+            "elementId": "326"
+          },
+          "relationship": {
+            "identity": 351,
+            "start": 326,
+            "end": 344,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "351",
+            "startNodeElementId": "326",
+            "endNodeElementId": "344"
+          },
+          "end": {
+            "identity": 344,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "控制监测",
+              "描述": "利用在线监测系统，对轴承的温度、振动、驱动扭矩等关键参数进行7x24小时不间断的监控和预警。"
+            },
+            "elementId": "344"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 327,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "描述": "润滑油脂因污染、氧化、耗尽或乳化而失去润滑性能，无法在金属表面间形成有效油膜。"
+        },
+        "elementId": "327"
+      },
+      "end": {
+        "identity": 345,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "补充更换润滑油",
+          "描述": "根据使用时间和监测结果，定期向轴承腔内补充或全部更换新的润滑油脂。"
+        },
+        "elementId": "345"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 327,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "描述": "润滑油脂因污染、氧化、耗尽或乳化而失去润滑性能，无法在金属表面间形成有效油膜。"
+            },
+            "elementId": "327"
+          },
+          "relationship": {
+            "identity": 352,
+            "start": 327,
+            "end": 345,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "352",
+            "startNodeElementId": "327",
+            "endNodeElementId": "345"
+          },
+          "end": {
+            "identity": 345,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "补充更换润滑油",
+              "描述": "根据使用时间和监测结果，定期向轴承腔内补充或全部更换新的润滑油脂。"
+            },
+            "elementId": "345"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 328,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "主驱动轴承油脂量不足",
+          "描述": "未能向上万个滚柱及时、足量地供给润滑油脂，导致轴承干摩擦或润滑不良。"
+        },
+        "elementId": "328"
+      },
+      "end": {
+        "identity": 346,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "疏通主轴承润滑孔道",
+          "描述": "当发现油脂压力异常时，需要检查并清理从油脂泵到轴承内部的所有管路，确保润滑“生命线”畅通。"
+        },
+        "elementId": "346"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 328,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "主驱动轴承油脂量不足",
+              "描述": "未能向上万个滚柱及时、足量地供给润滑油脂，导致轴承干摩擦或润滑不良。"
+            },
+            "elementId": "328"
+          },
+          "relationship": {
+            "identity": 353,
+            "start": 328,
+            "end": 346,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "353",
+            "startNodeElementId": "328",
+            "endNodeElementId": "346"
+          },
+          "end": {
+            "identity": 346,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "疏通主轴承润滑孔道",
+              "描述": "当发现油脂压力异常时，需要检查并清理从油脂泵到轴承内部的所有管路，确保润滑“生命线”畅通。"
+            },
+            "elementId": "346"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 329,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "水土压力过大",
+          "描述": "掘进面的水土压力超过了密封系统的承受极限，不仅可能导致异物侵入，也会对主轴承产生巨大的附加荷载。"
+        },
+        "elementId": "329"
+      },
+      "end": {
+        "identity": 347,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "调整参数",
+          "描述": "在发现异常迹象后，通过适当降低推进速度、刀盘转速等掘进参数来减小主轴承的负荷，以延缓损坏进程。"
+        },
+        "elementId": "347"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 329,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "水土压力过大",
+              "描述": "掘进面的水土压力超过了密封系统的承受极限，不仅可能导致异物侵入，也会对主轴承产生巨大的附加荷载。"
+            },
+            "elementId": "329"
+          },
+          "relationship": {
+            "identity": 354,
+            "start": 329,
+            "end": 347,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "354",
+            "startNodeElementId": "329",
+            "endNodeElementId": "347"
+          },
+          "end": {
+            "identity": 347,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "调整参数",
+              "描述": "在发现异常迹象后，通过适当降低推进速度、刀盘转速等掘进参数来减小主轴承的负荷，以延缓损坏进程。"
+            },
+            "elementId": "347"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 330,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "维护不当",
+          "描述": "未按照规程进行定期的油脂加注、更换、密封检查和状态监测，导致隐患未能及时发现和处理。"
+        },
+        "elementId": "330"
+      },
+      "end": {
+        "identity": 348,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "定期维护",
+          "描述": "执行预定的停机检修计划，对轴承及相关系统进行全面的检查、维护和数据分析。"
+        },
+        "elementId": "348"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 330,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "维护不当",
+              "描述": "未按照规程进行定期的油脂加注、更换、密封检查和状态监测，导致隐患未能及时发现和处理。"
+            },
+            "elementId": "330"
+          },
+          "relationship": {
+            "identity": 355,
+            "start": 330,
+            "end": 348,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "355",
+            "startNodeElementId": "330",
+            "endNodeElementId": "348"
+          },
+          "end": {
+            "identity": 348,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "定期维护",
+              "描述": "执行预定的停机检修计划，对轴承及相关系统进行全面的检查、维护和数据分析。"
+            },
+            "elementId": "348"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 331,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "电流通过轴承",
+          "描述": "变频驱动等系统产生的电位差导致杂散电流穿过轴承，在滚道表面烧蚀出微小的凹坑，即电蚀现象。"
+        },
+        "elementId": "331"
+      },
+      "end": {
+        "identity": 349,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "电气系统合理设计",
+          "描述": "通过加装绝缘装置或接地碳刷等方式，为杂散电流提供一个旁路通道，避免其穿过轴承。"
+        },
+        "elementId": "349"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 331,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "电流通过轴承",
+              "描述": "变频驱动等系统产生的电位差导致杂散电流穿过轴承，在滚道表面烧蚀出微小的凹坑，即电蚀现象。"
+            },
+            "elementId": "331"
+          },
+          "relationship": {
+            "identity": 356,
+            "start": 331,
+            "end": 349,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "356",
+            "startNodeElementId": "331",
+            "endNodeElementId": "349"
+          },
+          "end": {
+            "identity": 349,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "电气系统合理设计",
+              "描述": "通过加装绝缘装置或接地碳刷等方式，为杂散电流提供一个旁路通道，避免其穿过轴承。"
+            },
+            "elementId": "349"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 332,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "严重损坏",
+          "描述": "初期的微小损伤未能得到控制，持续发展累积，最终演变为断裂、卡死等不可逆的严重故障状态。"
+        },
+        "elementId": "332"
+      },
+      "end": {
+        "identity": 350,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "报废处理",
+          "描述": "当监测数据表明轴承已损坏到无法修复或继续使用会带来巨大风险时，必须将其整体更换，旧的做报废处理。"
+        },
+        "elementId": "350"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 332,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "严重损坏",
+              "描述": "初期的微小损伤未能得到控制，持续发展累积，最终演变为断裂、卡死等不可逆的严重故障状态。"
+            },
+            "elementId": "332"
+          },
+          "relationship": {
+            "identity": 357,
+            "start": 332,
+            "end": 350,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "357",
+            "startNodeElementId": "332",
+            "endNodeElementId": "350"
+          },
+          "end": {
+            "identity": 350,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "报废处理",
+              "描述": "当监测数据表明轴承已损坏到无法修复或继续使用会带来巨大风险时，必须将其整体更换，旧的做报废处理。"
+            },
+            "elementId": "350"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 333,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "超使用寿命",
+          "描述": "主轴承的实际工作时间或掘进里程已经达到了其设计的使用寿命上限，故障概率显著增加。"
+        },
+        "elementId": "333"
+      },
+      "end": {
+        "identity": 350,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "报废处理",
+          "描述": "当监测数据表明轴承已损坏到无法修复或继续使用会带来巨大风险时，必须将其整体更换，旧的做报废处理。"
+        },
+        "elementId": "350"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 333,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "超使用寿命",
+              "描述": "主轴承的实际工作时间或掘进里程已经达到了其设计的使用寿命上限，故障概率显著增加。"
+            },
+            "elementId": "333"
+          },
+          "relationship": {
+            "identity": 358,
+            "start": 333,
+            "end": 350,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "358",
+            "startNodeElementId": "333",
+            "endNodeElementId": "350"
+          },
+          "end": {
+            "identity": 350,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "报废处理",
+              "描述": "当监测数据表明轴承已损坏到无法修复或继续使用会带来巨大风险时，必须将其整体更换，旧的做报废处理。"
+            },
+            "elementId": "350"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 359,
+            "start": 322,
+            "end": 351,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "359",
+            "startNodeElementId": "322",
+            "endNodeElementId": "351"
+          },
+          "end": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 352,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "密封失效引起的轴承损坏"
+        },
+        "elementId": "352"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 360,
+            "start": 322,
+            "end": 352,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "360",
+            "startNodeElementId": "322",
+            "endNodeElementId": "352"
+          },
+          "end": {
+            "identity": 352,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "密封失效引起的轴承损坏"
+            },
+            "elementId": "352"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "end": {
+        "identity": 353,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+          "解释": "润滑失效会造成的轴承疲劳"
+        },
+        "elementId": "353"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          },
+          "relationship": {
+            "identity": 361,
+            "start": 351,
+            "end": 353,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "361",
+            "startNodeElementId": "351",
+            "endNodeElementId": "353"
+          },
+          "end": {
+            "identity": 353,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+              "解释": "润滑失效会造成的轴承疲劳"
+            },
+            "elementId": "353"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "end": {
+        "identity": 354,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "选型不当或荷载过大",
+          "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+        },
+        "elementId": "354"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          },
+          "relationship": {
+            "identity": 362,
+            "start": 351,
+            "end": 354,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "362",
+            "startNodeElementId": "351",
+            "endNodeElementId": "354"
+          },
+          "end": {
+            "identity": 354,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "选型不当或荷载过大",
+              "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+            },
+            "elementId": "354"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "end": {
+        "identity": 355,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "微动磨损",
+          "解释": "微动磨损会造成的轴承套圈破坏",
+          "损坏原理": "由于轴承滚道面和滚动体接触面间相对微小滑动而产生的磨损,长期反复小振幅的摇摆运动和过盈量不足形成变色磨痕,轴承套圈破坏最终直接导致主轴承的损坏。"
+        },
+        "elementId": "355"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          },
+          "relationship": {
+            "identity": 363,
+            "start": 351,
+            "end": 355,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "363",
+            "startNodeElementId": "351",
+            "endNodeElementId": "355"
+          },
+          "end": {
+            "identity": 355,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "微动磨损",
+              "解释": "微动磨损会造成的轴承套圈破坏",
+              "损坏原理": "由于轴承滚道面和滚动体接触面间相对微小滑动而产生的磨损,长期反复小振幅的摇摆运动和过盈量不足形成变色磨痕,轴承套圈破坏最终直接导致主轴承的损坏。"
+            },
+            "elementId": "355"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "end": {
+        "identity": 356,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "接触疲劳",
+          "解释": "接触疲劳造成的轴承主要部件失效",
+          "预防措施": "无法避免。滚动件与滚道接触面的接触应力作用始终存在。",
+          "损坏原理": "轴承表面的摩擦损失几乎都变为热量,主要受力件温度上升会造成运转时的冲击荷载、振动和噪声的加剧,叠加积累的接触疲劳大小决定了主轴承的使用寿命。"
+        },
+        "elementId": "356"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          },
+          "relationship": {
+            "identity": 364,
+            "start": 351,
+            "end": 356,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "364",
+            "startNodeElementId": "351",
+            "endNodeElementId": "356"
+          },
+          "end": {
+            "identity": 356,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "接触疲劳",
+              "解释": "接触疲劳造成的轴承主要部件失效",
+              "预防措施": "无法避免。滚动件与滚道接触面的接触应力作用始终存在。",
+              "损坏原理": "轴承表面的摩擦损失几乎都变为热量,主要受力件温度上升会造成运转时的冲击荷载、振动和噪声的加剧,叠加积累的接触疲劳大小决定了主轴承的使用寿命。"
+            },
+            "elementId": "356"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 352,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "密封失效引起的轴承损坏"
+        },
+        "elementId": "352"
+      },
+      "end": {
+        "identity": 357,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+          "name": "主驱动轴承密封失效",
+          "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+        },
+        "elementId": "357"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 352,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "密封失效引起的轴承损坏"
+            },
+            "elementId": "352"
+          },
+          "relationship": {
+            "identity": 365,
+            "start": 352,
+            "end": 357,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "365",
+            "startNodeElementId": "352",
+            "endNodeElementId": "357"
+          },
+          "end": {
+            "identity": 357,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+              "name": "主驱动轴承密封失效",
+              "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+            },
+            "elementId": "357"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 357,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+          "name": "主驱动轴承密封失效",
+          "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+        },
+        "elementId": "357"
+      },
+      "end": {
+        "identity": 358,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "现象": "油脂注入不到位，在高水压下，泥浆通过迷宫密封进入轴承密封，轴承滚子及滚道表面在夹杂硬质小颗粒后出现压痕，焊接刀盘时搭铁线未严格按标准放置，致使主轴承滚子和滚道面接触处有大电流通过产生电熔蚀坑，两者在重载作用下造成了主轴承的逐步损坏。",
+          "name": "油脂量不足，油脂溢出压力不足"
+        },
+        "elementId": "358"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 357,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+              "name": "主驱动轴承密封失效",
+              "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+            },
+            "elementId": "357"
+          },
+          "relationship": {
+            "identity": 366,
+            "start": 357,
+            "end": 358,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "366",
+            "startNodeElementId": "357",
+            "endNodeElementId": "358"
+          },
+          "end": {
+            "identity": 358,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "现象": "油脂注入不到位，在高水压下，泥浆通过迷宫密封进入轴承密封，轴承滚子及滚道表面在夹杂硬质小颗粒后出现压痕，焊接刀盘时搭铁线未严格按标准放置，致使主轴承滚子和滚道面接触处有大电流通过产生电熔蚀坑，两者在重载作用下造成了主轴承的逐步损坏。",
+              "name": "油脂量不足，油脂溢出压力不足"
+            },
+            "elementId": "358"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 357,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+          "name": "主驱动轴承密封失效",
+          "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+        },
+        "elementId": "357"
+      },
+      "end": {
+        "identity": 359,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "现象": "出现结泥饼、压力不均、局部土压力增大、刀盘处高温、油脂阻力减小等现象，土舱渣土颗粒进入轴承内部,直接导致主轴承密封失效，较短时间内主轴承发生严重损坏。",
+          "name": "水土压力过大，超过油脂阻力"
+        },
+        "elementId": "359"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 357,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "密封作用": "阻止盾构主驱动刀盘内的渣土进入主轴承齿轮箱内部和对主驱动轴承回转滑动机构、密封部位以及与泥砂接触的机构进行冲洗和润滑",
+              "name": "主驱动轴承密封失效",
+              "损坏原理": "密封一旦失效,泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进"
+            },
+            "elementId": "357"
+          },
+          "relationship": {
+            "identity": 367,
+            "start": 357,
+            "end": 359,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "367",
+            "startNodeElementId": "357",
+            "endNodeElementId": "359"
+          },
+          "end": {
+            "identity": 359,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "现象": "出现结泥饼、压力不均、局部土压力增大、刀盘处高温、油脂阻力减小等现象，土舱渣土颗粒进入轴承内部,直接导致主轴承密封失效，较短时间内主轴承发生严重损坏。",
+              "name": "水土压力过大，超过油脂阻力"
+            },
+            "elementId": "359"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 351,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "主轴承直接损坏"
+        },
+        "elementId": "351"
+      },
+      "end": {
+        "identity": 368,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+          "name": "异物进入"
+        },
+        "elementId": "368"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 351,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "主轴承直接损坏"
+            },
+            "elementId": "351"
+          },
+          "relationship": {
+            "identity": 368,
+            "start": 351,
+            "end": 368,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "368",
+            "startNodeElementId": "351",
+            "endNodeElementId": "368"
+          },
+          "end": {
+            "identity": 368,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+              "name": "异物进入"
+            },
+            "elementId": "368"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 353,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+          "解释": "润滑失效会造成的轴承疲劳"
+        },
+        "elementId": "353"
+      },
+      "end": {
+        "identity": 360,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "组合安装和维护保养",
+          "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+        },
+        "elementId": "360"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 353,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+              "解释": "润滑失效会造成的轴承疲劳"
+            },
+            "elementId": "353"
+          },
+          "relationship": {
+            "identity": 369,
+            "start": 353,
+            "end": 360,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "369",
+            "startNodeElementId": "353",
+            "endNodeElementId": "360"
+          },
+          "end": {
+            "identity": 360,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "组合安装和维护保养",
+              "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+            },
+            "elementId": "360"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 353,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+          "解释": "润滑失效会造成的轴承疲劳"
+        },
+        "elementId": "353"
+      },
+      "end": {
+        "identity": 374,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "补充更换润滑油",
+          "解释": "定期更换主轴承的润滑油，确保其质量符合要求，避免油品老化或污染导致润滑失效"
+        },
+        "elementId": "374"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 353,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+              "解释": "润滑失效会造成的轴承疲劳"
+            },
+            "elementId": "353"
+          },
+          "relationship": {
+            "identity": 370,
+            "start": 353,
+            "end": 374,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "370",
+            "startNodeElementId": "353",
+            "endNodeElementId": "374"
+          },
+          "end": {
+            "identity": 374,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "补充更换润滑油",
+              "解释": "定期更换主轴承的润滑油，确保其质量符合要求，避免油品老化或污染导致润滑失效"
+            },
+            "elementId": "374"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 353,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+          "解释": "润滑失效会造成的轴承疲劳"
+        },
+        "elementId": "353"
+      },
+      "end": {
+        "identity": 375,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "监测系统",
+          "解释": "使用主轴承齿轮油状态在线监测系统，以实现油水污染情况实时监测，起到提前预警作用"
+        },
+        "elementId": "375"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 353,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+              "解释": "润滑失效会造成的轴承疲劳"
+            },
+            "elementId": "353"
+          },
+          "relationship": {
+            "identity": 371,
+            "start": 353,
+            "end": 375,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "371",
+            "startNodeElementId": "353",
+            "endNodeElementId": "375"
+          },
+          "end": {
+            "identity": 375,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "监测系统",
+              "解释": "使用主轴承齿轮油状态在线监测系统，以实现油水污染情况实时监测，起到提前预警作用"
+            },
+            "elementId": "375"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 354,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "选型不当或荷载过大",
+          "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+        },
+        "elementId": "354"
+      },
+      "end": {
+        "identity": 360,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "组合安装和维护保养",
+          "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+        },
+        "elementId": "360"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 354,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "选型不当或荷载过大",
+              "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+            },
+            "elementId": "354"
+          },
+          "relationship": {
+            "identity": 372,
+            "start": 354,
+            "end": 360,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "372",
+            "startNodeElementId": "354",
+            "endNodeElementId": "360"
+          },
+          "end": {
+            "identity": 360,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "组合安装和维护保养",
+              "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+            },
+            "elementId": "360"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 355,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "微动磨损",
+          "解释": "微动磨损会造成的轴承套圈破坏",
+          "损坏原理": "由于轴承滚道面和滚动体接触面间相对微小滑动而产生的磨损,长期反复小振幅的摇摆运动和过盈量不足形成变色磨痕,轴承套圈破坏最终直接导致主轴承的损坏。"
+        },
+        "elementId": "355"
+      },
+      "end": {
+        "identity": 360,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "组合安装和维护保养",
+          "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+        },
+        "elementId": "360"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 355,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "微动磨损",
+              "解释": "微动磨损会造成的轴承套圈破坏",
+              "损坏原理": "由于轴承滚道面和滚动体接触面间相对微小滑动而产生的磨损,长期反复小振幅的摇摆运动和过盈量不足形成变色磨痕,轴承套圈破坏最终直接导致主轴承的损坏。"
+            },
+            "elementId": "355"
+          },
+          "relationship": {
+            "identity": 373,
+            "start": 355,
+            "end": 360,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "373",
+            "startNodeElementId": "355",
+            "endNodeElementId": "360"
+          },
+          "end": {
+            "identity": 360,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "组合安装和维护保养",
+              "选取方式": "主轴承直径不能太小，直径设计应综合考虑负荷承载量；盾构掘进中应控制循环作业时间，盾构推进距离不宜太长，避免或减缓主轴承接触疲劳造成的盾构损坏。 "
+            },
+            "elementId": "360"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 361,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "维修改造"
+        },
+        "elementId": "361"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 374,
+            "start": 322,
+            "end": 361,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "374",
+            "startNodeElementId": "322",
+            "endNodeElementId": "361"
+          },
+          "end": {
+            "identity": 361,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "维修改造"
+            },
+            "elementId": "361"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 361,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "维修改造"
+        },
+        "elementId": "361"
+      },
+      "end": {
+        "identity": 362,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "现象2": "主轴承内部关键件已严重损坏，已无维修价值",
+          "现象1": "设备长时间运转，主轴承使用时间已经超过使用寿命",
+          "name": "报废处理"
+        },
+        "elementId": "362"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 361,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "维修改造"
+            },
+            "elementId": "361"
+          },
+          "relationship": {
+            "identity": 375,
+            "start": 361,
+            "end": 362,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "375",
+            "startNodeElementId": "361",
+            "endNodeElementId": "362"
+          },
+          "end": {
+            "identity": 362,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "现象2": "主轴承内部关键件已严重损坏，已无维修价值",
+              "现象1": "设备长时间运转，主轴承使用时间已经超过使用寿命",
+              "name": "报废处理"
+            },
+            "elementId": "362"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 361,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "维修改造"
+        },
+        "elementId": "361"
+      },
+      "end": {
+        "identity": 363,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "现象2": "轴承被锈蚀、压坑较浅",
+          "现象1": "轴承齿面碰伤、掉块",
+          "name": "打磨探伤处理"
+        },
+        "elementId": "363"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 361,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "维修改造"
+            },
+            "elementId": "361"
+          },
+          "relationship": {
+            "identity": 376,
+            "start": 361,
+            "end": 363,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "376",
+            "startNodeElementId": "361",
+            "endNodeElementId": "363"
+          },
+          "end": {
+            "identity": 363,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "现象2": "轴承被锈蚀、压坑较浅",
+              "现象1": "轴承齿面碰伤、掉块",
+              "name": "打磨探伤处理"
+            },
+            "elementId": "363"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 364,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "如果主轴承受损严重，可能会导致推进力减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致推进力增加。",
+          "name": "推进力"
+        },
+        "elementId": "364"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 377,
+            "start": 322,
+            "end": 364,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "377",
+            "startNodeElementId": "322",
+            "endNodeElementId": "364"
+          },
+          "end": {
+            "identity": 364,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "如果主轴承受损严重，可能会导致推进力减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致推进力增加。",
+              "name": "推进力"
+            },
+            "elementId": "364"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 365,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "如果主轴承受损严重，可能会导致扭矩减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致扭矩增加。",
+          "name": "扭矩"
+        },
+        "elementId": "365"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 378,
+            "start": 322,
+            "end": 365,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "378",
+            "startNodeElementId": "322",
+            "endNodeElementId": "365"
+          },
+          "end": {
+            "identity": 365,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "如果主轴承受损严重，可能会导致扭矩减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致扭矩增加。",
+              "name": "扭矩"
+            },
+            "elementId": "365"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 366,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "下降",
+          "name": "推进速度"
+        },
+        "elementId": "366"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 379,
+            "start": 322,
+            "end": 366,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "379",
+            "startNodeElementId": "322",
+            "endNodeElementId": "366"
+          },
+          "end": {
+            "identity": 366,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "下降",
+              "name": "推进速度"
+            },
+            "elementId": "366"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 367,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "主轴承受损导致刀盘转动不平稳或者受阻，刀盘转速可能会不稳定或者下降",
+          "name": "刀盘转速"
+        },
+        "elementId": "367"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 380,
+            "start": 322,
+            "end": 367,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "380",
+            "startNodeElementId": "322",
+            "endNodeElementId": "367"
+          },
+          "end": {
+            "identity": 367,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "主轴承受损导致刀盘转动不平稳或者受阻，刀盘转速可能会不稳定或者下降",
+              "name": "刀盘转速"
+            },
+            "elementId": "367"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 368,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+          "name": "异物进入"
+        },
+        "elementId": "368"
+      },
+      "end": {
+        "identity": 367,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "主轴承受损导致刀盘转动不平稳或者受阻，刀盘转速可能会不稳定或者下降",
+          "name": "刀盘转速"
+        },
+        "elementId": "367"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 368,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+              "name": "异物进入"
+            },
+            "elementId": "368"
+          },
+          "relationship": {
+            "identity": 381,
+            "start": 368,
+            "end": 367,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "381",
+            "startNodeElementId": "368",
+            "endNodeElementId": "367"
+          },
+          "end": {
+            "identity": 367,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "主轴承受损导致刀盘转动不平稳或者受阻，刀盘转速可能会不稳定或者下降",
+              "name": "刀盘转速"
+            },
+            "elementId": "367"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 368,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+          "name": "异物进入"
+        },
+        "elementId": "368"
+      },
+      "end": {
+        "identity": 369,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "轴承精度下降"
+        },
+        "elementId": "369"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 368,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+              "name": "异物进入"
+            },
+            "elementId": "368"
+          },
+          "relationship": {
+            "identity": 382,
+            "start": 368,
+            "end": 369,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "382",
+            "startNodeElementId": "368",
+            "endNodeElementId": "369"
+          },
+          "end": {
+            "identity": 369,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "轴承精度下降"
+            },
+            "elementId": "369"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 368,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+          "name": "异物进入"
+        },
+        "elementId": "368"
+      },
+      "end": {
+        "identity": 366,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "下降",
+          "name": "推进速度"
+        },
+        "elementId": "366"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 368,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "表现": "泥砂进入轴承会造成主轴承损毁并直接导致盾构无法掘进",
+              "name": "异物进入"
+            },
+            "elementId": "368"
+          },
+          "relationship": {
+            "identity": 383,
+            "start": 368,
+            "end": 366,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "383",
+            "startNodeElementId": "368",
+            "endNodeElementId": "366"
+          },
+          "end": {
+            "identity": 366,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "下降",
+              "name": "推进速度"
+            },
+            "elementId": "366"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 353,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "润滑失效",
+          "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+          "解释": "润滑失效会造成的轴承疲劳"
+        },
+        "elementId": "353"
+      },
+      "end": {
+        "identity": 366,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "下降",
+          "name": "推进速度"
+        },
+        "elementId": "366"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 353,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "润滑失效",
+              "普遍性": "润滑失效约占轴承损坏成因的 50%,润滑不良是造成轴承过早损坏的最主要原因。",
+              "解释": "润滑失效会造成的轴承疲劳"
+            },
+            "elementId": "353"
+          },
+          "relationship": {
+            "identity": 384,
+            "start": 353,
+            "end": 366,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "384",
+            "startNodeElementId": "353",
+            "endNodeElementId": "366"
+          },
+          "end": {
+            "identity": 366,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "下降",
+              "name": "推进速度"
+            },
+            "elementId": "366"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 369,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "轴承精度下降"
+        },
+        "elementId": "369"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 385,
+            "start": 322,
+            "end": 369,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "385",
+            "startNodeElementId": "322",
+            "endNodeElementId": "369"
+          },
+          "end": {
+            "identity": 369,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "轴承精度下降"
+            },
+            "elementId": "369"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 370,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "维护不当",
+          "解释": "盾构机主轴承需要定期进行维护，包括润滑、清洁和检查"
+        },
+        "elementId": "370"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 386,
+            "start": 322,
+            "end": 370,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "386",
+            "startNodeElementId": "322",
+            "endNodeElementId": "370"
+          },
+          "end": {
+            "identity": 370,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "维护不当",
+              "解释": "盾构机主轴承需要定期进行维护，包括润滑、清洁和检查"
+            },
+            "elementId": "370"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 322,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "主轴承损坏"
+        },
+        "elementId": "322"
+      },
+      "end": {
+        "identity": 371,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机设计"
+        },
+        "elementId": "371"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 322,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "主轴承损坏"
+            },
+            "elementId": "322"
+          },
+          "relationship": {
+            "identity": 387,
+            "start": 322,
+            "end": 371,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "387",
+            "startNodeElementId": "322",
+            "endNodeElementId": "371"
+          },
+          "end": {
+            "identity": 371,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机设计"
+            },
+            "elementId": "371"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 371,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机设计"
+        },
+        "elementId": "371"
+      },
+      "end": {
+        "identity": 372,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "轴承间隙调整不当",
+          "解释": "间隙设置不正确，可能会导致轴承受力不均匀，加速轴承的磨损和故障"
+        },
+        "elementId": "372"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 371,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机设计"
+            },
+            "elementId": "371"
+          },
+          "relationship": {
+            "identity": 388,
+            "start": 371,
+            "end": 372,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "388",
+            "startNodeElementId": "371",
+            "endNodeElementId": "372"
+          },
+          "end": {
+            "identity": 372,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "轴承间隙调整不当",
+              "解释": "间隙设置不正确，可能会导致轴承受力不均匀，加速轴承的磨损和故障"
+            },
+            "elementId": "372"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 371,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾构机设计"
+        },
+        "elementId": "371"
+      },
+      "end": {
+        "identity": 373,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "电流通过轴承",
+          "解释": "电气设备附近工作时，如果盾构机的电气系统设计不良或接地不良，可能会导致电流通过轴承，造成轴承的电蚀和损坏"
+        },
+        "elementId": "373"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 371,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾构机设计"
+            },
+            "elementId": "371"
+          },
+          "relationship": {
+            "identity": 389,
+            "start": 371,
+            "end": 373,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "389",
+            "startNodeElementId": "371",
+            "endNodeElementId": "373"
+          },
+          "end": {
+            "identity": 373,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "电流通过轴承",
+              "解释": "电气设备附近工作时，如果盾构机的电气系统设计不良或接地不良，可能会导致电流通过轴承，造成轴承的电蚀和损坏"
+            },
+            "elementId": "373"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 354,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "选型不当或荷载过大",
+          "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+        },
+        "elementId": "354"
+      },
+      "end": {
+        "identity": 365,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "如果主轴承受损严重，可能会导致扭矩减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致扭矩增加。",
+          "name": "扭矩"
+        },
+        "elementId": "365"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 354,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "选型不当或荷载过大",
+              "解释": "盾构主轴承的不恰当选型、轴承短期严重偏离正常工况工作或长期超负荷运行,都会直接造成轴承失效。"
+            },
+            "elementId": "354"
+          },
+          "relationship": {
+            "identity": 390,
+            "start": 354,
+            "end": 365,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "390",
+            "startNodeElementId": "354",
+            "endNodeElementId": "365"
+          },
+          "end": {
+            "identity": 365,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "如果主轴承受损严重，可能会导致扭矩减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致扭矩增加。",
+              "name": "扭矩"
+            },
+            "elementId": "365"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 356,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "接触疲劳",
+          "解释": "接触疲劳造成的轴承主要部件失效",
+          "预防措施": "无法避免。滚动件与滚道接触面的接触应力作用始终存在。",
+          "损坏原理": "轴承表面的摩擦损失几乎都变为热量,主要受力件温度上升会造成运转时的冲击荷载、振动和噪声的加剧,叠加积累的接触疲劳大小决定了主轴承的使用寿命。"
+        },
+        "elementId": "356"
+      },
+      "end": {
+        "identity": 364,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "表现": "如果主轴承受损严重，可能会导致推进力减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致推进力增加。",
+          "name": "推进力"
+        },
+        "elementId": "364"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 356,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "接触疲劳",
+              "解释": "接触疲劳造成的轴承主要部件失效",
+              "预防措施": "无法避免。滚动件与滚道接触面的接触应力作用始终存在。",
+              "损坏原理": "轴承表面的摩擦损失几乎都变为热量,主要受力件温度上升会造成运转时的冲击荷载、振动和噪声的加剧,叠加积累的接触疲劳大小决定了主轴承的使用寿命。"
+            },
+            "elementId": "356"
+          },
+          "relationship": {
+            "identity": 391,
+            "start": 356,
+            "end": 364,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "391",
+            "startNodeElementId": "356",
+            "endNodeElementId": "364"
+          },
+          "end": {
+            "identity": 364,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "表现": "如果主轴承受损严重，可能会导致推进力减小，使得盾构机推进速度下降或者推进困难，也可能因为摩擦增加而导致推进力增加。",
+              "name": "推进力"
+            },
+            "elementId": "364"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 358,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "现象": "油脂注入不到位，在高水压下，泥浆通过迷宫密封进入轴承密封，轴承滚子及滚道表面在夹杂硬质小颗粒后出现压痕，焊接刀盘时搭铁线未严格按标准放置，致使主轴承滚子和滚道面接触处有大电流通过产生电熔蚀坑，两者在重载作用下造成了主轴承的逐步损坏。",
+          "name": "油脂量不足，油脂溢出压力不足"
+        },
+        "elementId": "358"
+      },
+      "end": {
+        "identity": 376,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "注意": "控制油脂流速，注入主轴承密封的油脂也不能过量，过量会增大摩擦并导致主轴承密封系统温度上升，增加密封跑道及密封的失效风险",
+          "name": "疏通主轴承润滑孔道",
+          "解释": "保持油路畅通，保证注入主轴承密封的油脂用量，否则会导致盾构刀盘开挖舱内压力泥浆突破密封系统进入主轴承结构内部"
+        },
+        "elementId": "376"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 358,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "现象": "油脂注入不到位，在高水压下，泥浆通过迷宫密封进入轴承密封，轴承滚子及滚道表面在夹杂硬质小颗粒后出现压痕，焊接刀盘时搭铁线未严格按标准放置，致使主轴承滚子和滚道面接触处有大电流通过产生电熔蚀坑，两者在重载作用下造成了主轴承的逐步损坏。",
+              "name": "油脂量不足，油脂溢出压力不足"
+            },
+            "elementId": "358"
+          },
+          "relationship": {
+            "identity": 392,
+            "start": 358,
+            "end": 376,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "392",
+            "startNodeElementId": "358",
+            "endNodeElementId": "376"
+          },
+          "end": {
+            "identity": 376,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "注意": "控制油脂流速，注入主轴承密封的油脂也不能过量，过量会增大摩擦并导致主轴承密封系统温度上升，增加密封跑道及密封的失效风险",
+              "name": "疏通主轴承润滑孔道",
+              "解释": "保持油路畅通，保证注入主轴承密封的油脂用量，否则会导致盾构刀盘开挖舱内压力泥浆突破密封系统进入主轴承结构内部"
+            },
+            "elementId": "376"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

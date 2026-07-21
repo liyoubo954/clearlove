@@ -1,0 +1,901 @@
+point_name	point_unit	point_code
+环片计数器		RING
+设备侧滚	mm	SB_CG
+设备倾角	%	SB_QJ
+液压油箱温度	℃	YYYX_TMP
+刀盘1#减速机温度正常		DP_JSJ_TMP1
+刀盘2#减速机温度正常		DP_JSJ_TMP2
+刀盘3#减速机温度正常		DP_JSJ_TMP3
+刀盘4#减速机温度正常		DP_JSJ_TMP4
+刀盘5#减速机温度正常		DP_JSJ_TMP5
+刀盘6#减速机温度正常		DP_JSJ_TMP6
+刀盘7#减速机温度正常		DP_JSJ_TMP7
+刀盘8#减速机温度正常		DP_JSJ_TMP8
+刀盘9#减速机温度正常		DP_JSJ_TMP9
+刀盘10#减速机温度正常		DP_JSJ_TMP10
+刀盘11#减速机温度正常		DP_JSJ_TMP11
+刀盘12#减速机温度正常		DP_JSJ_TMP12
+刀盘13#减速机温度正常		DP_JSJ_TMP13
+刀盘14#减速机温度正常		DP_JSJ_TMP14
+刀盘15#减速机温度正常		DP_JSJ_TMP15
+刀盘16#减速机温度正常		DP_JSJ_TMP16
+主驱动冷却回水温度	℃	ZQD_RW_TMP
+主驱动冷却水流量	L/min	ZQD_LQS_FLOW
+土仓加水流量	L/min	TCJS_FLOW
+1#齿轮油箱温度	℃	CLY_TMP1
+1#小齿轮机油流量	L/min	XCL_JY_FLOW1
+1#主驱动HBW脉冲计数器		ZQD_HBW_CNT1
+2#主驱动HBW脉冲计数器		ZQD_HBW_CNT2
+3#主驱动HBW脉冲计数器		ZQD_HBW_CNT3
+4#主驱动HBW脉冲计数器		ZQD_HBW_CNT4
+油脂充油计数器(推进循环)		YZCY_CNT
+主轴承内密封油脂流量	ml/min	ZZC_NMF_YZ_FLOW
+主轴承第二道外密封流量1	ml/min	ZZC2_WMF_FLOW1
+主轴承第二道外密封流量2	ml/min	ZZC2_WMF_FLOW2
+主轴承第二道外密封流量3	ml/min	ZZC2_WMF_FLOW3
+主轴承第三道外密封流量1	ml/min	ZZC3_WMF_FLOW1
+喂片机油脂流量	ml/min	WPJ_YZ_FLOW
+主轴承第二道外密封脉冲数1		ZZC2_WMF_CNT1
+主轴承第二道外密封脉冲数2		ZZC2_WMF_CNT2
+主轴承第二道外密封脉冲数3		ZZC2_WMF_CNT3
+主轴承第二道外密封脉冲数4		ZZC2_WMF_CNT4
+1#主轴承内密封油脂正常		ZZC_NMF_YZ_ON1
+2#主轴承内密封油脂正常		ZZC_NMF_YZ_ON2
+1#HBW油脂正常		HBW_ON1
+2#HBW油脂正常		HBW_ON2
+3#HBW油脂正常		HBW_ON3
+4#HBW油脂正常		HBW_ON4
+机油循环正常		JYXH_ON
+回转接头油脂1#正常		HZJT_YZ_ON1
+1#拼装机轴承润滑正常		PZJ_RH_ON1
+2#拼装机轴承润滑正常		PZJ_RH_ON2
+拼装机滚轮润滑正常		PZJ_GLRH_ON
+拼装机提升油缸润滑正常		PZJ_TSYG_RHOK
+铰接密封油脂正常		JJ_MFYZ_ON
+刀盘工作状态		DP_GZZT
+刀盘速度	rpm	DP_SD
+刀盘角度	°	DP_JD
+1#超挖刀行程	mm	CWD_XC1
+2#超挖刀行程	mm	CWD_XC2
+1#仿形刀角度		FXD_JD1
+2#仿形刀角度		FXD_JD2
+刀盘转矩	kNm	DP_ZJ
+主驱动电机1电流	A	ZQD_DL1
+主驱动电机1扭矩	Nm	ZQD_TQ1
+主驱动电机1速度	rpm	ZQD_SD1
+主驱动电机1温度	℃	ZQD_TMP1
+主驱动电机2电流	A	ZQD_DL2
+主驱动电机2扭矩	Nm	ZQD_TQ2
+主驱动电机2速度	rpm	ZQD_SD2
+主驱动电机2温度	℃	ZQD_TMP2
+主驱动电机3电流	A	ZQD_DL3
+主驱动电机3扭矩	Nm	ZQD_TQ3
+主驱动电机3速度	rpm	ZQD_SD3
+主驱动电机3温度	℃	ZQD_TMP3
+主驱动电机4电流	A	ZQD_DL4
+主驱动电机4扭矩	Nm	ZQD_TQ4
+主驱动电机4速度	rpm	ZQD_SD4
+主驱动电机4温度	℃	ZQD_TMP4
+主驱动电机5电流	A	ZQD_DL5
+主驱动电机5扭矩	Nm	ZQD_TQ5
+主驱动电机5速度	rpm	ZQD_SD5
+主驱动电机5温度	℃	ZQD_TMP5
+主驱动电机6电流	A	ZQD_DL6
+主驱动电机6扭矩	Nm	ZQD_TQ6
+主驱动电机6速度	rpm	ZQD_SD6
+主驱动电机6温度	℃	ZQD_TMP6
+主驱动电机7电流	A	ZQD_DL7
+主驱动电机7扭矩	Nm	ZQD_TQ7
+主驱动电机7速度	rpm	ZQD_SD7
+主驱动电机7温度	℃	ZQD_TMP7
+主驱动电机8电流	A	ZQD_DL8
+主驱动电机8扭矩	Nm	ZQD_TQ8
+主驱动电机8速度	rpm	ZQD_SD8
+主驱动电机8温度	℃	ZQD_TMP8
+主驱动电机9电流	A	ZQD_DL9
+主驱动电机9扭矩	Nm	ZQD_TQ9
+主驱动电机9速度	rpm	ZQD_SD9
+主驱动电机9温度	℃	ZQD_TMP9
+主驱动电机10电流	A	ZQD_DL10
+主驱动电机10扭矩	Nm	ZQD_TQ10
+主驱动电机10速度	rpm	ZQD_SD10
+主驱动电机10温度	℃	ZQD_TMP10
+主驱动电机11电流	A	ZQD_DL11
+主驱动电机11扭矩	Nm	ZQD_TQ11
+主驱动电机11速度	rpm	ZQD_SD11
+主驱动电机11温度	℃	ZQD_TMP11
+主驱动电机12电流	A	ZQD_DL12
+主驱动电机12扭矩	Nm	ZQD_TQ12
+主驱动电机12速度	rpm	ZQD_SD12
+主驱动电机12温度	℃	ZQD_TMP12
+主驱动电机13电流	A	ZQD_DL13
+主驱动电机13扭矩	Nm	ZQD_TQ13
+主驱动电机13速度	rpm	ZQD_SD13
+主驱动电机13温度	℃	ZQD_TMP13
+主驱动电机14电流	A	ZQD_DL14
+主驱动电机14扭矩	Nm	ZQD_TQ14
+主驱动电机14速度	rpm	ZQD_SD14
+主驱动电机14温度	℃	ZQD_TMP14
+主驱动电机15电流	A	ZQD_DL15
+主驱动电机15扭矩	Nm	ZQD_TQ15
+主驱动电机15速度	rpm	ZQD_SD15
+主驱动电机15温度	℃	ZQD_TMP15
+主驱动电机16电流	A	ZQD_DL16
+主驱动电机16扭矩	Nm	ZQD_TQ16
+主驱动电机16速度	rpm	ZQD_SD16
+主驱动电机16温度	℃	ZQD_TMP16
+变频柜水冷单元1#水泵运行		BPG_SL_SB_RUN1
+变频柜水冷单元2#水泵运行		BPG_SL_SB_RUN2
+变频柜水冷单元工作模式(1:自动||0：手动)		BPQ_SL_RUN
+变频冷却外循环水流量	cm/s	BPLQ_WXH_FLOW
+变频冷却内循环水压力	bar	BPLQ_NXH_PRS
+变频冷却外循环水温度	℃	BPLQ_WXH_TMP
+变频冷却内循环出水温度	℃	BPLQ_NXH_CTMP
+变频冷却内循环回水温度	℃	BPLQ_NXH_HTMP
+刀盘速度设置	%	DP_SD_SZ
+1#刀盘制动器压力开关		DP_ZDQ_PRS1
+1#刀盘制动器行程开关		DP_ZDQ_XC1
+2#刀盘制动器压力开关		DPZDQ_PRS
+2#刀盘制动器行程开关		DPZDQ_XC
+刀盘变频柜加热运行		DP_BPQ_JRRUN
+顶推工作状态		DT_GZ
+推进泵出口压力	bar	TJB_CK_PRS
+推进速度平均值	mm/min	TJSD
+贯入度	mm/r	GRD
+总推进力	KN	TJL
+推进速度设置	%	TJSD_SET
+推力中心X	mm	TL_ZX_X
+推力中心Y	mm	TL_ZX_Y
+A区油缸压力设置值	%	YG_PRS_SETA
+B区油缸压力设置值	%	YG_PRS_SETB
+C区油缸压力设置值	%	YG_PRS_SETC
+D区油缸压力设置值	%	YG_PRS_SETD
+E区油缸压力设置值	%	YG_PRS_SETE
+F区油缸压力设置值	%	YG_PRS_SETF
+拼装机角度	°	PZJ_JD
+碎石机液压油箱温度	℃	SSJ_YY_TMP
+碎石机左油缸有杆腔压力	bar	SSJ_ZYG_YGQ_PRS
+碎石机左油缸无杆腔压力	bar	SSJ_ZYG_WGQ_PRS
+碎石机右油缸有杆腔压力	bar	SSJ_YYG_YGQ_PRS
+碎石机右油缸无杆腔压力	bar	SSJ_YYG_WGQ_PRS
+碎石机左油缸行程	mm	SSJ_ZYG_XC
+碎石机右油缸行程	mm	SSJ_YYG_XC
+尾盾密封压力1.1	bar	DW_PRS1.1
+尾盾密封压力1.2	bar	DW_PRS1.2
+尾盾密封压力1.3	bar	DW_PRS1.3
+尾盾密封压力1.4	bar	DW_PRS1.4
+尾盾密封压力1.5	bar	DW_PRS1.5
+尾盾密封压力1.6	bar	DW_PRS1.6
+尾盾密封压力1.7	bar	DW_PRS1.7
+尾盾密封压力1.8	bar	DW_PRS1.8
+尾盾密封压力1.9	bar	DW_PRS9
+尾盾密封压力1.10	bar	DW_PRS10
+尾盾密封压力1.11	bar	DW_PRS11
+尾盾密封压力1.12	bar	DW_PRS12
+尾盾密封压力1.13	bar	DW_PRS13
+尾盾密封压力1.14	bar	DW_PRS14
+尾盾密封压力1.15	bar	DW_PRS15
+尾盾密封压力1.16	bar	DW_PRS16
+尾盾密封压力1.17	bar	DW_PRS17
+尾盾密封压力1.18	bar	DW_PRS18
+尾盾密封压力1.19	bar	DW_PRS19
+尾盾密封压力1.20	bar	DW_PRS20
+尾盾密封压力2.1	bar	DW_PRS2.1
+尾盾密封压力2.2	bar	DW_PRS2.2
+尾盾密封压力2.3	bar	DW_PRS2.3
+尾盾密封压力2.4	bar	DW_PRS2.4
+尾盾密封压力2.5	bar	DW_PRS29
+尾盾密封压力2.6	bar	DW_PRS30
+尾盾密封压力2.7	bar	DW_PRS31
+尾盾密封压力2.8	bar	DW_PRS32
+尾盾密封压力2.9	bar	DW_PRS33
+尾盾密封压力2.10	bar	DW_PRS34
+尾盾密封压力2.11	bar	DW_PRS35
+尾盾密封压力2.12	bar	DW_PRS36
+尾盾密封压力2.13	bar	DW_PRS37
+尾盾密封压力2.14	bar	DW_PRS38
+尾盾密封压力2.15	bar	DW_PRS39
+尾盾密封压力2.16	bar	DW_PRS40
+尾盾密封压力2.17	bar	DW_PRS41
+尾盾密封压力2.18	bar	DW_PRS42
+尾盾密封压力2.19	bar	DW_PRS43
+尾盾密封压力2.20	bar	DW_PRS44
+尾盾密封压力3.1	bar	DW_PRS3.1
+尾盾密封压力3.2	bar	DW_PRS3.2
+尾盾密封压力3.3	bar	DW_PRS3.3
+尾盾密封压力3.4	bar	DW_PRS3.4
+尾盾密封压力3.5	bar	DW_PRS53
+尾盾密封压力3.6	bar	DW_PRS54
+尾盾密封压力3.7	bar	DW_PRS55
+尾盾密封压力3.8	bar	DW_PRS56
+尾盾密封压力3.9	bar	DW_PRS57
+尾盾密封压力3.10	bar	DW_PRS87_1
+尾盾密封压力3.11	bar	DW_PRS59
+尾盾密封压力3.12	bar	DW_PRS60
+尾盾密封压力3.13	bar	DW_PRS61
+尾盾密封压力3.14	bar	DW_PRS62
+尾盾密封压力3.15	bar	DW_PRS63
+尾盾密封压力3.16	bar	DW_PRS64
+尾盾密封压力3.17	bar	DW_PRS65
+尾盾密封压力3.18	bar	DW_PRS66
+尾盾密封压力3.19	bar	DW_PRS67
+尾盾密封压力3.20	bar	DW_PRS68
+尾盾密封压力4.1	bar	DW_PRS4.1
+尾盾密封压力4.2	bar	DW_PRS4.2
+尾盾密封压力4.3	bar	DW_PRS4.3
+尾盾密封压力4.4	bar	DW_PRS4.4
+尾盾密封压力4.5	bar	DW_PRS77
+尾盾密封压力4.6	bar	DW_PRS78
+尾盾密封压力4.7	bar	DW_PRS79
+尾盾密封压力4.8	bar	DW_PRS80
+尾盾密封压力4.9	bar	DW_PRS81
+尾盾密封压力4.10	bar	DW_PRS82
+尾盾密封压力4.11	bar	DW_PRS83
+尾盾密封压力4.12	bar	DW_PRS84
+尾盾密封压力4.13	bar	DW_PRS85
+尾盾密封压力4.14	bar	DW_PRS86
+尾盾密封压力4.15	bar	DW_PRS87_2
+尾盾密封压力4.16	bar	DW_PRS88
+尾盾密封压力4.17	bar	DW_PRS89
+尾盾密封压力4.18	bar	DW_PRS90
+尾盾密封压力4.19	bar	DW_PRS91
+尾盾密封压力4.20	bar	DW_PRS92
+SSF1.1通道计数器		DW_CNT1.1
+SSF1.2通道计数器		DW_CNT1.2
+SSF1.3通道计数器		DW_CNT1.3
+SSF1.4通道计数器		DW_CNT1.4
+SSF1.5通道计数器		DW_CNT5
+SSF1.6通道计数器		DW_CNT1.6_6
+SSF1.7通道计数器		DW_CNT1.7
+SSF1.8通道计数器		DW_CNT1.8
+SSF1.9通道计数器		DW_CNT1.9
+SSF1.10通道计数器		DW_CNT1.10
+SSF1.11通道计数器		DW_CNT1.11
+SSF1.12通道计数器		DW_CNT1.12
+SSF1.13通道计数器		DW_CNT1.13
+SSF1.14通道计数器		DW_CNT1.14
+SSF1.15通道计数器		DW_CNT1.15
+SSF1.16通道计数器		DW_CNT1.16
+SSF1.17通道计数器		DW_CNT1.17
+SSF1.18通道计数器		DW_CNT1.18
+SSF1.19通道计数器		DW_CNT1.19
+SSF1.20通道计数器		DW_CNT1.20
+SSF2.1通道计数器		DW_CNT2.1
+SSF2.2通道计数器		DW_CNT2.2
+SSF2.3通道计数器		DW_CNT2.3
+SSF2.4通道计数器		DW_CNT2.4
+SSF2.5通道计数器		DW_CNT2.5
+SSF2.6通道计数器		DW_CNT2.6
+SSF2.7通道计数器		DW_CNT2.7
+SSF2.8通道计数器		DW_CNT2.8
+SSF2.9通道计数器		DW_CNT2.9
+SSF2.10通道计数器		DW_CNT2.10
+SSF2.11通道计数器		DW_CNT2.11
+SSF2.12通道计数器		DW_CNT2.12
+SSF2.13通道计数器		DW_CNT2.13
+SSF2.14通道计数器		DW_CNT2.14
+SSF2.15通道计数器		DW_CNT2.15
+SSF2.16通道计数器		DW_CNT2.16
+SSF2.17通道计数器		DW_CNT2.17
+SSF2.18通道计数器		DW_CNT2.18
+SSF2.19通道计数器		DW_CNT2.19
+SSF2.20通道计数器		DW_CNT2.20
+SSF3.1通道计数器		DW_CNT3.1
+SSF3.2通道计数器		DW_CNT3.2
+SSF3.3通道计数器		DW_CNT3.3
+SSF3.4通道计数器		DW_CNT3.4
+SSF3.5通道计数器		DW_CNT3.5
+SSF3.6通道计数器		DW_CNT3.6
+SSF3.7通道计数器		DW_CNT3.7
+SSF3.8通道计数器		DW_CNT3.8
+SSF3.9通道计数器		DW_CNT3.9
+SSF3.10通道计数器		DW_CNT3.10
+SSF3.11通道计数器		DW_CNT3.11
+SSF3.12通道计数器		DW_CNT3.12
+SSF3.13通道计数器		DW_CNT3.13
+SSF3.14通道计数器		DW_CNT3.14
+SSF3.15通道计数器		DW_CNT3.15
+SSF3.16通道计数器		DW_CNT3.16
+SSF3.17通道计数器		DW_CNT3.17
+SSF3.18通道计数器		DW_CNT3.18
+SSF3.19通道计数器		DW_CNT3.19
+SSF3.20通道计数器		DW_CNT3.20
+SSF4.1通道计数器		DW_CNT4.1
+SSF4.2通道计数器		DW_CNT4.2
+SSF4.3通道计数器		DW_CNT4.3
+SSF4.4通道计数器		DW_CNT4.4
+SSF4.5通道计数器		DW_CNT4.5
+SSF4.6通道计数器		DW_CNT4.6
+SSF4.7通道计数器		DW_CNT4.7
+SSF4.8通道计数器		DW_CNT4.8
+SSF4.9通道计数器		DW_CNT4.9
+SSF4.10通道计数器		DW_CNT4.10
+SSF4.11通道计数器		DW_CNT4.11
+SSF4.12通道计数器		DW_CNT4.12
+SSF4.13通道计数器		DW_CNT4.13
+SSF4.14通道计数器		DW_CNT4.14
+SSF4.15通道计数器		DW_CNT4.15
+SSF4.16通道计数器		DW_CNT4.16
+SSF4.17通道计数器		DW_CNT4.17
+SSF4.18通道计数器		DW_CNT4.18
+SSF4.19通道计数器		DW_CNT4.19
+SSF4.20通道计数器		DW_CNT4.20
+SSF总计数器1		DW_ZCNT1
+SSF总计数器2		DW_ZCNT2
+SSF总计数器3		DW_ZCNT3
+SSF总计数器4		DW_ZCNT4
+盾尾密封正常		DW_ON
+设备桥拖拉压力	bar	SBQ_TL_PRS
+一号拖车氧气浓度	%VOL	TC_O2_ND1
+一号拖车一氧化碳浓度	ppm	TC_CO_ND1
+一号拖车甲烷浓度	%LEL	TC_CH4_ND1
+一号拖车硫化氢浓度	ppm	TC_H2S_ND1
+一号拖车二氧化碳浓度	%ppm	TC_CO2_ND1
+P2.1泵甲烷浓度	%LEL	B_CH4_ND2.1
+1# 空压机运行		KYJ_ON1
+2# 空压机运行		KYJ_ON2
+3# 空压机运行		KYJ_ON3
+4# 空压机运行		KYJ_ON4
+5# 空压机运行		KYJ_ON5
+工作舱膨润土液位检测1	cm	GZC_YW_JC1
+工作舱膨润土液位检测2	cm	GZC_YW_JC2
+排浆管路浆液密度检测	kg/l	PJGL_MDJC
+排浆管路浆液流量	m3/h	PJGL_FLOW
+进浆管路浆液密度检测	kg/l	JJGL_MDJC
+进浆管路浆液流量	m3/h	JJGL_FLOW
+进浆管路浆液压力检测	bar	JJGL_PRSJC
+冲洗泵P0.1速度设置	%	CXB_SD_SET0.1
+冲洗泵P0.2速度设置	%	CXB_SD_SET0.2
+进浆泵P1.1速度设置	%	JJB_SD_SET1.1
+进浆泵P1.2速度设置	%	JJB_SD_SET1.2
+进浆泵P1.3速度设置	%	JJB_SD_SET1.3
+排浆泵P2.1速度设置	%	PJB_SD_SET2.1
+排浆泵P2.2速度设置	%	PJB_SD_SET2.2
+排浆泵P2.3速度设置	%	PJB_SD_SET2.3
+冲洗泵电流 P0.1	A	CSB_DL0.1
+冲洗泵速度 P0.1	%	CXB_SD0.1
+冲洗泵电流 P0.2	A	CSB_DL0.2
+冲洗泵速度 P0.2	%	CXB_SD0.2
+进浆泵电流 P1.3	A	JJB_DL1.3
+进浆泵速度 P1.3	%	JJB_SD1.3
+进浆泵电流 P1.1	A	JJB_DL1.1
+进浆泵速度 P1.1	%	JJB_SD1.1
+进浆泵P1.1进泥口压力检测	bar	JJB_JN_JCPRS1.1
+进浆泵P1.1出泥口压力检测	bar	JJB_CN_PRS_JC1.1
+进浆泵电流 P1.2	A	JJB_DL1.2
+进浆泵速度 P1.2	%	JJB_SD1.2
+进浆泵P1.2进泥口压力检测	bar	JJB_JN_JCPRS1.2
+进浆泵P1.2出泥口压力检测	bar	JJB_CN_PRS_JC1.2
+排浆泵电流 P2.1	A	PJB_DL2.1
+排浆泵速度 P2.1	%	PJB_SD2.1
+排浆泵P2.1进泥口压力检测	bar	PJB_JNK_PRS2.1
+排浆泵P2.1出泥口压力检测	bar	PJB_CNK_PRS2.1
+进浆泵电流 P2.2	A	JJB_DL2.2
+进浆泵速度 P2.2	%	JJB_SD2.2
+排浆泵P2.2进泥口压力检测	bar	PJB_JN__PRS_JC2.2
+排浆泵P2.2出泥口压力检测	bar	PJB_CN_PRS2.2
+进浆泵电流 P2.3	A	JJB_DL2.3
+进浆泵速度 P2.3	%	JJB_SD2.3
+排浆泵P2.3进泥口压力检测	bar	PJB_JN_PRS_JC2.3
+排浆泵P2.3出泥口压力检测	bar	PJB_CN_JC_PRS2.3
+P0.1泵出口流量	m3/h	BCK_FLOW_0.1
+P0.1泵出口压力	bar	BCK_PRS_0.1
+P0.2泵出口流量	m3/h	P0.2_BCK_FLOW
+P0.2泵出口压力	bar	P0.3_BCK_PRS
+开挖仓压力1#	bar	KWC_PRS1
+开挖仓压力2#	bar	KWC_PRS2
+开挖仓压力3#	bar	KWC_PRS3
+开挖仓压力4#	bar	KWC_PRS4
+开挖仓压力5#	bar	KWC_PRS5
+开挖仓压力6#	bar	KWC_PRS6
+工作仓压力1#	bar	GZC_PRS1
+工作仓压力2#	bar	GZC_PRS2
+后配套销轴拉力	kN	HPT_FLOW
+齿轮油油气密封压力	bar	CLY_YQ_PRS
+主轴承HBW油脂压力	bar	ZZC_HBW_PRS
+泥浆门1#油缸行程	mm	NJM_YG_XC1
+泥浆门2#油缸行程	mm	NJM_YG_XC2
+泥浆门插销行程	mm	NJM_CX
+2#小齿轮机油流量	L/min	XCL_JY_FLOW2
+3#小齿轮机油流量	L/min	XCL_JY_FLOW3
+1#主轴承滚道齿轮机油流量	L/min	ZZCGD_CLJY_FLOW1
+1#冷干机运行		LGJ_RUN1
+2#冷干机运行		LGJ_RUN2
+3#冷干机运行		LGJ_RUN3
+推进液压系统工作时间		TJ_YY_TIME
+拼装模式回油液压系统工作时间		PZMS_YY_TIME
+管片拼装机液压系统工作时间		GPPZ_YY_TIME
+辅助液压系统工作时间		FZ_YY_TIME
+刀盘工作时间	H	DP_TIME
+润滑系统工作时间	H	RH_TIME
+注浆液压系统工作时间		ZJYY_TIME
+1#超挖刀工作时间	H	CWD_TIME1
+P0.1工作时间	H	TIME0.1
+P0.2工作时间	H	P0.2_TIME
+P1.1工作时间	H	TIME1.1
+P1.2工作时间	H	TIME1.2
+P1.3工作时间	H	TIME1.3
+P2.1工作时间	H	TIME2.1
+P2.2工作时间	H	TIME2.2
+P2.3工作时间	H	TIME2.3
+T11Y变压器L1L2线电压(2500kVA)	V	A_BYQ_L1L2_V_1
+T11Y变压器L2L3线电压(2500kVA)	V	A_BYQ_L2L3_V_1
+T11Y变压器L3L1线电压(2500kVA)	V	A_BYQ_L3L1_V_1
+T11Y变压器L1相电流(2500kVA)	A	A_BYQ_L1_GI_1
+T11Y变压器L2相电流(2500kVA)	A	A_BYQ_L2_GI_1
+T11Y变压器L3相电流(2500kVA)	A	A_BYQ_L3_GI_1
+T11Y变压器频率(2500kVA)	Hz	A_BYQ_PL_1
+T11Y有功功率(2500kVA)	kW	A_YGGL_1
+T11Y无功功率(2500kVA)	kVar	A_WGGL_1
+T11Y功率因数(2500kVA)		A_GLYS_1
+T11Y输入电能(2500kVA)	kWh	A_SLDN_1
+T12D变压器L1L2线电压(2500kVA整流变)	V	F_BYQ_L1L2_V_1
+T12D变压器L2L3线电压(2500kVA整流变)	V	F_BYQ_L2L3_V_1
+T12D变压器L3L1线电压(2500kVA整流变)	V	F_BYQ_L3L1_V_1
+T12D变压器L1相电流(2500kVA整流变)	A	F_BYQ_L1_GI_1
+T12D变压器L2相电流(2500kVA整流变)	A	F_BYQ_L2_GI_1
+T12D变压器L3相电流(2500kVA整流变)	A	F_BYQ_L3_GI_1
+T12D变压器频率(2500kVA整流变)	Hz	F_BYQ_PL_1
+T12D有功功率(2500kVA整流变)	kW	F_YGGL_1
+T12D无功功率(2500kVA整流变)	kVar	F_WGGL_1
+T12D功率因数(2500kVA整流变)		F_GLYS_1
+T12D输入电能(2500kVA整流变)	kWh	F_SLDN_1
+T12Y变压器L1L2线电压(2500kVA整流变)	V	B_BYQ_L1L2_V_1
+T12Y变压器L2L3线电压(2500kVA整流变)	V	B_BYQ_L2L3_V_1
+T12Y变压器L3L1线电压(2500kVA整流变)	V	B_BYQ_L3L1_V_1
+T12Y变压器L1相电流(2500kVA整流变)	A	B_BYQ_L1_GI_1
+T12Y变压器L2相电流(2500kVA整流变)	A	B_BYQ_L2_GI_1
+T12Y变压器L3相电流(2500kVA整流变)	A	B_BYQ_L3_GI_1
+T12Y变压器频率(2500kVA整流变)	Hz	B_BYQ_PL_1
+T12Y有功功率(2500kVA整流变)	kW	B_YGGL_1
+T12Y无功功率(2500kVA整流变)	kVar	B_WGGL_1
+T12Y功率因数(2500kVA整流变)		B_GLYS_1
+T12Y输入电能(2500kVA整流变)	kWh	B_SCDN_4
+T21D变压器L1L2线电压(2500kVA整流变)	V	C_BYQ_L1L2_V_1
+T21D变压器L2L3线电压(2500kVA整流变)	V	C_BYQ_L2L3_V_1
+T21D变压器L3L1线电压(2500kVA整流变)	V	C_BYQ_L3L1_V_1
+T21D变压器L1相电流(2500kVA整流变)	A	C_BYQ_L1_GI_1
+T21D变压器L2相电流(2500kVA整流变)	A	C_BYQ_L2_GI_1
+T21D变压器L3相电流(2500kVA整流变)	A	C_BYQ_L3_GI_1
+T21D变压器频率(2500kVA整流变)	Hz	C_BYQ_PL_1
+T21D有功功率(2500kVA整流变)	kW	C_YGGL_1
+T21D无功功率(2500kVA整流变)	kVar	C_WGGL_1
+T21D功率因数(2500kVA整流变)		C_GLYS_1
+T21D输入电能(2500kVA整流变)	kWh	C_SLDN_1
+T21Y变压器L1L2线电压(2500kVA整流变)	V	D_BYQ_L1L2_V_1
+T21Y变压器L2L3线电压(2500kVA整流变)	V	D_BYQ_L2L3_V_1
+T21Y变压器L3L1线电压(2500kVA整流变)	V	D_BYQ_L3L1_V_1
+T21Y变压器L1相电流(2500kVA整流变)	A	D_BYQ_L1_GI_1
+T21Y变压器L2相电流(2500kVA整流变)	A	D_BYQ_L2_GI_1
+T21Y变压器L3相电流(2500kVA整流变)	A	D_BYQ_L3_GI_1
+T21Y变压器频率(2500kVA整流变)	Hz	D_BYQ_PL_1
+T21Y有功功率(2500kVA整流变)	kW	D_YGGL_1
+T21Y无功功率(2500kVA整流变)	kVar	D_WGGL_1
+T21Y功率因数(2500kVA整流变)		D_GLYS_1
+T21Y输入电能(2500kVA整流变)	kWh	D_SLDN_1
+T22D变压器L1L2线电压(2500kVA整流变)	V	E_BYQ_L1L2_V_1
+T22D变压器L2L3线电压(2500kVA整流变)	V	E_BYQ_L2L3_V_1
+T22D变压器L3L1线电压(2500kVA整流变)	V	E_BYQ_L3L1_V_1
+T22D变压器L1相电流(2500kVA整流变)	A	E_BYQ_L1_GI_1
+T22D变压器L2相电流(2500kVA整流变)	A	E_BYQ_L2_GI_1
+T22D变压器L3相电流(2500kVA整流变)	A	E_BYQ_L3_GI_1
+T22D变压器频率(2500kVA整流变)	Hz	E_BYQ_PL_1
+T22D有功功率(2500kVA整流变)	kW	E_YGGL_1
+T22D无功功率(2500kVA整流变)	kVar	E_WGGL_1
+T22D功率因数(2500kVA整流变)		E_GLYS_1
+T22D输入电能(2500kVA整流变)	kWh	E_SLDN_1
+T22Y变压器L1L2线电压(2500kVA整流变)	V	G_BYQ_L1L2_V_1
+T22Y变压器L2L3线电压(2500kVA整流变)	V	G_BYQ_L2L3_V_1
+T22Y变压器L3L1线电压(2500kVA整流变)	V	G_BYQ_L3L1_V_1
+T22Y变压器L1相电流(2500kVA整流变)	A	G_BYQ_L1_GI_1
+T22Y变压器L2相电流(2500kVA整流变)	A	G_BYQ_L2_GI_1
+T22Y变压器L3相电流(2500kVA整流变)	A	G_BYQ_L3_GI_1
+T22Y变压器频率(2500kVA整流变)	Hz	G_BYQ_PL_1
+T22Y有功功率(2500kVA整流变)	kW	G_YGGL_1
+T22Y无功功率(2500kVA整流变)	kVar	G_WGGL_1
+T22Y功率因数(2500kVA整流变)		G_GLYS_1
+T22Y输入电能(2500kVA整流变)	kWh	G_SLDN_1
+T31D变压器L1L2线电压(1000kVA)	V	I_BYQ_L1L2_V_2
+T31D变压器L2L3线电压(1000kVA)	V	I_BYQ_L2L3_V_2
+T31D变压器L3L1线电压(1000kVA)	V	I_BYQ_L3L1_V_2
+T31D变压器L1相电流(1000kVA)	A	I_BYQ_L1_GI_2
+T31D变压器L2相电流(1000kVA)	A	I_BYQ_L2_GI_2
+T31D变压器L3相电流(1000kVA)	A	I_BYQ_L3_GI_2
+T31D变压器频率(1000kVA)	Hz	I_BYQ_PL_2
+T31D有功功率(1000kVA)	kW	I_YGGL_2
+T31D无功功率(1000kVA)	kVar	I_WGGL_2
+T31D功率因数(1000kVA)		I_GLYS_2
+T31D输入电能(1000kVA)	kWh	I_SLDN_2
+浮动支撑泵口压力	bar	FD_ZCBK_PRS
+外循环进水流量	L/min	WXH_JS_FLOW
+1#盾尾间隙测量	mm	DW_JX1
+2#盾尾间隙测量	mm	DW_JX2
+3#盾尾间隙测量	mm	DW_JX3
+A组推进泵口压力	bar	TJB_PRS1_A
+B组推进泵口压力	bar	TJB_PRS2_B
+C组推进泵口压力	bar	TJB_PRS3
+D组推进泵口压力	bar	TJB_PRS4
+E组推进泵口压力	bar	TJB_PRS5
+F组推进泵口压力	bar	TJB_PRS6
+1#主驱动伸缩密封油脂流量	ml/min	ZQD_SS_FLOW1
+2#主驱动伸缩密封油脂流量	ml/min	ZQD_SS_FLOW2
+1#主驱动伸缩密封油脂计数器		ZQD_SS_MF_CNT1
+2#主驱动伸缩密封油脂计数器		ZQD_SS_MF_CNT2
+1#主驱动伸缩密封油脂正常		ZQD_SS_MF_ON1
+2#主驱动伸缩密封油脂正常		ZQD_SS_ON2
+1#主驱动伸缩密封油脂压力	bar	ZQD_SS_PRS1
+2#主驱动伸缩密封油脂压力	bar	ZQD_SS_PRS2
+A组伸缩油缸无杆腔压力	bar	SSYG_WGQ_PRSA
+A组伸缩油缸有杆腔压力	bar	SSYG_YGQ_PRSA
+B组伸缩油缸无杆腔压力	bar	SSYG_WGQ_PRSB
+B组伸缩油缸有杆腔压力	bar	SSYG_YGQ_PRSB
+C组伸缩油缸无杆腔压力	bar	SSYG_WGQ_PRSC
+C组伸缩油缸有杆腔压力	bar	SSYG_YGQ_PRSC
+A组伸缩油缸行程	mm	SSYG_XCA
+B组伸缩油缸行程	mm	SSYG_XCB
+C组伸缩油缸行程	mm	SSYG_XCC
+刀盘伸缩总推力	kN	DP_SS_ZTL
+刀盘伸缩总扭矩	kNm	DP_SS_ZNJ
+刀盘伸缩X方向扭矩	kNm	DP_SS_XNJ
+刀盘伸缩Y方向扭矩	kNm	DP_SS_YNJ
+刀盘伸缩X方向力臂	mm	DP_SS_XLB
+刀盘伸缩Y方向力臂	mm	DP_SS_PRSB
+刀盘伸缩总力臂	mm	DP_SS_ZLB
+刀盘伸缩自动模式目标行程设置	mm	DP_SSZD_MBXC_SET
+A组推进泵流量	%	TJB_FLOW1
+B组推进泵流量	%	TJB_FLOW2
+C组推进泵流量	%	TJB_FLOW3
+D组推进泵流量	%	TJB_FLOW4
+E组推进泵流量	%	TJB_FLOW5
+F组推进泵流量	%	TJB_FLOW6
+1#保压系统流量	L/min	BY_LL1
+2#保压系统流量	L/min	BY_LL2
+1#刀盘制动压力	bar	DP_ZD_PRS1
+2#刀盘制动压力	bar	DP_ZD_PRS2
+外循环进水压力	bar	WXH_JS_PRS
+1#齿轮油泵出口压力	bar	CLYB_CK_PRS1
+2#齿轮油泵出口压力	bar	CLYB_CK_PRS2
+3#齿轮油泵出口压力	bar	CLYB_CK_PRS3
+1#主驱动防扭油缸行程	mm	ZQD_FNYG_XC1
+2#主驱动防扭油缸行程	mm	ZQD_FNYG_XC2
+1#主驱动防扭油缸压力	bar	ZQD_FNYG_PRS1
+2#主驱动防扭油缸压力	bar	ZQD_FNYG_PRS2
+主驱动防扭油缸扭矩	kNm	ZQD_FNYG_NJ
+油气密封变速箱压力	bar	YQMF_BSX_PRS
+油气密封气源压力	bar	YQMF_QY_PRS
+油气密封反馈压力	bar	YQMF_FK_PRS
+油气密封泄露检测腔压力	bar	YQMF_XLJC_QPRS
+1#喂片机拖拉油缸有杆腔压力	bar	WPJ_TLYG_YGQ_PRS1
+2#喂片机拖拉油缸有杆腔压力	bar	WPJ_TLYG_YGQ_PRS2
+2#泥浆门插销行程	mm	NJM_CX_XC2
+P2.1泵氧气浓度	%VOL	02_P2.1
+P2.1泵一氧化碳浓度	ppm	CO_P2.1
+P2.1泵硫化氢浓度	ppm	H2S_P2.1
+P2.1泵二氧化碳浓度	%ppm	CO2_P2.1
+EP2油脂用量	kg	EP2
+HBW油脂用量	kg	HBW
+1#盾尾油脂用量	kg	DWYZ_YL1
+2#盾尾油脂用量	kg	DWYZ_YL2
+3#盾尾油脂用量	kg	DWYZ_YL3
+4#盾尾油脂用量	kg	DWYZ_YL4
+1#推进油缸压力	bar	TJYG_PRS1
+2#推进油缸压力	bar	TJYG_PRS2
+3#推进油缸压力	bar	TJYG_PRS3
+4#推进油缸压力	bar	TJYG_PRS4
+5#推进油缸压力	bar	TJYG_PRS5
+6#推进油缸压力	bar	TJYG_PRS6
+7#推进油缸压力	bar	TJYG_PRS7
+8#推进油缸压力	bar	TJYG_PRS8
+9#推进油缸压力	bar	TJYG_PRS9
+10#推进油缸压力	bar	TJYG_PRS10
+11#推进油缸压力	bar	TJYG_PRS11
+12#推进油缸压力	bar	TJYG_PRS12
+13#推进油缸压力	bar	TJYG_PRS13
+14#推进油缸压力	bar	TJYG_PRS14
+15#推进油缸压力	bar	TJYG_PRS15
+16#推进油缸压力	bar	TJYG_PRS16
+17#推进油缸压力	bar	TJYG_PRS17
+18#推进油缸压力	bar	TJYG_PRS18
+19#推进油缸压力	bar	TJYG_PRS19
+20#推进油缸压力	bar	TJYG_PRS20
+1#推进油缸行程	mm	TJYG_XC1
+2#推进油缸行程	mm	TJYG_XC2
+3#推进油缸行程	mm	TJYG_XC3
+4#推进油缸行程	mm	TJYG_XC4
+5#推进油缸行程	mm	TJYG_XC5
+6#推进油缸行程	mm	TJYG_XC6
+7#推进油缸行程	mm	TJYG_XC7
+8#推进油缸行程	mm	TJYG_XC8
+9#推进油缸行程	mm	TJYG_XC9
+10#推进油缸行程	mm	TJYG_XC10
+11#推进油缸行程	mm	TJYG_XC11
+12#推进油缸行程	mm	TJYG_XC12
+13#推进油缸行程	mm	TJYG_XC13
+14#推进油缸行程	mm	TJYG_XC14
+15#推进油缸行程	mm	TJYG_XC15
+16#推进油缸行程	mm	TJYG_XC16
+17#推进油缸行程	mm	TJYG_XC17
+18#推进油缸行程	mm	TJYG_XC18
+19#推进油缸行程	mm	TJYG_XC19
+20#推进油缸行程	mm	TJYG_XC20
+1#推进油缸目标压力	bar	TJYG_MB_PRS1
+2#推进油缸目标压力	bar	TJYG_MB_PRS2
+3#推进油缸目标压力	bar	TJYG_MB_PRS3
+4#推进油缸目标压力	bar	TJYG_MB_PRS4
+5#推进油缸目标压力	bar	TJYG_MB_PRS5
+6#推进油缸目标压力	bar	TJYG_MB_PRS6
+7#推进油缸目标压力	bar	TJYG_MB_PRS7
+8#推进油缸目标压力	bar	TJYG_MB_PRS8
+9#推进油缸目标压力	bar	TJYG_MB_PRS9
+10#推进油缸目标压力	bar	TJYG_MB_PRS10
+11#推进油缸目标压力	bar	TJYG_MB_PRS11
+12#推进油缸目标压力	bar	TJYG_MB_PRS12
+13#推进油缸目标压力	bar	TJYG_MB_PRS13
+14#推进油缸目标压力	bar	TJYG_MB_PRS14
+15#推进油缸目标压力	bar	TJYG_MB_PRS15
+16#推进油缸目标压力	bar	TJYG_MB_PRS16
+17#推进油缸目标压力	bar	TJYG_MB_PRS17
+18#推进油缸目标压力	bar	TJYG_MB_PRS18
+19#推进油缸目标压力	bar	TJYG_MB_PRS19
+20#推进油缸目标压力	bar	TJYG_MB_PRS20
+P0.3速度设置	%	SD_SET0.3
+冲洗泵P0.3出口压力	bar	CXB_CPRS0.3
+冲洗泵P0.3进口压力	bar	CXB_JPRS0.3
+冲洗泵P0.3流量	m3/h	CXB_FLOW0.3
+冲洗泵电流 P0.3	A	CSB_DL0.3
+冲洗泵速度 P0.3	%	CSB_SD0.3
+P0.1泵吸口压力	bar	BXK_PRS0.1
+P0.2泵吸口压力	bar	BXK_PRS0.2
+工业气罐压力	bar	GYQG_PRS
+1#保压气罐压力	bar	BYQG_PRS1
+碎石机L1腔油脂压力	bar	SSJ_YZ_PRSL1
+碎石机L2腔油脂压力	bar	SSJ_PRS_L2
+碎石机L4腔油脂压力	bar	SSJ_YZ_PRSL4
+碎石机R1腔油脂压力	bar	SSJ_YZ_PRSR1
+碎石机R3腔油脂压力	bar	SSJ_YZ_PRSR3
+碎石机R4腔油脂压力	bar	SSJ_YZ_PRSR4
+内密封压力	bar	NMF_PRS
+旋转密封压力	bar	XZMF_PRS
+1#A液泵速度反馈	%	AYB_SD1
+2#A液泵速度反馈	%	AYB_SD2
+3#A液泵速度反馈	%	AYB_SD3
+4#A液泵速度反馈	%	AYB_SD4
+5#A液泵速度反馈	%	AYB_SD5
+6#A液泵速度反馈	%	AYB_SD6
+7#A液泵速度反馈	%	AYB_SD7
+8#A液泵速度反馈	%	AYB_SD8
+1#B液泵速度反馈	%	BYB_SD1
+2#B液泵速度反馈	%	BYB_SD2
+3#B液泵速度反馈	%	BYB_SD3
+4#B液泵速度反馈	%	BYB_SD4
+5#B液泵速度反馈	%	BYB_SD5
+6#B液泵速度反馈	%	BYB_SD6
+7#B液泵速度反馈	%	BYB_SD7
+8#B液泵速度反馈	%	BYB_SD8
+1#A液泵出口压力	bar	AYB_PRS1_1
+2#A液泵出口压力	bar	AYB_PRS1_2
+3#A液泵出口压力	bar	AYB_PRS1_3
+4#A液泵出口压力	bar	AYB_PRS1_4
+5#A液泵出口压力	bar	AYB_PRS5
+6#A液泵出口压力	bar	AYB_PRS6
+7#A液泵出口压力	bar	AYB_PRS7
+8#A液泵出口压力	bar	AYB_PRS8
+1#A液泵出口流量	L/min	AYB_CK_FLOW1
+2#A液泵出口流量	L/min	AYB_FLOW2
+3#A液泵出口流量	L/min	AYB_FLOW3
+4#A液泵出口流量	L/min	AYB_FLOW4
+5#A液泵出口流量	L/min	AYB_FLOW5
+6#A液泵出口流量	L/min	AYB_FLOW6
+7#A液泵出口流量	L/min	AYB_FLOW7
+8#A液泵出口流量	L/min	AYB_FLOW8
+1#B液泵出口压力	bar	BYB_CK_PRS1
+2#B液泵出口压力	bar	BYB_CK_PRS2
+3#B液泵出口压力	bar	BYB_CK_PRS3
+4#B液泵出口压力	bar	BYB_CK_PRS4
+5#B液泵出口压力	bar	BYB_CK_PRS5
+6#B液泵出口压力	bar	BYB_CK_PRS6
+7#B液泵出口压力	bar	BYB_CK_PRS7
+8#B液泵出口压力	bar	BYB_CK_PRS8
+1#B液泵出口流量	L/min	BYB_CK_FLOW1
+2#B液泵出口流量	L/min	BYB_CK_FLOW2
+3#B液泵出口流量	L/min	BYB_CK_FLOW3
+4#B液泵出口流量	L/min	BYB_CK_FLOW4
+5#B液泵出口流量	L/min	BYB_CK_FLOW5
+6#B液泵出口流量	L/min	BYB_CK_FLOW6
+7#B液泵出口流量	L/min	BYB_CK_FLOW7
+8#B液泵出口流量	L/min	BYB_CK_FLOW8
+1#A液阀入口压力	bar	AYF_RPRS1
+2#A液阀入口压力	bar	AYF_RPRS2
+3#A液阀入口压力	bar	AYF_RPRS3
+4#A液阀入口压力	bar	AYF_RPRS4
+5#A液阀入口压力	bar	AYF_RPRS5
+6#A液阀入口压力	bar	AYF_RPRS6
+7#A液阀入口压力	bar	AYF_RPRS7
+8#A液阀入口压力	bar	AYF_RPRS8
+1#B液阀入口压力	bar	BYF_RPRS1
+2#B液阀入口压力	bar	BYF_RPRS2
+3#B液阀入口压力	bar	BYF_RPRS3
+4#B液阀入口压力	bar	BYF_RPRS4
+5#B液阀入口压力	bar	BYF_RPRS5
+6#B液阀入口压力	bar	BYF_RPRS6
+7#B液阀入口压力	bar	BYF_RPRS7
+8#B液阀入口压力	bar	BYF_RPRS8
+1#A液罐液位	%	AYGYW1
+2#A液罐液位	%	AYGYW2
+1#注浆活塞关到位限位开关		ZJ_GDW_KG1
+1#注浆活塞开到位限位开关		ZJ_KDW_KG1
+2#注浆活塞关到位限位开关		ZJ_GDW_KG2
+2#注浆活塞开到位限位开关		ZJ_KDW_KG2
+3#注浆活塞关到位限位开关		ZJ_GDW_KG3
+3#注浆活塞开到位限位开关		ZJ_KDW_KG3
+4#注浆活塞关到位限位开关		ZJ_GDW_KG4
+4#注浆活塞开到位限位开关		ZJ_KDW_KG4
+5#注浆活塞关到位限位开关		ZJ_GDW_KG5
+5#注浆活塞开到位限位开关		ZJ_KDW_KG5
+6#注浆活塞关到位限位开关		ZJ_GDW_KG6
+6#注浆活塞开到位限位开关		ZJ_KDW_KG6
+7#注浆活塞关到位限位开关		ZJ_GDW_KG7
+7#注浆活塞开到位限位开关		ZJ_KDW_KG7
+8#注浆活塞关到位限位开关		ZJ_GDW_KG8
+8#注浆活塞开到位限位开关		ZJ_KDW_KG8
+1#A液泵累计量	m3	AYB_LJL1
+1#B液泵累计量	m3	BYB_LJL1
+2#A液泵累计量	m3	AYB_LJL2
+2#B液泵累计量	m3	BYB_LJL2
+3#A液泵累计量	m3	AYB_LJL3
+3#B液泵累计量	m3	BYB_LJL3
+4#A液泵累计量	m3	AYB_LJL4
+4#B液泵累计量	m3	BYB_LJL4
+5#A液泵累计量	m3	AYB_LJL5
+5#B液泵累计量	m3	BYB_LJL5
+6#A液泵累计量	m3	AYB_LJL6
+6#B液泵累计量	m3	BYB_LJL6
+7#A液泵累计量	m3	AYB_LJL7
+7#B液泵累计量	m3	BYB_LJL7
+8#A液泵累计量	m3	AYB_LJL8
+8#B液泵累计量	m3	BYB_LJL8
+1#注浆状态		ZJZT1
+2#注浆状态		ZJZT2
+3#注浆状态		ZJZT3
+4#注浆状态		ZJZT4
+5#注浆状态		ZJZT5
+6#注浆状态		ZJZT6
+7#注浆状态		ZJZT7
+8#注浆状态		ZJZT8
+1#注浆泵停止时间	min	ZJB_TZ_TIME1
+2#注浆泵停止时间	min	ZJB_TZ_TIME2
+3#注浆泵停止时间	min	ZJB_TZ_TIME3
+4#注浆泵停止时间	min	ZJB_TZ_TIME4
+5#注浆泵停止时间	min	ZJB_TZ_TIME5
+6#注浆泵停止时间	min	ZJB_TZ_TIME6
+7#注浆泵停止时间	min	ZJB_TZ_TIME7
+8#注浆泵停止时间	min	ZJB_TZ_TIME8
+1#注浆总泵累计量	m3	ZJB_LZL1
+2#注浆总泵累计量	m3	ZJB_LZL2
+3#注浆总泵累计量	m3	ZJB_LZL3
+4#注浆总泵累计量	m3	ZJB_LZL4
+5#注浆总泵累计量	m3	ZJB_LZL5
+6#注浆总泵累计量	m3	ZJB_LJL6
+7#注浆总泵累计量	m3	ZJB_LJL7
+8#注浆总泵累计量	m3	ZJB_LJL8
+1#冲洗水流量	L/min	CSS_FLOW1
+2#冲洗水流量	L/min	CSS_FLOW2
+3#冲洗水流量	L/min	CSS_FLOW3
+4#冲洗水流量	L/min	CSS_FLOW4
+5#冲洗水流量	L/min	CSS_FLOW5
+注浆总累积量	m3	ZJL_LJ
+注浆总累积量与目标值的差值	m3	ZJL_ERROR
+碎石机轴承油脂流量	mL/min	SSJ_ZC_YZ_FLOW
+碎石机轴承润滑油脂计数器		SSJ_ZC_YZ_CNT
+碎石机旋转轴密封油脂流量	mL/min	SSJ_XZZ_YZ_FLOW
+碎石机旋转轴密封油脂计数器		SSJ_XZZ_YZ_CNT
+1#回转中心油脂计数		HZZX_YZ_CNT1
+2#回转中心油脂计数		HZZX_YZ_JS
+拼装机平移行程	mm	PZJ_PY_XC
+主轴承第二道内密封脉冲数1		ZZC2_NMF_FLOW1
+主轴承内密封和中心回转接头油脂计数		ZZC_NMF_ZXHZ_YZ_CNT
+变频柜水冷单元运行		BPG_SL_RUN
+变频柜水冷单元就绪		BPG_SL_ON
+阀V1的状态指示		F_ZTZS1
+阀V2的状态指示		F_ZTZS2
+阀V3的状态指示		F_ZTZS3
+阀V4的状态指示		F_ZTZS4
+阀V5.1的状态指示		F_ZTZS5.1
+阀V5.2的状态指示		F_ZTZS5.2
+阀V6的状态指示		F_ZTZS6
+阀V7的状态指示		F_ZTZS7
+阀V8的状态指示		F_ZTZS8
+阀V9的状态指示		F_ZTZS9
+阀V10.1的状态指示		F_ZTZS10.1
+阀V10.2的状态指示		F_ZTZS10.2
+阀V11的状态指示		F_ZTZS11
+阀V12的状态指示		F_ZTZS12
+阀V13的状态指示		F_ZTZS13
+阀V14的状态指示		F_ZTZS14
+阀V15的状态指示		F_ZTZS15
+阀V16的状态指示		F_ZTZS16
+阀V17的状态指示		F_ZTZS17
+阀V18的状态指示		F_ZTZS18
+阀V19的状态指示		F_ZTZS19
+阀V20的状态指示		F_ZTZS20
+阀V21的状态指示		F_ZTZS21
+阀V22的状态指示		F_ZTZS22
+阀V23的状态指示		F_ZTZS23
+阀V24的状态指示		F_ZTZS24
+阀V25的状态指示		F_ZTZS25
+阀V26的状态指示		F_ZTZS26
+阀V27的状态指示		F_ZTZS27
+阀V28的状态指示		F_ZTZS28
+阀V29的状态指示		F_ZTZS29
+阀V30的状态指示		F_ZTZS30
+阀V31的状态指示		F_ZTZS31
+阀V32的状态指示		F_ZTZS32
+阀V33的状态指示		F_ZTZS33
+阀V34的状态指示		F_ZTZS34
+阀V35的状态指示		F_ZTZS35
+阀V40的状态指示		F_ZTZS40
+阀V41的状态指示		F_ZTZS41
+阀V50的状态指示		F_ZTZS50
+阀V51的状态指示		F_ZTZS51
+阀V52的状态指示		F_ZTZS52
+阀V53的状态指示		F_ZTZS53
+阀V54的状态指示		F_ZTZS54
+阀V55的状态指示		F_ZTZS55
+阀V60的状态指示		F_ZTZS60
+阀V61的状态指示		F_ZTZS61
+阀V62的状态指示		F_ZTZS62
+阀V81的状态指示		F_ZTZS81
+阀V82的状态指示		F_ZTZS82
+阀V83的状态指示		F_ZTZS83
+阀V84的状态指示		F_ZTZS84
+阀V85的状态指示		F_ZTZS85
+阀V86的状态指示		F_ZTZS86
+阀V87的状态指示		F_ZTZS87
+6#冲洗水流量	L/min	CSS_FLOW6
+7#冲洗水流量	L/min	CSS_FLOW7
+8#冲洗水流量	L/min	CSS_FLOW8
+正在拼装的管片位置		PZ_RING_ING
+已完成拼装位置1		PZ_RING_OVER1
+已完成拼装位置2		PZ_RING_OVER2
+已完成拼装位置3		PZ_RING_OVER3
+已完成拼装位置4		PZ_RING_OVER4
+已完成拼装位置5		PZ_RING_OVER5
+已完成拼装位置6		PZ_RING_OVER6
+已完成拼装位置7		PZ_RING_OVER7
+已完成拼装位置8		PZ_RING_OVER8
+已完成拼装位置9		PZ_RING_OVER9
+已完成拼装位置10		PZ_RING_OVER10
+推拼同步模式运行		TP_TB_RUN
+缩回油缸加一模式开启		SHYG_RUN1
+缩回油缸加二模式开启		SHYG_RUN2
+设置管片拼装位置		GPPZ_SET
+设置K块拼装位置		GPPZ_SETK
+测量时间		CLSJ
+前端X	m	QD_X
+前端Y	m	QD_Y
+前端Z	m	QD_Z
+前端水平偏差	mm	QD_SP_PC
+前端垂直偏差	mm	QD_CZ_PC
+前端里程	m	QD_LC
+中端X	m	ZD_X
+中端Y	m	ZD_Y
+中端Z	m	ZD_Z
+中端水平偏差	mm	ZD_SP_PC
+中端垂直偏差	mm	ZD_CZ_PC
+中端里程	m	ZD_LC
+后端X	m	HD_X
+后端Y	m	HD_Y
+后端Z	m	HD_Z
+后端水平偏差	m	HD_SP_PC
+后端垂直偏差	mm	HD_CZ_PC
+后端里程	m	HD_LC
+环号		RING_HH
+滚动角	度	GDJ
+俯仰角	度	FYJ
+水平趋势	mm/m	SP_QS
+垂直趋势	mm/m	CZ_QS
+累积里程	m	LJ_LC
+隧道水平趋势	mm/m	SD_SP_QS
+隧道垂直趋势	mm/m	SD_CZ_QS
+图像水平趋势	mm/m	TX_SP_QS
+图像垂直趋势	mm/m	TX_CZ_QS

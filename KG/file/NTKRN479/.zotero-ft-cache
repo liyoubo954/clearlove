@@ -1,0 +1,988 @@
+引用格式: 吴城, 张波, 雷沙沙, 等. 基于 FAHP -GRA 法的盾构隧道穿越桥梁桩基群施工风险评估[ J] . 隧道建设( 中英文) ,
+2023, 43( 增刊 2) : 186.
+WU Cheng, ZHANG Bo, LEI Shasha, et al. Construction risk assessment of shield tunnel crossing bridge pile foundation group based on
+FAHP-GRA method[ J] . Tunnel Construction, 2023, 43( S2) : 186.
+收稿日期: 2023-05-15; 修回日期: 2023-07-28
+基金项目: 四川省自然科学基金(2022NSFSC1025) ; 中铁四局集团有限公司委托课题(2021-38)
+第一作者简介: 吴城(1979—) ,男,四川崇州人,2004 年毕业于西南科技大学,土木工程专业,本科,高级工程师,主要从事隧道及地下工程施工与管
+理工作。 E-mail: 20185870@ qq. com。 ∗通信作者: 卢锋, E-mail: fenglu0901@ foxmail. com。
+基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+吴 城1, 张 波1, 雷沙沙1, 杨楚涵2, 李 彬3, 卢 锋2, 3, 4, ∗, 张俊儒3
+(1. 中铁四局集团第二工程有限公司,江苏 苏州 215131; 2. 西华大学应急管理学院,
+四川 成都 610039; 3. 西南交通大学 交通隧道工程教育部重点实验室,四川 成都 610031;
+4. 金华市欣生沸石开发有限公司,浙江 金华 321000)
+摘要: 为确保成都轨道交通 13 号线下穿娇子立交桩基群工程的运营安全,对盾构隧道下穿桥梁桩基群施工安全风险进行评估。 首
+先,采用模糊层次法( FAHP) 结合灰色关联度分析法( GRA) 进行多层次、多因素安全风险评估,结合实际施工特点从穿越桩基群施
+工工法、工艺本身出发,建立合理的盾构隧道穿越城市立交桥桩基群施工的安全风险评估指标体系,评选出安全风险影响程度相对
+较高的因素;然后,将分析结果与现场实测数据进行对比分析,验证安全风险评估的可靠性。 结果表明,盾构隧道穿越桥梁桩基群
+施工过程中,在第 1 层因素中影响程度最大的是桩基托换施工工艺和盾构下穿施工,在第 2 层因素中影响程度最大的是原桥墩以
+及承台与托换梁的衔接。 风险评估结果符合工程实际,根据评估结果对桩基托换施工进行重点管控与全过程监控量测,监测结果
+验证了风险评估方法的适用性和可靠性。
+关键词: 盾构隧道; 穿越桩基群; 模糊层次分析; 灰色关联度分析; 风险评估
+DOI: 10. 3973 / j. issn. 2096-4498. 2023. S2. 021
+中图分类号: U 455 文献标志码: A 文章编号: 2096-4498(2023) S2-0186-11
+Construction Risk Assessment of Shield Tunnel Crossing Bridge Pile
+Foundation Group Based on FAHP-GRA Method
+WU Cheng1, ZHANG Bo1, LEI Shasha1, YANG Chuhan2, LI Bin3, LU Feng2, 3, 4, * , ZHANG Junru3
+(1. The Second Engineering Co., Ltd. of CTCE Group, Suzhou 215131, Jiangsu, China;
+2. School of Emergency Management, Xihua University, Chengdu 610039, Sichuan, China;
+3. Key Laboratory of Transportation Tunnel Engineering, Ministry of Education, Southwest Jiaotong University,
+Chengdu 610031, Sichuan; 4. Jinhua Xinsheng Zeolite Development Co., Ltd., Jinhua 321000, Zhejiang, China)
+Abstract: In order to ensure the operational safety of the project of the Chengdu Metro Line 13 crossing the pile
+foundations of the Jiaozi overpass, the construction safety risks of the shield tunnel crossing the bridge pile foundation
+group are evaluated. Firstly, the fuzzy analytic hierarchy process (FAHP) combined with grey relational analysis (GRA)
+is used to conduct a multi-level and multi-factor safety risk assessment. Based on the actual construction characteristics
+and the construction process of crossing pile foundation groups, a reasonable safety risk assessment index system for
+shield tunnel crossing urban overpass pile foundations is established, and factors with a relatively high degree of safety
+risk impact are selected. Then, the analysis results are compared with field test data to verify the reliability of the safety
+risk assessment. Results indicate that during the construction process of shield tunneling crossing bridge pile foundations,
+
+
+增刊 2 吴 城, 等 : 基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+the pile foundation replacement construction technology and shield tunneling underpass construction have the greatest
+impact in the first layer of factors. The original bridge pier and the connection between the bearing platform and the
+replacement beam have the greatest impact in the second layer of factors. The risk assessment results are in accord with
+the engineering practice. Based on the assessment results, key control and full process monitoring measurements are
+implemented for the pile foundation replacement construction. The applicability and reliability of risk assessment method
+are verified by the monitoring results.
+Keywords: shield tunnel; pile foundation group crossing; fuzzy analytic hierarchy process; grey correlation analysis; risk
+assessment
+0 引言
+近年来随着城市建设的快速发展及常住人口数量
+的不断增加,地上交通拥堵问题日趋严重。 为有效缓
+解城市地面交通压力,交通网络的发展从地上拓展至
+地下,地铁隧道建设成为众多城市的首要选择。 由于
+城市高层建筑、桥梁等建筑物数量逐渐增加,新建地铁
+隧道近接或穿越既有建筑物桩基群的情况时有出现。
+为了保障盾构隧道施工的顺利进行和上部建筑物的安
+全稳定,需要采用桩基托换技术对既有桩基的上覆荷
+载进 行 有 效 转 移, 从 而 保 证 地 铁 隧 道 施 工 的 顺 利 进
+行[1] 。 桩基托换技术是一种采用新建托换梁与托换
+桩对原有荷载体系进行有效转换,将既有桩基所承受
+的上覆荷载转换至新建托换桩上,有效控制上部既有
+结构受力和变形的施工技术。
+针对盾构隧道下穿桥梁桩基群施工过程中存在的
+诸多不稳定因素,需进行针对性的安全风险评估。 结
+合施工实际,从桩基托换施工工法、工艺本身出发,开
+展风险评估工作,对桩基托换施工影响因素进行深入
+探析,设计完备的施工方案,并制定科学有效的施工管
+理措施,积极开展安全监督管理工作,从而有效提高桩
+基托换施工及托换后盾构穿越的安全性。 其中,建立
+科学合理的安全综合评价体系是重点工作,需定期、定
+点、定量地对特定施工环境下的风险进行系统分析与
+评价,降低盾构隧道施工风险的同时保障作业人员的
+安全。 因此,研究盾构隧道穿越桥梁桩基群施工风险
+评估具有重要意义。
+国内外众多学者对地下工程施工风险展开了大量
+研究,并 提 出 了 多 种 风 险 评 估 方 法, 如 模 糊 层 次 法
+( FAHP) [2-4] 、动 态 贝 叶 斯 网 络[5] 、 扩 展 理 论[6] 、 神 经
+网络[7] 、 风 险 矩 阵 法[8] 、 层 次 分 析 法[9-10] 等。 魏 纲
+等[10] 采用层次分析法结合模糊综合评价法对盾构隧
+道邻近建筑物进行安全风险评估; 王烨晟等[11] 对影
+响建筑物安全的各因素采用模糊综合评价法进行半定
+量分析; 李海文等[12] 提出了一种基于动态权重-二维
+云模型的高地温隧道施工风险评估模型; 吴颖宁[13]
+针对隧道施工的风险评估问题,提出了一种基于模糊
+层次分析法和随机过程的盾构近距离下穿既有隧道风
+险评估方法。
+上述方法虽然能够较好地对地下工程施工进行风
+险评估,但在桩基托换施工的风险评估中运用较少,部
+分学者将其运用于桩基稳定性评价中,并对评估方法
+进行了优化和创新。 Zai 等[14] 和李镜培等[15] 使用概
+率方法对桩基承载的可靠度进行分析验证,为进一步
+建立基于概率极限状态的可靠性设计方法打下了基
+础,对实际工程中的复合桩基设计也有一定的指导意
+义,但其并 未 说 明 桩 基 失 稳 与 稳 定 之 间 的 明 确 界 限。
+对此,Sawyer 等[16] 和 Utkin 等[17] 提出了考虑模糊性的
+可靠性分析方法。 赖德金等[18] 采用层次分析法对各
+风险评价指标权重进行计算,并运用 COWA 算子理论
+对风险源的权重进行计算,建立了桩基础安全评价模
+型。 Barakat 等[19] 和 Tandjiria 等[20] 分别采用概率法和
+响应面 法 对 水 平 荷 载 作 用 下 的 桩 基 进 行 了 可 靠 度
+分析。
+上述针对地下工程的风险评估研究虽已取得较为
+丰富的成果,但在盾构隧道穿越桥梁桩基群风险评估
+中相关研究还较少,针对多层次、多因素影响下施工风
+险评估的研究更为缺乏。 本文以成都轨道交通 13 号
+线下穿娇子立交桩基群工程为依托,采用模糊层次法
+(FAHP) 结合灰色关联度分析法( GRA) 对其进行多层
+次、多因素安全风险评估,确保各项评价指标的科学准
+确。 与传统评价方法不同,该研究在进行影响指数权
+重分析和模型构建时,将定性与定量评价相结合,对施
+工环境、前期结构设计、安全控制措施、施工工艺和盾
+构掘进等影响因素进行安全风险分析,建立符合地下
+工程发展需要的盾构隧道穿越桩基群综合评价指标体
+系,评选出施工过程中的高风险影响因素,并将分析结
+果与现场实测数据进行对比分析,验证安全风险评估
+的适用性与可靠性。 本文提出的风险评价体系对推动
+187
+
+
+隧道建设( 中英文) 第 43 卷
+地下工程穿越桥梁桩基群施工建设具有一定的参考
+价值。
+1 施工安全风险分析方法
+1. 1 模糊层次分析
+模糊层次分析法能考虑事件之间的模糊性,提升
+评价的可靠性,可以解决层次分析中事件之间的不确
+定性。
+1. 1. 1 建立判断矩阵
+明确事件中各个因素之间的关系,考虑它们之间
+的模糊性,将判断矩阵选择三角模糊数的 0. 1 ~ 0. 9 标
+度法[21] 作为判断标准,如表 1 所示。
+表 1 0. 1~ 0. 9 标度定义
+Table 1 Definition of 0.1- 0.9 scale
+标度 定义
+0. 5 2 个元素相比,具有同样重要性
+0. 6 2 个元素相比,前者比后者稍重要
+0. 7 2 个元素相比,前者比后者明显重要
+0. 8 2 个元素相比,前者比后者强烈重要
+0. 9 2 个元素相比,前者比后者极端重要
+0. 1 ~ 0. 4
+若元素 i 与元素 j 的重要性之比为 cij ,那么元素 j
+与元素 i 的重要性之比为 1-cij
+将上一层次的元素作为判断依据,结合三角模糊
+数,构建出三角模糊数互补矩阵 C。
+C =( cij) n×n =
+c11 ... c1n
+...⋱...
+cn1 ... cnn
+( ) 。 (1)
+式中: cij = ( cL
+ij ,cM
+ij ,cU
+ij ) 用于表示三角模糊数,cL
+ij 和 cU
+ij
+分别为三角模糊数的上、下界,表示两两因素之间的相
+对重要程度之间的关系范围; cM
+ij 为三角模糊数的中间
+值,表示两两因素之间的相对重要程度关系。 cij +cji =
+1,cL
+ij + cU
+ji = cM
+ij + cM
+ji = cU
+ij + cL
+ji = 1,cL
+ij ≤ cM
+ij ≤ cU
+ij 。 首先,
+根据表 1 对 cM
+ij 进行模糊度取值, 确定其上下界 cL
+ij 和
+cU
+ij , 最终得到两两因素之间的相对重要程度[22] 。
+1. 1. 2 指标权重的确定
+对于各层事件之间的风险安全排序,需要根据各
+事件的权重进行排序,用计算出的权重来确定各风险
+事件对于总风险事件发生的重要程度。
+总风险事件通常是由许多因素事件导致的,需要
+基于由众多专家评判得出的信息建立三角模糊互补判
+断矩阵,并对矩阵中的因素进行调整处理,且最终使所
+得到的矩阵处理结果满足一致性检验的要求。 若不满
+足,则需要引入参考文献[ 23] 中的方法,对其重新调
+整,使其满足 V = ( vij) n×n。 当矩阵 V 满足一致性要求
+时,则认为矩阵 C 也满足一致性要求。
+确定指标权重后,首先构造判断矩阵 X。
+xij = 1 - cU
+ij - cL
+ij
+2( cL
+ij + cM
+ij + cU
+ij ) 。 (2)
+X =( xij) n×n =
+1 x12 ... x1n
+x21 1 ... x2n
+............
+xn1 xn2 ... 1
+■
+■
+| | | ||
+■
+■
+| | | ||
+。 (3)
+随后 根 据 式 (4) 得 出 调 整 后 的 矩 阵 模 型 V =
+( vij ) n×n 。
+vij = 1
+2 (1 +zij -zji ) 。 (4)
+其中zij 可由式(5) 计算得到。
+Z =( zij) n×n =( xijyij) n×n。 (5)
+yij = cL
+ij + 4cM
+ij + cL
+ij
+6 。 (6)
+计算出模糊判断矩阵后,需要验证矩阵是否满足
+一致性。 若出现不满足一致性条件的矩阵,则需要重
+新按照式(2)—(6) 再次调整计算,直到该判断矩阵满
+足一致性要求。 在满足一致性条件后,通过式(7) 和
+式(8) 计算各指标的权重。
+v′ij = Σ
+k
+s=1
+λ svij; (7)
+ωe = 1
+n-1
+2α + 1
+nαΣ
+n
+j=1
+v′ij。 (8)
+式(7)—(8) 中: k 为参与评判的专家数量; λs 为参与
+评判专家的专业水平,取值一般采用参考文献[22] 中
+的 λs = 1 / k > 0,且 λs 之和等于 1; ωe 为各指标的权
+重; α 为权重系数,权重大小与 α 成反比,α 的取值为
+α = (n - 1) / 2,此时为最重视各元素之间重要程度的
+取值方法[23] 。
+1. 1. 3 一致性验证
+为了验证各个风险 因 素 之 间 的 协 调 程 度, 需 要 对
+调整后的模糊判断矩阵 V 进行一致性验证。 对于 V =
+( vij ) n×n 的可达矩阵设为 R = T ·+ T2 ·+ T3 ·+ ... ·+ Tn( T
+为可达矩阵的判断矩阵),当可达矩阵 R 的对角线上
+的元素存在等于 1 的元素时,则该调整后的模糊判断矩
+阵 V 不满足一致性;反之 V 满足一致性[24] 。 其中, ·+ 是
+布尔预算中的计算规则,具体规则如式(9) 所示。
+0 ·+ 0 = 0 0 ·+ 1 = 11 ·+ 0 = 1 1 ·+ 1 = 1 。 (9)
+矩阵 T = ( tij) n×n 可以通过式(10) 计算得出。
+tij = 1,vij ≥ 0. 5,i ≠ j;
+0,其他。
+{
+( 10)
+188
+
+
+增刊 2 吴 城, 等 : 基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+1. 2 灰色关联度分析
+灰色系统综合评价是基于灰色系统理论和方法,
+针对预定目标,通过系统分析,对某个系统或所属因子
+在某一时段所处状态,做出的一种半定性半定量的评
+价描述方法。 将该方法与模糊层次分析法相结合,基
+于模糊层次分析法的初步打分,可以减少由专家打分
+引起的主观误差,减少该方法预测结果的误差。
+1. 2. 1 确立评价指标矩阵
+假设某一层有 m 个评价指标,参与评价的专家有 k
+个,这 k 个专家对这 m 个指标分别打分,构造出矩阵 Fn。
+Fn = ( fij ) k×m =
+f11 f12 ... f1m
+f21 f22 ... f2m
+......⋱...
+fk1 fk2 ... fkm
+■
+■
+| | | ||
+■
+■
+| | | ||
+。 (11)
+式中 fij 表示第 i 名专家对第 j 个因素进行的评价打
+分值[25] 。
+由于评价指标之间通常是不同的量纲和数量级,
+所以不能直接将它们进行比较,所以需要对原始的指
+标值进行规范化处理。 通常使用数学的方法将它们转
+化为无量纲的相对数,这种去掉指标量纲的过程称为
+数据的无量纲化。 原始数列无量纲化的方法有许多
+种,比如初值化、均值化、标准化等。 本文采用均值化
+对原始数据进行无量纲化。
+f′ij = k × fij
+Σ
+k
+i=1
+fij
+。 (12)
+随后得到一个新的矩阵
+F′n = ( f′ij) k×m =
+f′
+11 f′
+12 ... f′
+1m
+f′
+21 f′
+22 ... f′
+2m
+............
+f′
+k1 f′
+k2 ... f′
+km
+■
+■
+| | | | ||
+■
+■
+| | | | ||
+。 (13)
+对矩阵参与评价的 各 个 区 域 中, 选 出 各 个 指 标 的
+最优值,组成一个新的数列作为参考数列 F∗。 本文选
+取最大值作为最优值组成参考数列。
+F∗ = [f∗
+1 f∗
+2 ... f∗
+m ] 。 (14)
+1. 2. 2 计算关联系数
+关联系数通过式(15) 计算得到[26] :
+ζ ij = Δmin + ρ Δmax
+Δij + ρ Δmax
+。 (15)
+式中: ρ 为分辨系数,ρ ∈ [0,1] , 但一般计算中取值
+ρ = 0. 5[27] ; Δmin 为 绝 对 差 值 矩 阵 ΔF 中 的 最 小 值;
+Δmax 为矩阵 ΔF 的最大值; Δij 为矩阵 ΔF 中的对应数
+值,其取值为:
+Δij =| f∗
+j - f′
+ij | 。 (16)
+将 Δij 组成绝对差值矩阵 ΔF:
+ΔFn = ( Δfij) k×m =
+Δ11 Δ12 ... Δ1m
+Δ21 Δ22 ... Δ2m
+... .........
+Δk1 Δk2 ... Δkm
+■
+■
+| | | ||
+■
+■
+| | | ||
+。 (17)
+1. 2. 3 计算灰色关联度
+根据参考文献[ 26] ,计算待评价的灰色关联度为:
+γi = 1
+k ωeΣ
+k
+i=1
+ζ ij 。 (18)
+1. 3 建立评价集
+通过 Q / CR 9006—2014《 铁路隧道工程风险管理
+技术规范》 [28] 以及《 公路桥梁和隧道工程施工安全风
+险评估制度及指南解析》 [29] ,可以将本次盾构隧道穿
+越桩基群施工安全风险分为 5 级,如表 2 所示。
+表 2 事故可能性等级标准
+Table 2 Standard of accident possibility grade
+概率范围 等级描述 等级
+>0. 3 很可能 5
+0. 03 ~ 0. 3 可能 4
+0. 003 ~ 0. 03 偶然 3
+0. 0003 ~ 0. 003 不太可能 2
+≤0. 000 3 极不可能 1
+2 应用实例
+2. 1 工程背景
+四川师大站—娇子立交站区间左线设计起止里程
+为 ZDK36+ 725. 029 ~ ZDK38 + 104. 223,右线设计起止
+里程为 YDK36 + 727. 518 ~ YDK38 + 126. 723。 左线盾
+构区间长度为 1 376. 069 m,短链 3. 125 m;右线盾构
+区间长度为 1 399. 205 m。 区间线路最小曲线半径为
+450 m,最大纵坡为 28‰,最小纵坡为 4. 973‰。 线间
+距 14. 1 ~ 20. 8 m,结构最小覆土埋深约 12 m,最大覆
+土埋深约 20. 8 m。 在里程 YDK37 + 292. 610 / ZDK37 +
+292. 433 处 设 置 1# 联 络 通 道 兼 废 水 泵 房、 YDK37 +
+750. 000 / ZDK37+750. 000 处设置 2# 联络通道,联络通
+道( 泵房) 采用矿山法施工。
+四川师大站—娇子立交站盾构区间( 下文简称
+四娇区间) 为地下区间,本区间起于四川师大站,出
+站后沿成龙大道北侧敷设,在穿越三环娇子立交后
+到达娇子立交站。 娇子立交桥位于成都南三环路二
+189
+
+
+隧道建设( 中英文) 第 43 卷
+段和成龙大道二段的交汇点处,主要由南三环路上
+下行 8 车道干线路、成龙大道二段 4 车道和 13 条匝
+道组成。 该立交是通过多次多轮扩能提升修建而
+成,上部结构为桥梁墩台,下部结构为钢筋混凝土承
+台和人工挖孔桩基础。 拟建的成都轨道交通 13 号
+线将下穿娇子立交,根据现有资料,共计 23 根原有
+桩基侵入四娇区间隧道范围。 为保证桥梁及隧道安
+全,盾构施工前需进行托换及加固处理,其中 14 根
+采用断桩托换方式,9 根采用不断桩托换补强方式,
+托换新桩 28 根,分 2 期施作。
+2. 2 风险评估指标体系
+基于文献[28-29] 以及查阅的关于桩基托换施工
+及风 险 识 别 的 文 献[30-33] , 以 成 都 13 号 线 四 川 师 大
+站—娇子立交站地铁隧道盾构施工为对象进行分析。
+以桩基托换施工为例,识别出相应的风险因素如图 1
+所示。
+图 1 盾构隧道穿越城市立交桥桩基群风险评估指标体系
+Fig. 1 Risk assessment index system of shield tunnel crossing urban overpass pile foundation group
+2. 3 风险评估指标权重计算
+在对隧道穿越既有的桥梁进行桩基托换施工之
+前,请到了 4 位专家( 含高校老师 2 名、参与该项目的
+施工人员 1 名、项目负责人 1 名)分别按照表 1 的评价
+体系对该项目的施工进行打分。 将相同层次的不同因
+素之间两两相互比较,即可得到三角模糊判断矩阵。
+以专家 A 为例,将第 1 层因素两两之间相互比较,即将
+S1 施工环境、S2 结构与工法设计、S3 安全控制措施、S4
+施工工艺、S5 盾构施工这 5 个因素之间两两进行比
+较,建立模糊判断矩阵 C1。
+C1 =
+(0. 5,0. 5,0. 5) (0. 5,0. 6,0. 7) (0. 6,0. 7,0. 8) (0. 6,0. 7,0. 8) (0. 7,0. 8,0. 9)
+(0. 3,0. 4,0. 5) (0. 5,0. 5,0. 5) (0. 5,0. 6,0. 7) (0. 7,0. 8,0. 9) (0. 5,0. 6,0. 7)
+(0. 2,0. 3,0. 4) (0. 3,0. 4,0. 5) (0. 5,0. 5,0. 5) (0. 5,0. 6,0. 7) (0. 5,0. 6,0. 7)
+(0. 2,0. 3,0. 4) (0. 1,0. 2,0. 3) (0. 3,0. 4,0. 5) (0. 5,0. 5,0. 5) (0. 5,0. 6,0. 7)
+(0. 1,0. 2,0. 3) (0. 3,0. 4,0. 5) (0. 3,0. 4,0. 5) (0. 3,0. 4,0. 5) (0. 5,0. 5,0. 5)
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+。
+将矩阵 C1 通过式(2)—(6) 计算调整后,得到模
+糊判断矩阵
+X1 =
+1. 00 0. 94 0. 95 0. 95 0. 96
+0. 92 1. 00 0. 94 0. 96 0. 94
+0. 89 0. 92 1. 00 0. 94 0. 94
+0. 89 0. 83 0. 92 1. 00 0. 94
+0. 83 0. 92 0. 92 0. 92 1. 00
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+;
+V1 =
+0. 500 0. 598 0. 699 0. 699 0. 801
+0. 402 0. 500 0. 598 0. 801 0. 598
+0. 301 0. 402 0. 500 0. 598 0. 598
+0. 301 0. 199 0. 402 0. 500 0. 598
+0. 199 0. 402 0. 402 0. 402 0. 500
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+。
+对模糊判断矩阵 V1 用可达矩阵进行验算后,V1
+满足一致性要求。 同理,其余 3 名专家评分后的结构
+190
+
+
+增刊 2 吴 城, 等 : 基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+模糊判断矩阵如 V2、V3、V4 所示:
+V2 =
+0. 500 0. 801 0. 699 0. 900 0. 598
+0. 199 0. 500 0. 402 0. 598 0. 301
+0. 301 0. 598 0. 500 0. 598 0. 402
+0. 100 0. 402 0. 402 0. 500 0. 301
+0. 402 0. 699 0. 598 0. 699 0. 500
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+;
+V3 =
+0. 500 0. 598 0. 598 0. 699 0. 699
+0. 402 0. 500 0. 699 0. 598 0. 598
+0. 402 0. 301 0. 500 0. 402 0. 598
+0. 301 0. 402 0. 402 0. 500 0. 598
+0. 301 0. 402 0. 402 0. 402 0. 500
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+;
+V4 =
+0. 500 0. 402 0. 500 0. 301 0. 402
+0. 598 0. 500 0. 598 0. 402 0. 500
+0. 500 0. 402 0. 500 0. 402 0. 402
+0. 699 0. 598 0. 598 0. 500 0. 500
+0. 598 0. 500 0. 598 0. 500 0. 500
+■
+■
+| | | | | |
+■
+■
+| | | | | |
+。
+随后通过式( 7) 和式( 8) 进行计算,得到 S1、S2、
+S3、S4、S5 的权重为 0. 151、0. 193、0. 215、0. 226、0. 213。
+按照上述步骤,第 2 层因素评价指标相较于第 1 层因
+素的判断权重计算结果如表 3 所示。
+表 3 各层事件权重指标评价
+Table 3 Evaluation of event weight index of each layer
+目标层 第 1 层因素 第 1 层因素
+指标权重
+第2层
+因素
+第 2 层因素
+指标权重
+桩基托
+换风险
+施工 S0
+施工环境 S1 0. 151
+结构与工法设计 S2 0. 193
+安全控制措施 S3 0. 215
+施工工艺 S4 0. 226
+盾构施工 S5 0. 213
+S11 0. 312
+S12 0. 200
+S13 0. 271
+S14 0. 217
+S21 0. 308
+S22 0. 350
+S23 0. 342
+S31 0. 334
+S32 0. 291
+S33 0. 375
+S41 0. 245
+S42 0. 238
+S43 0. 275
+S44 0. 242
+S51 0. 317
+S52 0. 375
+S53 0. 308
+2. 4 灰色关联度确定
+4 位专家对每个事件的风险情况采用(0,1] 标度
+进行打分,评分结果见表 4。
+表 4 风险事件评分
+Table 4 Risk event score
+风险因素
+评分
+专家 1 专家 2 专家 3 专家 4
+施工环境 S1 0. 5 0. 4 0. 5 0. 4
+地震作用 S11 0. 9 0. 3 0. 2 0. 3
+地层岩性 S12 0. 8 0. 7 0. 7 0. 7
+既有构筑物 S13 0. 7 0. 7 0. 8 0. 4
+水文地质与气象条件 S14 0. 6 0. 3 0. 2 0. 4
+结构与工法设计 S2 0. 6 0. 6 0. 6 0. 6
+病害桥梁维修加固 S21 0. 5 0. 7 0. 6 0. 3
+桩基托换与盾构施工方法设计 S22 0. 7 0. 8 0. 7 0. 8
+工程设计变更 S23 0. 3 0. 3 0. 3 0. 3
+安全控制措施 S3 0. 5 0. 6 0. 6 0. 4
+施工培训与演练 S31 0. 4 0. 5 0. 5 0. 3
+车流量及车速 S32 0. 2 0. 2 0. 3 0. 4
+沉降、裂缝及应力等监测 S33 0. 7 0. 7 0. 7 0. 5
+施工工艺 S4 0. 6 0. 9 0. 8 0. 8
+原桥墩以及承台与托换梁的衔接 S41 0. 8 0. 7 0. 6 0. 8
+地层注浆加固 S42 0. 4 0. 7 0. 7 0. 4
+托换预顶升 S43 0. 7 0. 6 0. 8 0. 8
+基坑围护加固 S44 0. 3 0. 8 0. 7 0. 4
+盾构穿越施工 S5 0. 7 0. 9 0. 9 0. 6
+盾构及刀盘与刀具的选型与更换 S51 0. 4 0. 5 0. 6 0. 5
+盾构掘进参数控制 S52 0. 8 0. 7 0. 8 0. 4
+盾构管片背后注浆情况 S53 0. 5 0. 8 0. 8 0. 6
+以第 1 层因素为例,建立事件 S1、S2、S3、S4、S5 的
+评价指标矩阵
+F1 =
+0. 5 0. 6 0. 5 0. 6 0. 7
+0. 4 0. 6 0. 6 0. 9 0. 9
+0. 5 0. 6 0. 6 0. 8 0. 9
+0. 4 0. 6 0. 4 0. 8 0. 6
+■
+■
+| | | |
+■
+■
+| | | |
+。
+结合式 ( 12) 将 F1 中 数 据 进 行 无 量 纲 化, 得 到
+矩阵
+F′1 =
+1. 11 1. 00 0. 95 0. 44 0. 90
+0. 89 1. 00 1. 14 1. 16 1. 16
+1. 11 1. 00 1. 14 1. 03 1. 16
+0. 89 1. 00 0. 76 1. 03 0. 77
+■
+■
+| | | |
+■
+■
+| | | |
+。
+将 F′1 中每列的最大值作为最优值, 得 到 最 优
+矩阵
+F∗ = (1. 11 1. 00 1. 14 1. 16 1. 16) 。
+191
+
+
+隧道建设( 中英文) 第 43 卷
+根据式(16) 计算可得差值矩阵
+ΔF1 =
+0. 00 0. 00 0. 19 0. 72 0. 26
+0. 22 0. 00 0. 00 0. 00 0. 00
+0. 00 0. 00 0. 00 0. 13 0. 00
+0. 22 0. 00 0. 38 0. 13 0. 39
+■
+■
+| | | ||
+■
+■
+| | | ||
+。
+Δmax 即为差值矩阵 ΔF1 中的最大值,Δmax = 0. 72;
+Δmin 即为差值矩阵 ΔF1 中的最小值,Δmin = 0。 根据式
+(15) 计算可得到各事件的关联系数,计算结果如表 5
+所示。
+表 5 第 1 层因素关联系数
+Table 5 Correlation coefficient of the first layer factors
+专家 ζk1 ζk2 ζk3 ζk4 ζk5
+1 1. 000 1. 000 0. 655 0. 333 0. 581
+2 0. 621 1. 000 1. 000 1. 000 1. 000
+3 1. 000 1. 000 1. 000 0. 735 1. 000
+4 0. 621 1. 000 0. 486 0. 735 0. 480
+最后,根据式(18) 计算可以得到该层事件的灰色
+关联度。 计算可得 γ1 = 0. 122,γ2 = 0. 193,γ3 = 0. 169,
+γ4 = 0. 158,γ5 = 0. 163。 同理对第 2 层因素进行计算,
+得出各事件关联度大小,如表 6 所示。
+表 6 各事件关联度
+Table 6 Correlation degree of each event
+目标层 第 1 层
+因素 关联度 第 2 层
+因素 关联度
+桩基托
+换风险
+施工 S0
+施工环境 S1 0. 122
+前期结构设计 S2 0. 193
+安全控制措施 S3 0. 169
+施工工艺 S4 0. 158
+盾构施工 S5 0. 163
+S11 0. 161
+S12 0. 178
+S13 0. 221
+S14 0. 152
+S21 0. 193
+S22 0. 305
+S23 0. 342
+S31 0. 254
+S32 0. 158
+S33 0. 332
+S41 0. 208
+S42 0. 173
+S43 0. 122
+S44 0. 147
+S51 0. 208
+S52 0. 281
+S53 0. 223
+2. 5 风险事件发生概率
+将第 1 层因素与第 2 层因素的权重与关联度相
+乘、积相加,得到的结果为 D = (0. 162,1. 088) ,选用 I
+型评判函数,得到事件最终概率 P = 1 × 0. 162 + 0. 1 ×
+1. 088 = 0. 270 8。 由表 2 可知,桩基托换施工风险概
+率为 4 级,是可能发生风险,且比较接近于很可能发生
+风险。 该下穿隧道在进行桩基托换施工时,施工情况
+复杂多变,有许多不可预料的因素可能会发生,若不对
+盾构隧道穿越桥梁桩基群施工过程进行详细的风险事
+件分析及评估,极有可能导致发生安全事故。
+2. 6 风险评估结果分析
+通过本方法计算得出了各层事件的评价指标以及
+权重,在第 1 层因素中,对桩基托换风险施工 S0 影响
+较大的有施工工艺 S4 及盾构施工 S5,即桩基托换风险
+管理需着重对施工工艺以及盾构施工 2 部分进行管
+理。 在第 2 层因素中,原桥墩以及承台与托换梁的衔
+接 S41 对施工工艺 S4 影响是最大的,而托换预顶升 S43
+对其影响最小,所以在对桩基托换施工中,需要对托换
+梁与既有承台的衔接做好质量控制,并准备应急预案
+方法与措施,避免在施工过程中出现意外的情况。 同
+样,盾构掘进参数控制 S52 对于盾构施工 S5 也是相当
+重要的,需要根据项目资料以及地质条件选择合适的
+掘进参数,降低施工发生安全事故的概率。
+同时,地层岩性 S12、桩基托换与盾构施工方法设
+计 S22 以及沉降、裂缝及应力等监测 S33 也同样重要。
+在施工前,首先,需要对施工地点的岩层进行充分地
+勘探,了解施工地点的岩层特性,考虑是否需要对其
+做出防护等措施;其次,需要对桩基托换与盾构施工
+的施工方法进行详细的安全评估,并做好相应的应
+急预案,尽量形成一套安全可靠的施工方案;同时,
+还需要及时地做好数据监测,通过监测数据判断施
+工情况以及既有结构是否安全,提前判断是否会发
+生安全事故。
+3 风险事件控制与验证
+基于 2. 6 节中对风险事件的分析,对于桩基托
+换预顶升时,需要严格检查准备工作是否完成、顶升
+仪器设备是否可以正常运行、选择的顶升参数是否
+合适、工作人员是否到位等;对于盾构开始施工前,
+需根据施工情况及环境,选择最优掘进参数。 本项
+目在施工前进行了工程类比与计算分析,最终确定
+盾 构 总 推 力 参 数 为 7. 6 × 104 kN, 刀 盘 转 矩 为
+192
+
+
+增刊 2 吴 城, 等 : 基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+24 324 kN·m,刀盘驱动功率为 250 kW / 台,盾构推
+进功率为 110 kW。 同时,对施工人员进行严格的培
+训,确保施工人员的专业知识达到要求,并设计好相
+应的应急预案,以防突发情况的发生。 在进行桩基
+托换施工时,对现场各检测点进行定点、定量、定期
+监测沉降变形,可以最直接、最有效地反映出前期结
+构设计是否合理,安全控制措施是否到位,桩基托换
+施工工艺是否安全高效。
+整个风险评估结果符合盾构隧道穿越桥梁桩基群
+施工方案的预期。 本项目在施工过程中,对桩基托换
+施工流程和盾构穿越施工加强管理监督,并着重针对
+托换梁与既有结构衔接施工进行重点风险控制,在现
+场对各检测点的沉降变形进行定点、定量、定期监测,
+同时设立与监测墩台、桩基相匹配的监测系统。 在被
+托换墩的墩身或墩顶四边、新托梁顶、新托换桩顶各安
+装 1 ~ 2 支智能位移监测计,用于观测既有桩各点竖
+向、水平位移以及新托梁与既有墩柱的相对位移。 各
+监测点安装的位移计均是自动观测仪器,可实时获
+取监测数据、实时进行评估并及时报警。 选取成都
+轨道交通 13 号线四川师大—娇子立交区间风险较
+高的 H2-10 号、J24 号和 J23 号桥墩桩基托换施工过
+程进行监测,其中 H2 - 10 号桥墩桩基施工设置 3 个
+位移监测点,编号为 CJ1 - 1 ~ CJ1 - 3;J24 号桥墩桩基
+施工设置 4 个位移监测点,编号为 CJ2-1 ~ CJ2-4;23
+号桥墩桩基施工设置 8 个位移监测点,编号为 CJ3 
+1 ~ CJ3-8,见图 2,合计 15 个监测点。 在整个桩基托
+换施工期间对既有墩台和桩基沉降变形进行连续监
+测,托换过程中加强梁体沉降变形和相对位移的监
+测频率,并在关键施工阶段进行实时监测与评估,获
+取的监测结果如图 3 所示。 需要注意的是,本项目
+盾构隧道还未进行掘进,后期将结合盾构掘进数据
+进行进一步完善。
+由图 3 可知,随着桩基托换施工的进行,各监测点
+沉降变形差均较小,其最大沉降量为 5. 1 mm,满足《 四
+川师大—娇子立交区间施工步骤及监控量测方案图》
+中的结构变形控制标准建议值( 见表 7),可判断出桩
+基托换施工所发生的沉降变形均处于安全范围,既有
+结构处于安全稳定状态。 将监测结果与桩基托换风险
+影响因素 S33 进行对比分析,进一步说明了桩基托换
+施工的风险程度低,前期结构设计合理,安全控制措施
+到位,降低了上述风险评价体系的定性定量分析成分,
+提高了风险分析结果的可靠性。
+(a) 立面图
+(b) 平面图
+图 2 位移监测点布置示意图
+Fig. 2 Layout diagram of displacement monitoring point
+193
+
+
+隧道建设( 中英文) 第 43 卷
+图 3 位移监测点沉降变形累计曲线
+Fig. 3 Curves of accumulative settlement deformation of displacement monitoring point
+表 7 项目结构变形控制标准建议值
+Table 7 Recommended value for project deformation control
+standard mm
+内容 控制标准(建议值)
+预应力承台上拱 7
+承台变形沉降 10
+桩基变形沉降 10
+4 结论与讨论
+基于对盾构隧道进行桩基托换施工风险的总结分
+析,提出了 FAHP - GRA 方法体系,并结合实测数据的
+分析,验证了风险分析的可靠性,得到主要结论如下:
+1) 结合 实 际 工 程 与 相 关 文 献 资 料, 建 立 了 一 套
+适用于隧道盾构穿越城市立交桥桩基群施工的安全
+风险评价体系,改进了事件之间关联度的计算方式,
+使结果更加可靠。 在桩基群托换施工过程中,施工
+工艺以及盾构施工过程的施工风险较高,其中原桥
+墩、承台与托换梁的衔接以及对盾构掘进参数控制
+尤为重要。
+2) 通过所 建 立 的 评 估 模 型, 获 得 风 险 评 估 结 果,
+并针对高风险事件提出了相应的施工控制措施。 施工
+过程中,桥梁结构体系的实测变形值满足控制标准建
+议值,验证了本文风险评估方法及结果的可靠性。
+3) 对于桩基托换施工过程,需要着重对于施工工艺
+以及盾构施工 2 部分进行风险控制,做好相应的应急预
+案,避免安全事故的发生;同时也要做好施工前的准备,
+如对地层岩性进行分析、对桩基托换以及盾构施工的方
+案进行设计等; 在施工整个过程中,还应做好监测。
+4)将模糊层次分析和灰色关联度分析方法中 2
+套不同的打分体系相结合,不仅可以将各因素进行两
+两比较,还可以将每个事件进行独立打分。 通过将 2
+次打分计算后的结果相结合,可大幅降低风险评估中
+的主观性,提高分析结果的可靠性。
+本研究仍存在一定需依据专家水平以及经验进行
+打分评价的主观性问题。 对于风险评估结果还需要采
+取数值模拟等手段进行对比分析,从而进一步验证风
+险分析的合理性。
+参考文献(References):
+[1] 陈子全, 汪波, 吴迪, 等. 盾构隧道穿越桥梁桩基群的
+桩基托换技术研究[ J] . 现代隧道技术, 2019, 56( 5) :
+133.
+CHEN Ziquan, WANG Bo, WU Di, et al. Research on pile
+foundation underpinning technology for the shield tunnel
+passing through bridge pile foundation group [ J] . Modern
+Tunnelling Technology, 2019, 56(5): 133.
+[2] SUN Xingliang, TENG Guo, GUO Xiaolong, et al. Risk
+assessment of water inrush in karst tunnels based on fuzzy
+comprehensive evaluation considering misjudgment
+losses: A case study[ J] . Arabian Journal of Geosciences,
+2022, 15(5): 421.
+[3] CHU Handong, XU Guangli, YASUFUKU Noriyuki, et al.
+Risk assessment of water inrush in karst tunnels based on
+two-class fuzzy comprehensive evaluation method [ J ] .
+Arabian Journal of Geosciences, 2017, 10(7): 1866.
+[4] 王者超, 陆宝麒, 李术才, 等. 地下水封石油洞库施工
+194
+
+
+增刊 2 吴 城, 等 : 基于 FAHP-GRA 法的盾构隧道穿越桥梁桩基群施工风险评估
+期安全风险评估研究[ J] . 岩土工程学报, 2015, 37(6) :
+1057.
+WANG Zhechao, LU Baolin, LI shucai, et al. Risk
+assessment for an underground crude oil storage facility with
+water-curtaining system during construction phase [ J ] .
+Chinese Journal of Geotechnical Engineering, 2015, 37 (6):
+1057.
+[5] 卢鑫月, 许成顺, 侯本伟, 等. 基于动态贝叶斯网络的
+地铁隧道施工风险评估[ J] . 岩土工程学报, 2022, 44
+(3) : 492.
+LU Xinyue, XU Chengshun, HOU Benwei, et al. Risk
+assessment of metro construction based on dynamic
+Bayesian network [ J ] . Chinese Journal of Geotechnical
+Engineering, 2022, 44(3): 492.
+[6] XU Jingsong, XU Hua, SUN Runfang, et al. Seismic risk
+evaluation for a planning mountain tunnel using improved
+analytical hierarchy process based on extension theory [ J] .
+Journal of Mountain Science, 2020, 17(1): 244.
+[7] LI Zhaoyang, WANG Yingchao, OLGUN C Guney, et al.
+Risk assessment of water inrush caused by karst cave in
+tunnels based on reliability and GA-BP neural network[ J] .
+Geomatics Natural Hazards and Risk, 2020, 11(1): 1212.
+[8] 田雨, 马如进, 陈艾荣, 等. 临近并行的高铁桥梁与高
+速公路 相 互 影 响 的 安 全 风 险 评 估 [ J]. 振 动 与 冲 击,
+2016, 35(21) : 69.
+TIAN Yu, MA Rujin, CHEN Airong, et al. Safety risk
+assessment for interactive influences between adjacent and
+parallel high-speed railway bridges and highway[ J] . Journal
+of Vibration and Shock, 2016, 35(21): 69.
+[9] WANG Xintong, LI Shucai, XU Zhenhao, et al. An interval
+risk assessment method and management of water inflow
+and inrush in course of karst tunnel excavation [ J ] .
+Tunnelling and Underground Space Technology, 2019, 92
+(10): 103033.1.
+[10] 魏纲, 周琰. 邻近盾构隧道的建筑物安全风险模糊层次
+分析[ J] . 地下空间与工程学报, 2014, 10(4) : 956.
+WEI Gang, ZHOU Yan. Fuzzy assessment method
+combining AHP for safety risk of buildings caused by
+adjacent shield tunnel construction[ J] . Chinese Journal of
+Underground Space and Engineering, 2014, 10(4): 956.
+[11] 王烨晟, 陈文华. 受地铁工程影响建筑物安全风险等级
+评定研究[ J] . 路基工程, 2015(3) : 42.
+WANG Yesheng, CHEN Wenhua. Study on security risk
+grade evaluation standard of buildings influnced by metro
+tunneling construction[ J] . Subgrade Engineering, 2015(3):
+42.
+[12] 李海文, 鲍学英. 基于动态权重-二维云模型的青藏高
+原交通工程高地温隧道施工风险评估[ J]. 武汉大学学
+报( 工学版) , 2022, 55(10) : 1010.
+LI Haiwen, BAO Xueying. Risk assessment of Qinghai
+Tibet Plateau traffic engineering high geothermal tunnel
+construction based on dynamic weight and 2D cloud model
+[ J] . Engineering Journal of Wuhan University, 2022, 55
+(10): 1010.
+[13] 吴颖宁. 基于模糊层次分析法和随机过程的盾构近距
+离下穿既有隧道风险概率分析[ J] . 市政技术, 2023,
+41(2) : 78.
+WU Yingning. Risk probability analysis of shield underpass
+adjacent existing tunnel based on fuzzy analytic hierarchy
+process and stochastic process [ J ] . Journal of Municipal
+Technology, 2023, 41(2): 78.
+[14] ZAI Jinmin, LU Zhou, HUANG Guanglong. Reliability
+analysis of design method of composite pile foundation
+according to ultimate bearing capacity of single pile[ J] .
+Rock and Soil Mechanics, 2004, 25(9): 1483.
+[15] 李镜培, 楼晓明, 贾付波. 复合桩基的承载力安全度与
+可靠度分析[ J] . 建筑结构学报, 2003, 24(2) : 86.
+LI Jingpei, LOU Xiaoming, JIA Fubo. Safety and reliability
+of composite pile foundation designed by controlling
+settlement and bearing capacity [ J ] . Journal of Building
+Structures, 2003, 24(2): 86.
+[16] SAWYER J P, RAO S S. Strength-based reliability and
+fracture assessment of fuzzy mechanical and structural
+systems[ J] . AIAA Journal, 1999, 37(1): 84.
+[17] UTKIN L V, GUROV S V. A general formal approach for
+fuzzy reliability analysis is in the possibility context [ J] .
+Fuzzy Sets and Systems, 1996, 83(2): 203.
+[18] 赖德金, 李哲, 李晓思, 等. 基于 D-S 证据理论的大直
+径变截面钢管混凝土复合桩基础全寿命风险评估[ J].
+公路, 2022, 67(11) : 59.
+LAI Dejin, LI Zhe, LI Xiaosi, et al. Full-life risk
+assessment of steel pipe concrete composite pile foundation
+with large diameter and variable cross-section based on
+D-S evidence theory[ J] . Highway, 2022, 67(11): 59.
+[19] BARAKAT S A, MALKAWI A I H, TAHAT R H. Reliability
+based optimization of laterally loaded piles [ J ]. Structural
+Safety, 1999, 21(1): 45.
+[20] TANDJIRIA V, TEH C l, LOW B K. Reliability analysis of
+laterally loaded piles using response surface methods [ J] .
+Structural Safety, 2000, 22(4): 335.
+195
+
+
+隧道建设( 中英文) 第 43 卷
+[21] 范英, 李辰, 晋民杰, 等. 三角模糊数和层次分析法在
+风险评价中的应用研究[ J] . 中国安全科学学报, 2014,
+24(7) : 70.
+FAN Ying, LI Chen, JIN Minjie, et al. Research on application
+of triangular fuzzy number and AHP in risk evaluation [ J].
+China Safety Science Journal, 2014, 24(7): 70.
+[22] 吴波, 吴昱芳, 黄惟, 等. 基于模糊综合判定法地铁深
+基坑施工安全风险评估[ J] . 数学的实践与认识, 2020,
+50(2) : 179.
+WU Bo, WU Yufang, HUANG Wei, et al. Safety risk
+assessment of metro deep foundation pit construction based
+on fuzzy comprehensive judgment method [ J ] .
+Mathematics in Practice and Theory, 2020, 50(2): 179.
+[23] 吕跃进. 基于模糊一致矩阵的模糊层次分析法的排序
+[ J] . 模糊系统与数学, 2002(2) : 79.
+LU Yuejin. Weight calculation method of fuzzy analytical
+hierarchy process [ J ] . Fuzzy Systems and Mathematics,
+2002(2): 79.
+[24] 侯福均, 吴祈宗. 模糊数互补判断矩阵的加性一致性
+[ J] . 北京理工大学学报, 2004, 24(4) : 367.
+HOU Fujun, WU Qizong. Additive consistency of
+complementary judgment matrices with fuzzy numbers[ J] .
+Transactions of Beijing Institute of Technology, 2004, 24
+(4): 367.
+[25] 刘思峰. 灰色系统理论及其应用[ D] . 5 版. 北京: 科
+学出版社, 2010.
+LIU Sifeng. Grey system theory and its applications[ M] .
+5th ed. Beijing: Science Press, 2010.
+[26] 张乃录. 安全评价技术[ M] . 西安: 西安电子科技大学
+出版社, 2016.
+ZHANG Nailu. Technology of safety assessment [ M ] .
+Xi′an: Xidian University Press, 2016.
+[27] 吴波, 赵睿, 蒙国往, 等. 基于 FAHP-GRA 理论的隧道
+爆破冲击波风险评估[ J] . 地下空间与工程学报, 2022,
+18(6) : 2072.
+WU Bo, ZHAO Rui, MENG Guowang, et al. Risk
+assessment of blast wave in tunnel based on FAHP-GRA
+theory[ J ] . Chinese Journal of Underground Space and
+Engineering, 2022, 18(6): 2072.
+[28] 铁路隧道工程风险管理技术规范: Q / CR 9006—2014
+[ S] . 北京: 中国铁道出版社, 2017.
+Technical code for risk management of railway construction
+engineering: Q/CR 9006-2014[ S] . Beijing: China Railway
+Publishing House, 2017.
+[29] 交通运输部工程质量监督局. 公路桥梁和隧道工程施
+工安全风险评估制度及指南解析[M]. 北京: 人民交通
+出版社, 2011.
+Engineering Quality Supervision Bureau of the Ministry of
+Transport. Technical specification for engineering risk
+management-risk assessment for construction of highway
+bridges and tunnels [ M] . Beijing: China Communications
+Press, 2011.
+[30] 黄银钉. 地铁区间隧道下穿既有桥梁的桩基托换[ J] .
+城市轨道交通研究, 2012, 15(2) : 100.
+HUANG Yinding. Bridge pile foundation underpinning in
+subway tunnel[ J] . Urban Mass Transit, 2012, 15(2): 100.
+[31] 潘健, 何志虎, 周森. 深圳地铁 5 号线宝安立交桥桩基
+托换技术[ J] . 城市轨道交通研究, 2011, 14(9) : 94.
+PAN Jian, HE Zhihu, ZHOU Sen. Piles foundation
+underpinning of Bao′an bridge in Shenzhen subway line 5
+[ J] . Urban Mass Transit, 2011, 14(9): 94.
+[32] 宋南涛. 地铁隧道洞内托换跨河桥梁桩基的应用及设
+计施工关键技术 [ J] . 现 代 隧 道 技 术, 2013, 50 ( 4) :
+164.
+SONG Nantao. Design and construction of the
+underpinning of a river-crossing bridge pile foundation in a
+metro tunnel[ J] . Modem Tunnelling Technology, 2013, 50
+(4): 164.
+[33] 赵长庆. 盾构下穿既有建筑物桩基托换的风险管理研
+究[ D] . 兰州: 兰州交通大学, 2017.
+ZHAO Changqing. Risk management on pile foundation
+underpinning for shield tunnel down-traversing existing
+buildings [ D ] . Lanzhou: Lanzhou Jiaotong University,
+2017.
+196

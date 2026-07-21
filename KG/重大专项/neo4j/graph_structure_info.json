@@ -1,0 +1,17 @@
+{
+  "node_labels": [
+    "Entity",
+    "参数原因",
+    "地质原因",
+    "措施",
+    "现象",
+    "设计缺陷",
+    "风险名称"
+  ],
+  "relationship_types": [
+    "原因因素",
+    "措施方法",
+    "表现现象"
+  ],
+  "exploration_timestamp": "2024-12-19"
+}

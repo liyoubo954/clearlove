@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5cac865-dd20-40fb-855e-694222dab377" name="AI服务器1">
+        <fileTransfer accessType="SFTP" host="192.168.211.110" port="22" sshConfigId="aa49bda8-a298-439f-99d4-60576aa0cf2b" sshConfig="ubuntu@192.168.211.110:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="684287cf-9e80-4e64-a0ee-37630bde023b" name="AI服务器2">
+        <fileTransfer accessType="SFTP" host="192.168.211.210" port="22" sshConfigId="59dbb151-e932-4062-9719-de422bb897fe" sshConfig="AI服务器2">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

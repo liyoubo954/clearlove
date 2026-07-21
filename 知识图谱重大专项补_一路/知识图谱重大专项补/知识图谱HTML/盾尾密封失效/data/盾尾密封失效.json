@@ -1,0 +1,4326 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 255,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封系统设计缺陷",
+          "描述": "盾尾密封系统本身的设计存在不足，使其在特定地质或施工条件下难以保证密封效果。"
+        },
+        "elementId": "255"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 260,
+            "start": 254,
+            "end": 255,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "260",
+            "startNodeElementId": "254",
+            "endNodeElementId": "255"
+          },
+          "end": {
+            "identity": 255,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封系统设计缺陷",
+              "描述": "盾尾密封系统本身的设计存在不足，使其在特定地质或施工条件下难以保证密封效果。"
+            },
+            "elementId": "255"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 256,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封材料老化",
+          "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+        },
+        "elementId": "256"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 261,
+            "start": 254,
+            "end": 256,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "261",
+            "startNodeElementId": "254",
+            "endNodeElementId": "256"
+          },
+          "end": {
+            "identity": 256,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封材料老化",
+              "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+            },
+            "elementId": "256"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 257,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾尾刷组装有问题",
+          "描述": "在安装盾尾刷时，如果搭接长度不够、固定不牢或顺序错误，就会留下先天的密封缝隙。"
+        },
+        "elementId": "257"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 262,
+            "start": 254,
+            "end": 257,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "262",
+            "startNodeElementId": "254",
+            "endNodeElementId": "257"
+          },
+          "end": {
+            "identity": 257,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾尾刷组装有问题",
+              "描述": "在安装盾尾刷时，如果搭接长度不够、固定不牢或顺序错误，就会留下先天的密封缝隙。"
+            },
+            "elementId": "257"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 258,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "钢板束及止浆板选型问题",
+          "描述": "选用的钢板束（构成盾尾刷骨架）或止浆板的规格、材质不符合设计要求或地质条件，导致其无法有效工作。"
+        },
+        "elementId": "258"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 263,
+            "start": 254,
+            "end": 258,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "263",
+            "startNodeElementId": "254",
+            "endNodeElementId": "258"
+          },
+          "end": {
+            "identity": 258,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "钢板束及止浆板选型问题",
+              "描述": "选用的钢板束（构成盾尾刷骨架）或止浆板的规格、材质不符合设计要求或地质条件，导致其无法有效工作。"
+            },
+            "elementId": "258"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 259,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件变形",
+          "描述": "盾尾刷在挤压或碰撞后发生弯曲、扭曲等永久变形，使其无法再与管片表面紧密贴合。"
+        },
+        "elementId": "259"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 264,
+            "start": 254,
+            "end": 259,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "264",
+            "startNodeElementId": "254",
+            "endNodeElementId": "259"
+          },
+          "end": {
+            "identity": 259,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件变形",
+              "描述": "盾尾刷在挤压或碰撞后发生弯曲、扭曲等永久变形，使其无法再与管片表面紧密贴合。"
+            },
+            "elementId": "259"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 260,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "管片拼装错台",
+          "描述": "隧道环向的管片之间或前后环管片之间存在高低不平的台阶，这个台阶会刮伤盾尾刷或形成泄漏通道。"
+        },
+        "elementId": "260"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 254,
+            "end": 260,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "265",
+            "startNodeElementId": "254",
+            "endNodeElementId": "260"
+          },
+          "end": {
+            "identity": 260,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "管片拼装错台",
+              "描述": "隧道环向的管片之间或前后环管片之间存在高低不平的台阶，这个台阶会刮伤盾尾刷或形成泄漏通道。"
+            },
+            "elementId": "260"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 261,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+        },
+        "elementId": "261"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 266,
+            "start": 254,
+            "end": 261,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "266",
+            "startNodeElementId": "254",
+            "endNodeElementId": "261"
+          },
+          "end": {
+            "identity": 261,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+            },
+            "elementId": "261"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 262,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "姿态控制不佳",
+          "描述": "盾构机掘进时的姿态（如俯仰、偏航）控制不当，导致盾构机轴线与隧道轴线偏离，使盾尾间隙不均匀。"
+        },
+        "elementId": "262"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 267,
+            "start": 254,
+            "end": 262,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "267",
+            "startNodeElementId": "254",
+            "endNodeElementId": "262"
+          },
+          "end": {
+            "identity": 262,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "姿态控制不佳",
+              "描述": "盾构机掘进时的姿态（如俯仰、偏航）控制不当，导致盾构机轴线与隧道轴线偏离，使盾尾间隙不均匀。"
+            },
+            "elementId": "262"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 263,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "盾尾未清理",
+          "描述": "未能及时清理掉粘附在盾尾密封刷上或其周围的已凝固浆液、渣土等杂物，这些硬化的杂物会像砂纸一样磨损甚至卡坏密封件。"
+        },
+        "elementId": "263"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 268,
+            "start": 254,
+            "end": 263,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "268",
+            "startNodeElementId": "254",
+            "endNodeElementId": "263"
+          },
+          "end": {
+            "identity": 263,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "盾尾未清理",
+              "描述": "未能及时清理掉粘附在盾尾密封刷上或其周围的已凝固浆液、渣土等杂物，这些硬化的杂物会像砂纸一样磨损甚至卡坏密封件。"
+            },
+            "elementId": "263"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 264,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进力增加",
+          "描述": "浆液或土体进入盾尾间隙，增大了盾构机外壳与管片之间的摩擦力，导致需要更大的推力才能前进。"
+        },
+        "elementId": "264"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 269,
+            "start": 254,
+            "end": 264,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "269",
+            "startNodeElementId": "254",
+            "endNodeElementId": "264"
+          },
+          "end": {
+            "identity": 264,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进力增加",
+              "描述": "浆液或土体进入盾尾间隙，增大了盾构机外壳与管片之间的摩擦力，导致需要更大的推力才能前进。"
+            },
+            "elementId": "264"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 265,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进速度减慢",
+          "描述": "由于推进阻力增大或为了处理泄漏问题，盾构机的整体掘进速度被迫放缓。"
+        },
+        "elementId": "265"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 270,
+            "start": 254,
+            "end": 265,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "270",
+            "startNodeElementId": "254",
+            "endNodeElementId": "265"
+          },
+          "end": {
+            "identity": 265,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进速度减慢",
+              "描述": "由于推进阻力增大或为了处理泄漏问题，盾构机的整体掘进速度被迫放缓。"
+            },
+            "elementId": "265"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 266,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘转速改变",
+          "描述": "盾尾问题有时会影响整机稳定性，间接导致操作手为调整姿态或应对阻力而改变刀盘的转速。"
+        },
+        "elementId": "266"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 271,
+            "start": 254,
+            "end": 266,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "271",
+            "startNodeElementId": "254",
+            "endNodeElementId": "266"
+          },
+          "end": {
+            "identity": 266,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘转速改变",
+              "描述": "盾尾问题有时会影响整机稳定性，间接导致操作手为调整姿态或应对阻力而改变刀盘的转速。"
+            },
+            "elementId": "266"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 267,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "俯仰角超限",
+          "描述": "盾构机为了克服因盾尾问题引起的姿态偏差，其俯仰角度可能会超出正常控制范围。"
+        },
+        "elementId": "267"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 272,
+            "start": 254,
+            "end": 267,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "272",
+            "startNodeElementId": "254",
+            "endNodeElementId": "267"
+          },
+          "end": {
+            "identity": 267,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "俯仰角超限",
+              "描述": "盾构机为了克服因盾尾问题引起的姿态偏差，其俯仰角度可能会超出正常控制范围。"
+            },
+            "elementId": "267"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 268,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "油脂泵压力显示异常低值",
+          "描述": "由于密封失效导致油脂大量泄漏，油脂泵无法在密封腔内建立并维持正常的压力。"
+        },
+        "elementId": "268"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 273,
+            "start": 254,
+            "end": 268,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "273",
+            "startNodeElementId": "254",
+            "endNodeElementId": "268"
+          },
+          "end": {
+            "identity": 268,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "油脂泵压力显示异常低值",
+              "描述": "由于密封失效导致油脂大量泄漏，油脂泵无法在密封腔内建立并维持正常的压力。"
+            },
+            "elementId": "268"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 269,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "油脂压力传感器显示周期性骤降",
+          "描述": "压力会随着管片环的拼装或盾构的微小移动而有规律地突然下降，表明在特定位置存在泄漏点。"
+        },
+        "elementId": "269"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 274,
+            "start": 254,
+            "end": 269,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "274",
+            "startNodeElementId": "254",
+            "endNodeElementId": "269"
+          },
+          "end": {
+            "identity": 269,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "油脂压力传感器显示周期性骤降",
+              "描述": "压力会随着管片环的拼装或盾构的微小移动而有规律地突然下降，表明在特定位置存在泄漏点。"
+            },
+            "elementId": "269"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 270,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "注浆流量计与压力计数据不同步",
+          "描述": "尽管注浆系统显示仍在泵送浆液，但注浆压力却上不去，说明浆液没有被有效填充到空隙中而是漏掉了。"
+        },
+        "elementId": "270"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 275,
+            "start": 254,
+            "end": 270,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "275",
+            "startNodeElementId": "254",
+            "endNodeElementId": "270"
+          },
+          "end": {
+            "identity": 270,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "注浆流量计与压力计数据不同步",
+              "描述": "尽管注浆系统显示仍在泵送浆液，但注浆压力却上不去，说明浆液没有被有效填充到空隙中而是漏掉了。"
+            },
+            "elementId": "270"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 271,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "土仓压力异常波动",
+          "描述": "盾尾的严重泄漏可能破坏整机的压力平衡，进而影响到开挖面的稳定，导致土仓压力出现异常波动。"
+        },
+        "elementId": "271"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 276,
+            "start": 254,
+            "end": 271,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "276",
+            "startNodeElementId": "254",
+            "endNodeElementId": "271"
+          },
+          "end": {
+            "identity": 271,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "土仓压力异常波动",
+              "描述": "盾尾的严重泄漏可能破坏整机的压力平衡，进而影响到开挖面的稳定，导致土仓压力出现异常波动。"
+            },
+            "elementId": "271"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 255,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封系统设计缺陷",
+          "描述": "盾尾密封系统本身的设计存在不足，使其在特定地质或施工条件下难以保证密封效果。"
+        },
+        "elementId": "255"
+      },
+      "end": {
+        "identity": 272,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "优化设计",
+          "描述": "从根本上改进盾尾密封的结构设计，增强其可靠性和耐久性。"
+        },
+        "elementId": "272"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 255,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封系统设计缺陷",
+              "描述": "盾尾密封系统本身的设计存在不足，使其在特定地质或施工条件下难以保证密封效果。"
+            },
+            "elementId": "255"
+          },
+          "relationship": {
+            "identity": 277,
+            "start": 255,
+            "end": 272,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "277",
+            "startNodeElementId": "255",
+            "endNodeElementId": "272"
+          },
+          "end": {
+            "identity": 272,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "优化设计",
+              "描述": "从根本上改进盾尾密封的结构设计，增强其可靠性和耐久性。"
+            },
+            "elementId": "272"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 256,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封材料老化",
+          "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+        },
+        "elementId": "256"
+      },
+      "end": {
+        "identity": 273,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "替换密封",
+          "描述": "在确认盾尾刷已严重磨损或损坏后，进入盾尾进行人工更换新的密封刷。"
+        },
+        "elementId": "273"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 256,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封材料老化",
+              "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+            },
+            "elementId": "256"
+          },
+          "relationship": {
+            "identity": 278,
+            "start": 256,
+            "end": 273,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "278",
+            "startNodeElementId": "256",
+            "endNodeElementId": "273"
+          },
+          "end": {
+            "identity": 273,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "替换密封",
+              "描述": "在确认盾尾刷已严重磨损或损坏后，进入盾尾进行人工更换新的密封刷。"
+            },
+            "elementId": "273"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 257,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾尾刷组装有问题",
+          "描述": "在安装盾尾刷时，如果搭接长度不够、固定不牢或顺序错误，就会留下先天的密封缝隙。"
+        },
+        "elementId": "257"
+      },
+      "end": {
+        "identity": 274,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "盾尾刷核验",
+          "描述": "在盾构机始发前或组装时，严格检查盾尾刷的安装质量，确保其符合规范要求。"
+        },
+        "elementId": "274"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 257,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾尾刷组装有问题",
+              "描述": "在安装盾尾刷时，如果搭接长度不够、固定不牢或顺序错误，就会留下先天的密封缝隙。"
+            },
+            "elementId": "257"
+          },
+          "relationship": {
+            "identity": 279,
+            "start": 257,
+            "end": 274,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "279",
+            "startNodeElementId": "257",
+            "endNodeElementId": "274"
+          },
+          "end": {
+            "identity": 274,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "盾尾刷核验",
+              "描述": "在盾构机始发前或组装时，严格检查盾尾刷的安装质量，确保其符合规范要求。"
+            },
+            "elementId": "274"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 258,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "钢板束及止浆板选型问题",
+          "描述": "选用的钢板束（构成盾尾刷骨架）或止浆板的规格、材质不符合设计要求或地质条件，导致其无法有效工作。"
+        },
+        "elementId": "258"
+      },
+      "end": {
+        "identity": 275,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "钢板束焊接质量控制",
+          "描述": "确保构成盾尾刷的金属部件焊接牢固，防止在使用中断裂或变形。"
+        },
+        "elementId": "275"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 258,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "钢板束及止浆板选型问题",
+              "描述": "选用的钢板束（构成盾尾刷骨架）或止浆板的规格、材质不符合设计要求或地质条件，导致其无法有效工作。"
+            },
+            "elementId": "258"
+          },
+          "relationship": {
+            "identity": 280,
+            "start": 258,
+            "end": 275,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "280",
+            "startNodeElementId": "258",
+            "endNodeElementId": "275"
+          },
+          "end": {
+            "identity": 275,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "钢板束焊接质量控制",
+              "描述": "确保构成盾尾刷的金属部件焊接牢固，防止在使用中断裂或变形。"
+            },
+            "elementId": "275"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 259,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件变形",
+          "描述": "盾尾刷在挤压或碰撞后发生弯曲、扭曲等永久变形，使其无法再与管片表面紧密贴合。"
+        },
+        "elementId": "259"
+      },
+      "end": {
+        "identity": 276,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "盾尾调圆",
+          "描述": "如果监测到盾尾壳体因受力不均等原因发生形变（椭圆化），需采取措施进行校正，恢复其圆形。"
+        },
+        "elementId": "276"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 259,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件变形",
+              "描述": "盾尾刷在挤压或碰撞后发生弯曲、扭曲等永久变形，使其无法再与管片表面紧密贴合。"
+            },
+            "elementId": "259"
+          },
+          "relationship": {
+            "identity": 281,
+            "start": 259,
+            "end": 276,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "281",
+            "startNodeElementId": "259",
+            "endNodeElementId": "276"
+          },
+          "end": {
+            "identity": 276,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "盾尾调圆",
+              "描述": "如果监测到盾尾壳体因受力不均等原因发生形变（椭圆化），需采取措施进行校正，恢复其圆形。"
+            },
+            "elementId": "276"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 260,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "管片拼装错台",
+          "描述": "隧道环向的管片之间或前后环管片之间存在高低不平的台阶，这个台阶会刮伤盾尾刷或形成泄漏通道。"
+        },
+        "elementId": "260"
+      },
+      "end": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 260,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "管片拼装错台",
+              "描述": "隧道环向的管片之间或前后环管片之间存在高低不平的台阶，这个台阶会刮伤盾尾刷或形成泄漏通道。"
+            },
+            "elementId": "260"
+          },
+          "relationship": {
+            "identity": 282,
+            "start": 260,
+            "end": 277,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "282",
+            "startNodeElementId": "260",
+            "endNodeElementId": "277"
+          },
+          "end": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 278,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装前",
+          "描述": "拼装前，仔细清理管片接缝和盾尾刷，移除可能影响密封的杂物。"
+        },
+        "elementId": "278"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 283,
+            "start": 277,
+            "end": 278,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "283",
+            "startNodeElementId": "277",
+            "endNodeElementId": "278"
+          },
+          "end": {
+            "identity": 278,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装前",
+              "描述": "拼装前，仔细清理管片接缝和盾尾刷，移除可能影响密封的杂物。"
+            },
+            "elementId": "278"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 279,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装时",
+          "描述": "在拼装过程中，小心操作，避免管片角或连接螺栓等部位刮坏盾尾刷。"
+        },
+        "elementId": "279"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 284,
+            "start": 277,
+            "end": 279,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "284",
+            "startNodeElementId": "277",
+            "endNodeElementId": "279"
+          },
+          "end": {
+            "identity": 279,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装时",
+              "描述": "在拼装过程中，小心操作，避免管片角或连接螺栓等部位刮坏盾尾刷。"
+            },
+            "elementId": "279"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 280,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装后",
+          "描述": "完成一环拼装后，立即检查密封效果，并及时调整盾构姿态。"
+        },
+        "elementId": "280"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 285,
+            "start": 277,
+            "end": 280,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "285",
+            "startNodeElementId": "277",
+            "endNodeElementId": "280"
+          },
+          "end": {
+            "identity": 280,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装后",
+              "描述": "完成一环拼装后，立即检查密封效果，并及时调整盾构姿态。"
+            },
+            "elementId": "280"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 261,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+        },
+        "elementId": "261"
+      },
+      "end": {
+        "identity": 281,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "油脂选择检查",
+          "描述": "选择适合地层条件（如水压、温度）的优质盾尾密封油脂，并确保其未变质。"
+        },
+        "elementId": "281"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 261,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+            },
+            "elementId": "261"
+          },
+          "relationship": {
+            "identity": 286,
+            "start": 261,
+            "end": 281,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "286",
+            "startNodeElementId": "261",
+            "endNodeElementId": "281"
+          },
+          "end": {
+            "identity": 281,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "油脂选择检查",
+              "描述": "选择适合地层条件（如水压、温度）的优质盾尾密封油脂，并确保其未变质。"
+            },
+            "elementId": "281"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 261,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+        },
+        "elementId": "261"
+      },
+      "end": {
+        "identity": 282,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增加注入量",
+          "描述": "当发现轻微泄漏时，适当加大盾尾油脂的注入量和频率，尝试重新建立密封腔。"
+        },
+        "elementId": "282"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 261,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+            },
+            "elementId": "261"
+          },
+          "relationship": {
+            "identity": 287,
+            "start": 261,
+            "end": 282,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "287",
+            "startNodeElementId": "261",
+            "endNodeElementId": "282"
+          },
+          "end": {
+            "identity": 282,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增加注入量",
+              "描述": "当发现轻微泄漏时，适当加大盾尾油脂的注入量和频率，尝试重新建立密封腔。"
+            },
+            "elementId": "282"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 261,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+        },
+        "elementId": "261"
+      },
+      "end": {
+        "identity": 283,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "检查油脂注入系统",
+          "描述": "检查并确保油脂泵、管路和注入点工作正常，保证油脂能被顺利输送到位。"
+        },
+        "elementId": "283"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 261,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "描述": "盾尾密封油脂未能足量、持续地注入到各道密封刷之间，无法形成有效的油脂密封腔。"
+            },
+            "elementId": "261"
+          },
+          "relationship": {
+            "identity": 288,
+            "start": 261,
+            "end": 283,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "288",
+            "startNodeElementId": "261",
+            "endNodeElementId": "283"
+          },
+          "end": {
+            "identity": 283,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "检查油脂注入系统",
+              "描述": "检查并确保油脂泵、管路和注入点工作正常，保证油脂能被顺利输送到位。"
+            },
+            "elementId": "283"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 262,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "姿态控制不佳",
+          "描述": "盾构机掘进时的姿态（如俯仰、偏航）控制不当，导致盾构机轴线与隧道轴线偏离，使盾尾间隙不均匀。"
+        },
+        "elementId": "262"
+      },
+      "end": {
+        "identity": 284,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "姿态矫正",
+          "描述": "通过精细化操作，及时纠正盾构机的掘进姿态偏差，使盾尾间隙保持均匀。"
+        },
+        "elementId": "284"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 262,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "姿态控制不佳",
+              "描述": "盾构机掘进时的姿态（如俯仰、偏航）控制不当，导致盾构机轴线与隧道轴线偏离，使盾尾间隙不均匀。"
+            },
+            "elementId": "262"
+          },
+          "relationship": {
+            "identity": 289,
+            "start": 262,
+            "end": 284,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "289",
+            "startNodeElementId": "262",
+            "endNodeElementId": "284"
+          },
+          "end": {
+            "identity": 284,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "姿态矫正",
+              "描述": "通过精细化操作，及时纠正盾构机的掘进姿态偏差，使盾尾间隙保持均匀。"
+            },
+            "elementId": "284"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 263,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "盾尾未清理",
+          "描述": "未能及时清理掉粘附在盾尾密封刷上或其周围的已凝固浆液、渣土等杂物，这些硬化的杂物会像砂纸一样磨损甚至卡坏密封件。"
+        },
+        "elementId": "263"
+      },
+      "end": {
+        "identity": 285,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "及时清理",
+          "描述": "一旦发生泄漏，应尽快清理漏出的浆液和杂物，防止其凝固后对盾尾刷造成二次损害。"
+        },
+        "elementId": "285"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 263,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "盾尾未清理",
+              "描述": "未能及时清理掉粘附在盾尾密封刷上或其周围的已凝固浆液、渣土等杂物，这些硬化的杂物会像砂纸一样磨损甚至卡坏密封件。"
+            },
+            "elementId": "263"
+          },
+          "relationship": {
+            "identity": 290,
+            "start": 263,
+            "end": 285,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "290",
+            "startNodeElementId": "263",
+            "endNodeElementId": "285"
+          },
+          "end": {
+            "identity": 285,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "及时清理",
+              "描述": "一旦发生泄漏，应尽快清理漏出的浆液和杂物，防止其凝固后对盾尾刷造成二次损害。"
+            },
+            "elementId": "285"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 286,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件自身问题"
+        },
+        "elementId": "286"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 291,
+            "start": 254,
+            "end": 286,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "291",
+            "startNodeElementId": "254",
+            "endNodeElementId": "286"
+          },
+          "end": {
+            "identity": 286,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件自身问题"
+            },
+            "elementId": "286"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 287,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场拼装"
+        },
+        "elementId": "287"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 292,
+            "start": 254,
+            "end": 287,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "292",
+            "startNodeElementId": "254",
+            "endNodeElementId": "287"
+          },
+          "end": {
+            "identity": 287,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场拼装"
+            },
+            "elementId": "287"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 288,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场施工"
+        },
+        "elementId": "288"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 293,
+            "start": 254,
+            "end": 288,
+            "type": "原因因素",
+            "properties": {},
+            "elementId": "293",
+            "startNodeElementId": "254",
+            "endNodeElementId": "288"
+          },
+          "end": {
+            "identity": 288,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场施工"
+            },
+            "elementId": "288"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 286,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件自身问题"
+        },
+        "elementId": "286"
+      },
+      "end": {
+        "identity": 256,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封材料老化",
+          "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+        },
+        "elementId": "256"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 286,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件自身问题"
+            },
+            "elementId": "286"
+          },
+          "relationship": {
+            "identity": 294,
+            "start": 286,
+            "end": 256,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "294",
+            "startNodeElementId": "286",
+            "endNodeElementId": "256"
+          },
+          "end": {
+            "identity": 256,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封材料老化",
+              "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+            },
+            "elementId": "256"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 286,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件自身问题"
+        },
+        "elementId": "286"
+      },
+      "end": {
+        "identity": 289,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "盾尾间隙": "盾尾的间隙设计有缺陷，在小转弯隧道施工盾尾左右间隙难以控制，极易出现单侧间隙过小，盾尾刷前部保护板出现磨损或者挤压断裂。",
+          "夹层未加固": "未增加肋板进行加固，掘进施工过程中一旦遭遇基岩突起极易出现盾尾变形。",
+          "name": "密封系统设计缺陷",
+          "油脂注孔": "在设计预埋注浆管路时盾尾油脂注入孔分布不均匀，后期在掘进施工过程中，部分位置油脂注入量过小，盾尾刷磨损。"
+        },
+        "elementId": "289"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 286,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件自身问题"
+            },
+            "elementId": "286"
+          },
+          "relationship": {
+            "identity": 295,
+            "start": 286,
+            "end": 289,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "295",
+            "startNodeElementId": "286",
+            "endNodeElementId": "289"
+          },
+          "end": {
+            "identity": 289,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "盾尾间隙": "盾尾的间隙设计有缺陷，在小转弯隧道施工盾尾左右间隙难以控制，极易出现单侧间隙过小，盾尾刷前部保护板出现磨损或者挤压断裂。",
+              "夹层未加固": "未增加肋板进行加固，掘进施工过程中一旦遭遇基岩突起极易出现盾尾变形。",
+              "name": "密封系统设计缺陷",
+              "油脂注孔": "在设计预埋注浆管路时盾尾油脂注入孔分布不均匀，后期在掘进施工过程中，部分位置油脂注入量过小，盾尾刷磨损。"
+            },
+            "elementId": "289"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 287,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场拼装"
+        },
+        "elementId": "287"
+      },
+      "end": {
+        "identity": 290,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件变形",
+          "解释": "盾尾运输到组装完成一般经过3次以上倒运吊装，组装完成后会发生不同程度的形变。一般盾尾圆度误差允许3cm以内，若形变量过大导致盾尾间隙不均匀会形成盾尾密封薄弱点。"
+        },
+        "elementId": "290"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 287,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场拼装"
+            },
+            "elementId": "287"
+          },
+          "relationship": {
+            "identity": 296,
+            "start": 287,
+            "end": 290,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "296",
+            "startNodeElementId": "287",
+            "endNodeElementId": "290"
+          },
+          "end": {
+            "identity": 290,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件变形",
+              "解释": "盾尾运输到组装完成一般经过3次以上倒运吊装，组装完成后会发生不同程度的形变。一般盾尾圆度误差允许3cm以内，若形变量过大导致盾尾间隙不均匀会形成盾尾密封薄弱点。"
+            },
+            "elementId": "290"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 287,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场拼装"
+        },
+        "elementId": "287"
+      },
+      "end": {
+        "identity": 291,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾尾刷组装",
+          "解释": "盾尾刷各部分的设计尺寸、基础材质、制作工艺等一项或几项不达要求。"
+        },
+        "elementId": "291"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 287,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场拼装"
+            },
+            "elementId": "287"
+          },
+          "relationship": {
+            "identity": 297,
+            "start": 287,
+            "end": 291,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "297",
+            "startNodeElementId": "287",
+            "endNodeElementId": "291"
+          },
+          "end": {
+            "identity": 291,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾尾刷组装",
+              "解释": "盾尾刷各部分的设计尺寸、基础材质、制作工艺等一项或几项不达要求。"
+            },
+            "elementId": "291"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 287,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场拼装"
+        },
+        "elementId": "287"
+      },
+      "end": {
+        "identity": 292,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "钢板束及止浆板选型",
+          "解释": "钢板束的厚度及选型不应过薄"
+        },
+        "elementId": "292"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 287,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场拼装"
+            },
+            "elementId": "287"
+          },
+          "relationship": {
+            "identity": 298,
+            "start": 287,
+            "end": 292,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "298",
+            "startNodeElementId": "287",
+            "endNodeElementId": "292"
+          },
+          "end": {
+            "identity": 292,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "钢板束及止浆板选型",
+              "解释": "钢板束的厚度及选型不应过薄"
+            },
+            "elementId": "292"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 288,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场施工"
+        },
+        "elementId": "288"
+      },
+      "end": {
+        "identity": 293,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "管片拼装错台",
+          "解释": "管片拼装时不可避免产生错台，导致成环管片的外弧面不平整。这会加剧盾尾刷磨损、变形，出现盾尾渗透现象。"
+        },
+        "elementId": "293"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 288,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场施工"
+            },
+            "elementId": "288"
+          },
+          "relationship": {
+            "identity": 299,
+            "start": 288,
+            "end": 293,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "299",
+            "startNodeElementId": "288",
+            "endNodeElementId": "293"
+          },
+          "end": {
+            "identity": 293,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "管片拼装错台",
+              "解释": "管片拼装时不可避免产生错台，导致成环管片的外弧面不平整。这会加剧盾尾刷磨损、变形，出现盾尾渗透现象。"
+            },
+            "elementId": "293"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 288,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场施工"
+        },
+        "elementId": "288"
+      },
+      "end": {
+        "identity": 294,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+        },
+        "elementId": "294"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 288,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场施工"
+            },
+            "elementId": "288"
+          },
+          "relationship": {
+            "identity": 300,
+            "start": 288,
+            "end": 294,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "300",
+            "startNodeElementId": "288",
+            "endNodeElementId": "294"
+          },
+          "end": {
+            "identity": 294,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+            },
+            "elementId": "294"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 288,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场施工"
+        },
+        "elementId": "288"
+      },
+      "end": {
+        "identity": 295,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "姿态控制不佳",
+          "解释": "在小曲率转弯段，大坡度段状况时，若地层中含砂率较高，固结效果差，盾构姿态控制不佳导致盾尾间隙过小，就会对盾构刷造成永久性损坏。"
+        },
+        "elementId": "295"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 288,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场施工"
+            },
+            "elementId": "288"
+          },
+          "relationship": {
+            "identity": 301,
+            "start": 288,
+            "end": 295,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "301",
+            "startNodeElementId": "288",
+            "endNodeElementId": "295"
+          },
+          "end": {
+            "identity": 295,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "姿态控制不佳",
+              "解释": "在小曲率转弯段，大坡度段状况时，若地层中含砂率较高，固结效果差，盾构姿态控制不佳导致盾尾间隙过小，就会对盾构刷造成永久性损坏。"
+            },
+            "elementId": "295"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 288,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "现场施工"
+        },
+        "elementId": "288"
+      },
+      "end": {
+        "identity": 296,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾尾未清理",
+          "解释": "管片拼装过程中，下部的盾尾一般会有一些泥沙等垃圾，在清理不到位会使盾尾的部分泥沙随着推进进入油脂腔，对盾尾刷造成损坏。"
+        },
+        "elementId": "296"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 288,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "现场施工"
+            },
+            "elementId": "288"
+          },
+          "relationship": {
+            "identity": 302,
+            "start": 288,
+            "end": 296,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "302",
+            "startNodeElementId": "288",
+            "endNodeElementId": "296"
+          },
+          "end": {
+            "identity": 296,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾尾未清理",
+              "解释": "管片拼装过程中，下部的盾尾一般会有一些泥沙等垃圾，在清理不到位会使盾尾的部分泥沙随着推进进入油脂腔，对盾尾刷造成损坏。"
+            },
+            "elementId": "296"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 289,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "盾尾间隙": "盾尾的间隙设计有缺陷，在小转弯隧道施工盾尾左右间隙难以控制，极易出现单侧间隙过小，盾尾刷前部保护板出现磨损或者挤压断裂。",
+          "夹层未加固": "未增加肋板进行加固，掘进施工过程中一旦遭遇基岩突起极易出现盾尾变形。",
+          "name": "密封系统设计缺陷",
+          "油脂注孔": "在设计预埋注浆管路时盾尾油脂注入孔分布不均匀，后期在掘进施工过程中，部分位置油脂注入量过小，盾尾刷磨损。"
+        },
+        "elementId": "289"
+      },
+      "end": {
+        "identity": 297,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "优化设计",
+          "方式": "充分考虑隧道转弯半径，盾尾间隙控制在65 mm～85 mm，使盾尾油脂注入孔均匀分布于盾尾四周。"
+        },
+        "elementId": "297"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 289,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "盾尾间隙": "盾尾的间隙设计有缺陷，在小转弯隧道施工盾尾左右间隙难以控制，极易出现单侧间隙过小，盾尾刷前部保护板出现磨损或者挤压断裂。",
+              "夹层未加固": "未增加肋板进行加固，掘进施工过程中一旦遭遇基岩突起极易出现盾尾变形。",
+              "name": "密封系统设计缺陷",
+              "油脂注孔": "在设计预埋注浆管路时盾尾油脂注入孔分布不均匀，后期在掘进施工过程中，部分位置油脂注入量过小，盾尾刷磨损。"
+            },
+            "elementId": "289"
+          },
+          "relationship": {
+            "identity": 303,
+            "start": 289,
+            "end": 297,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "303",
+            "startNodeElementId": "289",
+            "endNodeElementId": "297"
+          },
+          "end": {
+            "identity": 297,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "优化设计",
+              "方式": "充分考虑隧道转弯半径，盾尾间隙控制在65 mm～85 mm，使盾尾油脂注入孔均匀分布于盾尾四周。"
+            },
+            "elementId": "297"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 290,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封件变形",
+          "解释": "盾尾运输到组装完成一般经过3次以上倒运吊装，组装完成后会发生不同程度的形变。一般盾尾圆度误差允许3cm以内，若形变量过大导致盾尾间隙不均匀会形成盾尾密封薄弱点。"
+        },
+        "elementId": "290"
+      },
+      "end": {
+        "identity": 298,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "盾尾调圆",
+          "方式": "拼装完成后，必须进行盾尾圆度测量，必须在误差范围以内才能进行焊接，如果超出误差范围必须进行重新调圆，符合标准后再进行焊接。"
+        },
+        "elementId": "298"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 290,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封件变形",
+              "解释": "盾尾运输到组装完成一般经过3次以上倒运吊装，组装完成后会发生不同程度的形变。一般盾尾圆度误差允许3cm以内，若形变量过大导致盾尾间隙不均匀会形成盾尾密封薄弱点。"
+            },
+            "elementId": "290"
+          },
+          "relationship": {
+            "identity": 304,
+            "start": 290,
+            "end": 298,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "304",
+            "startNodeElementId": "290",
+            "endNodeElementId": "298"
+          },
+          "end": {
+            "identity": 298,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "盾尾调圆",
+              "方式": "拼装完成后，必须进行盾尾圆度测量，必须在误差范围以内才能进行焊接，如果超出误差范围必须进行重新调圆，符合标准后再进行焊接。"
+            },
+            "elementId": "298"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 291,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "盾尾刷组装",
+          "解释": "盾尾刷各部分的设计尺寸、基础材质、制作工艺等一项或几项不达要求。"
+        },
+        "elementId": "291"
+      },
+      "end": {
+        "identity": 299,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "盾尾刷核验",
+          "方式": "盾尾刷进场后核验其弹性形变、塑性形变的程度，确定其质量优劣情况"
+        },
+        "elementId": "299"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 291,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "盾尾刷组装",
+              "解释": "盾尾刷各部分的设计尺寸、基础材质、制作工艺等一项或几项不达要求。"
+            },
+            "elementId": "291"
+          },
+          "relationship": {
+            "identity": 305,
+            "start": 291,
+            "end": 299,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "305",
+            "startNodeElementId": "291",
+            "endNodeElementId": "299"
+          },
+          "end": {
+            "identity": 299,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "盾尾刷核验",
+              "方式": "盾尾刷进场后核验其弹性形变、塑性形变的程度，确定其质量优劣情况"
+            },
+            "elementId": "299"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 292,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "钢板束及止浆板选型",
+          "解释": "钢板束的厚度及选型不应过薄"
+        },
+        "elementId": "292"
+      },
+      "end": {
+        "identity": 300,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "钢板束焊接质量控制",
+          "方式": "安装焊接盾尾刷时，每块盾尾刷的钢板向同一方向进行搭接，只保留一个接头，相邻两道盾尾刷的接头远离且避免出现在盾尾底部。尾刷前后满焊，焊脚高度10 mm，确保焊缝整齐，无夹渣、气孔及裂纹。"
+        },
+        "elementId": "300"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 292,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "钢板束及止浆板选型",
+              "解释": "钢板束的厚度及选型不应过薄"
+            },
+            "elementId": "292"
+          },
+          "relationship": {
+            "identity": 306,
+            "start": 292,
+            "end": 300,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "306",
+            "startNodeElementId": "292",
+            "endNodeElementId": "300"
+          },
+          "end": {
+            "identity": 300,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "钢板束焊接质量控制",
+              "方式": "安装焊接盾尾刷时，每块盾尾刷的钢板向同一方向进行搭接，只保留一个接头，相邻两道盾尾刷的接头远离且避免出现在盾尾底部。尾刷前后满焊，焊脚高度10 mm，确保焊缝整齐，无夹渣、气孔及裂纹。"
+            },
+            "elementId": "300"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 293,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "管片拼装错台",
+          "解释": "管片拼装时不可避免产生错台，导致成环管片的外弧面不平整。这会加剧盾尾刷磨损、变形，出现盾尾渗透现象。"
+        },
+        "elementId": "293"
+      },
+      "end": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 293,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "管片拼装错台",
+              "解释": "管片拼装时不可避免产生错台，导致成环管片的外弧面不平整。这会加剧盾尾刷磨损、变形，出现盾尾渗透现象。"
+            },
+            "elementId": "293"
+          },
+          "relationship": {
+            "identity": 307,
+            "start": 293,
+            "end": 277,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "307",
+            "startNodeElementId": "293",
+            "endNodeElementId": "277"
+          },
+          "end": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 301,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装前",
+          "方式": "利用压缩空气对管片进行清理，确保密封条附近无污染物。"
+        },
+        "elementId": "301"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 308,
+            "start": 277,
+            "end": 301,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "308",
+            "startNodeElementId": "277",
+            "endNodeElementId": "301"
+          },
+          "end": {
+            "identity": 301,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装前",
+              "方式": "利用压缩空气对管片进行清理，确保密封条附近无污染物。"
+            },
+            "elementId": "301"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 302,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装时",
+          "方式": "先进行管片粗定位，正在拼装的管片与拼装好的管片之间保留一定的间隙(环向间隙大于3 cm，纵向间隙大于3 cm)，以防调整过程中损坏止水条或磕碰管片。再通过拼装机微调装置来调整已经粗定位的管片进行精确定位。"
+        },
+        "elementId": "302"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 309,
+            "start": 277,
+            "end": 302,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "309",
+            "startNodeElementId": "277",
+            "endNodeElementId": "302"
+          },
+          "end": {
+            "identity": 302,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装时",
+              "方式": "先进行管片粗定位，正在拼装的管片与拼装好的管片之间保留一定的间隙(环向间隙大于3 cm，纵向间隙大于3 cm)，以防调整过程中损坏止水条或磕碰管片。再通过拼装机微调装置来调整已经粗定位的管片进行精确定位。"
+            },
+            "elementId": "302"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 277,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装控制",
+          "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+        },
+        "elementId": "277"
+      },
+      "end": {
+        "identity": 303,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "管片拼装后",
+          "方式": "千斤顶完全压紧管片后，使用插片法对管片拼装情况进行测量复核，相邻环的环面间隙每环测6点且≤1mm，纵缝间隙每条缝隙测3点且≤2mm。"
+        },
+        "elementId": "303"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 277,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装控制",
+              "描述": "在拼装隧道管片时严格控制精度，减小环间和块间的错台量。"
+            },
+            "elementId": "277"
+          },
+          "relationship": {
+            "identity": 310,
+            "start": 277,
+            "end": 303,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "310",
+            "startNodeElementId": "277",
+            "endNodeElementId": "303"
+          },
+          "end": {
+            "identity": 303,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "管片拼装后",
+              "方式": "千斤顶完全压紧管片后，使用插片法对管片拼装情况进行测量复核，相邻环的环面间隙每环测6点且≤1mm，纵缝间隙每条缝隙测3点且≤2mm。"
+            },
+            "elementId": "303"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 295,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "姿态控制不佳",
+          "解释": "在小曲率转弯段，大坡度段状况时，若地层中含砂率较高，固结效果差，盾构姿态控制不佳导致盾尾间隙过小，就会对盾构刷造成永久性损坏。"
+        },
+        "elementId": "295"
+      },
+      "end": {
+        "identity": 304,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "姿态矫正",
+          "方式": "设定姿态偏差阈值，当盾构姿态超限时，调整分区千斤顶压力来进行纠偏。姿态偏差较小时，不能对姿态进行急纠猛纠，避免出现蛇形曲线。当超限严重时可以采用开启超挖刀、单侧加大注浆量等来进行纠偏。"
+        },
+        "elementId": "304"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 295,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "姿态控制不佳",
+              "解释": "在小曲率转弯段，大坡度段状况时，若地层中含砂率较高，固结效果差，盾构姿态控制不佳导致盾尾间隙过小，就会对盾构刷造成永久性损坏。"
+            },
+            "elementId": "295"
+          },
+          "relationship": {
+            "identity": 311,
+            "start": 295,
+            "end": 304,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "311",
+            "startNodeElementId": "295",
+            "endNodeElementId": "304"
+          },
+          "end": {
+            "identity": 304,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "姿态矫正",
+              "方式": "设定姿态偏差阈值，当盾构姿态超限时，调整分区千斤顶压力来进行纠偏。姿态偏差较小时，不能对姿态进行急纠猛纠，避免出现蛇形曲线。当超限严重时可以采用开启超挖刀、单侧加大注浆量等来进行纠偏。"
+            },
+            "elementId": "304"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 294,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+        },
+        "elementId": "294"
+      },
+      "end": {
+        "identity": 305,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "油脂选择检查",
+          "方式": "依据地层条件进行油脂选择。对进场的油脂进行检查，通过泵送性、抗水冲刷性、环保性等试验来选取"
+        },
+        "elementId": "305"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 294,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+            },
+            "elementId": "294"
+          },
+          "relationship": {
+            "identity": 312,
+            "start": 294,
+            "end": 305,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "312",
+            "startNodeElementId": "294",
+            "endNodeElementId": "305"
+          },
+          "end": {
+            "identity": 305,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "油脂选择检查",
+              "方式": "依据地层条件进行油脂选择。对进场的油脂进行检查，通过泵送性、抗水冲刷性、环保性等试验来选取"
+            },
+            "elementId": "305"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 256,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "密封材料老化",
+          "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+        },
+        "elementId": "256"
+      },
+      "end": {
+        "identity": 306,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "说明": "若密封已经严重损坏或老化失效，无法通过增加注入量来解决问题，需要考虑替换密封",
+          "name": "替换密封"
+        },
+        "elementId": "306"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 256,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "密封材料老化",
+              "描述": "长时间使用后，盾尾刷的钢丝或橡胶等材料会自然变质、变脆或失去弹性，从而导致密封能力下降。"
+            },
+            "elementId": "256"
+          },
+          "relationship": {
+            "identity": 313,
+            "start": 256,
+            "end": 306,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "313",
+            "startNodeElementId": "256",
+            "endNodeElementId": "306"
+          },
+          "end": {
+            "identity": 306,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "说明": "若密封已经严重损坏或老化失效，无法通过增加注入量来解决问题，需要考虑替换密封",
+              "name": "替换密封"
+            },
+            "elementId": "306"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 306,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "说明": "若密封已经严重损坏或老化失效，无法通过增加注入量来解决问题，需要考虑替换密封",
+          "name": "替换密封"
+        },
+        "elementId": "306"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 314,
+            "start": 254,
+            "end": 306,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "314",
+            "startNodeElementId": "254",
+            "endNodeElementId": "306"
+          },
+          "end": {
+            "identity": 306,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "说明": "若密封已经严重损坏或老化失效，无法通过增加注入量来解决问题，需要考虑替换密封",
+              "name": "替换密封"
+            },
+            "elementId": "306"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 294,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+        },
+        "elementId": "294"
+      },
+      "end": {
+        "identity": 307,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "增加注入量",
+          "方式": "调整注入系统的参数，增加油脂的注入量，确保密封处能够得到充分的润滑和密封"
+        },
+        "elementId": "307"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 294,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+            },
+            "elementId": "294"
+          },
+          "relationship": {
+            "identity": 315,
+            "start": 294,
+            "end": 307,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "315",
+            "startNodeElementId": "294",
+            "endNodeElementId": "307"
+          },
+          "end": {
+            "identity": 307,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "增加注入量",
+              "方式": "调整注入系统的参数，增加油脂的注入量，确保密封处能够得到充分的润滑和密封"
+            },
+            "elementId": "307"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 294,
+        "labels": [
+          "原因"
+        ],
+        "properties": {
+          "name": "油脂注入量不足",
+          "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+        },
+        "elementId": "294"
+      },
+      "end": {
+        "identity": 308,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "检查油脂注入系统:",
+          "方式": "检查油脂注入系统的管道、阀门和泵等部件是否堵塞或损坏"
+        },
+        "elementId": "308"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 294,
+            "labels": [
+              "原因"
+            ],
+            "properties": {
+              "name": "油脂注入量不足",
+              "解释": "油脂注入量较少，就会导致砂浆及外部的泥沙进入油脂腔，影响密封效果，也会对盾尾刷造成磨损。一旦盾尾油脂注入量不足，极易发生大面积的水及泥沙进入盾尾，对盾尾刷造成永久性的损伤。"
+            },
+            "elementId": "294"
+          },
+          "relationship": {
+            "identity": 316,
+            "start": 294,
+            "end": 308,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "316",
+            "startNodeElementId": "294",
+            "endNodeElementId": "308"
+          },
+          "end": {
+            "identity": 308,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "检查油脂注入系统:",
+              "方式": "检查油脂注入系统的管道、阀门和泵等部件是否堵塞或损坏"
+            },
+            "elementId": "308"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 309,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进力增加",
+          "解释": "盾尾密封失效可能会导致盾尾处泥浆的压力降低，泥浆无法有效地在盾尾处形成良好的支撑，从而增加了推进的阻力。"
+        },
+        "elementId": "309"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 317,
+            "start": 254,
+            "end": 309,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "317",
+            "startNodeElementId": "254",
+            "endNodeElementId": "309"
+          },
+          "end": {
+            "identity": 309,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进力增加",
+              "解释": "盾尾密封失效可能会导致盾尾处泥浆的压力降低，泥浆无法有效地在盾尾处形成良好的支撑，从而增加了推进的阻力。"
+            },
+            "elementId": "309"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 310,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "推进速度减慢",
+          "解释": "泥浆泄漏和推进力增加，盾构机的推进速度可能会减慢。"
+        },
+        "elementId": "310"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 318,
+            "start": 254,
+            "end": 310,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "318",
+            "startNodeElementId": "254",
+            "endNodeElementId": "310"
+          },
+          "end": {
+            "identity": 310,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "推进速度减慢",
+              "解释": "泥浆泄漏和推进力增加，盾构机的推进速度可能会减慢。"
+            },
+            "elementId": "310"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 311,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "刀盘转速改变",
+          "解释": "盾尾密封失效会导致了其他部件的摩擦增加或阻力增加，进而影响刀盘转速"
+        },
+        "elementId": "311"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 319,
+            "start": 254,
+            "end": 311,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "319",
+            "startNodeElementId": "254",
+            "endNodeElementId": "311"
+          },
+          "end": {
+            "identity": 311,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "刀盘转速改变",
+              "解释": "盾尾密封失效会导致了其他部件的摩擦增加或阻力增加，进而影响刀盘转速"
+            },
+            "elementId": "311"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 312,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "灾害"
+        },
+        "elementId": "312"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 320,
+            "start": 254,
+            "end": 312,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "320",
+            "startNodeElementId": "254",
+            "endNodeElementId": "312"
+          },
+          "end": {
+            "identity": 312,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "灾害"
+            },
+            "elementId": "312"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 312,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "灾害"
+        },
+        "elementId": "312"
+      },
+      "end": {
+        "identity": 313,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "地质灾害"
+        },
+        "elementId": "313"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 312,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "灾害"
+            },
+            "elementId": "312"
+          },
+          "relationship": {
+            "identity": 321,
+            "start": 312,
+            "end": 313,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "321",
+            "startNodeElementId": "312",
+            "endNodeElementId": "313"
+          },
+          "end": {
+            "identity": 313,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "地质灾害"
+            },
+            "elementId": "313"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 313,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "地质灾害"
+        },
+        "elementId": "313"
+      },
+      "end": {
+        "identity": 314,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "地面塌陷",
+          "解释": "盾尾密封系统破坏盾体外的水土，泥水从盾尾密封刷间隙涌入隧道内、地面因泥水流失而产生较大沉降、严重时发生江底冒顶而危及整个隧道"
+        },
+        "elementId": "314"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 313,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "地质灾害"
+            },
+            "elementId": "313"
+          },
+          "relationship": {
+            "identity": 322,
+            "start": 313,
+            "end": 314,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "322",
+            "startNodeElementId": "313",
+            "endNodeElementId": "314"
+          },
+          "end": {
+            "identity": 314,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "地面塌陷",
+              "解释": "盾尾密封系统破坏盾体外的水土，泥水从盾尾密封刷间隙涌入隧道内、地面因泥水流失而产生较大沉降、严重时发生江底冒顶而危及整个隧道"
+            },
+            "elementId": "314"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 313,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "地质灾害"
+        },
+        "elementId": "313"
+      },
+      "end": {
+        "identity": 315,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "环境污染",
+          "解释": "泥水进入隧道内部后没有得到及时控制，会对地下水和土壤造成污染，影响周围环境的生态平衡和水质安全。"
+        },
+        "elementId": "315"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 313,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "地质灾害"
+            },
+            "elementId": "313"
+          },
+          "relationship": {
+            "identity": 323,
+            "start": 313,
+            "end": 315,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "323",
+            "startNodeElementId": "313",
+            "endNodeElementId": "315"
+          },
+          "end": {
+            "identity": 315,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "环境污染",
+              "解释": "泥水进入隧道内部后没有得到及时控制，会对地下水和土壤造成污染，影响周围环境的生态平衡和水质安全。"
+            },
+            "elementId": "315"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 312,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "灾害"
+        },
+        "elementId": "312"
+      },
+      "end": {
+        "identity": 316,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "施工安全"
+        },
+        "elementId": "316"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 312,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "灾害"
+            },
+            "elementId": "312"
+          },
+          "relationship": {
+            "identity": 324,
+            "start": 312,
+            "end": 316,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "324",
+            "startNodeElementId": "312",
+            "endNodeElementId": "316"
+          },
+          "end": {
+            "identity": 316,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "施工安全"
+            },
+            "elementId": "316"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 316,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "施工安全"
+        },
+        "elementId": "316"
+      },
+      "end": {
+        "identity": 317,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "水淹隧道",
+          "解释": "盾尾密封系统破坏则盾体外的水土发生江底时冒顶而危及整个隧道"
+        },
+        "elementId": "317"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 316,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "施工安全"
+            },
+            "elementId": "316"
+          },
+          "relationship": {
+            "identity": 325,
+            "start": 316,
+            "end": 317,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "325",
+            "startNodeElementId": "316",
+            "endNodeElementId": "317"
+          },
+          "end": {
+            "identity": 317,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "水淹隧道",
+              "解释": "盾尾密封系统破坏则盾体外的水土发生江底时冒顶而危及整个隧道"
+            },
+            "elementId": "317"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 316,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "施工安全"
+        },
+        "elementId": "316"
+      },
+      "end": {
+        "identity": 318,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "管道塌方",
+          "解释": "盾尾密封失效可能会导致隧道结构的不稳定，增加了隧道坍塌的风险。这可能会造成施工现场事故，危及工人的生命安全。"
+        },
+        "elementId": "318"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 316,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "施工安全"
+            },
+            "elementId": "316"
+          },
+          "relationship": {
+            "identity": 326,
+            "start": 316,
+            "end": 318,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "326",
+            "startNodeElementId": "316",
+            "endNodeElementId": "318"
+          },
+          "end": {
+            "identity": 318,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "管道塌方",
+              "解释": "盾尾密封失效可能会导致隧道结构的不稳定，增加了隧道坍塌的风险。这可能会造成施工现场事故，危及工人的生命安全。"
+            },
+            "elementId": "318"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 254,
+        "labels": [
+          "风险名称"
+        ],
+        "properties": {
+          "name": "盾尾密封失效"
+        },
+        "elementId": "254"
+      },
+      "end": {
+        "identity": 319,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "密封总体未失效",
+          "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+        },
+        "elementId": "319"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 254,
+            "labels": [
+              "风险名称"
+            ],
+            "properties": {
+              "name": "盾尾密封失效"
+            },
+            "elementId": "254"
+          },
+          "relationship": {
+            "identity": 327,
+            "start": 254,
+            "end": 319,
+            "type": "表现现象",
+            "properties": {},
+            "elementId": "327",
+            "startNodeElementId": "254",
+            "endNodeElementId": "319"
+          },
+          "end": {
+            "identity": 319,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "密封总体未失效",
+              "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+            },
+            "elementId": "319"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 319,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "密封总体未失效",
+          "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+        },
+        "elementId": "319"
+      },
+      "end": {
+        "identity": 320,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "衬砌环背面贴海绵",
+          "方式": "将海绵挡泥条贴在衬砌环的背面进行衬砌环安装，调整衬砌环的位置，确保海绵挡泥条与地面接触紧密。安装完成后，进行密封性和防水性的检查测试，确保海绵挡泥条能够有效阻止泥浆或水的渗漏。"
+        },
+        "elementId": "320"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 319,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "密封总体未失效",
+              "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+            },
+            "elementId": "319"
+          },
+          "relationship": {
+            "identity": 328,
+            "start": 319,
+            "end": 320,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "328",
+            "startNodeElementId": "319",
+            "endNodeElementId": "320"
+          },
+          "end": {
+            "identity": 320,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "衬砌环背面贴海绵",
+              "方式": "将海绵挡泥条贴在衬砌环的背面进行衬砌环安装，调整衬砌环的位置，确保海绵挡泥条与地面接触紧密。安装完成后，进行密封性和防水性的检查测试，确保海绵挡泥条能够有效阻止泥浆或水的渗漏。"
+            },
+            "elementId": "320"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 319,
+        "labels": [
+          "现象"
+        ],
+        "properties": {
+          "name": "密封总体未失效",
+          "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+        },
+        "elementId": "319"
+      },
+      "end": {
+        "identity": 321,
+        "labels": [
+          "措施"
+        ],
+        "properties": {
+          "name": "盾尾间隙塞海带",
+          "方式": "将海带塞入盾尾密封系统的间隙中，确保海带填充到位。海带与盾尾密封系统接触的部位涂抹适量的止水胶，进行密封性和防水性的检查测试，确保海带止水的效果符合要求"
+        },
+        "elementId": "321"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 319,
+            "labels": [
+              "现象"
+            ],
+            "properties": {
+              "name": "密封总体未失效",
+              "解释": "密封系统还在正常工作范围内，没有出现严重的泄漏或损坏情况。"
+            },
+            "elementId": "319"
+          },
+          "relationship": {
+            "identity": 329,
+            "start": 319,
+            "end": 321,
+            "type": "措施方法",
+            "properties": {},
+            "elementId": "329",
+            "startNodeElementId": "319",
+            "endNodeElementId": "321"
+          },
+          "end": {
+            "identity": 321,
+            "labels": [
+              "措施"
+            ],
+            "properties": {
+              "name": "盾尾间隙塞海带",
+              "方式": "将海带塞入盾尾密封系统的间隙中，确保海带填充到位。海带与盾尾密封系统接触的部位涂抹适量的止水胶，进行密封性和防水性的检查测试，确保海带止水的效果符合要求"
+            },
+            "elementId": "321"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

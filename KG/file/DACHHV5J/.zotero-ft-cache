@@ -1,0 +1,1012 @@
+工程研究——跨学科视野中的工程
+JOURNAL OF ENGINEERING STUDIES http://jes.ucas.ac.cn
+©The Author(s) 2024. This is an open access article under the CC-BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+地铁盾构法隧道施工事故特征与原因分析
+王鹏飞 1, 朱建明 2*, 黄钧 1, 刘小铭 1
+1. 中国科学院大学 工程科学学院, 北京 100049; 2. 中国科学院大学 应急管理科学与工程学院, 北京 100049
+摘要:盾构法是地铁隧道施工应用最广泛的工法,地铁盾构施工事故时有发生,为清晰了解地铁施工中常见的 盾构施工事故的特征规律和基本原因,提升现场施工安全管理认识和效能,本文收集了 1997—2022 年的 76 起 地铁盾构土建施工相关事故,先采用统计分析法对事故类别、事故等级等 5 个事故特征进行统计,再将事故类 别与伤亡人数、施工阶段和事故发生时间段 3 个特征进行关联,最后以车辆伤害和坍塌两类主要事故为例进行 了事故原因风险因素分析。分析发现,盾构施工生产安全事故常见的事故类别有 11 类,约 80% 集中在车辆伤 害、坍塌等 4 类事故,多重复发生于电瓶车水平运输、开仓作业等 8 种工序,事故发生原因可归类为作业人员、 机械设备、制度监管和作业环境 4 个方面且具有较高的相似性。研究旨在提升人们对盾构施工事故的总体认 识,宏观上把握盾构施工常见 11 类事故的发生频次占比、伤亡损失、发生时间分布等基本规律,并为现场施 工安全管理实践提供一定的启示和指导。
+关键词:地铁隧道;盾构施工;地铁事故;统计分析;事故特征;事故原因
+中图分类号:U23 文献标识码:A 文章编号:1674-4969(XXXX)XX-0001-14
+引言
+截至 2023 年底,我国大陆地区共有 59 个城市开
+通城市轨道交通运营线路 338 条,运营线路总长度
+11224.54 公里,其中 41 个城市运营地铁线路 8543.11
+公里,运营线路占比 76.11%[1]。整理有关资料数据发
+现,我国从 2013 年以来的 10 多年间,新增地铁运营
+线路超 6400 公里,年开通运营线路少则几百公里 ,
+多则上千公里,这足见我国地铁施工建设速度之快。
+然而,地铁高速建设的同时,地铁施工生产安全事故
+工程管理
+DOI: 10.3724/j.issn.1674-4969.20240049
+收稿日期:2024-04-25; 修回日期:2024-06-11
+基金项目:国家自然科学基金面上项目(72074203)
+作者简介:王鹏飞(1995—),男,硕士研究生,研究方向为工程管理和风险管理。E-mail: wangpengfei22@mails.ucas.ac.cn
+*朱建明(1979—),男,博士,教授,研究方向为应急管理、运筹学和网络优化。E-mail: jmzhu@ucas.ac.cn(通讯作者) 黄钧(1948—),男,教授,研究方向为应急管理、项目管理、物流工程、数学建模与优化。 刘小铭(1993—),女,硕士研究生,研究方向为工程管理和风险管理。 引用格式:王鹏飞,朱建明,黄钧等 . 地铁盾构法隧道施工事故特征与原因分析[J]. 工程研究——跨学科视野中的工程,DOI:10.3724/j. issn.1674-4969.20240049. Wang Pengfei, Zhu Jianming, Huang Jun, et al. Analysis of Characteristics and Causes of Subway Shield Tunnel Construction Accidents[J].Journal of Engineering Studies,DOI:10.3724/j.issn.1674-4969.20240049.
+2024-08-15 12:44:02 https://link.cnki.net/urlid/11.5780.TB.20240814.0957.004
+
+
+却也时有发生[2-8],给经济社会的发展和地铁建设都
+造成了不利影响。例如,2020 年 3 月 14 日,南通市
+城市轨道交通 1 号线一期工程土建施工 06 标电瓶车脱
+轨倾翻,导致 6 名违规搭乘工人被压,造成 2 人死亡、
+4 人受伤,直接经济损失约 435.76 万元[9]。2021 年 8
+月 4 日,武汉市轨道交通 7 号线北延(前川线)工
+程,作业人员进行管片拼装作业时,管片突然脱落,
+造成 1 名工人死亡,直接经济损失 205 万元[10]。这些
+事故的发生,一方面是由于地铁施工本身有施工技术
+复杂、不可预见风险因素多和受社会环境影响大等特
+性[11],另一方面是由于施工方冒险施工[12],管理人
+员履职不当和工人流动性大、安全意识低[13]等。
+防止施工事故的关键是安全生产,安全生产的根
+基是安全管理,而安全管理有广义和狭义之分,广义
+安全管理即为事故预防[14]。基于这一认识,学者们
+为了研究地铁施工安全管理问题,依据地铁相关生产
+安全事故进行了多角度的分析,如故障树分析[15-16]、
+事故属性关联分析[17]、知识图谱[18]、地铁施工事故
+网络[19]、事故致因分析[20]等。然而,对生产安全事
+故最基本的认识是对同类事故的相关特征规律和原因
+的统计分析,以地铁和隧道事故为例,学者们通过收
+集事故案例建立案例库的方式来评估施工风险[21-24],
+以加强对同类事故的风险认识。
+此外,通过对地铁施工事故信息特征的剖析,也
+能为风险评估等其他方面起到重要作用和提供依据。
+例如:孟康等[25]利用事故信息特征构建了地铁施工
+安全事故风险评价体系;李解等[26]通过对地铁事故
+调查报告进行文本挖掘,发现了地铁施工一般和关键
+致险因素;闫文周等[27]构建了地铁事故多维轨迹交
+叉风险耦合致因模型,发现了“人、物、环、管”4
+大风险因素存在耦合作用;文艳芳等[28]通过对地铁
+隧道施工坍塌事故的研究,发现了风险因子、风险主
+体状态和风险响应机制三者间的交互耦合关系;王萍
+等[29]通过对地铁事故数据和保险理赔数据的统计分
+析,发现了工程保险赔付与事故特征具有一定的相关
+性;吴成宇等[30]通过收集地铁施工事故建立数据集 ,
+利用机器学习建立灾害预测模型探索了地铁施工风险
+预测新思路。
+但目前我国尚未有公开共享的地铁施工事故案例
+库,也没有对事故案例进行分门别类的整理分析,而
+且对地铁盾构法隧道施工生产安全事故进行专门统计
+分析的文献也较少。因此,本文聚焦于地铁盾构法
+隧道土建施工事故,对收集到的 76 起事故进行特征
+规律和基本原因统计分析,可为弥补这一缺失或解
+决问题起到一定作用。此外,随着信息技术的发
+展,施工企业自身在信息化、标准化中也积累了大
+量数据信息,但一直未能对其进行有效利用,本文
+的事故数据分解分析思路和方法,可为施工企业在
+盾构施工安全生产管理和数据利用方面提供一些新
+的思考,对其现场安全风险管理制度的完善起到一
+定的借鉴和参考作用。
+1 事故收集与分析方法
+1.1 事故收集
+本文事故险情案例收集以地铁盾构法隧道土建阶
+段施工事故险情为对象,含盾构法隧道联络通道施工
+事故险情,不包括地铁车站、其他类型隧道、地铁暗
+挖隧道和盾构法隧道土建施工阶段外发生的事故险情
+(许多文献将工程险情和事故统称为事故,为便于描
+述,本文也遵从这一惯例,不再区分工程险情和事故
+的差异,将其统一称为事故)。本文事故数据收集渠
+道主要是住建部,应急管理部,各地市人民政府、应
+急管理局等单位官方网站,以及安全管理网、原创力
+文档等网页网站(如表 1 所示),另外,本文也通过
+中铁某地铁施工企业收集整理了部分事故。
+本文在收集过程中力求找到事故调查报告和描述
+信息相对完整的事故,因此对一些描述信息过少的事
+故未纳入统计。此外,由于我国“溯因问责型”的事
+故调查模式[31]等种种客观条件限制,本文虽尽可能
+广泛地收集盾构施工事故案例,但也只收集到 1997
+2022 年的 76 起案例,其中有完整事故调查报告的 25
+起,其余 51 起虽无完整事故报告,但绝大多数有详
+细的描述,故本次统计为不完全统计。
+1.2 分析方法
+本文数据统计分析的方法主要是综合分析法,首
+2
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+先利用 Excel 对事故信息从 16 个方面进行结构化处
+理,然后结合施工实际从不同角度对事故特征进行分
+析解读,其中重点分析事故发生时间、施工阶段、作
+业工序、事故类别、事故直接原因、事故间接原因和
+事故等级 7 个方面。事故信息结构化处理形式如表 2
+所示。
+统计分析的内容主要聚焦于三个方面:一是事故
+特征统计,主要包含事故类别、事故等级、施工阶
+段、发生时间和作业工序 5 个方面,采用饼图、柱形
+图、折线图等统计图进行了可视化表达;二是事故特
+征关联规律分析,主要是对事故特征进行两两关联探
+索分析,以发现事故背后的风险因素以及它们的关联
+规律;三是事故原因风险因素分析,主要是对收集到
+的车辆伤害和坍塌两类事故下各事故的原因风险因素
+进行分类归组,以明确造成该类事故存在哪些风险因
+素,为现场施工安全管控提供参考。
+2 事故特征统计
+事故的发生往往耦合了诸多因素,从不同角度对事
+故特征进行归类统计可以得出不同的结论,既便于清晰
+了解事故全貌,也便于发现事故发生的一些规律。
+2.1 按事故类别
+为贴近官方事故调查报告,本文依据《企业职工
+伤亡事故分类》(GB 6441—86)[32],对收集的 76 起
+事故进行归类分组统计,统计结果如图 1 和图 2
+所示。
+从统计结果来看,盾构施工生产安全事故常见的
+类别共有 11 类,其中车辆伤害、坍塌、机械伤害、
+物体打击出现频率较高。由图 1 和图 2 可知:车辆伤
+表 2 事故信息结构化处理形式
+Table 2 Structured processing form of accident information
+项目
+发生日期
+发生时间
+发生地点
+发生项目
+发生经过简述
+施工阶段
+作业工序
+事故类别
+事故信息1 项目
+事故直接原因
+事故间接原因
+事故性质
+事故等级
+人员伤亡
+直接经济损失
+有无报告
+信息来源
+事故信息1
+1将 76 起案例中的事故信息拆分并归类至 16 个不同的维度,填入
+对应表格。由于篇幅所限,具体的案例内容在此无法逐一详述,
+本表仅展示对这些事故信息进行结构化拆解的核心思路。
+表 1 事故案例来源
+Table 1 Sources of accident cases
+案例来源
+中华人民共和国住房和城乡建
+设部
+中华人民共和国应急管理部
+北京市海淀区人民政府
+广州市人民政府
+杭州市西湖区人民政府
+深圳市人民政府
+深圳市盐田区人民政府
+昆山市人民政府
+佛山市禅城区人民政府
+合肥市人民政府
+广西南宁市良庆区人民政府
+广州市白云区人民政府
+北京市通州区人民政府
+威海市应急管理局
+武汉市应急管理局
+广东省应急管理厅
+杭州市应急管理局
+广西南宁市应急管理局
+深圳市南山区应急管理局
+沈阳市应急管理局
+佛山市轨道交通局
+安全管理网
+原创力文档
+淘豆网
+鲁东大学土木工程学院工程事
+故案例
+中国新闻网
+网址
+https://www.mohurd.gov.cn/
+https://www.mem.gov.cn/
+https://zyk.bjhd.gov.cn/
+https://www.gz.gov.cn/
+https://www.hzxh.gov.cn/
+https://www.sz.gov.cn/
+https://www.yantian.gov.cn/
+https://www.ks.gov.cn/
+https://www.chancheng.gov.cn/
+https://www.hefei.gov.cn/
+http://www.liangqing.gov.cn/
+https://www.by.gov.cn/
+https://www.bjtzh.gov.cn/
+https://yjj.weihai.gov.cn/
+https://yjj.wuhan.gov.cn/zfxxgk/
+https://yjgl.gd.gov.cn/gk/ zdlyxxgk/sgdcbg/
+http://safety.hangzhou.gov.cn/
+https://yjj.nanning.gov.cn/zwgk/
+https://www.szns.gov.cn/nsqajj/ gkmlpt/
+https://yjj.shenyang.gov.cn/ zwgkzdgz/
+https://www.foshan.gov.cn/ fsgdjtj/gkmlpt/
+https://www.safehoo.com/
+https://max.book118.com/
+https://www.taodocs.com/
+https://civil.ldu.edu.cn/
+https://www.chinanews.com.cn/
+3
+
+
+害 28 起,占总事故统计数的 36.84%;坍塌 15 起,占
+总事故统计数的 19.74%;机械伤害 10 起,占总事故
+统计数的 13.16%;物体打击 9 起,占总事故统计数的
+11.84%; 其 余 7 种 事 故 , 合 计 占 总 事 故 统 计 数 的
+18.84%。统计结果表明,我国大陆地区盾构法隧道
+施工发生事故类别较多,但事故类别主要集中于 4
+种,这与盾构施工高度机械化作业有关,在现场施工
+安全管理中应加强这方面的管控。
+2.2 按事故等级
+在进行事故上报和调查时,生产安全事故等级划
+分的法律依据是国务院颁布的《生产安全事故报告和
+调查处理条例》[33],分级的指标为死亡人数、重伤
+人数和直接经济损失 3 项指标。在本文所收集的 76 起
+事故中有 23 起工程险情,由于未公布具体损失或因
+一些特殊原因未能得到具体指标数据,故将 23 起事
+故归为险情事件,还有 1 起事故因被核销为自然灾害
+事件。因此,对其余 52 起事故进行统计,统计结果
+如表 3、图 3 和表 4 所示。
+从统计结果来看,盾构施工生产安全事故 4 种等
+级事故均有发生,但一般事故和较大事故占绝大多
+数。由表 3 和图 3 可知:一般事故发生 44 起,占 52 起
+事故数的 85%,较大事故发生 6 起,占 52 起事故数的
+11%,两者合计占事故数的 96%。重大事故和特别重
+大事故各发生 1 起。由表 4 可知:这 52 起事故不完全
+统计共造成 39 人死亡、12 人受伤、直接经济损失
+表 3 事故等级统计
+Table 3 Accident grade statistics
+事故等级
+特别重大事故
+重大事故
+较大事故
+一般事故
+合计
+事故数量/起
+1
+1
+6
+44
+52
+图 3 事故等级占比
+Figure 3 Proportion of accident grade
+表 4 事故伤亡人数及直接经济损失统计
+Table 4 Statistics of casualties and direct economic losses
+事故等级
+特别重大事故
+重大事故
+较大事故
+一般事故
+合计
+事故数
+量/起
+1
+1
+6
+44
+52
+死亡/
+人
+0
+8
+0
+31
+39
+受伤/
+人
+2
+2
+3
+5
+12
+直接经济损失/万元
+15000
+5323.8
+5721.68
+3332.85
+29378.33
+图 1 盾构施工事故类别统计
+Figure 1 Statistics of shield construction accident categories
+图 2 盾构施工事故类别占比
+Figure 2 The proportion of shield construction accident categories
+4
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+29378.33 万元。统计结果表明,盾构施工易发生较大
+事故和一般事故,同时造成人员伤亡和经济损失也较
+小,而特别重大和重大事故虽发生次数少,但其事故
+后果却极其严重,是企业所无法承受之痛。因此,在
+盾构施工中应极力杜绝重大及以上事故发生,避免或
+减少较大及以下事故发生,努力做到风险隐患常排
+查,工程险情少发生,伤亡事故不发生。
+2.3 按事故发生施工阶段
+盾构施工过程因不同的作业特性进行了阶段划
+分,不同阶段都存在相关的施工风险,且都有生产安
+全事故发生。本文对收集到的 76 起事故发生阶段进
+行了统计,因其中一些事故信息不完整或难以归类到
+盾构始发、掘进、接收和附属工程施工 4 个阶段,故
+将此类事故归为其他类,统计结果如表 5 和图 4
+所示。
+从统计结果来看,盾构施工生产安全事故在盾构
+施工各个阶段都有发生,掘进过程在盾构施工全周期
+中最长,因此事故发生也是最多的。由表 5 和图 4
+可知:与盾构始发相关的事故共有 4 起,占 76 起事
+故数的 5%;与盾构掘进相关的事故共有 56 起,占
+76 起事故数的 74%;与盾构接收相关的事故共有 7
+起,占 76 起事故数的 9%;与附属工程施工相关的
+事故共有 4 起,占 76 起事故数的 5%;其他与盾构
+施 工 相 关 的 事 故 (包 括 盾 构 机 运 输、 作 业 平 台 坍
+塌、盾构机设备维修、龙门吊倾覆)有 5 起,占 76
+起事故数的 7%。统计结果表明,盾构掘进施工是
+事故发生最多的阶段,这是由于盾构掘进阶段是盾
+构施工作业周期最长、作业最集中、作业人员最密
+集的阶段,各类施工风险的叠加导致事故发生的可
+能性大大增加。因此,对于盾构施工现场管理来说
+必须做好安全风险管理,事先识别出作业危险因素
+和易发生事故的作业工序,加强对这些环节的管
+控,以此来有效避免或减少事故发生,提高盾构施
+工项目的安全管理效益。
+2.4 按事故发生时间
+盾构施工通常为“白班+夜班”的双班轮作 24 h
+施工,因此盾构施工事故可能发生在一天中的任意时
+间。若能对事故发生时间分布进行统计分析,找出事
+故发生频率较高的时间段,这对施工项目现场安全管
+理将有很大帮助。因此,本文对 76 起事故中有明确
+时间点的 66 起事故进行了统计,统计结果如表 6 和图
+5 所示。
+从统计结果来看,除 8∶00 和 19∶00 外,其余时
+间点均有事故发生,这可能是由于一般在这两个时
+间盾构作业班组会进行交接班,盾构施工会停止约
+1 h,因此这两个时间点周围没有事故发生,这与盾
+构 施 工 的 现 场 作 业 情 况 是 相 符 的 。 由 图 5 可 知 9∶
+00—18∶00 和 21∶00—次日 4∶00 这两个时间段发
+生事故较多,其中 9∶00—18∶00 这一时间段共发
+生事故 38 起,占 66 起事故的 57.58%;21∶00—次
+日 4∶00 这一时间段共发生事故 19 起,占 66 起事故
+的 28.79%;其余时间段占 66 起事故的 13.63%。统
+计结果表明,盾构施工中,全天 24 h 都有可能发生
+施工事故,这与其他建筑施工作业显著不同,而且
+白班 (一般为早 8∶00 到晚 7∶00) 发生事故数明
+显多于夜班,这可能是白班项目管理力量较充分,
+表 5 事故发生施工阶段统计
+Table 5 Statistics of construction stage of accident
+施工阶段
+盾构始发
+盾构掘进
+盾构接收
+附属工程施工
+其他
+事故数量/起
+4
+56
+7
+4
+5
+图 4 事故发生施工阶段占比
+Figure 4 Proportion of accident occurrence in construction stage
+5
+
+
+高危作业多安排在白班作业,比如盾构始发、盾构
+接收等。然而,对于项目安全管理来说白、夜班的
+安全管理都不能松懈,必须进行科学论证、统筹安
+排、有效配置。
+2.5 按事故发生作业工序
+盾构施工工序相对固定,尤其对于掘进施工更是
+如此,每一环掘进作业可以看作一个基本作业周
+期,然后周而复始、持续掘进。通过对盾构施工工
+序下所出现的事故进行统计分析,可以为现场施工
+安全管理预先制定相应防控措施提供指导,从而避
+免或减少该工序发生此类事故。因此,本文对 76 起
+事故所出现的作业工序进行了统计,统计结果图 6
+和图 7 所示。
+从统计结果来看,76 起事故中很多事故都是发
+生在同一作业工序下,造成的事故类别也相同。由图
+图 6 盾构施工工序事故数统计
+Figure 6 Statistics of accidents in shield construction process
+表 6 盾构施工事故时间分布
+Table 6 Time distribution of shield construction accidents
+发生时间/h
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+事故数量/起
+1
+3
+2
+2
+3
+1
+2
+4
+0
+3
+3
+6
+发生时间/h
+12
+13
+14
+15
+16
+17
+18
+18
+20
+21
+22
+23
+事故数量/起
+1
+3
+4
+2
+7
+5
+4
+0
+2
+3
+4
+1
+图 5 盾构施工各时间点事故数量统计
+Figure 5 Statistics of accidents at each time point of shield construction
+图 7 盾构施工工序事故数占比
+Figure 7 The proportion of accidents in shield construction process
+6
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+6 和图 7 可知:除去 5 起盾构机组件运输、龙门吊倾
+覆等事故外,其余 71 起事故都与盾构日常施工紧密
+相关,共涉及工序 19 种。涉及盾构始发事故有 4 起,
+分别出现在 3 种工序中,即盾构机组装 2 起、始发磨
+桩 1 起、始发加固 1 起;涉及盾构正常掘进事故有 56
+起,分别出现在 10 种工序中,即冲洗疏通浆车、灯
+具安装、电动车行驶、电瓶车水平运输、高压电顺
+接、管片拼装作业、开仓作业、龙门吊垂直运输作
+业、推进作业和停工检查,其中电瓶车水平运输出现
+了 28 起事故、开仓作业 8 起、推进作业 5 起、龙门吊
+垂直运输 4 起、管片拼装 4 起、冲洗疏通浆车 3 起,
+其余 4 种工序各 1 起;涉及盾构接收事故有 7 起,分
+别出现在 4 种工序中,即盾构机接收 3 起、钢套筒拆
+除 2 起、接收端加固 1 起、盾构机拆解 1 起;涉及联
+络通道施工事故有 4 起,分别出现在两种工序中,即
+开挖及初支 3 起、冷冻钻孔 1 起。统计结果表明,盾
+构施工虽然涉及工序多,但事故主要发生的工序可能
+主要集中在水平运输、垂直运输、开仓作业、推进作
+业、管片拼装作业、疏通清理设备、盾构机接收、联
+络通道开挖及初支这 8 种工序,共发生 58 起,占 71
+起事故的 81.69%。因此,在盾构施工中应将安全管
+理的重点放在这 8 种工序中,针对性做好安全教育
+培训。
+3 事故特征关联规律分析
+事故特征是对事故整体信息从不同视角的解读,
+对事故整体信息进行分解能够得到不同的事故特征,
+从而清晰了解事故的局部信息。同时,若是对事故特
+征进行关联分析,从事故特征尽量还原到事故整体信
+息,那么,对事故整体信息及其发展规律就会有更加
+透彻的理解。因此,本文从施工实际情形考量选取了
+4 个事故特征,以事故类别作为关联的基础,分别与
+伤亡人数、施工阶段和事故时间段进行关联,以进一
+步探索事故特征间的规律。
+3.1 事故类别与伤亡人数关联分析
+不同的事故类别会造成不同程度的事故损失,对
+事故类别和其伤亡人数进行关联分析,有助于使现场
+安全管理抓住关键、找准重点,关联分析结果如表 7
+和图 8 所示。
+从关联结果来看,其他爆炸、火灾、中毒和窒息
+3 类事故平均伤亡人数最多,分别为 4.50、3.50、3.00
+人/起,3 类事故共发生 5 起,占 76 起事故的 7%,属
+于典型的发生频率低但后果严重的事故,对于这类事
+故应通过完善现场施工监管流程从而极力避免。坍
+塌、高处坠落和物体打击这 3 类事故平均伤亡人数约
+为 2 人/起,坍塌事故属于时有发生且后果极其严重的
+事故,一旦发生就会造成重大人员伤亡或财产损失,
+在施工中应加强全过程管理,做好应急准备工作,从
+而来降低损失。高处坠落事故属于发生频率较低且伤
+亡不定的事故,原因是高处作业既可能为单人作业也
+图 8 盾构施工事故平均伤亡人数
+Figure 8 Average number of casualties in shield construction accidents
+表 7 盾构施工事故类别与平均伤亡人数统计
+Table 7 Statistics of accident types and average casualties in shield construction
+项目统计
+事故数量/起
+死亡/人
+受伤/人
+平均伤亡/(人/起)
+物体打击
+9
+13
+6
+2.11
+车辆伤害
+28
+13
+8
+0.75
+机械伤害
+10
+7
+3
+1.00
+触电
+1
+1
+0
+1.00
+火灾
+2
+4
+3
+3.50
+高处坠落
+3
+4
+3
+2.33
+坍塌
+15
+21
+16
+2.47
+透水
+3
+3
+0
+1.00
+其他爆炸
+2
+4
+5
+4.50
+中毒和窒息
+1
+3
+0
+3.00
+其他伤害
+2
+1
+0
+0.50
+7
+
+
+可能为多人作业,对于此类事故重点应加强人员高处
+作业培训教育、强化作业平台检查验收。物体打击和
+机械伤害事故是盾构施工常见的事故,一旦发生往往
+就会造成人员伤亡,这与盾构施工使用大机械和机械
+化作业搬运重物的特性有关,对于这类事故只能以提
+高现场作业人员素质和风险防范意识为抓手,才能有
+效实现安全作业。车辆伤害是盾构施工最频发的事故
+和险情,其虽不一定会造成较大人员伤亡,但其对生
+产影响却是极大的,轻则延误施工进度、造成机械损
+毁,重则叠加人员伤亡,这类事故是盾构施工需要重
+点加强管理的。
+3.2 事故类别与施工阶段关联分析
+施工现场在不同施工阶段所配备的资源是不同
+的,现场安全管理需求也是不一样的,对事故类别和
+施工阶段进行关联分析,有助于项目管理人员提升安
+全生产管理的整体认识和有效配置资源,从而预先制
+定相应技术、管理措施,避免减少事故发生。事故类
+别和施工阶段进行关联分析,结果如表 8 所示。
+从关联结果来看,盾构始发阶段易出现物体打
+击、机械伤害和坍塌 3 类事故,这是由于盾构始发涉
+及盾构机组装调试作业,需要进行大量密集的吊装和
+机械作业,而盾构机始发进洞会造成土体流失,一旦
+洞门加固效果不好和始发操作失误就有可能造成地面
+坍塌。盾构掘进阶段出现过盾构施工常见的全部 11
+类事故,这是由于盾构掘进施工几乎包含了除附属工
+程外的全部作业工序,而且盾构掘进施工占了盾构区
+间隧道施工的绝大部分工程量,因此掘进施工期间可
+能发生各类常规或意外的事故。盾构接收阶段易出现
+物体打击、机械伤害、坍塌和透水 4 类事故。从施工
+作业角度来说,盾构接收与盾构始发的差别主要为,
+盾构接收是盾构机从地层中出来到达接收井,对地层
+土体的扰动更大,因此二者事故类型也基本相同。附
+属工程施工常见的事故有机械伤害和坍塌两类,因为
+附属工程施工一般为人工暗挖作业,开挖过程是施工
+风险最大的阶段,极易造成坍塌事故,同时从地层加
+固、开挖到二衬施工都有机械作业,易造成机械伤害
+事故。对于其他作业阶段的事故,与盾构掘进施工直
+接关系不大,而与盾构运输或其他一些作业相关,对
+于这一阶段可不作为盾构现场施工管理的重点。
+3.3 事故类别与事故时间段关联分析
+盾构施工是全天 24 h 作业,但不同时间段发生事
+故的类别却有差异,因此对盾构施工事故类别和事故
+时间进行关联分析,可以发现事故类别在发生时间上
+的规律,有助于项目部合理配置现场监管力量,提升
+现场监管效率。由于本文所收集的 76 起事故中有 10
+起没有明确事故发生时间,因此只对有明确时间点的
+66 起事故进行了统计,统计结果如表 9 所示。
+从关联结果来看,白班 (8∶00—19∶00) 施工
+期间事故发生数多于夜班 (20∶00—次日 7∶00)。
+白班共发生 38 起事故,占 66 起事故的 57.58%,出现
+的事故类别有 9 类,其中车辆伤害、机械伤害、坍塌
+事故发生次数较多;夜班共发生 28 起事故,占 66 起
+事故的 42.42%,出现的事故类别有 8 种,其中车辆伤
+害、物体打击、坍塌事故发生较多。同时,可以看到
+表 8 盾构施工事故类别与施工阶段统计
+Table 8 Categories of shield construction accidents and statistics of construction stages
+施工
+阶段
+盾构始发
+盾构掘进
+盾构接收
+附属工程
+其他
+事故类别
+物体打击
+√
+√
+√
+√
+车辆伤害
+√
+√
+机械伤害
+√
+√
+√
+√
+√
+触电
+√
+火灾
+√
+高处坠落
+√
+√
+坍塌
+√
+√
+√
+√
+透水
+√
+√
+其他爆炸
+√
+中毒和窒息
+√
+其他伤害
+√
+√
+注:表格中的“√”表示施工阶段下所发生的事故类别。
+8
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+车辆伤害和坍塌在全天中都是易发生的事故,特别是
+车辆伤害基本在一天中各个时间点都有发生,这对于
+现场施工安全管理来说必须加强全天、全员监管,以
+降低该类事故的发生;对于坍塌事故的发生,白夜班
+发生次数大约相同,且往往是由于作业人员违规操
+作、擅自作业导致,因此对于该类事故一定要提前做
+好相关作业培训和应急处置培训,以加强对该类事故
+风险的识别,即使在夜间施工,也应配备经验丰富的
+管理人员加强指导和检查。对于其他各类事故,现场
+施工管理中须制定针对性的安全管理措施,可以预先
+对作业人员进行相关作业易发生事故的警示培训教
+育,在作业前提高他们的安全风险意识,消除侥幸、
+散漫、惰性心理。同时,注重培育和提高项目管理人
+员以敬业、责任心和排除疑难等为核心能力的胜任
+力[34], 及 时 对 他 们 进 行 激 励 , 以 保 证 更 好 的 管 理
+绩效。
+4 事故原因风险因素分析
+施工现场安全管理是为了避免或减少生产安全事
+故发生,保障施工作业安全顺利进行,然而绝对安全
+是不存在的,生产过程中必然会发生事故。从曾经发
+表 9 盾构施工事故类别与事故发生时间统计
+Table 9 Statistics of shield construction accident types and accident time
+发生时间
+0∶00
+1∶00
+2∶00
+3∶00
+4∶00
+5∶00
+6∶00
+7∶00
+8∶00
+9∶00
+10∶00
+11∶00
+12∶00
+13∶00
+14∶00
+15∶00
+16∶00
+17∶00
+18∶00
+19∶00
+20∶00
+21∶00
+22∶00
+23∶00
+合计/起
+发生次数/起
+物体打击
+1
+1
+1
+1
+1
+1
+3
+9
+车辆伤害
+2
+1
+2
+1
+2
+1
+1
+4
+1
+1
+3
+1
+2
+1
+1
+1
+1
+26
+机械伤害
+1
+1
+1
+1
+3
+7
+触电
+0
+火灾
+1
+1
+2
+高处坠落
+1
+1
+1
+3
+坍塌
+1
+1
+1
+1
+1
+1
+1
+2
+2
+1
+1
+13
+透水
+1
+1
+2
+其他爆炸
+1
+1
+中毒和窒息
+1
+1
+其他伤害
+1
+1
+2
+合计/起
+1
+3
+2
+2
+3
+1
+2
+4
+0
+3
+3
+6
+1
+3
+4
+2
+7
+5
+4
+0
+2
+3
+4
+1
+66
+9
+
+
+生的事故中汲取经验教训,剖析事故发生原因,对于
+之后避免该类事故发生具有极大帮助。因此,本文对
+盾构施工事故的发生原因进行了分析。由于事故样本
+数量和篇幅原因,本文选取了事故数据最多的车辆伤
+害和坍塌两类事故为例进行说明。
+在收集到的 76 起事故中,车辆伤害事故有 28
+起,其中发生在电瓶车水平运输作业过程的有 26 起,
+运输盾构机组件、驾驶电动三轮车的各 1 起。对该类
+事故原因进行综合归类后结果如表 10 所示。
+在本文收集到的 76 起事故中,坍塌事故有 15
+起,其中发生在开仓作业过程的有 5 起,掘进作业过
+程的有 3 起,连通通道作业的有 3 起,接收作业的有
+3 起,始发作业的有 1 起。对该类事故原因进行综合
+归类后结果如表 11 所示。
+从盾构施工生产安全事故报告来看,事故原因分
+为直接原因和间接原因,其中前者主要分析了相关人
+员的不安全行为、机械设备的不安全状态及作业环境
+隐患等因素,后者主要分析了管理制度的缺失、执行
+不到位、风险隐患认识不足、相关安全责任未落实等
+因素。
+综合其他事故类别原因来看,事故原因具有很强
+的相似性和规律性,直接原因多为具体情景下导致事
+故发生的风险因素,间接原因多为施工项目安全管理
+过程存在的不足或缺陷,未能有效执行国家有关法律
+标准等制度要求来组织作业,进而引起作业人员安
+全风险意识不足、违规行为发生。因此,对于现场
+施工来讲,有效可行的管理、技术措施能够大大减
+少事故隐患,进而避免事故的发生,其中关键之处
+是要做好安全风险管理:一方面提升管理人员风险
+认知做好监管指导;另一方面提高作业人员风险意
+识做好作业防护,两者形成合力,防事故于未然,
+工作重心前移。
+5 结论及建议
+盾构施工是一项复杂的系统工程,具有利益相关
+方多、地质情况复杂、交叉作业多和施工监管难度大
+等特点。因此,盾构施工事故时有发生,本文对所收
+表 10 车辆伤害事故原因统计
+Table 10 Statistics on the causes of vehicle injury accidents
+原因分类
+作业人员方面
+机械设备方面
+制度监管方面
+作业环境方面
+具体描述
+违章作业;违反机械设备操作规程;司机对设备性能和操作规程不熟悉;无证作业;信息传达不明;未及时制动停车;
+司机安全意识不足;缺乏责任心;司机作业疏忽;司机技术水平不够;司机应急处置能力不足;现场行车调度管理不
+到位;不熟悉作业环境
+设备检修不及时;设备检修保养不到位;电瓶车制动系统存在问题;防溜设备失效;轨道设置不合理;设备老旧,动力
+不足;未设置防撞梁;电瓶车本身设计有问题;电瓶车无视频探头
+安全教育培训不到位;对司机操作培训不到位;项目部对安全风险识别不到位;未制定有效预控措施;安全责任未落实;
+安全检查和隐患排查不到位;不按施工方案组织施工;疏于管理,监管不严;整改措施落实不及时;现场安全文明施
+工管理不到位;交叉作业管理不当
+未设置警示标志;高坡度行车;轨道被渣土覆盖未清理;轨道变形
+表 11 坍塌事故原因统计
+Table 11 Causes of collapse accidents
+原因分类
+作业人员方面
+机械设备方面
+制度监管方面
+作业环境方面
+具体描述
+未及时采取有效保压措施;交叉作业;对盾构机性能认识不足;技术管理人员素质不高;安全质量意识差;违规操作
+盾尾密封性能下降
+施工风险预判不足;应急处置不及时;施工方案执行不到位;重大风险认识不足;安全生产责任不落实;施工组织不合
+理;施工交底不全面;安全生产教育培训不到位;安全检查和隐患排查不到位;未按施工方案组织施工;未建立事故
+隐患排查治理制度;未采取安全技术措施;未按规范进行检测;应急物资配备不足;应急预案缺乏针对性
+水文地质环境复杂;现场作业环境杂物清理不及时
+10
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+集到的 1997—2022 年的 76 起盾构施工事故进行了事
+故特征、关联规律和原因风险因素三方面分析,发现
+盾构施工生产安全事故总体具有多样性、集中性、重
+复性和相似性的特性。
+首先,发生的事故类别多达 11 类但集中在车辆
+伤害、坍塌、机械伤害和物体打击这 4 类,发生事故
+的作业工序有 19 种但多重复于电瓶车水平运输、管
+片拼装和联络通道开挖及初支等 8 种工序,这对于现
+场施工安全管理的启示是应把这 8 种关键工序作为现
+场监管和教育培训的重点,以此来避免或减少约 80%
+的事故发生。其次,从事故类别与伤亡人数、施工阶
+段和事故发生时间段 3 个特征关联来看,盾构施工应
+通过完善现场施工监管流程,来极力避免如其他爆
+炸、坍塌等发生频率低但后果严重的事故,应通过提
+高作业人员风险防范意识和加强教育培训,来避免或
+减少高处坠落、物体打击等常见事故;在不同施工阶
+段应针对性加强防范各类易发生事故,如始发阶段应
+着重防范物体打击、机械伤害和坍塌 3 类事故;盾构
+施工事故全天各时间段均有发生,除车辆伤害外其他
+事故发生较为分散,防范的关键仍是提升作业人员的
+安全风险意识。最后,盾构事故原因风险因素存在较
+大的相似性,作业人员方面多为安全意识不足、作业
+不熟练或疏忽等,机械设备方面多为机械设备性能下
+降或部件缺失、检修保养不到位等,制度监管方面多
+为安全生产责任不落实、安全检查隐患排查不到位
+等,作业环境方面多为水文地质条件复杂、现场环境
+杂物清理不及时等。
+根据上述分析结果,结合盾构施工现场安全管理
+实际,提出如下建议。
+(1)践行安全风险管理理念,以“预则立”的管
+理理念方式进行安全生产管理,让每一位管理人员和
+作业人员树立和践行安全风险管理理念,尽心履责用
+心负责,避免悲剧发生。
+(2)营造负责尽责管理氛围,安全管理本就是一
+件“负责任最苦、尽责任最乐”的事情,从事故原因
+来看,往往是由于作业人员没有尽到相关责任才导致
+了事故的发生,因此在项目管理中要发现、培养、提
+拔有责任心的员工,让负责尽责者及时得到正向
+激励。
+(3)注重从事故案例中吸取经验,由于盾构施工
+工序较固定重复,事故发生原因、规律也较为相似,
+定期将以往事故案例向管理人员进行培训宣讲,有助
+于提升他们的施工经验和提高风险意识。
+(4)开展针对性安全教育培训,参照以往项目管
+理经验,预先制订危险作业安全教育培训计划,针对
+具体施工实际情况动态调整,形成盾构施工安全教育
+培训清单。
+(5)寻找筛选可靠分包队伍,盾构施工作业的特
+点,决定了盾构施工必须依赖经验丰富技能娴熟的高
+素质作业工人,因此寻找甚至培养可长期合作的分包
+队伍,对于施工企业来讲是十分必要和具有长远价
+值的。
+(6)健全各部门协同应对机制,盾构项目安全管
+理一般主要以工程部和安质部为主,由于这两个部门
+内外业工作繁重,同时企业限于人力成本,导致人员
+配备紧张、流动频繁,因此盾构项目应调整奖惩机
+制,鼓励调动所有部门参与,共同做好安全风险应对
+工作。
+参考文献
+[1] 中国城市轨道交通协会 . 城市轨道交通 2023 年度统计和分析报告[EB/OL]. (2024-03-29)[2024-04-20]. https://www.camet.org.cn/tjxx/ 14894. China Association of Metros. Statistical and analysis report on urban rail transit in 2023[EB/OL]. (2024-03-29)[2024-04-20]. https://www. camet.org.cn/tjxx/14894.
+[2] 邓小鹏, 李启明, 周志鹏 . 地铁施工安全事故规律性的统计分析[J]. 统计与决策, 2010(9): 87-89.
+Deng X P, Li Q M, Zhou Z P. Statistical analysis of the regularity of subway construction safety accidents[J]. Statistics & Decision, 2010 (9): 87-89.
+11
+
+
+[3] 李凤伟, 杜修力, 张明聚 . 地铁工程建设施工事故统计分析[J]. 地下空间与工程学报, 2014, 10(2): 474-479.
+Li F W, Du X L, Zhang M J. Statistical analysis of accidents in metro construction[J]. Chinese Journal of Underground Space and Engineering, 2014, 10(2): 474-479. [4] 李皓燃, 李启明, 陆莹 . 2002—2016 年我国地铁施工安全事故规律性的统计分析[J]. 都市快轨交通, 2017, 30(1): 12-19. Li H R, Li Q M, Lu Y. Statistical analysis on regularity of subway construction accidents from 2002 to 2016 in China[J]. Urban Rapid Rail Transit, 2017, 30(1): 12-19.
+[5] 王勇, 赖芨宇, 陈秋兰, 等 . 我国地铁施工事故统计分析与研究[J]. 工程管理学报, 2018, 32(4): 70-74.
+Wang Y, Lai J Y, Chen Q L, et al. A statistical analysis of metro construction accidents in China[J]. Journal of Engineering Management, 2018, 32(4): 70-74.
+[6] 陈平, 周红, 舒婷 . 我国近海城市地铁施工事故统计分析[J]. 现代城市轨道交通, 2020(4): 59-64.
+Chen P, Zhou H, Shu T. Statistical analysis of metro construction accidents in China's coastal cities[J]. Modern Urban Transit, 2020(4): 59-64.
+[7] 于海莹, 彭玉林, 张立艳, 等 . 城市地铁施工期事故统计分析[J]. 地下空间与工程学报, 2019, 15(S2): 852-860.
+Yu H Y, Peng Y L, Zhang L Y, et al. Statistical analysis of accidents during urban subway construction[J]. Chinese Journal of Underground Space and Engineering, 2019, 15(S2): 852-860.
+[8] 闫惠娇, 马永驰 . 我国地铁建设事故规律分析与安全管理启示[J]. 地下空间与工程学报, 2022, 18(5): 1731-1741.
+Yan H J, Ma Y C. Regularity analysis and safety management enlightenment of subway construction accidents in China[J]. Chinese Journal of Underground Space and Engineering, 2022, 18(5): 1731-1741.
+[9] 南通市人民政府 . 南通市城市轨道交通 1 号线一期工程土建施工 06 合同段"3·14"车辆伤害事故调查报告[EB/OL]. (2020-08-03)[2024
+04-20]. https://max.book118.com/html/2020/1011/8011130033003005.shtml. Nantong Municipal People's Government. Nantong Urban Rail Transit Line 1 Phase I Project Civil Construction 06 Contract Section '3·14' vehicle injury accident investigation report[EB/OL]. (2020-08-03) [2024-04-20]. https://max. book118. com/html/2020/1011/ 8011130033003005.shtml.
+[10] 武汉市人民政府 . 武汉市轨道交通 7 号线北延(前川线)工程第三、四标段土建工程(第四标段)盾构工程"8·4"一般物体打击事故调查报
+告[EB/OL]. (2021-10-27)[2024-04-20]. https://yjj.wuhan.gov.cn/zfxxgk/fdzdgk/gysyjs/tfggsj/sgxx/202112/t20211216_1874743.shtml. Wuhan Municipal People 's Government. Wuhan Rail Transit Line 7 North Extension (Qianchuan Line) Project Sections 3 and 4 Civil Engineering (Section 4) Shield Project '8·4' general object strike accident investigation report[EB/OL]. (2021-10-27)[2024-04-20]. https:// yjj.wuhan.gov.cn/zfxxgk/fdzdgk/gysyjs/tfggsj/sgxx/202112/t20211216_1874743.shtml.
+[11] 钱七虎, 戎晓力 . 中国地下工程安全风险管理的现状、问题及相关建议[J]. 岩石力学与工程学报, 2008, 27(4): 649-655.
+Qian Q H, Rong X L. State, issues and relevant recommendations for security risk management of China's underground engineering[J]. Chinese Journal of Rock Mechanics and Engineering, 2008, 27(4): 649-655.
+[12] 解东升, 钱七虎, 戎晓力 . 地铁工程建设安全风险管理研究[J]. 土木工程与管理学报, 2012, 29(1): 61-67.
+Xie D S, Qian Q H, Rong X L. Risk management in rail transit construction[J]. Journal of Civil Engineering and Management, 2012, 29 (1): 61-67. [13] 钱七虎 . 地下工程建设安全面临的挑战与对策[J]. 岩石力学与工程学报, 2012, 31(10): 1945-1956. Qian Q H. Challenges faced by underground projects construction safety and countermeasures[J]. Chinese Journal of Rock Mechanics and Engineering, 2012, 31(10): 1945-1956.
+[14] 傅贵 . 关于安全管理、行为安全的含义理解[C]//第三届行为安全与安全管理国际研讨会论文集 . 2015: 1-2.
+Fu G. Understanding the meaning of safety management and behavioral safety[C]// Proceedings of the 3rd International Symposium on Behavioral Safety and Safety Management. 2015 : 1-2. [15] 王䶮, 刘保国, 亓轶 . 基于 WBS-RBS 与故障树耦合的地铁施工风险与评价[J]. 地下空间与工程学报, 2015, 11(S2): 772-779. Wang Y, Liu B G, Qi Y. Risk and evaluation of subway construction based on coupling of WBS-RBS and fault tree[J]. Chinese Journal of Underground Space and Engineering, 2015, 11(S2): 772-779. [16] Qie Z, Yan H. A causation analysis of chinese subway construction accidents based on fault tree analysis-bayesian network[J]. Frontiers in Psychology, 2022, 13: 887073. [17] Qi H, Zhou Z, Yuan J, et al. Accident pattern recognition in subway construction for the provision of customized safety measures[J]. Tunnelling and Underground Space Technology, 2023, 137: 105157.
+12
+
+
+王鹏飞, 等 . 地铁盾构法隧道施工事故特征与原因分析
+[18] 王莉, 王建平, 许娜, 等 . 基于知识图谱的地铁工程事故知识建模与分析[J]. 土木工程与管理学报, 2019, 36(5): 109-114+122.
+Wang L, Wang J P, Xu N, et al. Knowledge graph-based metro engineering accidents knowledge modeling and analysis[J]. Journal of Civil Engineering and Management, 2019, 36(5): 109-114, 122. [19] Zhou Z, Irizarry J, Li Q. Using network theory to explore the complexity of subway construction accident network (SCAN) for promoting safety management[J]. Safety Science, 2014, 64: 127-136. [20] 黄雄, 胡祖祥 . 地铁施工事故统计分析与研究[J]. 中国安全生产科学技术, 2022, 18(9): 218-224. Huang X, Hu Z X. Statistical analysis and research of subway construction accidents[J]. Journal of Safety Science and Technology, 2022, 18(9): 218-224.
+[21] 吕培印, 王亚利, 马啸, 等 . 地铁工程事故案例库建立与风险评估研究[J]. 都市快轨交通, 2023, 36(3): 1-9.
+Lv P Y, Wang Y L, Ma X, et al. Construction of a case base for subway engineering accidents and risk assessment analysis[J]. Urban Rapid Rail Transit, 2023, 36(3): 1-9. [22] Sousa R L, Einstein H H. Lessons from accidents during tunnel construction[J]. Tunnelling and Underground Space Technology, 2021, 113: 103916. [23] Zhu Y, Zhou J, Zhang B, et al. Statistical analysis of major tunnel construction accidents in China from 2010 to 2020[J]. Tunnelling and Underground Space Technology, 2022, 124: 104460. [24] Zhou Z, Irizarry J, Zhou J. Development of a database exclusively for subway construction accidents and corresponding analyses[J]. Tunnelling and Underground Space Technology, 2021, 111: 103852. [25] 孟康, 李明达, 周晶 . 地铁施工安全事故风险评价[J]. 人民长江, 2022, 53(7): 169-173. Meng K, Li M D, Zhou J. Safety accident risk evaluation in subway construction[J]. Yangtze River, 2022, 53(7): 169-173. [26] 李解, 王建平, 许娜, 等 . 基于文本挖掘的地铁施工安全风险事故致险因素分析[J]. 隧道建设, 2017, 37(2): 160-166.
+Li J, Wang J P, Xu N, et al. Analysis of safety risk factors for metro construction based on text mining method[J]. Tunnel Construction, 2017, 37(2): 160-166.
+[27] 闫文周, 门雪, 杨翻艳 . 基于相互作用矩阵的地铁施工风险评价[J]. 武汉大学学报(工学版), 2019, 52(9): 796-801.
+Yan W Z, Men X, Yang F Y. Risk assessment of metro construction based on interaction matrix[J]. Engineering Journal of Wuhan University, 2019, 52(9): 796-801.
+[28] 文艳芳, 陈敬配 . 地铁隧道施工坍塌风险耦合机理研究[J]. 地下空间与工程学报, 2021, 17(3): 943-952.
+Wen Y F, Chen J P. Research on coupling mechanism of collapse risk in metro tunnel construction[J]. Chinese Journal of Underground Space and Engineering, 2021, 17(3): 943-952. [29] 王萍, 胡群芳, 王飞, 等 . 地铁建设项目保险行业的发展及前景[J]. 现代隧道技术, 2018, 55(S2): 835-842. Wang P, Hu Q F, Wang F, et al. Development and prospect of insurance industry in subway construction projects[J]. Modern Tunnelling Technology, 2018, 55(S2): 835-842.
+[30] 吴成宇, 项薇, 韩乐琦, 等 . 基于地铁施工事故案例的机器学习灾害预测方法[J]. 数学的实践与认识, 2022, 52(1): 92-102.
+Wu C Y, Xiang W, Han L Q, et al. Machine learning disaster prediction method based on subway construction accident cases[J]. Mathematics in Practice and Theory, 2022, 52(1): 92-102.
+[31] 张涛, 王大洲 . 中美重大工程事故调查模式比较分析——以两起铁路事故调查为例[J]. 自然辩证法通讯, 2015, 37(2): 105-113.
+Zhang T, Wang D Z. Comparison of serious Chinese and American engineering accident investigation modes: taking two railway accidents as an instance[J]. Journal of Dialectics of Nature, 2015, 37(2): 105-113. [32] 国家标准局 . 企业职工伤亡事故分类 GB/T 6441—1986[S]. 北京: 中国标准出版社, 1986: 1. National Bureau of Standards. The classification for casualty accidents of enterprise staff and workers GB 6441—1986[S]. Beijing: Standards Press of China, 1986: 1. [33] 中华人民共和国国务院 . 生产安全事故报告和调查处理条例[EB/OL]. (2007-06-01)[2024-04-22]. https://flk.npc.gov.cn/detail2.html? ZmY4MDgwODE2ZjNlOThiZDAxNmY0MWY1YjI2ODAyM2Y. State Council of the People's Republic of the China. Production safety accident report and investigation and handling regulations[EB/OL]. (2007-06-01)[2024-04-22]. https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjNlOThiZDAxNmY0MWY1YjI2ODAyM2Y.
+[34] 李雪枫, 姜卉, 尤完, 等 . 建筑业大国工匠胜任力模型构建研究[J]. 工程研究——跨学科视野中的工程, 2021, 13(4): 323-333.
+Li X F, Jiang H, You W, et al. Construction of competency model of great power craftsmen: taking the construction industry as an example [J]. Journal of Engineering Studies, 2021, 13(4): 323-333.
+13
+
+
+Analysis of Characteristics and Causes of Subway Shield Tunnel Construction Accidents
+Wang Pengfei1, Zhu Jianming2*, Huang Jun1, Liu Xiaoming1
+1. School of Engineering Science, University of Chinese Academy of Sciences, Beijing 100049, China; 2. School of Emergency Management Science and Engineering, University of Chinese Academy of Sciences, Beijing 100049, China
+Abstract: The shield tunneling method is the most widely used method in subway tunnel construction. However, subway shield tunneling construction accidents occur from time to time. In order to have a clear understanding of the characteristics and basic causes of common shield tunneling construction accidents in subway construction, and to improve the understanding and efficiency of on-site construction safety management, this paper collected 76 subway shield tunneling civil construction related accidents from 1997 to 2022. Firstly, statistical analysis was used to statistically analyze the five accident characteristics of accident category, accident grade, accident occurrence stage, accident occurrence time and accident occurrence operation process. Secondly, the accident category was associated with three characteristics: number of casualties, construction stage, and accident occurrence time period. Finally, vehicle injury and collapse were used as examples to analyze the risk factors of accident causes. Through analysis, it is found that there are 11 common types of accidents in shield construction production safety accidents, about 80% of which are concentrated in four types of accidents: vehicle injuries, collapses, mechanical injuries, and object strikes. These accidents often occur repeatedly in eight processes: horizontal transportation, vertical transportation, opening operation, propulsion operation, segment assembly operation, dredging and cleaning equipment, shield machine receiving, contact channel excavation and initial support. The causes of accidents can be classified into four aspects: operators, mechanical equipment, institutional supervision, and working environment, which have high similarity. The research findings of this paper not only help to improve people's overall understanding of shield construction accidents, but also grasp the basic laws of the frequency proportion, casualty loss and time distribution of 11 common types of accidents in shield construction on a macro level. It can also provide some enlightenment and guidance for the safety management practice of on-site construction. For example, in the field construction, the supervision of eight key construction processes such as horizontal transportation, opening operation and propulsion operation of battery car should be strengthened, so as to avoid the occurrence of four types of accidents, such as vehicle injury, collapse, mechanical injury and object strike, so as to avoid 80 % of the accidents.
+Keywords: subway tunnel; shield construction; subway accident; statistical analysis; accident characteristics; accident reason
+14

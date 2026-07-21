@@ -1,0 +1,303 @@
+2024 年
+砂卵石地层大直径盾构施工的关键技术
+王春波1 孙建营1 武亦超1 方华昌2
+(1. 中国人民武装警察部队警官学院基础部, 610213, 成都; 2. 中交一公局集团有限公司, 100024, 北京)
+摘 要 [目的]总结分析砂卵石地层大直径盾构施工中盾
+构机选型、盾构始发与接收、盾构掘进姿态控制等施工关键
+技术,并提出具体的施工控制参数与施工控制措施,以减轻
+刀盘刀具磨损、降低地层损失、减小地层沉降变形。 [ 方法]
+针对砂卵石地层结构松散、颗粒无胶结或弱胶结、颗粒粒径
+大、透水性强的工程结构特性,采用理论分析、现场监测等方
+法,从盾构机选型、盾构始发接收、盾构掘进姿态控制、盾构
+刀盘刀具的检测维修等方面深入分析砂卵石地层大直径盾
+构施工关键技术。 [ 结果及结论] 大直径盾构的刀盘开口
+率、刀盘刀具类型、渣土改良方案等应根据地层结构特性进
+行特殊设计,且有利于盾构排渣和超前切割;盾构井端头宜
+采取地层注浆加固、大管棚支护、施工降水等综合加固措施
+以保证大盾构始发或接收时地层的稳定;大直径盾构的掘进
+施工应重点控制刀盘转速、出渣量、出渣温度等参数,并应适
+当增大注浆量,提高渣土改良效果,避免过大超挖,保证地层
+损失处于合理范围内。 采用上述施工参数与施工措施后,盾
+构掘进风险可控,施工质量与施工效率明显提升,同时大大
+降低了施工成本。
+关键词 大直径盾构; 砂卵石地层; 刀盘刀具; 地层加固;
+掘进姿态
+中图分类号 TU455. 43
+DOI:10. 16037 / j. 1007 - 869x. 2024. 01. 035
+Key Technologies of Large⁃diameter Shield
+Tunneling in Sand and Gravel Strata
+WANG Chunbo1 , SUN Jianying1 , WU Yichao1 ,
+FANG Huachang2
+(1. Department of Basic, Officers College of PAP, 610213,
+Chengdu, China; 2. China First Highway Engineering Co. ,
+Ltd. , 100024, Beijing, China)
+Abstract [ Objective ] Key construction technologies for
+large⁃diameter shield tunneling in sand and gravel strata are
+summarized and analyzed, including shield machine model se⁃
+lection, shield launching and receiving, and shield excavation
+posture control. Specific construction control parameters and
+measures are proposed to reduce cutterhead tool wear, decrease
+stratum losses, and minimize land subsidence and deformation.
+[ Method] Considering the engineering structural characteris⁃
+tics, such as the loose structure, non⁃cemented or weakly ce⁃
+mented particles, large particle size, and strong permeability of
+sand and gravel strata, theoretical analysis and on⁃site monito⁃
+ring methods are employed to deeply analyze the key construc⁃
+tion technologies for large⁃diameter shield tunneling in sand and
+gravel strata, from aspects of shield machine model selection,
+shield originating and receiving, shield excavation posture con⁃
+trol, as well as shield cutterhead tool detection⁃maintenance.
+[ Result & Conclusion] The cutterhead opening rate, cutter⁃
+head tool models, and spoil improvement scheme of large⁃di⁃
+ameter shield should be specially designed according to the
+stratigraphical structure characteristics, facilitating efficient
+shield spoil discharge and advance cutting. Comprehensive re⁃
+inforcement measures, such as stratum grouting consolidation,
+large pipe shed support, and construction dewatering, should
+be adopted at shield tunnel shaft end to ensure strata stability
+during large⁃diameter shield launching or receiving. In large⁃
+diameter shield tunneling, the control of parameters such as
+cutterhead rotational speed, spoil discharge rate, and spoil dis⁃
+charge temperature should be emphasized, along with appropri⁃
+ate increases in grouting volume to improve spoil modification
+effects and avoid excessive over⁃excavation, keeping stratum
+losses within a reasonable range. By implementing the afore⁃
+mentioned construction parameters and measures, the risk of
+shield excavation can be controlled, while significantly enhan⁃
+cing construction quality and efficiency, and substantially re⁃
+ducing construction costs.
+Key words large⁃diameter shield; sand and gravel strata;
+cutterhead tool; ground reinforcement; excavation posture
+0 引言
+随着我国基础设施建设的蓬勃发展,盾构法隧
+道以其掘进 速 度 快、 施 工 安 全 性 高、 对 周 边 环 境 扰
+动小等优点成为隧道工程乃至地下空间工程首选
+的施工方法之一。 现代盾构隧道工程的发展逐渐
+呈现出直径大、埋深深、掘进距离长三大发展趋势。
+目前,盾构按其直径 φ 分类还没有统一的标准,通
+常认为 6 m < φ ≤14 m 时 为 大 直 径 盾 构,14 m <
+·196·
+
+
+第1 期
+φ≤17 m 时为超大直径盾构,而 φ > 17 m 则为超特
+大直径盾构[1] 。 自 1994 年日本东京湾隧道首次采
+用 φ 14. 14 m 盾构的施工开始,截至 2020 年 5 月,
+全球共有 56 处超大直径盾构隧道,其中我国香港的
+屯门—赤鱲角隧道盾构直径为 17. 63 m,为全球最
+大直径盾构隧道[2] 。 盾构直径的增大不仅会增加
+盾构施工成 本, 还 会 大 大 增 加 盾 构 进 出 洞、 盾 构 掘
+进姿态、盾构 注 浆、 盾 构 出 渣 等 一 系 列 施 工 过 程 风
+险。 文献[3] 总结分析了大直径盾构在高水压、强
+透水、软硬不均且伴有断层破碎带的复合地层中施
+工风险;文献[4] 重点对超大直径土压平衡盾构开
+挖面稳定性 控 制、 盾 构 姿 态 与 轴 线 控 制、 长 距 离 小
+曲线连续出土等掘进参数进行了研究;文献[5] 总
+结了超大直径泥水盾构隧道穿越淤泥质粉质黏土、
+硬塑膨胀性黏土、粉细砂与砾砂( 岩) 复合等复杂地
+层时的施工难点与关键技术;文献[6] 结合工程案
+例对盾构设 备、 隧 道 内 部 结 构 施 工、 盾 构 始 发 与 到
+达施工工艺、近距离穿越建构筑物等相关施工技术
+经验进行了总结。 上述文献基本没有涉及砂卵石
+地层,或者只是论述了大直 径 盾 构 施 工 的 某 一 方
+面,而没有从盾构机选型、盾构掘进施工、盾构始发
+与到达等全过程施工关键技术进行研究分析。
+砂卵石地 层 结 构 松 散、 颗 粒 无 胶 结 或 弱 胶 结、
+颗粒粒径大、 透 水 性 强, 砂 卵 石 地 层 中 大 直 径 盾 构
+的施工往往会表现盾构掌子面稳定性差、刀盘刀具
+磨损严重、地层损失率高、沉降变形大、盾构管片上
+浮等一系列工程问题。 本文以成都地铁 17 号线一
+期工程的大直径盾构隧道为背景,结合砂卵石地层
+工程地质、水 文 地 质 特 性, 总 结 分 析 砂 卵 石 地 层 中
+大直径盾构 机 选 型、 盾 构 始 发 与 到 达、 盾 构 掘 进 姿
+态控制、渣土改良效果、地层损失率、地层沉降控制
+等施工关键技术,为后续类似工程的施工提供借鉴
+和指导。
+1 工程概况
+成都地铁 17 号线一期工程为成都第一条在砂
+卵石地层中掘进的大直径盾构隧道工程。 其中九
+江北站至一期设计终点区间道全长约 4. 3 km,线路
+最小平曲线半径为 600 m,最大纵坡坡度为 - 25‰,
+隧道埋深为 8. 7 ~ 24. 1 m,采用直径为 8. 6 m 土压
+平衡盾构机掘进施工,成形隧道外径为 8. 3 m,内径
+为 7. 5 m。 隧道先后下穿绕城高速、过街天桥、江安
+河大桥等多处建构筑物。 盾构区间隧道上覆土层
+从上到下依 次 为 人 工 填 土 及 杂 填 土、 粉 质 黏 土、 稍
+密砂卵石、中密砂卵石、密实砂卵石。 卵石粒径一
+般为 20 ~ 200 mm,个别漂石最大粒径可达 380 mm。
+典型地勘钻孔岩心取样如图 1 所示。
+图 1 局部地勘钻孔岩心取样
+Fig. 1 Core sampling from local geological exploration
+drilling
+2 砂卵石地层大直径盾构施工关键技术
+2. 1 盾构机选型
+对于大直 径 盾 构 的 掘 进 施 工, 地 质 是 基 础, 盾
+构机选型是关键,掘进施工是难点。 区间砂卵石分
+选性差、渗 透 系 数 大、 富 水 性 强, 且 颗 粒 粒 径 较 大,
+砂卵石成分以石英岩、花岗岩、石灰岩为主。 大直
+径盾构在掘进过程中很可能会出现以下问题:1 刀
+盘刀具磨损严重,掘进缓慢;2 掌子面稳定性差,保
+压换刀困难;3 土压控制较难,与螺旋输送机排土
+匹配性差,地层沉降难以控制。
+针对上述可能出现的工程问题,盾构机在选型
+上重点考虑 了 刀 盘 开 口 率、 刀 盘 刀 具 耐 磨 性、 渣 土
+改良等特殊设计需求。 刀盘采用 6 辐条 + 6 面板复
+合刀盘,刀 盘 上 安 装 有 单 双 刃 滚 刀、 刮 刀、 先 行 刀、
+超前刀等多种刀具,且配置 3 处液压型磨损检测刀
+和 2 处磨损检测条,能及时发现刀具及刀盘磨损情
+况。 盾体外周设置了 11 个超前注浆孔,在必要时可
+对开挖面前方土体进行超前注浆。 盾构设有人舱
+及全气动保压系统。 气动保压系统在断电时仍能
+正常工作,以确保带压换刀时人舱内人员的安全;
+刀盘面板均匀设置 10 个刀盘喷口,9 路泡沫,4 路膨
+润土(其中 3 路与泡沫共用互换),每个喷口均为单
+管单泵设计,提高了渣土改良效果,排渣顺畅,盾构
+刀盘刀具如图 2 所示。
+·197·
+
+
+2024 年
+图 2 直径为 8. 6 m 的盾构刀盘刀具布置示意图
+Fig. 2 Diagram of cutterhead tool layout of 8. 6 m⁃diameter
+shield
+2. 2 盾构始发 / 接收
+大直径盾构盾构井的平面尺寸更大、基坑开挖
+深度更深,所需施工场地的面积也更大。 大直径盾
+构在砂卵石 地 层 中 始 发 时, 盾 构 姿 态 控 制 难 度 高,
+压力建仓困难。 尤其是当盾构覆土厚度小于 1 倍洞
+径时,极易发生击穿冒顶或地面坍塌等事故。 盾构
+的接收是盾构施工阶段的最后一个风险环节,盾构
+与洞门环梁预留 150 mm 间隙。 当盾构掘进到达区
+后,关键要精 准 测 量, 保 证 将 盾 构 机 轴 线 与 线 路 中
+线的偏差控制在允许范围内。
+在中密或密实砂卵石层中,盾构始发井 / 接收
+井端头部位 通 常 采 用 降 水、 地 面 深 孔 注 浆、 洞 内 大
+管棚(管棚内注浆)三项处理措施,如表 1 所示。 该
+区间盾构始发段的实测地面沉降等值线图如图 3
+所示。
+2. 3 盾构掘进姿态控制
+该区间盾构隧道主要位于中密砂卵石及密实
+砂卵石地层中。 若盾构机在砂卵石地层中长距离
+掘进施工,则 不 仅 盾 构 刀 盘 将 会 严 重 磨 损, 需 要 常
+压更换刀盘,而且地层沉降变形也难以控制。 尤其
+在盾构 下 穿 河 流、 居 住 民 房 及 高 架 桥 梁 等 重 要 建
+( 构) 筑物时, 盾 构 掘 进 控 制 技 术 难 度 大、 施 工 风 险
+高。 对此,施工中采用如下技术参数:
+1) 严控盾构掘进参数。 保持盾构平稳推进,尽
+量勤于纠偏并减少纠偏,最大限度地减少对正面土
+体的扰动,减少超挖量。 盾构姿态预警值宜取 ± 50
+mm,掘进速度宜控制为 60 ~ 70 mm / min,刀盘转速
+宜控制为 1. 4 ~ 1. 6 r / min。
+表 1 砂卵石地层大直径盾构始发接收地层的处理措施
+Tab. 1 Treatment measures for large⁃diameter shield
+launching and receiving ground layers in sand
+and gravel strata
+处理措施 处理范围 施工要求
+降水 距盾构隧道结构线外侧 3
+m 范围内
+水位降至盾构隧道结构底 面以下不少于 1 m
+地面袖阀 管深孔 注浆
+距中心线左右横向各 8. 3 m;纵向 长 15 m; 竖 向 至 盾构隧道中心线以上 8. 3 m处
+采用 φ 80 mm 袖 阀 管 注 浆;水泥浆水灰比为 0. 8 ~ 1. 0,注浆压力为 0. 2 ~ 0. 4 MPa,注浆孔间距为1. 0 m × 1. 0 m,并根据实际情况适 当调整
+洞内大管 棚(管棚 内注浆)
+管棚 覆 盖 范 围 对 应 的 圆 心角为 120°,管棚口位于 开挖轮廓线以外 200 mm
+采 用 φ 108 mm、 壁 厚 6 mm 无 缝 钢 管, 环 向 间 距 为 300 mm;注浆孔孔径为 10 mm,孔间距为 200 mm
+a) 盾尾位置坐标 Y = 0 m b) 盾尾位置坐标 Y = 40 m
+图 3 盾构始发段的实测地面沉降等值线图 / mm
+Fig. 3 Contour map of field⁃measured land subsidence at
+shield tunneling launching section / mm
+2) 加强出渣管理。 渣土改良宜采用 2% 泡沫
+原液,8 ~ 12 倍发泡率;螺旋机出渣量的单环偏差不
+大于 5 m3 ,三环偏差不大于 10 m3 ;出渣温度不宜超
+过 40 °C 。
+3) 提升注浆加固效果。 同步注浆的每环注浆
+量不应小于 13 m3 ;注浆压力应为注浆点位静水压
+力与土压力 之 和, 实 现 尽 量 填 补 而 不 发 生 破 裂; 同
+步注浆的速度应与盾构掘进速度相匹配;洞内注浆
+优先 选 用 水 泥 浆, 多 采 用 φ 42 mm ( 壁 厚 为 3. 5
+mm) 钢花管;注浆应及时,以免地层损失过大,浆液
+无法填充空隙,难以达到预期效果。
+4) 盾构刀盘及刀具检修采用新工艺。 砂卵石
+地层对盾构机刀盘及刀具的磨损较大,因此长距离
+掘进施工时,需要经常更换刀具或者对刀盘进行修
+理。 目前应用较多的为开仓换刀法,传统开仓换刀
+施工风险高,工效低,成本高。 该区间施工中创新
+·198·
+
+
+第1 期
+性地采用了玻璃纤维筋中空孔桩检修施工工艺,先
+施作大直径 玻 璃 纤 维 筋 桩, 并 在 其 初 凝 后、 终 凝 前
+利用钻机形成偏心中孔桩。 该施工工艺可以保证
+在不开仓的情况下对盾构机刀盘进行检修或者清
+理,还可以降低施工成本、缩短施工工期,大大降低
+了进仓作业人员施工风险。 玻璃纤维筋中孔桩如
+图 4 所示。
+a) 施工侧视图 b) 桩断面图
+图 4 玻璃纤维筋中孔桩示意图
+Fig. 4 Diagram of mid hole pile with glass fiber
+reinforcement
+3 结语
+现代盾构隧道工程主要 有 盾 构 直 径 大、 埋 深
+深、掘进距离 长 等 三 大 发 展 趋 势, 且 不 同 的 地 层 掘
+进施工工艺、施工技术相差较大。 砂卵石地层具有
+结构松散、颗粒无胶结或弱胶结、颗粒粒径大、透水
+性强等特性。 大直径盾构在砂卵石地层中掘进,主
+要遇到掌子 面 稳 定 性 差、 刀 盘 刀 具 磨 损 严 重、 地 层
+沉降控制较难等工程问题。 本文主要以成都地铁
+17 号一期工程九江北站至设计终点区间隧道为工
+程背景,针对 砂 卵 石 地 层 独 特 的 工 程 特 性, 从 盾 构
+机选型、盾构 始 发 接 收、 盾 构 掘 进 姿 态 控 制 及 盾 构
+刀盘刀具的检测维修等方面总结分析砂卵石地层
+大直径盾构施工关键技术,以期为后续类似工程的
+施工提供借鉴和指导。
+参考文献
+[1] 吴世明. 大直径盾构隧道技术工程示范[M]. 北京: 人民交通
+出版社, 2013.
+WU Shiming. Demonstration of large diameter shield tunnel tech⁃
+nology and engineering [ M ] . Beijing: China Communications
+Press, 2013.
+[2] 孙恒, 冯亚丽. 全球超大直径隧道掘进机数据统计[ J] . 隧道
+建设( 中英文) , 2020, 40(6) : 921.
+SUN Heng, FENG Yali. Statistics on global super⁃large diameter
+tunnel boring machines [ J ] . Tunnel Construction, 2020, 40
+(6) : 921.
+[3] 王焰. 城际铁路大直径泥水盾构施工风险及对策: 以佛莞城
+际铁路狮子洋隧道工程为例[ J] . 隧道建设( 中英文) , 2019,
+39(6) : 983.
+WANG Yan. Construction risks and countermeasures for large⁃
+diameter slurry shield used in Shiziyang tunnel on Foshan⁃Dong⁃
+guan Intercity Railway [ J ] . Tunnel Construction, 2019, 39
+(6) : 983.
+[4] 戴仕敏. 超大直径土压平衡盾构隧道施工关键技术[ J] . 施工
+技术, 2011, 40(18) : 1.
+DAI Shimin. Key construction technologies of super large⁃diameter
+earth⁃pressure⁃balance shields [ J ] . Construction Technology,
+2011, 40(18) : 1.
+[5] 陈健, 黄永亮. 超大直径泥水盾构施工难点与关键技术总结
+[ J] . 地下空间与工程学报, 2015, 11( 增刊 2) : 637.
+CHEN Jian, HUANG Yongliang. Summary of key technologies and
+construction difficulties in large diameter slurry shield tunnel[ J] .
+Chinese Journal of Underground Space and Engineering, 2015, 11
+( S2) : 637.
+[6] 王吉云. 近十年来中国超大直径盾构施工经验[ J]. 隧道建
+设, 2017, 37(3) : 330.
+WANG Jiyun. Super⁃large diameter shield tunneling technologies
+in China in recent decade [ J] . Tunnel Construction, 2017, 37
+(3) : 330.
+·收稿日期:2021⁃08⁃23 修回日期:2021⁃09⁃14 出版日期:2024⁃01⁃10
+Received:2021⁃08⁃23 Revised:2021⁃09⁃14 Published:2024⁃01⁃10
+·通信作者:王春波,高级工程师,BoChunWang@ 163. com
+·c《 城市轨道交通研究》 杂志社,开放获取 CC BY⁃NC⁃ND 协议
+c Urban Mass Transit Magazine Press. This is an open access article
+under the CC BY⁃NC⁃ND license
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+■■■■■■
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+■■■■■■■
+■
+■
+■
+欢迎订阅《 城市轨道交通研究》
+服务热线 021—56830728 转 821
+·199·

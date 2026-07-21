@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.211.110" id="aa49bda8-a298-439f-99d4-60576aa0cf2b" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.211.210" id="59dbb151-e932-4062-9719-de422bb897fe" port="22" customName="AI服务器2" nameFormat="CUSTOM" username="ubuntu" useOpenSSHConfig="true">
+        <option name="customName" value="AI服务器2" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

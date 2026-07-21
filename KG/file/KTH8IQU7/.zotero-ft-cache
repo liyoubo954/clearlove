@@ -1,0 +1,968 @@
+引用格式: 郭宏斌, 宋战平, 孟晨, 等. 基于非线性模糊层次分析法的盾构施工风险评价研究[ J] . 隧道建设( 中英文) , 2023, 43
+(11) : 1862.
+GUO Hongbin, SONG Zhanping, MENG Chen, et al. Shield tunneling risk assessment based on nonlinear fuzzy analytic hierarchy method
+[ J] . Tunnel Construction, 2023, 43(11): 1862.
+收稿日期: 2023-04-21; 修回日期: 2023-08-19
+基金项目: 国家自然科学基金资助项目(52178393) ; 陕西省创新能力支撑计划-创新团队(2020TD-005) ; 陕西省杰出青年科学基金(2022JC-20)
+第一作者简介: 郭宏 斌 ( 1996—) , 男, 甘 肃 天 水 人, 西 安 建 筑 科 技 大 学 土 木 工 程 专 业 在 读 硕 士, 研 究 方 向 为 隧 道 工 程、 地 下 空 间 等。 E-mail:
+1720514047@ qq. com。 ∗通信作者: 宋战平, E-mail: songzhpyt@ xauat. edu. cn。
+基于非线性模糊层次分析法的盾构施工风险评价研究
+郭宏斌1, 宋战平1, ∗, 孟 晨2, 王军保1, 3, 刘乃飞1, 3, 郭德赛4
+(1. 西安建筑科技大学土木工程学院, 陕西 西安 710055;
+2. 陕西省引汉济渭工程建设有限公司, 陕西 西安 710055;
+3. 陕西省岩土与地下空间工程重点实验室, 陕西 西安 710055;
+4. 湖南大学土木工程学院, 湖南 长沙 410082)
+摘要: 为解决突出影响因素对盾构施工风险评价结果造成影响的问题,构建基于组合赋权-非线性 FAHP 的盾构施工风险评价模
+型。 基于工作分解结构法和风险分解结构法依次对盾构施工过程和风险来源分解,进而将二者结合构建盾构施工风险评价指标体
+系。 通过乘法集成法将主、客观权重结合计算得到组合权重;结合专家打分法得到隶属度向量构造模糊关系矩阵;引入非线性算子
+综合计算分析组合权重和模糊关系矩阵;根据最大隶属度原则,确定盾构施工的最终风险等级。 将构建的新模型应用到贵阳市轨
+道交通 3 号线 1 期工程桐木岭站—桃花寨站盾构施工进行风险实例分析,得出风险评价等级为“中度风险”,与现场实际得出的风
+险等级相符合,讨论了新模型与传统模糊层次分析法的区别,进一步验证了新模型的科学性、可靠性。
+关键词: 隧道工程; 盾构施工; 风险评价; 非线性; 模糊层次分析法
+DOI: 10. 3973 / j. issn. 2096-4498. 2023. 11. 006 文章编号: 2096-4498(2023)11-1862-10
+中图分类号: U 45 文献标志码: A 开放科学( 资源服务) 标识码( OSID) :
+Shield Tunneling Risk Assessment Based on Nonlinear
+Fuzzy Analytic Hierarchy Method
+GUO Hongbin1, SONG Zhanping1, * , MENG Chen2, WANG Junbao1, 3, LIU Naifei1, 3, GUO Desai4
+(1. College of Civil Engineering, Xi′an University of Architecture and Technology, Xi′an 710055, Shaanxi, China;
+2. Hanjiang to Weihe River Water Diversion Project Construction Co., Ltd., Shaanxi Province, Xi′an 710055,
+Shaanxi, China; 3. Shaanxi Key Laboratory of Geotechnical and Underground Space Engineering, Xi′an 710055,
+Shaanxi, China; 4. College of Civil Engineering, Hunan University, Changsha 410082, Hunan, China)
+Abstract: To explore the influence of primary influencing factors on the results of shield-tunneling risk assessment, a
+risk-evaluation model is established based on a combined assignment-nonlinear fuzzy analytic hierarchy process(FAHP).
+The shield-tunneling process and risk sources are then decomposed using work- and risk-decomposition structure
+methods, respectively, and the two are combined to construct a shield-tunneling risk-assessment index system. A
+multiplicative integration method is used to combine the subjective and objective weights, and a fuzzy relationship
+matrix is constructed by combining the subordination vector obtained from the expert scoring method. The obtained
+combined weights and fuzzy relationship matrix are then analyzed by introducing a nonlinear operator. Next, the final
+risk level of shield tunneling is determined according to the principle of the maximum degree of subordination. The
+proposed model is applied to the shield tunneling of Phase 1 of the Guiyang Railway Transit Line 3 Project between the
+Tongmuling and Taohuazhai stations, and the risk-assessment results show that the project displays a medium risk level,
+
+
+第 11 期 郭宏斌, 等 : 基于非线性模糊层次分析法的盾构施工风险评价研究
+which is consistent with the risk level in the field. The proposed model is compared with the conventional FAHP
+method, verifying the scientificity and reliability of the new model.
+Keywords: tunnel engineering; shield tunneling; risk assessment; nonlinear; fuzzy analytic hierarchy process
+0 引言
+盾构因其自动化程度高、施工效率高、能够应对
+复杂施 工 环 境 等 优 势, 在 隧 道 施 工 中 被 广 泛 采 用。
+但盾构法施工存在施工难度大、机械装备不易掌握、
+施工环境复杂多变等特点,因此对工程和施工人员
+存在潜在的安全隐患[1] 。 盾构施工活动的随机性和
+模糊性的特点导致用于盾构风险评价数据不完全、
+不准确以及施工风险指标不易量化。 对盾构施工风
+险进行合理的评估,不仅能够确保城市地铁的施工
+进度、质量和安全,而且还能为地铁盾构施工风险管
+理提供科学依据。
+Einstein[2] 在地下工程领域建设中首次应用风险
+管理理念后,风险评价方法就在隧道和地下工程领域
+迅速发展起来。 Hillson 等[3] 首次将工作分解结构和
+风险分解结构结合,通过底层因子的相互耦合,构建
+WBS-RBS 风险辨识耦合矩阵,突出施工风险因素,建
+立工程项目施工风险指标体系。 Hamidi 等[4] 针对各
+种不良地质条件下的施工项目,运用 FAHP 进行盾构
+施工风险评价。 Hasanpour 等[5] 利用神经网络和贝叶
+斯网络,以隧道数据库为基础,通过数值模拟预测地面
+特性和机器参数的接触压力。 Wu 等[6] 结合常规云模
+型与熵权法提出水下盾构隧道施工风险评估新模型,
+此模型能够准确评价水下隧道施工风险等级。 宋战平
+等[7] 运用模糊层次分析法评估了 TBM 施工时影响安
+全的风险因素,并确定了深圳地铁羊台山隧道的施工
+风险等级。 Meng 等[8] 利用基于云模型和模糊层次分
+析法的盾构隧道施工风险评价方法分析了溶岩地层盾
+构开挖的风险。 Zhang 等[9] 应用模糊层次分析法综合
+评价模型,引入指数尺度表征权重集,并以南京长江隧
+道盾构施工工程为例,验证了模型和程序的可行性、有
+效性。 Wang 等[10] 在传统评价模型的基础上,引入积
+分法计算区间单指标属性测度,将其应用于端家坞隧
+道右侧盾构施工工程,证明了该方法的科学性和可行
+性。 陈国权[11] 将隶属度理论应用于模糊综合评价,创
+造性地提出一种适用于各种不确定性问题的模糊层次
+分析方法。 王祥等[12] 针对贵阳市轨道交通 3 号线溶
+岩隧道运用层次分析法进行风险评估,针对不良地质
+隧道提出有针对性的安全控制措施,确保隧道施工安
+全顺利。 通过以上研究可以发现: 相关学者和专家常
+常采用模糊层次分析法对盾构施工风险进行评价,解
+决了盾构施工风险评价的模糊性、随机性问题。 但传
+统的模糊综合评价常采用线性算子计算风险等级,盾
+构施工风险评价中的非线性问题难以解决。
+本文将非线性算子引入到传统线性 FAHP 用于解
+决盾构施工风险评价中突出影响因素对评价结果的影
+响;同时利用工作分解结构法和风险分解结构法来弥
+补专家评价中可能存在的风险遗漏和识别不全面等问
+题;最后,将构建的基于组合赋权-非线性 FAHP 的盾
+构施工风险评价新模型应用到贵阳市轨道交通 3 号线
+1 期工程桐木岭站—桃花寨站盾构施工现场中,验证
+新模型的科学性和准确性。
+1 构建 WBS-RBS 法的盾构施工风险结构
+1. 1 工程概况
+贵阳市轨道交通 3 号线 1 期工程桐木岭站—桃花
+寨站盾构施工段地质情况复杂,隧道围岩大多为灰岩、
+白云岩等可溶性岩。 区内岩层产状普遍为 20° ~ 50°,
+岩层分布总体呈硬夹软现象,岩性不均一,节理裂隙和
+断裂带发育。 此地属于溶蚀类型的丘峰谷地地貌,线
+路范围内不良地质有岩溶、岩层破碎带、红黏土、顺层
+等,且沿线地下水情况复杂,有上层滞水、潜水和承压
+水。 根据勘察资料显示,场地承压水水位埋深为 0. 5 ~
+27. 5 m, 平 均 水 位 埋 深 为 7. 14 m, 相 应 水 位 标 高 为
+1 003. 86 ~ 1 126. 77 m,平均水位标高为 1 095. 67 m。
+此工程选用 2 台复合式土压平衡盾构施工, 直径为
+6 450 mm,最 大 工 作 压 力 为 0. 5 MPa。 额 定 转 矩 为
+5 538 kN·m,脱困转矩为 6 621 kN·m。 桐木岭站
+桃花寨站区间地理位置示意如图 1 所示。
+图 1 桐木岭站—桃花寨站区间地理位置示意图
+Fig. 1 Geographical location diagram of Tongmuling station
+Taohuazhai station section
+1863
+
+
+隧道建设( 中英文) 第 43 卷
+1. 2 构建盾构施工的工作分解结构
+为确定盾构施工风险的影响因素,对盾构隧道施
+工过程的风险进行分析。 工作分解结构( WBS) 指构
+建盾构施工的整体层级结构。 风险分解结构( RBS) 是
+指将盾构施工过程中可能发生的风险源分解成二级风
+险因素,直至风险因素可以忽略[13] 。
+为确保盾构施工重要风险要素突出,结合专家意
+见和 WBS 原则,将盾构施工( W) 的流程进行 2 级工作
+分解。 一级指标包括盾构施工准备( W1)、盾构施工过
+程(W2)和盾构附属设备施工( W3 ) 3 个阶段。 舍弃盾
+构施工过程中重要性不足的施工工序,将一级施工指
+标分解得到二级施工的因子层。 最终得到的盾构施工
+分解结构见表 1。
+表 1 盾构施工工作分解结构表
+Table 1 Work decomposition structure of shield tunneling
+目标层 指标层 因子层
+盾构施工
+工作步骤分
+解W
+盾构施工
+准备 W1
+盾构施工
+过程 W2
+盾构附属
+设备施工 W3
+盾构选型、刀盘、刀具选型 W11
+油压机械和电气设备选择 W12
+盾构组装与调试 W13
+盾构线路铺设 W14
+掘进位置、姿态测量及控制 W21
+盾构掘进模式选择 W22
+盾构开挖掘进 W23
+盾构刀具检查与更换 W24
+管片、衬砌拼装 W25
+注浆密封 W26
+废渣、砂土输出 W27
+土砂材料和运输设备 W31
+电力、照明、通信设备 W32
+通风、给排水设备 W33
+泥水处理设备 W34
+1. 3 构建盾构施工风险源分解结构
+根据贵阳市轨道交通 3 号线 1 期工程桐木岭站
+桃花寨站盾构段施工风险,参考《 盾构施工技术》 [14] 和
+《 盾构法隧道施工及验收规范》 [15] 选取施工风险源,最
+后结合专家意见,针对现场实际情况保留对施工影响
+较大的风险因素。 参考工作分解结构根据 RBS 原则
+将风险源分为 2 级结构。
+一级风险结构包括地质风险源( R1)、周围环境风
+险源(R2)、施工技术风险源( R3 )、人员风险源( R4 ) 4
+类。 结合地质情况、周围环境、施工技术和人为因素,
+将一级风险分解为 14 个二级风险。 盾构施工风险源
+分解结构如表 2 所示。
+表 2 盾构施工风险源分解结构表
+Table 2 Risk source decomposition structure of shield tunneling
+目标层 指标层 因子层
+盾构施工风险
+源R
+地质风险源 R1
+周围环境风险源 R2
+施工技术风险源 R3
+人员风险源 R4
+地下水风险影响 R11
+岩石特性、结构 R12
+高地应力 R13
+土体坍塌、渗漏 R14
+地面沉降变形 R21
+地下管线破坏 R22
+周围建筑影响 R23
+施工参数设置不当 R31
+盾构掘进偏离轴线 R32
+降水处理不当 R33
+泥浆处理不当 R34
+施工操作不规范 R41
+施工技术经验不足 R42
+施工管理混乱 R43
+1. 4 构建盾构施工风险辨识耦合矩阵
+基于盾构施工的工作分解结构和风险源分解结
+构,耦合二者 的 因 子 层, 得 到 盾 构 施 工 风 险 耦 合 矩 阵
+(见表 3)。
+由表 3 分析可得,盾构施工风险识别耦合矩阵风
+险分类如下。 1) W11 R11 、W11 R14 、W11 R31 、W11 R41 : 土体
+渗漏、坍塌。 2) W12 R12 、 W12 R31 、 W12 R41 、 W12 R42 : 盾 构
+附件影响。 3) W13 R31 、W13 R32 、W13 R41 、W13 R42 、W21 R11 、
+W21 R21 、 W21 R22 、 W21 R41 : 盾 构 组 装 调 试 失 败。 4 )
+W14 R11 、W14 R21 、 W14 R22 、 W14 R23 : 盾 构 线 路 受 阻。 5 )
+W22 R11 、W22 R21 、W22 R41 : 盾构掘进模式选择错误。 6)
+W23 R11 、W23 R14 、 W23 R21 、 W23 R22 、 W23 R32 : 盾 构 开 挖 掘
+进受阻。 7) W24 R32 、 W24 R41 、 W24 R42 : 盾 构 刀 具 损 坏。
+8) W25 R11 、W25 R14 、W25 R21 、W25 R22 、W25 R33 、W25 R34 : 隧
+道管片拼装受阻。 9) W25 R11 、W25 R22 、W26 R11 、W26 R22 、
+W26 R33 、 W26 R41 : 衬 砌 渗 漏。 10 ) W27 R14 、 W27 R22 、
+W27 R43 : 出渣不连续。 11) W31 R14 、W31 R22 、W31 R43 : 材
+料运输受阻。 12) W32 R22 、W32 R41 、W32 R43 : 配套设备影
+响。 13 ) W33 R22 、 W33 R43 : 给 排 水 系 统 破 坏。 14 )
+W34 R14 、W34 R23 、W34 R34 、 W34 R43 : 泥 浆 处 理 困 难。 15)
+W21 R22 、W22 R22 : 地下管线破坏。
+1. 5 构建盾构施工风险指标体系
+根据盾构施工风险辨识耦合矩阵,结合施工现场
+和专家意见对盾构施工风险归类整理。 盾构施工风险
+指标体系如表 4 所示。
+1864
+
+
+第 11 期 郭宏斌, 等 : 基于非线性模糊层次分析法的盾构施工风险评价研究
+表 3 盾构施工风险辨识耦合矩阵
+Table 3 Coupling matrix of shield tunneling risk identification
+一级
+指标
+二级
+指标
+W1
+W11 W12 W13 W14
+W2
+W21 W22 W23 W24 W25 W26 W27
+W3
+W31 W32 W33 W34
+R1
+R2
+R3
+R4
+R11 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0
+R12 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+R13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+R14 1 0 0 0 0 0 1 0 1 0 1 1 0 0 1
+R21 0 0 0 1 1 1 1 0 1 0 0 0 0 0 0
+R22 0 0 0 1 1 0 1 0 1 1 1 1 1 1 0
+R23 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1
+R31 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0
+R32 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0
+R33 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0
+R34 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1
+R41 1 1 1 0 1 1 0 1 0 1 0 0 1 0 0
+R42 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0
+R43 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1
+注: “1”表示耦合产生风险; “0”表示无风险。
+表 4 盾构施工风险指标体系
+Table 4 Risk index system of shield tunneling
+目标层 指标层 因子层
+盾构施工风险 Q
+地质风险 Q1
+周围环境风险 Q2
+设备风险 Q3
+隧道自身风险 Q4
+土体渗漏、坍塌 q11
+盾构开挖受阻 q12
+泥浆处理困难 q13
+材料运输受阻 q21
+给排水系统破坏 q22
+地下管线破坏 q23
+盾构附件影响 q31
+盾构组装调试失败 q32
+盾构掘进模式选择错误 q33
+盾构刀具损坏 q34
+出渣不连续 q35
+配套设备影响 q36
+盾构线路受阻 q41
+隧道管片拼装受阻 q42
+衬砌渗漏 q43
+2 盾构施工风险评价
+2. 1 模糊关系矩阵构建
+2. 1. 1 总体方案设计
+通过 WBS-RBS 法建立盾构施工风险评价指标体
+系构建风险因素集。 因素集分为 2 级,其一级指标层
+风险因素集为 Q = { Q1,Q2,Q3,Q4 };二级因子层风险
+因素集为 Q1 = { q11 , q12 , q13 } , Q2 = { q21 , q22 , q23 } , Q3 =
+{ q31 ,q32 ,q33 ,q34 ,q35 ,q36 } ,Q4 = { q41 ,q42 ,q43 } 。
+2. 1. 2 构建风险评语集
+根据 GB / T 50326—2006 《 建 设 工 程 项 目 管 理 规
+范》 [16] 建立盾构施工风险评语集。 盾构施工风险评语
+集等级由低到高分为 5 级: L = { l1,l2,l3,l4,l5} = { 低,
+较低,中等,较高,高} 。
+2. 1. 3 隶属度向量构建
+隶属度函数的确定是施工风险评价的重要环节,
+目前大多采用的方法是典型函数法,其方法是结合工
+程实际和相关经验选择现有的分布函数作为模糊综合
+评判的隶属函数,常用的工程函数有正态函数、岭性函
+数、三角分布函数、梯形函数等。
+结合贵阳轨道交通盾构施工现场风险特点,本文
+采用盾构施工中常用的三角函数构建盾构施工风险评
+价中的隶属度向量[17] 。 对二级风险因素进行评分得
+到其各个对应的评分值 S,确定 S 值后代入式( 1)
+( 5) ,计算得到隶属度函数。
+μ1 =
+0 ( S<120) ;
+S-120
+45 (120≤S<165) ;
+1 ( S≥165) 。
+■
+■
+■
+| ||
+||
+(1)
+μ2 =
+0 ( S<100 或 S>165) ;
+S-100
+20 (100≤S<120) ;
+165-S
+45 (120<S≤165) 。
+■
+■
+■
+| ||
+| ||
+(2)
+1865
+
+
+隧道建设( 中英文) 第 43 卷
+μ3 =
+0 ( S<80 或 S>120) ;
+S-80
+20 (80≤S<100) ;
+120-S
+20 (100<S≤120) 。
+■
+■
+■
+| ||
+| ||
+(3)
+μ4 =
+0 ( S<35 或 S>100) ;
+S-35
+45 (35≤S<80) ;
+100-S
+20 (80<S≤100) 。
+■
+■
+■
+| ||
+| ||
+(4)
+μ5 =
+1 ( S<35) ;
+80-S
+45 (35≤S<80) ;
+0 ( S≥80) 。
+■
+■
+■
+| ||
+| |
+(5)
+式中: S 为二级风险因素评分值; μ 为隶属度值。
+2. 1. 4 模糊关系矩阵构建
+采用专家评价法构建盾构施工风险评价中的隶属
+度向量。 根据隶属度向量得到风险评语集与因素集之
+间的模糊关系矩阵
+E=
+e11 ... e1j ... e1m
+.........
+ei1 ... eij ... eim
+.........
+en1 ... enj ... enm
+■
+■
+| | | | | ||
+■
+■
+| | | | | ||
+。 (6)
+式中 eij 为第 i 个盾构施工风险因素对第 j 级风险等级
+的隶属度,0≤eij ≤1。
+2. 2 确定权重向量
+2. 2. 1 层次分析法确定主观权重
+标度是对评判者的定性判断进行定量化的一种计
+算尺度,反映了评判者的判断意识表现。 标度使用一
+个简单的数值赋予每个风险因素重要程度的定性表
+现,更重要的是其定量值应该符合各个定性指标之间
+所表现的重要程度的相互关系。
+1) 采用 1—9 标度[17] 判别指标层 Q1—Q4 这 4 类
+风险的影响程度,得到初始判断矩阵
+B = ( bij) n×n。 (7)
+式中: bij 为判断矩阵 B 的第 i 行、第 j 列元素; n 为矩
+阵阶数。
+由 1—9 标度构建的盾构施工风险判断矩阵如表
+5 所示。
+2) 权重向量计算及一致性检验
+根据式(8) 计算判断矩阵的 λmax 及 M:
+Bn×n ·M = λmax ·M。 (8)
+式中: Bn×n 为 n 阶判断矩阵; λmax 为其对应的最大特
+征值; M 为 λmax 对应的特征向量。
+表 5 盾构施工风险指标判断矩阵
+Table 5 Risk index judgment matrix of shield tunneling
+判断因素 B1 ... Bj ... Bn
+B1 b11 ... b1j ... b1n
+............... ...
+Bi bi1 ... bij ... bin
+............... ...
+Bn bn1 ... bnj ... bnn
+由于判断矩阵包含主观因素,为保持相对的一致
+性,需对其进行一致性检验,步骤如下:
+1) 计算一致性指标( CI) 。
+CI = λmax -n
+n-1 。 (9)
+2)根据矩阵阶数 n,计算平均随机一致性指标
+( RI) 。 RI 对照表如表 6 所示。
+表 6 RI 对照表
+Table 6 RI comparison
+n RI
+10
+20
+3 0. 58
+4 0. 90
+5 1. 12
+n RI
+6 1. 24
+7 1. 32
+8 1. 41
+9 1. 45
+3) 一致性比例( CR) 计算。
+CR = CI
+RI。 (10)
+当 CR<0. 10 时,说明构建的判断矩阵的一致性
+很好。
+2. 2. 2 变异系数法确定客观权重
+变异系数法[18] 是一种客观赋权法,变异系数可以
+对专家打分中的主观因素进行修正。 利用变异系数法
+标准取值差异越大指标更有价值,评价体系差距越明
+显。 其计算过程如式(11) 所示。
+Vi = σi
+-x
+i
+( i = 1,2,...,n) 。 (11)
+式中: Vi 为第 i 个变异系数法的主观权重; σi 为第 i
+项的标准差系数; -x
+i 为第 i 项指标的平均数。
+客观权重
+ωi = Vi
+Σ
+n
+i=1
+Vi
+。 (12)
+2. 2. 3 乘法集成法计算综合权重
+通过乘法集成法将计算得到的主观权重和客观权
+重进行综合计算,得到盾构施工风险评价的组合权重。
+1866
+
+
+第 11 期 郭宏斌, 等 : 基于非线性模糊层次分析法的盾构施工风险评价研究
+乘法集成法综合考虑了各风险指标间的固有信息,可
+以使主、客观权重达到内在统一,确保各权重之间偏差
+降到最低。 既能反映决策者对指标属性的重视程度,
+又能 减 少 赋 权 的 主 观 随 意 性, 使 决 策 结 果 科 学 合
+理[19-21] 。 组合权重
+ψi = ωiVi
+Σ
+n
+i=1
+ωi Vi
+。 (13)
+2. 3 非线性模糊综合评判
+相比于线性算子计算盾构施工风险等级,有些重
+要性指标可能被弱化,线性算子中所有风险因素的重
+要性都相同,导致突出风险因素对施工安全的影响弱
+化,最终会影响评判结果的准确性。
+非线性计算方法利用不同的指数表示不同风险因
+素的重要性程度,更符合现场实际情况,既能突出重要
+风险的影响程度,又能减少非重要因素的影响程度。
+同时,非线性模糊层次分析法更能体现盾构施工现场
+突出影响因素的不确定性和模糊性情况,非线性模糊
+矩阵合成算子
+f(m1,m2,...,mn ;s1,s2,...,sn ;Λ)= (m1s1
+λ1 +m2 s2
+λ2 +...+
+mnsn
+λn )
+1
+λ [14] 。 (14)
+式中: m1, m2, ..., mn 为 风 险 指 标 权 重, mi ≥ 0 且
+Σ
+n
+i=1
+mi = 1; s1,s2,...,sn 为模糊评判矩阵中某一列的
+值,si≥1; Λ 为指标突出 影 响 系 数 向 量 集, Λ = [ λ1,
+λ2,...,λn] ,λ = max( λ1,λ2,...,λn) ,同时,λi ≥1,i = 1,
+2,...,n。 突出影响系数取值标准如表 7 所示。
+表 7 突出影响系数取值标准
+Table 7 Value standards of prominence influence coefficient
+标度 两两因子重要性比较结果说明
+1 i 因子与 j 因子完全一样重要,或 i 因子与 i 因子, j 因子
+与 j 因子自身比较
+2 i 因子、 j 因子重要性介于 1—3
+3 i 因子比 j 因子稍微重要一点
+4 i 因子、 j 因子重要性介于 3—5
+5 i 因子比 j 因子明显重要
+6 i 因子、 j 因子重要性介于 5—7
+7 i 因子比 j 因子重要得多
+8 i 因子、 j 因子重要性介于 7—9
+9 i 因子比 j 因子极为重要
+倒数 重要性情况相反,即 j 因子比 i 因子重要
+得到各级突出影响系数后,运用非线性算子对处
+理后的模糊判断矩阵进行合成。
+由于非线性模糊矩阵评判矩阵 Eij ≥1,但隶属度
+取值介于[0,1] ,故应用式(15) 对原模糊评判矩阵进
+行转换:
+Eij ′ = 10×Eij 。 (15)
+式中: Eij′为转换后非线性模糊评判矩阵的值; Eij 为
+原始模糊评价矩阵的值。
+3 工程实例计算
+3. 1 权重计算
+结合专家意见及现场的实际情况,将收集的风险
+因素进行量化得到风险指标层,再将指标层根据地质
+因素进行量化,得到风险因子层(见表 2)。
+3. 1. 1 计算主观权重
+根据建立的风险指标体系,对同一层的评价因子
+两两比较得到盾构施工风险评价的判断矩阵,求解得
+到判断矩阵的最大特征值及其对应的特征向量,通过
+一致性检验后进行归一化处理,得到贵阳市轨道交通
+3 号线 1 期工程桐木岭站—桃花寨站盾构施工风险评
+价中各个指标所对应的主观权重。 盾构施工风险评价
+指标权重如表 8 所示。
+表 8 盾构施工风险评价指标权重
+Table 8 Weight of shield tunneling risk evaluation index
+指标
+层
+主观
+权重
+客观
+权重
+组合
+权重
+因子
+层
+主观
+权重
+客观
+权重
+组合
+权重
+Q1 0. 173 9 0. 332 4 0. 224 9
+Q2 0. 519 0 0. 240 9 0. 486 5
+Q3 0. 258 6 0. 254 5 0. 256 1
+Q4 0. 048 5 0. 172 2 0. 032 5
+q11 0. 649 1 0. 266 0 0. 564 3
+q12 0. 071 9 0. 345 2 0. 081 1
+q13 0. 279 0 0. 388 8 0. 354 5
+q21 0. 573 6 0. 332 3 0. 552 2
+q22 0. 361 4 0. 375 0 0. 392 6
+q23 0. 065 0 0. 292 8 0. 055 1
+q31 0. 271 2 0. 122 2 0. 196 0
+q32 0. 176 5 0. 172 2 0. 179 8
+q33 0. 085 4 0. 175 6 0. 088 7
+q34 0. 051 7 0. 139 0 0. 042 5
+q35 0. 261 2 0. 215 6 0. 333 1
+q36 0. 154 0 0. 175 5 0. 159 9
+q41 0. 527 9 0. 312 4 0. 483 6
+q42 0. 332 5 0. 415 4 0. 405 0
+q43 0. 139 6 0. 272 3 0. 111 5
+3. 1. 2 计算客观权重
+根据专家的问卷调查,采用 10 分制对 4 个指标
+层、15 个因 子 层 进 行 打 分,再 对 数 据 进 行 归 一 化 处
+理。 将处理后的数据代入式( 11) 和式( 12) 进行计
+算,可得到指标层和因子层的变异系数组成的客观
+权重(见表 8)。
+3. 1. 3 乘法集成法计算组合权重
+按照乘法集成法将计算得到的主、客观权重进行
+1867
+
+
+隧道建设( 中英文) 第 43 卷
+计算得到组合权重。 根据式( 13) 计算得到盾构施工
+风险评价指标的组合权重见表 8。
+由表 8 可知: 1) 指标层组合权重 M = [ 0. 224 9,
+0. 486 5,0. 256 1,0. 032 5] ; 2) 根据指标层划分的因
+子层 的 权 重 为 地 质 风 险 M1 = [ 0. 564 3, 0. 081 1,
+0. 354 5] , 周 围 环 境 风 险 M2 = [ 0. 552 2, 0. 392 6,
+0. 055 1] , 设 备 风 险 为 M3 = [ 0. 196 0, 0. 179 8,
+0. 088 7,0. 042 5,0. 333 1, 0. 159 9] , 隧 道 自 身 风 险
+M4 = [0. 483 6,0. 405 0,0. 111 5] 。
+根据计算得到的权重可知,周围环境风险是该工
+程施工的最大风险。 应根据盾构施工现场的实际情
+况,采取合理有效的措施处理重要风险因素。
+3. 2 隶属度计算
+确定二级风险因素的评分值 S 和隶属度值,结合贵
+阳市轨道交通 3 号线桐木岭站—桃花寨站盾构施工实
+际情况,对二级风险因素进行评分得到其各个对应的评
+分值 S,具体如表 9 所示。 根据表 9,将所得到的 S 值代
+入式(1)—(5),计算得隶属度值 μ。 如: q12 的评分值 S
+为 105,代入隶属度函数式(1)和式(2)可得:
+μ2 = 105-100
+20 = 0. 25; μ3 = 120-105
+20 = 0. 75。
+即 q12 对 l2 的风险隶属度为 0. 25,对 l3 的风险隶
+属度为 0. 75。 同理可得其他所有二级风险因素隶属
+度,如表 10 所示。
+表 9 二级风险因素风险评分值
+Table 9 Risk scores of second-level risk factors
+评价指标 q11 q12 q13 q21 q22 q23 q31 q32 q33 q34 q35 q36 q41 q42 q43
+评分值 103 105 86 70 81 85 95 75 76 90 95 65 103 90 83
+表 10 风险因素隶属度取值表
+Table 10 Membership values of risk factors
+风险
+等级
+二级风险因素
+q11 q12 q13 q21 q22 q23 q31 q32 q33 q34 q35 q36 q41 q42 q43
+l1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+l2 0. 15 0. 25 0 0 0 0 0 0 0 0 0 0 0. 15 0 0
+l3 0. 85 0. 75 0. 30 0 0. 05 0. 25 0. 75 0 0 0. 50 0. 75 0 0. 85 0. 50 0. 15
+l4 0 0 0. 70 0. 78 0. 95 0. 75 0. 25 0. 89 0. 91 0. 50 0. 25 0. 67 0 0. 50 0. 85
+l5 0 0 0 0. 22 0 0 0 0. 11 0. 09 0 0 0. 33 0 0 0
+根据表 10 得到的贵阳市轨道交通 3 号线 1 期工
+程桐木岭站—桃花寨站盾构施工风险因素隶属度,按
+照一级风险因素所对应的二级指标分别构建单因素评
+判矩阵;通过式(15) 将矩阵经过转换后得到的非线性
+模糊评判矩阵如式(16) —(19) 所示。
+E1 =
+0 1. 5 8. 5 0 0
+0 2. 5 7. 5 0 0
+0 3. 0 7. 0 0 0
+■
+■
+| | ||
+■
+■
+| | ||
+。 (16)
+E2 =
+0 0 0 7. 8 2. 2
+0 0 0 0. 5 9. 5
+0 0 2. 5 7. 5 0
+■
+■
+| | ||
+■
+■
+| | ||
+。 (17)
+E3 =
+0 0 7. 5 2. 5 0
+0 0 0 8. 9 1. 1
+0 0 0 9. 1 0. 9
+0 0 5. 0 5. 0 0
+0 0 7. 5 2. 5 0
+0 0 0 6. 7 3. 3
+■
+■
+| | | | | | | ||
+■
+■
+| | | | | | | ||
+。 (18)
+E4 =
+0 1. 5 8. 5 0 0
+0 0 5. 0 5. 0 0
+0 0 1. 5 8. 5 0
+■
+■
+| | ||
+■
+■
+| | ||
+。 (19)
+3. 3 确定风险因素指标突出影响系数
+基于贵阳市轨道交通 3 号线 1 期工程桐木岭站
+桃花寨站盾构施工的实际情况结合专家意见,得到一、
+二级风险因素突出影响系数( 见表 11 和表 12) 。 根据
+表 12 得到 E1—E4 所对应的突出影响系数向量如式
+(20) 所示。
+表 11 一级风险因素突出影响系数
+Table 11 Level 1 risk factors highlight impact factors
+评价指标 q1 q2 q3 q4
+λ 4. 0 3. 0 2. 0 1. 0
+γ1 = [4. 0,2. 0,1. 0] ;
+γ2 = [3. 0,2. 0,4. 0] ;
+γ3 = [2. 0,2. 0,3. 0,2. 0,4. 0,4. 0] ;
+γ4 = [3. 0,3. 0,2. 0] 。
+■
+■
+■
+| ||
+| ||
+( 20)
+1868
+
+
+第 11 期 郭宏斌, 等 : 基于非线性模糊层次分析法的盾构施工风险评价研究
+表 12 二级风险因素突出影响系数
+Table 12 Level 2 risk factors highlight impact factors
+评价指标 q11 q12 q13 q21 q22 q23 q31 q32 q33 q34 q35 q36 q41 q42 q43
+λ 4. 0 2. 0 1. 0 3. 0 2. 0 4. 0 2. 0 2. 0 3. 0 2. 0 4. 0 4. 0 3. 0 3. 0 2. 0
+3. 4 一级非线性模糊综合评判
+将 M1—M4、E1—E4、γ1—γ4 代入式( 14) 计算,得
+到二级风险因素评判结果向量 N1—N4,计算过程如
+下: 将 λ1 = [4. 0,2. 0,1. 0] ,λ = max(4. 0,2. 0, 1. 0) =
+4. 0 代入式(14) 可得:
+N1 = f( M1,E1,γ1)= (0. 649 1,0. 071 9,0. 279 0) ×
+0 1. 54. 0 8. 54. 0 0 0
+0 2. 52. 0 7. 52. 0 0 0
+0 3. 01. 0 7. 01. 0 0 0
+■
+■
+| | ||
+■
+■
+| | ||
+1 4
+=
+[0,1. 438 7,7. 632 9,0,0] 。 (21)
+将计算得到的 N1 进行归一化处理,得到贵阳市
+轨道交通 3 号线 1 期工程桐木岭站—桃花寨站盾构施
+工风险评价中一级非线性模糊综合评判结果向量
+N1 = [0,0. 158 6,0. 841 4,0,0] 。 (22)
+同理,利用上述方法得到其余二级风险因素对应
+的评判结果为
+N2 = [0,0,0. 149 7,0. 554 5,0. 295 8] ;
+N3 = [0,0,0. 451 3,0. 375 0,0. 173 8] ;
+N4 = [0,0. 140 7,0. 532 8,0. 326 5,0] 。
+■
+■
+■
+||
+||
+( 23)
+3. 5 二级非线性模糊综合评判
+将 N1—N4 作为新元素来构建二级非线性模糊综
+合评判矩阵 S = [ N1 N2 N3 N4] T,将 S 转换成能够进行
+非线性模糊评判计算的二级非线性模糊综合评判矩阵
+S′ =
+0 1. 586 8. 414 0 0
+0 0 1. 497 5. 545 2. 958
+0 0 4. 513 3. 750 1. 738
+0 1. 407 5. 328 3. 265 0
+■
+■
+| | | | ||
+■
+■
+| | | | ||
+。 (24)
+由表 11 得到的一级风险因素所对应的突出影响
+系数向量 γ= [4. 0,3. 0,2. 0,1. 0] ,得到一级风险因素
+组合权重
+M = 0. 173 9,0. 519 0,0. 258 6,0. 048 5
+[ ] 。 (25)
+将以上结果代入式(14) 进行计算,得到一级非线
+性模糊综合评判结果向量
+N = f( M,S′,γ)= [0,1. 040,5. 445,3. 099,1. 942] 。
+( 26)
+对 N 进行归一化处理,得到贵阳市轨道交通 3 号
+线 1 期工程桐木岭站—桃花寨站盾构施工风险评价中
+一级非线性模糊综合评判结果向量
+N = [0,0. 090,0. 472,0. 269,0. 168] 。 (27)
+向量 N 即为总风险的综合评价向量。 由最大隶
+属度原则,对贵阳市轨道交通 3 号线 1 期工程桐木岭
+站—桃花寨站盾构施工风险进行总体评价。 由模糊综
+合评判向量判断,该项目风险等级为 3 级,评语为中等
+风险。 说明盾构施工的总体风险处于中等水平,只要
+保证施工质量合格,管理有序,则该项目风险可控。 现
+场实际得出的风险等级如下: 总区间自身风险为 3
+级,周边环境风险为 3 级,地质风险为 3 级。 本文计算
+结果与现场实际情况一致,评价结果与事实相符,说明
+新模型的准确性。
+4 讨论及处理措施
+为验证非线性算子在新模型风险评价过程中的有
+效性,采用基于组合赋权法的 FAHP 对贵阳市轨道交
+通 3 号线 1 期工程桐木岭站—桃花寨站盾构施工段进
+行风险等级计算。 突出影响系数取值均为 1,即γi = 1。
+最终得到的模糊综合评价结果向量
+N′ = 0,0. 034 4,0. 400 6,0. 366 6,0. 198 5
+[ ]。
+( 28)
+新模型风险评价等级为 3 级,中等风险。 采用基
+于线性组合赋权法 FAHP 综合评判盾构施工的风险等
+级为 3 级,属于中等风险。 同时通过对比结果向量 N
+和 N′也可看出,二者风险数值较为接近,但新模型更
+为准确,因为引入了突出影响因子以及进行了组合赋
+权,所以新模型的评价风险等级更高。 此风险评价等
+级与贵阳市轨道交通 3 号线 1 期工程桐木岭站—桃花
+寨站实际施工情况更为符合,评价结果与实际相符,说
+明该模型的准确性。
+针对以上风险评价结果,采取以下施工措施降低
+风险发生的可能性: 应及时清理材料运输线路,组织
+人员定时定点清理盾构掘进障碍、开挖前期着重处理
+给排水管道、疏通排水路线、检查供水管道,做好坑内
+外排水沟、及时抽排积水井,实时监测。 定期组织人员
+对地下管线进行安全排查,及时更换破损管线,安全
+生产。
+根据现场实际情况,地质风险为 3 级,因为此工程
+项目隧道埋深变化较大,部分位置属于浅埋区域,应尽
+1869
+
+
+隧道建设( 中英文) 第 43 卷
+量控制施工扰动,减少对周边环境的影响;及时检查隧
+道状况,发现渗漏坍塌及时清理、补漏;泥浆应及时运
+输,检修相关设备等。 做到出现问题随时采取应对措
+施,保证供排通畅。
+针对总区间自身风险 3 级情况,除做好周边环境
+和地质风险的紧急预案外,还要提高施工人员、管理人
+员生产安全意识,严格落实生产安全规章制度。 设立
+专门管理机构加强管理施工过程中的重要风险因素,
+把责任落实到个人,超前预警预报,构建动态的风险管
+理体系。
+根据以上风险评价警示,对贵阳市轨道交通 3 号线
+1 期工程桐木岭站—桃花寨站盾构施工方案进行改进
+后,在施工过程中并未出现事故。 这表明,基于非线性
+FAPH 的盾构施工风险评价模型的评价结果所做出的
+改进是有效的,进一步说明新模型的合理性、有效性。
+5 结论与讨论
+1) 采用 WBS-RBS 法对盾构施工风险进行风险识
+别和构建评价指标体系,得到科学合理的盾构施工风
+险评价指标体系,保证在风险因素辨识过程中没有重
+要因素被遗漏,使风险评价指标体系、指标集的构建合
+理有效,贴近实际。
+2) 采用层次分析法计算得到主观权重,采用变异
+系数法计算得到客观权重,最后通过乘法集成法将主、
+客观权重结合得到组合权重,减少了主观随意性,提高
+了风险评价指标权重客观性,使评价结果更加符合现
+场实际情况。
+3) 使用非线性算子构建了基于组合赋权 - 非线性
+FAHP 的盾构施工风险评价新模型,可以有效地改进
+模糊层次分析法使用线性算子计算风险等级造成某些
+突出风险因素的影响被弱化、引起最终评价结果准确
+性降低的问题。
+4) 将构建的新模型应用到贵阳市轨道交通 3 号
+线 1 期工程桐木岭站—桃花寨站盾构施工段进行风险
+评价,并针对评价结果对盾构施工方案进行优化。 结
+果表明,在盾构实际施工过程中并未发生事故,进一步
+说明了新模型在盾构施工风险评价中具有实际指导
+意义。
+5) 组合赋权-非线性 FAHP 的盾构施工风险评价
+能够突出重要风险因子在施工阶段中的影响。 施工人
+员可根据不同风险因子的影响力在施工中采取相应的
+技术措施对可能产生的风险进行规避,此方法对工程
+实践具有重要意义。
+参考文献( References) :
+[1] 何川, 封坤, 方勇. 盾构法修建地铁隧道的技术现状与
+展望[ J] . 西南交通大学学报, 2015, 50(1) : 97.
+HE Chuan, FENG Kun, FANG Yong. Review and prospects
+on constructing technologies of metro tunnels using shield
+tunneling method [ J ] . Journal of Southwest Jiaotong
+University, 2015, 50(1): 97.
+[2] EINSTEIN H H. Risk and risk analysis in rock engineering
+[ J ] . Tunnelling and Underground Space Technology
+Incorporating Trenchless Technology Research, 1996, 11(2):
+141.
+[3] HILLSON David, GRIMALDI Sabrina, RAFELE Carlo.
+Managing project risks using a cross risk breakdown matrix
+[ J] . Risk Management, 2006, 8(1): 61.
+[4] HAMIDI Jafar Khademi, SHAHRIAR Kourosh, REZAI
+Bahram, et al. Risk assessment based selection of rock TBM
+for adverse geological conditions using Fuzzy-AHP [ J ] .
+Bulletin of Engineering Geology and the Environment, 2010,
+69(4): 523.
+[5] HASANPOUR Rohola, ROSTAMI Jamal, SCHMITT Jürgen,
+et al. Prediction of tbm jamming risk in squeezing grounds
+using bayesian and artificial neural networks[ J] . Journal of
+Rock Mechanics and Geotechnical Engineering, 2020, 12
+(1): 21.
+[6] WU Zhiqiang, ZOU Shuliang. A static risk assessment model
+for underwater shield tunnel construction [ J] . Indian
+Academy of Sciences, 2020, 45(1): 215.
+[7] 宋战平, 郭德赛, 徐甜, 等. 基于非线性模糊层次分析
+法的 TBM 施工风险评价模型研究[ J] . 岩土力学, 2021,
+42(5) : 1424.
+SONG Zhanping, GUO Desai, XU Tian, et al. Risk
+assessment model in TBM construction based on nonlinear
+fuzzy analytic hierarchy process [ J ] . Rock and Soil
+Mechanics, 2021, 42(5): 1424.
+[8] MENG Guowang, YE Yangchun, WU Bo, et al. Risk
+assessment of shield tunnel construction in karst strata based
+on fuzzy analytic hierarchy process and cloud model [ J] .
+Shock and Vibration, 2021, 11(2): 16.
+[9] ZHANG Wei, SUN Ke, LEI Changzheng, et al. Fuzzy
+analytic hierarchy process synthetic evaluation models for the
+health monitoring of shield tunnels [ J ] . Computer-Aided
+Civil and Infrastructure Engineering, 2014, 29(9): 676.
+[10] WANG Sheng, LI Liping, CHENG Shuai, et al. Dynamic
+risk assessment method of tunnel collapse based on
+attribute interval assessment model and application [ J ] .
+1870
+
+
+第 11 期 郭宏斌, 等 : 基于非线性模糊层次分析法的盾构施工风险评价研究
+Polish Journal of Environmental Studies, 2020, 29(5): 3853.
+[11] 陈国权. 模糊集合论及其应用[ J] . 中国科学技术大学
+学报, 1978(1) : 210.
+CHEN Guoquan. Fuzzy set theory and its applications[ J] .
+Journal of University of Science and Technology of China,
+1978(1): 210.
+[12] 王祥, 徐甜, 冉军, 等. 岩溶地区地铁隧道盾构施工风
+险识别与评价研究[ J] . 铁道勘察, 2023, 49(3) : 5.
+WANG Xiang, XU Tian, RAN Jun, et al. Study on shield
+construction risk of metro tunnel in karst area based on
+AHP method [ J ] . Railway Investigation and Surveying,
+2023, 49(3): 5.
+[13] 周红波, 高文杰, 蔡来炳, 等. 基于 WBS-RBS 的地铁
+基坑故障树风险识别与分析[ J] . 岩土力学, 2009, 30
+(9) : 2703.
+ZHOU Hongbo, GAO Wenjie, CAI Laibing, et al. Risk
+identification and analysis of subway foundation pit by
+using fault tree analysis method based on WBS-RBS[ J] .
+Rock and Soil Mechanics, 2009, 30(9): 2703.
+[14] 焦胜军, 陈馈, 洪开荣. 盾构施工技术[ M] . 2 版. 北
+京: 人民交通出版社, 2016.
+JIAO Shengjun, CHEN Kui, HONG kairong. Tunnel
+construction technology [ M] . 2nd edition. Beijing: China
+Communications Press, 2016.
+[15] 盾构法隧道施工及验收规范: GB 50446—2017[ S] . 北
+京: 中国建筑工业出版社, 2017.
+Code for tunnel construction and acceptance by shield
+method: GB 50446-2017 [ S] . Beijing: China Architecture
+& Building Press, 2017.
+[16] 建设 工 程 项 目 管 理 规 范: GB / T 50326—2017 [ S] . 北
+京: 中国建筑工业出版社, 2017.
+Code for construction project management: GB / T 50326
+2017 [ S] . Beijing: China Architecture & Building Press,
+2017.
+[17] 徐甜. 基于改进模糊综合评判法的地铁深基坑施工风
+险研究[ D] . 西安: 西安工业大学, 2018.
+XU Tian. Research on construction risk of subway deep
+foundation pit based on improved fuzzy comprehensive
+evaluation method [ D ] . Xi′ an: Xi′ an Technological
+University, 2018.
+[18] 袁艳梅, 沙晓军, 刘煜晴, 等. 改进的模糊综合评价法
+在水资源承载力评价中的应用[ J] . 水资源保护, 2017,
+33(1) : 52.
+YUAN Yanmei, SHA Xiaojun, LIU Yuqing, et al.
+Application of improved fuzzy comprehensive evaluation
+method to water resources carrying capacity evaluation[ J] .
+Water Resources Protection, 2017, 33(1): 52.
+[19] 惠甜甜, 刘长星, 王圣杰, 等. 基于乘法集成法和模糊
+综合评价法的矿山地质环境综合评价[ J]. 能源与环
+保, 2021, 43(7) : 31.
+HUI Tiantian, LIU Changxing, WANG Shengjie, et al.
+Comprehensive evaluation of mine geological environment
+based on multiplicative integration method and fuzzy
+comprehensive evaluation method [ J] . China Energy and
+Environmental Protection, 2021, 43(7): 31.
+[20] 张有贤, 李二强, 罗东霞, 等. 基于 AHP -熵权法的兰
+州市水环境安全模糊综合评价[ J]. 安全与环境学报,
+2020, 20(2) : 709.
+ZHANG Youxian, LI Erqiang, LUO Dongxia, et al. Fuzzy
+comprehensive evaluation of water environment safety of
+Lanzhou based on AHP-entropy weight method [ J ] .
+Journal of Safety and Environment, 2020, 20(2): 709.
+[21] 郑力燕, 毕相东, 宋伦, 等. 基于熵值-突变级数法的
+环渤海地区海洋生态环境承载力评价及障碍因子诊断
+[ J] . 海洋通报, 2018, 37(5) : 591.
+ZHENG Liyan, BI Xiangdong, SONG Lun, et al. Evaluation
+of marine ecological environment carrying capacity and
+obstacle diagnosis for the Bohai Sea Ring Area of China
+based on entropy and catastrophe progression method [ J].
+Marine Science Bulletin, 2018, 37(5): 591.
+1871

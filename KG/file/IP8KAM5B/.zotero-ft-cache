@@ -1,0 +1,1185 @@
+第 21 卷 第 1 期 2024 年 1 月
+铁道科学与工程学报
+Journal of Railway Science and Engineering
+Volume 21 Number 1 January 2024
+盾构施工诱发临近桥梁安全
+风险评价
+樊燕燕,王瑞,李子奇
+(兰州交通大学 土木工程学院,甘肃 兰州 730070)
+摘 要:针对地铁盾构施工诱发临近桥梁安全风险评估结果不完善、存在失真等问题,提出一种基于变权可拓云模型的盾
+构施工诱发临近桥梁安全风险评价方法。首先,结合以往研究基础和实际工程经验,建立盾构施工诱发临近桥梁安全事故
+机理模型,进而确定孕险环境、致险因子和承险体 3 个 1 级指标,其中包括有岩土层物理性能参数、隧道工程条件、盾构施
+工条件、盾构施工参数、施工管理风险、桥梁现状及桥梁自身条件 7 个 2 级指标和内摩擦角、弹性模量等 27 个 3 级指标为依
+据建立盾构施工诱发临近桥梁安全风险评价指标体系。其次,通过改进 CRITIC 客观赋权法获取评价指标权重,并采用变权
+可拓云模型构建盾构施工诱发临近桥梁安全风险评价模型,其中引入变权理论得到使评价结果更加科学合理的变化权重。
+最后,对某市轨道交通 1 号线一期工程II标段沿线桥梁进行实例分析。研究结果表明,4 座盾构施工临近桥梁安全风险等级
+分别为III、II、II、I级。其中,该施工场地各项土体指标、隧道覆跨比、隧道埋深、隧道直径及桥桩与隧道的相对位置
+等指标风险较大,即该段隧道盾构施工时对于桥梁自身情况及其施工场地环境需要重点监测,并严格做好周围土体加固等
+各项技术措施。研究结果可为盾构施工诱发临近桥梁安全风险防控提供科学有效的参考依据。
+关键词:盾构施工;临近桥梁;改进 CRITIC 客观赋权法;变权可拓云模型;风险评价
+中图分类号:X947 文献标志码:A 开放科学(资源服务)标识码(OSID)
+文章编号:1672-7029 (2024) 01-0375-11
+Safety risk assessment of adjacent bridges induced by shield construction
+FAN Yanyan, WANG Rui, LI Ziqi
+(School of Civil Engineering, Lanzhou Jiaotong University, Lanzhou 730070, China)
+Abstract: To address the problems such as imperfect and distorted safety risk assessment results of adjacent
+bridges induced by subway shield construction, a safety risk assessment method for adjacent bridges induced by
+shield tunneling based on variable weight extension cloud model was proposed. First of all, based on literature
+review and practical experience, a safety accident mechanism model of adjacent bridges induced by shield
+construction was established. Then, three level 1 indicators are defined including maternity environment, risk
+causing factor and risk bearing body were adopted. The safety risk evaluation indicator system of adjacent
+bridges induced by shield construction was established based on 7 second-level indicators, including geotechnical
+physical performance parameters, tunnel engineering conditions, shield construction conditions, shield
+收稿日期:2023-03-14
+基金项目:甘肃省自然科学基金资助项目(20JR10RA237);长江学者和创新团队发展计划滚动支持资助项目(IRT15R29)
+通信作者:樊燕燕(1976—),女,河南禹州人,副教授,从事土木工程建造与管理研究;E−mail:12062481@qq.com
+DOI: 10.19713/j.cnki.43-1423/u.T20230342
+
+
+铁 道 科 学 与 工 程 学 报 2024 年 1 月
+construction parameters, construction management risks, bridge status and bridge conditions, and 27 third-level
+indicators, including internal friction angle and elastic modulus. Secondly, the evaluation index weight was
+obtained by the improved objective weighting method of CRITIC. The variable weight extension cloud model
+was used to construct the safety risk assessment model of adjacent bridges induced by shield construction. The
+variable weight theory was introduced to obtain a more scientific and reasonable change weight for the evaluation
+results. Finally, an example analysis was conducted on the bridges along the phase II section of the first phase of
+the rail transit Line 1 in a city, the results show that the safety risk levels of the bridges near the four shield
+construction were III , II , II , I . Among them, the construction site such as soil index, tunnel overburden ratio,
+tunnel buried depth, tunnel diameter and the relative position of bridge pile and tunnel were main risk factors.
+That is, it was necessary to focus on monitoring the bridge itself and the construction site environment and strictly
+implement technical measures such as surrounding soil reinforcement during the shield construction of this
+section of tunnel. The research results can provide scientific and effective reference for prevention and control of
+safety risk in adjacent bridges induced by shield construction.
+Key words: shield construction; adjacent bridge; improved objective weighting method of CRITIC; variable
+weight extension cloud model; risk assessment
+为缓解城市空间容量不足及交通拥堵等问题,
+地铁隧道工程得到了大力发展,目前,具有机械
+化程度高、地层适应性强等优点的盾构法被广泛
+应用。由于地铁隧道建设沿线临近桥梁众多,盾
+构施工穿越桥梁无法避免,致使周围土体受到扰
+动,从而引起地层变形并传递至桥梁桩基,使其
+发生不均匀沉降和附加应力,影响临近桥梁的正
+常使用和结构安全。因此,深入研究盾构施工诱
+发临近桥梁安全风险评价,科学有效地识别并评
+估出对盾构施工时临近桥梁安全影响较大的风险
+因素,从而对其进行有效地防范应对,对保证地
+铁盾构隧道临近桥梁的安全性和稳定性具有重要
+的现实意义。近年来,国内外学者针对地铁盾构
+施工诱发临近建构筑物安全风险评价进行了较多
+研究。吴贤国等[1]构建了基于贝叶斯网络的盾构施
+工邻近桥梁安全风险评估模型,提出了基于贝叶
+斯网络的事前风险等级预测、事中敏感因素识别、
+事后致因诊断方法;ZHANG 等[2]提出了一种融合
+云模型(CM)、Dempster-Shafer (D-S)证据理论和蒙
+特卡罗(MC)模拟技术的混合信息融合方法,用于
+感知不确定性下的隧道安全风险;龚珍[3]基于城市
+盾构浅埋隧道,采用 WBS-RBS 耦合矩阵方法对临
+近建筑物进行风险识别,结合改进的蒙特卡洛法,
+建立了地铁盾构施工对临近建筑物的综合风险后
+果评估模型;王南昌[4]通过查阅资料、现场调查及
+专家评议法识别盾构穿越的风险因素,并针对关
+键风险因素,采用肯特风险综合指数法进行评估。
+WANG 等[5]将带区间数的扩展 VIKOR 方法引入到
+盾构隧道施工临近环境中的建筑物风险评估中,
+以确定具体的建筑物风险等级。虽然众多学者对
+于盾构施工临近建筑物风险评价进行了深入研究,
+但很少有学者对于特定临近桥梁依据盾构隧道−周
+围地层−桥梁桩基的相互作用关系进行风险因素识
+别及评价研究,且现有文献多采用主观赋权法计
+算指标权重,在构建盾构施工临近桥梁安全风险
+评价模型时,多采用 VIKOR 决策方法、肯特指数
+法、贝叶斯网络分析法及蒙特卡洛分析法等评估
+方法,此类方法在解决该复杂系统的不确定性上
+存在诸多不足之处,如评价指标的权重确定缺乏
+合理性、评价结果易存在失真及难以保证计算结
+果的精准性等。基于此,本文在分析盾构施工诱
+发临近桥梁安全风险因素,建立临近桥梁风险评
+价指标体系的基础上,采用改进标准间冲突性相关
+性 (Improved criteria importance through intercriteria
+correlation, ICRITIC)客 观 赋 权 法 获 得 指 标 权 重 ,
+并运用变权可拓云模型建立盾构施工诱发临近桥
+梁安全风险评价模型,该模型能够较好地解决系
+统中的模糊性和随机性问题。通过引入变权理论
+376
+
+
+第 1 期 樊燕燕,等:盾构施工诱发临近桥梁安全风险评价
+计算获得能使评价结果更加合理的变化权重,并
+依据变权可拓云模型计算所得的综合评价等级确
+定桥梁的安全风险等级,分析出对桥梁结构安全
+影响较大的关键风险因素,为盾构隧道施工诱发
+临近桥梁安全风险防控提供科学有效的参考依据。
+1 盾构施工诱发临近桥梁安全风险
+评价指标体系的构建
+1.1 临近桥梁安全风险评价指标体系的建立
+盾构施工过程中影响其临近桥梁结构安全性
+的原因,大多为盾构施工使其周围土体引起地层
+变形传递至临近桥梁桩基,致使桩基承载力降低
+并产生一定附加应力,从而导致桩基发生不均匀
+沉降使桥梁发生不同程度的损坏,甚至威胁其运
+营安全。
+基于此,通过对盾构施工诱发临近桥梁安全
+风 险 相 关 文 献[6−10]进 行 梳 理 分 析 , 并 依 据 《铁 路 隧
+道 设 计 规 范》 [11]及 《公 路 桥 涵 设 计 通 用 规 范》 [12]等
+技术规范,可以得出内摩擦角等施工场地周围土
+体参数、覆跨比等隧道参数、掘进速度等盾构施
+工参数以及桥桩与隧道的相对位置等桥梁相关指
+标为影响盾构掘进过程中临近桥梁稳定性的主要
+风险因素,故盾构施工时影响其临近桥梁安全的
+风险因素可从岩土层物理性能参数、隧道工程条
+件、盾构施工参数、盾构施工条件、桥梁自身条
+件及现状和施工过程中的管理风险等方面进行归
+纳总结。
+由于岩土层物理性能参数、隧道工程条件及
+盾构施工条件属于潜在发生风险事故的场地区域、
+周边环境以及施工工艺,可将这 3 类风险因素列为
+孕险环境;盾构施工参数和施工管理风险属于引
+发风险事件发生的潜在影响因素,可将这 2 类风险
+因素列为致险因子;而桥梁现状和桥梁自身条件
+则属于直接受到风险事故影响和损害的主体,可
+将其列为承险体。基于此,可建立孕险环境−致险
+因子−承险体的安全事故发生机理模型(见图 1)。由
+该模型可知,当孕险环境、致险因子和承险体 3 个
+环节的防控措施均失效时,在孕险环境和致险因
+子的共同作用下,会使临近桥梁发生安全事故并
+导致事态的进一步演变,最终导致承险体产生人
+员伤亡及财产损失等风险后果。
+通过对文献规范的梳理分析,并结合盾构施
+工−周围地层−桥梁桩基的相互作用关系,可建立
+较为完善、操作性较强的盾构施工诱发临近桥梁
+安全风险评价指标体系,如表 1 所示。
+1.2 盾构施工诱发临近桥梁安全风险等级标准的
+划分
+基于对学者研究成果的参考借鉴,结合相关
+技术规范[11−12],将地铁隧道盾构施工时临近桥梁的
+安全风险等级划分为 5 类,即安全状态、较安全状
+态、基本安全状态、较危险状态和危险状态,具
+体安全风险等级分类标准如表 2 所示。
+2 盾构施工诱发临近桥梁安全风险
+指标权重的确定
+2.1 传统 CRITIC 客观赋权
+传统 CRITIC 法通过标准差衡量的对比强度和
+相关系数衡量的冲突程度综合确定客观权重,其
+中决策方案之间的差异性与标准差大小呈正比,
+且其越大指标权重越大;而指标间的冲突性与相
+图 1 盾构施工诱发临近桥梁安全事故发生机理模型
+Fig. 1 Safety accident mechanism model of adjacent bridges induced by shield construction
+377
+
+
+铁 道 科 学 与 工 程 学 报 2024 年 1 月
+关系数大小呈反比,且其越小所含信息具有更多
+的重复性,则指标权重越小,但标准差会因指标
+的量纲和数量级不同而无法反映指标的对比强度,
+此外相关系数会因可能出现负数而使其越小,发
+生指标冲突性越大的情况。
+表 1 盾构施工诱发临近桥梁安全风险评价指标体系
+Table 1 Safety risk evaluation indicator system of adjacent bridges induced by shield construction
+1 级评
+价指标
+孕险
+环境(A1)
+致险
+因子(A2)
+承险
+体(A3)
+2 级评
+价指标
+岩土层物理
+性能参数(C1)
+隧道工程
+条件(C2)
+盾构施工
+条件(C3)
+盾构施工
+参数(C4)
+施工管理
+风险(C5)
+桥梁
+现状(C6)
+桥梁自身
+条件(C7)
+3 级评
+价指标 内摩擦角(D1) 弹性模量(D2) 黏聚力(D3) 土体密度(D4) 覆跨比(D5) 隧道埋深(D6) 隧道直径(D7) 地质复杂情况(D8) 断裂破碎带宽度(D9) 地层损失率(D10) 掘进速度(D11) 刀盘扭矩(D12) 推进力(D13) 刀盘转速(D14) 上部土仓压力(D15) 注浆量(D16) 施工方法(D17) 施工管理水平(D18) 施工技术水平(D19) 桩身完整性(D20) 桥体损伤情况(D21) 基础损伤情况(D22) 桥梁用途(D23) 埋置深度(D24) 桥梁上部结构类型
+(D25)
+桥桩与隧道的相对
+水平位置(D26) 桥桩与隧道的相对
+垂直位置(D27)
+指标量化方法
+土的摩擦特性/(°) MPa kPa g/cm3
+拱顶覆土厚度 H/结构跨度 D m m
+参考文献资料,结合工程实际情况划分为 5 类,采用打分制量化 m
+盾构施工中挖土体积和建成隧道体积之差/盾构理论排土体积/% mm/min 100 kPa kN r/min 100 kPa
+m3
+参考文献资料,结合工程实际情况划分为 5 类,采用打分制量化 参考文献资料,结合工程实际情况划分为 5 类,采用打分制量化 参考文献资料,结合工程实际情况划分为 5 类,采用打分制量化 依据 JGJ 106—2014《建筑桩基检测技术规范》划分为 4 类 依据 JTG 5120—2021《公路桥涵养护规范》划分为 5 类 依据 JTG 5120—2021《公路桥涵养护规范》划分为 5 类 1—人行天桥 ,2—立交桥 ,3—公路桥(人流车流同行) m
+1—简支梁 ,2—连续梁 ,3—刚架
+桩身轴线偏离隧道中轴线的距离 e/隧道跨度 s
+桩基底部距拱顶平面的垂直距离 h/隧道跨度 s
+指标属
+性 + + + + + + − + − − + + + + + + + + + + + + + +
++
++
++
+表 2 盾构施工诱发临近桥梁安全风险等级分类标准
+Table 2 Safety risk classification standard of adjacent bridges induced by shield construction
+安全风险等级 I级(安全状态) II级(较安全状态)
+III级(基本安全状态)
+IV级(较危险状态)
+V级(危险状态)
+分类标准 桥梁为全新状态 ,其上部结构无破坏 ,桩基础沉降很小 ,功能完好 桥梁有轻微缺损 ,其上部结构轻微破坏 ,出现少量裂缝 ,桩基础沉降较小 ,对桥梁使用功能无影响 桥梁有中等破损 ,其上部结构中等程度破坏 ,出现较多裂缝 ,桩基础沉降在安全范围内 ,桥梁尚能维持
+正常使用功能 桥梁主要构件有较大缺损 ,其上部结构存在部分严重破坏 ,桩基础沉降较大 ,严重影响桥梁使用功能 ,
+或影响承载力 ,无法保证正常使用 桥梁主要构件有严重缺损 ,其上部结构存在严重功能性破坏 ,桩基础沉降非常大 ,桥梁功能不能正常
+使用 ,危及桥梁安全
+378
+
+
+第 1 期 樊燕燕,等:盾构施工诱发临近桥梁安全风险评价
+2.2 改进 CRITIC 客观赋权
+基于传统 CRITIC 法存在的不足,为使权重更
+加科学合理,以提高盾构施工诱发临近桥梁安全
+风险评价结果的准确性,通过基尼系数对指标内
+的对比强度进行衡量,并将相关系数以绝对值形
+式进行冲突系数的计算,提出改进 CRITIC 法,其
+计算方法如下[13]。
+1) 依据工程实测数据,建立决策矩阵
+X = (xij )m × n =
+■
+■
+|
+|
+||||
+|
+|■
+■
+|
+|
+||||
+|
+|
+x11 x12 ... x1n
+x21 x22 ... x2n
+⋮ ⋮⋱⋮
+xm1 xm2 ... xmn
+(1)
+其中:xij为第 i 个指标下的第 j 个决策方案的工程实
+测数据。
+2) 标准化处理决策矩阵中的指标值,获得标
+准化决策矩阵
+Z = (zij )m × n =
+■
+■
+|
+|
+||||
+|
+|■
+■
+|
+|
+||||
+|
+|
+z11 z12 ... z1n
+z21 z22 ... z2n
+⋮ ⋮⋱⋮
+zm1 zm2 ... zmn
+(2)
+若指标为效益型指标,则 zij为:
+zij = xij - miin (xij )
+miax (xij ) - miin (xij ) (3)
+若指标为成本型指标,则 zij为
+zij = miax (xij ) - xij
+miax (xij ) - miin (xij ) (4)
+3) 根据 Pearson 相关系数,得到相关系数矩阵
+R = (rij )m × m =
+■
+■
+|
+|
+||||
+|
+|■
+■
+|
+|
+||||
+|
+|
+r11 r12 ... r1m
+r21 r22 ... r2m
+⋮ ⋮⋱⋮
+rm1 rm2 ... rmm
+(5)
+其中:rij 为在第 i 个指标和第 j 个指标间的相关系
+数,其表达式为
+rij = k = ∑1
+m
+(zik - zˉi )(zjk - zˉj )
+∑
+k=1
+m
+(zik - zˉi )2 · k = ∑1
+m
+(zjk - zˉj )2
+(6)
+其中:zik和 zjk分别为在第 i 个指标和第 j 个指标下的
+第 k 个决策方案的指标标准化值;zˉi 和 zˉj 分别为指
+标 i 和 j 的均值。
+4) 计算指标基尼系数
+ξi =
+∑
+j=1
+n k = ∑1
+n | zij - zik |
+2n j = ∑1
+n
+z ij
+(7)
+其中:ξi 为第 i 个指标的基尼系数,ξi∈[0,1]。
+5) 量化处理指标间的冲突强度,将相关系数
+以绝对值形式计算冲突系数为
+ci = j = ∑1
+n (1 - | rij |) (8)
+6) 计算指标综合信息量
+Ci = ξici (9)
+7) 确定指标权重
+ωi = Ci
+∑
+i=1
+n
+Ci
+(10)
+由式(10)可知,Ci 越大,指标 i 所包含的信息
+量越大,在地铁盾构施工诱发临近桥梁安全风险
+评价过程中的作用越重要,则指标 i 的权重越大。
+3 基于变权可拓云模型的盾构施工
+诱发临近桥梁安全风险评价模型
+3.1 构建可拓云模型
+可拓云模型由正态云模型与物元可拓模型组
+合而成,其中正态云模型可对工程项目的模糊性
+和随机性进行定性描述,也能对其进行定量分析,
+采用正态云(Ex,En,He)取代物元可拓分析模型中
+的事物特征对应值 V,将存在的模糊性和随机性问
+题通过 En 和 He 来反映。在盾构施工诱发临近桥梁
+安全风险评价过程中,采用可拓云模型,融合了
+云模型的不确定性推理特性和物元可拓模型的兼
+具定性与定量分析的优点[14]。
+首 先 , 将 评 价 指 标 划 分 的 等 级 界 限 看 作 [Cmin,
+C
+max],依据式(11)得到等级界限云模型(Ex,En,He)。
+■
+■
+■
+||||||
+|
+|||
+Ex = Cmax + Cmin
+2
+En = Cmax - Cmin
+6 He = s
+(11)
+式中:s 为常数,可结合相应指标的模糊性、离散
+性、随机性和实际情况进行调整。
+379
+
+
+铁 道 科 学 与 工 程 学 报 2024 年 1 月
+其次,采用正态云(Ex,En,He)来取代物元模型中
+的特征对应值 v,则可拓云模型为
+Rj =
+■
+■
+|
+|
+|
+|
+||||
+|
+|
+|
+|■
+■
+|
+|
+|
+|
+||||
+|
+|
+|
+|
+N C1 (Ex1 ,En1 ,He1 )
+N ⋮
+C2
+⋮
+(Ex2 ,En2 ,He2 ) ⋮
+N Cn (Exn ,Enn ,Hen )
+(12)
+式中:Rj 为所划分的评价等级;(Ex1,En1,He1)为评价
+指标 Ci,i=1, 2, ..., n 关于等级 Rj的云描述。
+3.2 计算云关联度
+根据式(13)计算出各个指标相应的待评价值与
+盾构施工诱发临近桥梁安全风险评价等级界限可
+拓云模型之间的云关联度 k,计算公式为
+k = exp ( - (x - Ex )2
+2(E′n )2 ) (13)
+其中,x 为各待评价指标值;E′n 为服从对应期望值
+为 En、标准差为 He的正态分布的随机数。
+采用式(13)计算出各待评物元指标值和各评价
+指标风险等级可拓云模型之间的云关联度,得到
+盾构施工时临近桥梁风险评价等级的评判矩阵 K 为
+K=
+■
+■
+|
+|
+||||
+|
+|■
+■
+|
+|
+||||
+|
+|
+k11 k12 ... k1m
+k21 k22 ... k2m
+⋮ ⋮⋱⋮
+kn1 kn2 ... knm
+(14)
+式中:kij 为待评价指标 Ci 和风险评价等级 j 的界限
+可拓云模型之间的关联度;n 为风险指标数;m 为
+风险评价等级。
+3.3 计算变权可拓云综合评价等级
+引入变权理论解决可拓云模型中综合关联度
+评价结果掩盖了不属于该界限内“短板效应”而
+致使评价结果合理性降低的问题,故对各评价指
+标进行“惩罚”,将惩罚基准设为待评价样本指标
+值 xi 到对应评价指标等级 j 的界限中心 Eij 的距离 ,
+其 距 离 越 近 , 则 相 对 权 重 越 小[15]。 构 建 惩 罚 型 变
+权为
+yij = |
+|
+|||| xi
+E ij
+- 1|
+|
+|||| -1
+(15)
+W ′(x1 ,x2 ,...,xn ) = w(0)
+i yα-1
+ij
+∑
+i=1
+n
+w(0)
+i yα-1
+ij
+,0 < α ≤ 1 (16)
+式中:W′为引入变权理论的变化权重向量;α 为
+惩罚系数。
+根据地铁盾构施工诱发临近桥梁安全风险评
+价等级的评判矩阵 K,结合引入变权理论的变化权
+重 W ′, 得 出 评 价 向 量 B = diag(W ′K), 令 B= (b1, b2,
+...,bm),bj(j=1,2,...,5)为云综合关联度,当 bj=maxbj
+成立时,临近桥梁的风险评价等级为 j。
+3.4 风险评价等级标准的确定
+通 过 查 阅 相 关 文 献 资 料[6−10], 基 于 《公 路 桥 梁
+和隧道工程施工安全风险评估指南》[16]等技术规范
+的研究,结合工程实际经验及风险评价特点,划
+分风险评价等级标准如表 3 所示。
+4 工程应用
+4.1 工程概况
+某市城市轨道交通 1 号线一期工程II标段东西
+贯穿中心城区,连接城市副中心和城市核心区,
+区间采用加泥式土压平衡盾构施工,盾构开挖直
+径为 6.41 m,沿线为城市主城区,商业居住地密
+集,人口密集,交通流量较大,该线路穿越沿线
+各人行天桥及立交桥等构筑物,本文研究对象选
+取其沿线 4 座临近桥梁,其中包括某总院人行过街
+天桥、某西站人行天桥、某立交桥及某商贸城人
+行天桥,其风险评价指标的工程实际数据如表 4
+所示。
+4.2 盾构施工诱发临近桥梁安全风险评价
+4.2.1 指标权重的确定
+利用改进 CRITIC 客观赋权法对盾构施工诱发
+临近桥梁安全风险指标进行权重计算,得到各指
+标权重,见表 5。
+由表 5 可以看出,该段隧道盾构施工风险评价
+指标按照其重要程度排序为 D24>D23=D25>D6>D5>
+D
+26>D27>D11>D10>D12>D3>D16=D18>D13>D7>D1>
+D
+15>D4>D2=D17>D14>D22>D21>D20>D19>D8>D9。
+其中,桥梁桩基的埋置深度、桥梁用途、桥梁上
+部结构类型、隧道埋深、隧道覆跨比以及桥桩与
+隧道的相对位置等风险指标对于临近桥梁安全风
+险重要程度较高,需要对其制定如隧道及桥梁桩
+基周围地层加固、地层变形隔离及荷载转移等有
+针对性的防范应对措施,以确保盾构施工的安全
+性和临近桥梁的结构安全和正常运营。
+380
+
+
+第 1 期 樊燕燕,等:盾构施工诱发临近桥梁安全风险评价
+4.2.2 确定风险评价等级结果
+依据表 3 评价指标等级划分标准,按照式(11)
+进行云模型的转换,限于篇幅,以岩土层物理性
+能 参 数 (C1)为 例 , 得 到 其 等 级 界 限 云 模 型 如 表 6
+所示。
+依据表 6 风险指标的等级界限云模型,运用
+MATLAB 绘制其评价等级云图,见图 2。
+同理,对其余各风险评价指标进行云模型转
+换,得到相对应的等级界限云模型,进而运用
+MATLAB 得到其评价等级云图。
+以某总院人行过街天桥为例,通过式(13)计算
+出各待评物元指标值和各评价指标风险评价等级
+可拓云模型之间的云关联度,并依据式(14)可得其
+风险评价等级的评判矩阵 K1为
+K1 =
+■
+■
+|
+|
+||||
+|
+|■
+■
+|
+|
+||||
+|
+|
+k11 k12 ... k15
+k21 k22 ... k25
+⋮ ⋮⋱⋮
+k271 k272 ... k275
+=
+■
+■
+|
+|
+|||| ■
+■
+|
+|
+||||
+1.85E - 08 0.015 2 ... 3.93E - 06 2.20E - 83 4.54E - 38 ... 4.26E - 40 ⋮ ⋮⋱⋮
+2.64E - 26 0.010 0 ... 4.82E - 37
+依据式(15)和式(16),取惩罚系数 α=0.5,对某
+总院人行过街天桥进行变权计算。限于篇幅,仅
+列举岩土层物理性能参数(C1)中各风险等级下各评
+价指标变化权重,见表 7 所示。同理,其余 3 座桥
+梁可通过同样方法获得所对应的变化权重,此处
+不赘述。
+表 3 风险指标等级划分
+Table 3 Classification of risk indicators
+风险指标
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+D8
+D9
+D10
+D11
+D12
+D13
+D14
+D15
+D16
+D17
+D18
+D19
+D21
+D22
+D24
+D26
+D27
+内摩擦角/(°)
+弹性模量/MPa
+黏聚力/kPa
+土体密度/(g·cm−3)
+覆跨比
+隧道埋深/m
+隧道直径/m
+地址复杂情况/分
+断裂破碎带宽度/m
+地层损失率/%
+掘进速度/(mm·min−1)
+刀盘扭矩/100 kPa
+推进力/kN
+刀盘转速/(r·min−1)
+上部土仓压力/100 kPa
+注浆量/m3
+施工方法/分
+施工管理水平/分
+施工技术水平/分
+桥体损伤情况/分
+基础损伤情况/分
+埋置深度/m
+桥桩与隧道的相对水平位置
+桥桩与隧道的相对垂直位置
+风险等级
+I级(安全)
+≥30
+≥36
+≥22
+≥2.0
+≥4.0
+≥20
+[0,6]
+[80,100]
+[0,5)
+[0,0.5)
+≥45
+≥55
+≥40 000
+≥3.0
+≥3.0
+≥6.0
+[80,100]
+[80,100]
+[80,100]
+[80,100]
+[80,100]
+≥40.5
+≥2.0
+≥1.4
+II级(较安全)
+[24,30)
+[30,36)
+[15,22)
+[1.9,2.0)
+[2.9,4.0)
+(14,20)
+(6,8]
+[60,80)
+[5,10)
+[0.5,1.0)
+[35,45)
+[45,55)
+[30 000, 40 000)
+[2.0,3.0)
+[2.5,3.0)
+[4.5,6.0)
+[60,80)
+[60,80)
+[60,80)
+[60,80)
+[60,80)
+[30.5,40.5)
+[1.5,2.0)
+[0.7,1.4)
+III级(基本安全)
+[21,24)
+[12,30)
+[10,15)
+[1.8,1.9)
+[2.2,2.9)
+[10,14)
+(8,10]
+[40,60)
+[10,25)
+[1.0,2.0)
+[25,35)
+[35,45)
+[20 000, 30 000)
+[1.3,2.0)
+[2.0,2.5)
+[3.0,4.5)
+[40,60)
+[40,60)
+[40,60)
+[40,60)
+[40,60)
+[21.5,30.5)
+[0.9,1.5)
+[0,0.7)
+IV级(较危险)
+[18,21)
+[7,12)
+[6,10)
+[1.7,1.8)
+[1.4,2.2)
+[8,10)
+(10,12]
+[20,40)
+[25,30)
+[2.0,3.0)
+[15,25)
+[25,35)
+[10 000, 20 000)
+[1.0,1.3)
+[1.5,2.0)
+[2.0,3.0)
+[20,40)
+[20,40)
+[20,40)
+[20,40)
+[20,40)
+[14.5,21.5)
+[0.6,0.9)
+[−0.5,0)
+V级(危险)
+[0,18)
+[0,7)
+[0,6)
+[0,1.7)
+[0,1.4)
+[0,8)
+>12
+[0,20)
+≥30
+≥3.0
+[0,15)
+[0,25)
+[0,10 000)
+[0,1.0)
+[0,1.5)
+[0,2.0)
+[0,20)
+[0,20)
+[0,20)
+[0,20)
+[0,20)
+[0,14.5)
+[0,0.6)
+[−1,−0.5)
+381
+
+
+铁 道 科 学 与 工 程 学 报 2024 年 1 月
+基于上述计算所得的评判矩阵 K1 和变化权重
+W′, 可 得 某 总 院 人 行 过 街 天 桥 的 综 合 评 判 向 量
+B为
+B
+1=(0.015 3, 0.034 5, 0.038 1, 0.028 8, 0.007 6)。
+同理,可得其余 3 座临近桥梁的综合评判向量
+分别为:
+B
+2=(0.029 7, 0.037 6, 0.027 4, 0.001 1, 0.016 8);
+B
+3=(0.014 4, 0.047 6, 0.021 1, 0.000 5, 0.004 0);B4=
+(0.027 6, 0.0247, 0.015 2, 0.000 2, 0.012 1)。
+4.2.3 评价结果分析
+依据上述盾构施工诱发临近桥梁安全风险评
+价所得的综合评判向量,并结合盾构施工时临近
+桥梁安全风险等级分类标准(见表 2),可得到研究
+对象所属风险等级以及影响临近桥梁结构的关键
+风险指标,具体分析如下。
+1) 某总院人行过街天桥
+该人行过街天桥 b3=maxb3=0.038 1,故其评价
+等级为III级,处于基本安全状态,该段盾构隧道
+施工场地的各项土体指标、隧道覆跨比、隧道埋
+深以及隧道直径在盾构掘进时会造成影响较大的
+地层变形,且其中该人行过街天桥的桥桩与隧道
+相对位置关系及其埋置深度对该天桥安全风险隐
+患产生了较大影响,降低其应对盾构施工所带来
+的风险隐患的能力。
+2) 某西站人行天桥
+该人行天桥 b2=maxb2=0.037 6,故评价等级为
+II级,处于较安全状态,该盾构施工地段的各项
+土质指标及隧道覆跨比、隧道埋深等工程条件对
+于地层变形具有一些影响,且其盾构施工时引起
+表 5 临近桥梁安全风险评价指标权重
+Table 5 Weight of adjacent bridges safety risk
+assessment indicator
+风险指标
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+D8
+D9
+权重 Wi
+0.032 0
+0.028 4
+0.037 2
+0.029 3
+0.044 4
+0.047 1
+0.032 9
+0.021 8
+0.021 2
+风险指标
+D10
+D11
+D12
+D13
+D14
+D15
+D16
+D17
+D18
+权重 Wi
+0.038 4
+0.038 6
+0.037 4
+0.036 0
+0.028 3
+0.029 5
+0.036 6
+0.028 4
+0.036 6
+风险指标
+D19
+D20
+D21
+D22
+D23
+D24
+D25
+D26
+D27
+权重 Wi
+0.023 4
+0.026 3
+0.027 0
+0.027 3
+0.067 2
+0.073 1
+0.067 2
+0.043 7
+0.040 7
+表 4 临近桥梁风险指标的工程实测数据
+Table 4 Project measured data of adjacent bridges risk indicator
+序号
+1 2 3 4
+序号
+1 2 3 4
+序号
+1 2 3 4
+桥梁名称
+某总院人行过街天桥
+某西站人行天桥
+某立交桥
+某商贸城人行天桥
+桥梁名称
+某总院人行过街天桥
+某西站人行天桥
+某立交桥
+某商贸城人行天桥
+桥梁名称
+某总院人行过街天桥
+某西站人行天桥
+某立交桥
+某商贸城人行天桥
+风险指标
+D1/(°)
+24 18 42 40
+风险指标
+D10
+1.2 1.2 1.09 1.09
+风险指标
+D19
+85 85 80 85
+D2/MPa
+20 7 40 36
+D11/
+(mm·min−1) 35 35 20 20
+D20
+0.5 0.5 0.25 0.75
+D3/kPa
+14 19 0 0
+D12/
+100 kPa 59.8 59.8 71.5 71.5
+D21
+65 70 75 60
+D4/ (g·cm−3) 1.87 1.62 2.35 2.3
+D13/kN
+42 575 42 575 36 493 36 493
+D22
+75 65 80 55
+D5
+2.028 2.652 2.34 2.184
+D14/
+(r·min−1) 2.6 1.8 4.5 4.2
+D23
+0.33 0.33 0.67 0.33
+D6/m
+12.728 16.402 13.020 11.878
+D15/
+100 kPa 1.5 1.5 2 2
+D24/m 17.11 12.1 12.68 11.88
+D7/m
+6.35 6.35 6.41 6.41
+D16/m3
+8.1 8.1 6 6
+D25
+0.33 0.33 0.67 0.33
+D8
+35 80 75 70
+D17
+75 75 55 60
+D26
+0.109 0.334 0.094 0.452
+D9/m
+0 0 5 0
+D18
+85 85 80 80
+D27
+0.684 0.7 0.921 0.786
+382
+
+
+第 1 期 樊燕燕,等:盾构施工诱发临近桥梁安全风险评价
+的地层损失较大,会对该天桥的结构安全产生一
+定冲击,而该人行天桥的埋置深度及其桥桩与隧
+道相对位置关系也会对其安全风险隐患产生了较
+大影响。
+3) 某立交桥
+该立交桥 b2=maxb2=0.047 6,故评价等级为II
+级,处于较安全状态,该立交桥的埋置深度及其
+桥桩与隧道相对位置关系对该立交桥安全风险隐
+患产生了一定影响,且盾构隧道施工时隧道覆跨
+比及隧道埋深对周围土体的扰动程度较大,从而
+降低了该立交桥的稳定性。
+4) 某商贸城人行天桥
+该人行天桥 b1=maxb1=0.027 6,故评价等级为
+I级,处于安全状态,其在盾构隧道掘进时具有
+(a) 内摩擦角 D1;(b) 弹性模量 D2;(c) 黏聚力 D3;(d) 土体密度 D4
+图 2 盾构施工诱发临近桥梁安全风险指标评价等级云图(部分)
+Fig. 2 Evaluation grade cloud map of safety risk indicator of adjacent bridges induced by shield construction (part)
+表 6 临近桥梁安全风险指标等级界限云模型(部分)
+Table 6 Hierarchical boundary cloud model of adjacent bridges safety risk indicator (part)
+风险指标
+D1
+D2
+D3
+D4
+临近桥梁安全风险评价等级界限
+I级
+(36,2,0.02)
+(39,1,0.02)
+(25.5,1.17,0.02)
+(2.35,0.12,0.02)
+II级
+(27,1,0.02)
+(33,1,0.02)
+(18.5,1.17,0.02)
+(1.95,0.02,0.02)
+III级
+(22.5,0.5,0.02)
+(21,3,0.02)
+(12.5,0.83,0.02)
+(1.85,0.02,0.02)
+IV级
+(19.5,0.5,0.02)
+(9.5,0.83,0.02)
+(8,0.67,0.02)
+(1.75,0.02,0.02)
+V级
+(9,3,0.02)
+(3.5,1.17,0.02)
+(3,1,0.02)
+(0.85,0.28,0.02)
+表 7 某总院人行过街天桥安全风险评价指标
+变化权重 W′(C1指标)
+Table 7 Variable weight W′(C1 indicator) of safety risk
+assessment indicator of pedestrian overbridge in
+a general hospital
+风险
+指标
+D1
+D2
+D3
+D4
+风险指
+标值
+24
+20
+14
+1.87
+变化权重
+I级
+0.027 9
+0.025 7
+0.054 4
+0.018 9
+II级
+0.022 1
+0.031 7
+0.054 8
+0.011 6
+III级
+0.015 1
+0.009 7
+0.034 0
+0.005 3
+IV级
+0.022 8
+0.037 9
+0.068 8
+0.010 7
+V级
+0.031 9
+0.040 8
+0.079 3
+0.023 4
+383
+
+
+铁 道 科 学 与 工 程 学 报 2024 年 1 月
+较为稳定的状态,能够一定程度上抵抗盾构施工
+所带来安全风险,其中该盾构施工地段盾构机各
+参数设置较合理,且其施工技术及管理水平较高,
+因而对该人行天桥影响较小。
+4.2.4 防控对策
+基于 4.2.3 节评价结果分析,为确保盾构隧道
+施工和桥梁结构的安全性,制定相对应的防控措
+施,以降低盾构掘进致使临近桥梁安全隐患事故
+发生的可能性,为盾构施工诱发临近桥梁安全风
+险防控提供科学有效的参考依据。具体应对措施
+如下。
+1) 对于地铁隧道施工地段和桥桩周围土体需
+要进行地层加固处理或者地层变形隔离,即打设
+隔离桩等方法来对其进行控制,以通过此类方法
+减小地层变形并阻断其传递,减少周围土体受到
+地铁盾构施工的扰动程度,从而减少地铁盾构施
+工引起其临近桥梁的桩基变形。
+2) 盾构隧道掘进过程中桥桩与隧道相对位置
+关系和其埋置深度影响较大,当地铁隧道穿越临
+近桥梁时,会使得部分桩基础承载力降低。依据
+工程实际情况,可采取增加新桩基的方式对荷载
+实现部分转移,在一定程度上提高既有桩基的承
+载能力,以保证桥梁的结构安全。
+3) 桥梁当前自身状况也会对桥梁安全隐患产
+生一定的风险影响,对于较为明显的桥体及基础
+损伤应该评估其对于桥梁承载能力等方面的影响
+程度,基于此采取合理的桥梁维修加固措施,分
+别采取先施工后加固、边施工边加固及先加固后
+施工等顺序来改善桥梁自身状态,以增强其应对
+盾构掘进所带来安全风险的能力。
+5 结论
+1) 通过查阅相关文献规范,对盾构施工诱发
+临近桥梁安全风险因素进行全面梳理分析,结合
+盾构施工−周围地层−桥梁桩基的相互作用关系,
+建立了孕险环境−致险因子−承险体的安全事故发
+生机理模型,基于此,构建了盾构施工诱发临近
+桥梁安全风险评价指标体系。
+2) 采用改进标准间冲突性相关性(ICRITIC 法)
+计算指标权重,以指标初始样本数据为依据进行
+客观赋权,使得评价结果更加科学合理。
+3) 建立基于变权可拓云的盾构施工诱发临近
+桥梁安全风险评价模型,对某市城市轨道交通 1 号
+线一期工程II标段的沿线 4 座临近桥梁进行盾构施
+工过程中临近桥梁的安全风险评价,得到其安全
+风险等级分别为III、II、II、I级,即 4 座桥具有
+一定抵抗盾构施工所带来的风险隐患能力。所建
+立的风险评价模型,依据合理,操作性较强,对
+类似工程风险评价具有一定的参考价值。
+参考文献:
+[1] 吴贤国, 李铁军, 林净怡, 等 . 基于粗糙集和贝叶斯网络
+的地铁盾构施工诱发邻近桥梁安全风险评价[J]. 土木
+工程与管理学报, 2016, 33(3): 9−15.
+WU Xianguo, LI Tiejun, LIN Jingyi, et al. Safety risk
+assessment of metro shield tunnel-induced adjacent
+bridge damage based on rough set and Bayesian network
+[J]. Journal of Civil Engineering and Management, 2016,
+33(3): 9−15.
+[2] ZHANG Limao, WU Xianguo, ZHU Hongping, et al.
+Perceiving safety risk of buildings adjacent to tunneling
+excavation: an information fusion approach[J].
+Automation in Construction, 2017, 73: 88−101.
+[3] 龚珍 . 地铁隧道施工对邻近建筑物的风险评估与控制
+研究[D]. 西安: 西安工业大学, 2020.
+GONG Zhen. Study on risk assessment and control of
+subway tunnel construction to adjacent buildings[D].
+Xi’an: Xi’an Technological University, 2020.
+[4] 王南昌 . 基于砂卵石地层的盾构穿越风险管理与研究
+[D]. 北京: 北京交通大学, 2020.
+WANG Nanchang. Risk management and research of
+shield tunneling based on sandy pebble stratum[D].
+Beijing: Beijing Jiaotong University, 2020.
+[5] WANG Hailin, LIU Yuan, JIANG Yuan, et al. A novel
+approach for risk assessment of building damage via
+metro tunnel construction[J]. Advances in Civil
+Engineering, 2022, 2022: 1-15.
+[6] 阮永芬, 张虔, 乔文件, 等 . 基于 C-V-T 模型的盾构穿越
+既 有 桥 梁 施 工 风 险 评 估 [J]. 岩 土 力 学 , 2023, 44(2):
+552−562.
+RUAN Yongfen, ZHANG Qian, QIAO Wenjian, et al.
+Construction risk assessment of shield crossing existing
+bridge based on C-V-T model[J]. Rock and Soil
+Mechanics, 2023, 44(2): 552−562.
+384
+
+
+第 1 期 樊燕燕,等:盾构施工诱发临近桥梁安全风险评价
+[7] 陈仁朋, 王志腾, 吴怀娜, 等 . 基于 FAHP 法和区间数改
+进 TOPSIS 法的盾构隧道下穿建筑物风险评估[J]. 上海
+交通大学学报, 2022, 56(12): 1710−1719.
+CHEN Renpeng, WANG Zhiteng, WU Huaina, et al. Risk
+assessment for shield tunneling beneath buildings based
+on interval improved TOPSIS method and FAHP metho
+[J]. Journal of Shanghai Jiao Tong University, 2022,
+56(12): 1710−1719.
+[8] 张海彦, 何平, 胡友刚, 等 . 盾构隧道穿越既有混凝土桥
+梁结构的风险控制指标[J]. 中国铁道科学, 2014, 35(3):
+47−55.
+ZHANG Haiyan, HE Ping, HU Yougang, et al. Risk
+control values of shield tunnel crossing existing concrete
+bridge structure[J]. China Railway Science, 2014, 35(3):
+47−55.
+[9] 李兆平, 汪挺, 项彦勇, 等 . 北京地铁工程邻近桥桩施工
+风险评估及控制对策探讨[J]. 岩土力学, 2008, 29(7):
+1837−1842.
+LI Zhaoping, WANG Ting, XIANG Yanyong, et al. A
+study on risk grade classification method and disposal
+measures for adjacent bridge piles in Beijing metro
+engineering[J]. Rock and Soil Mechanics, 2008, 29(7):
+1837−1842.
+[10] 刘天雄, 陈辉华, 李瑚均 . 复合地层盾构施工安全影响
+因素及安全事故致因机理[J]. 铁道科学与工程学报,
+2020, 17(1): 266−272.
+LIU Tianxiong, CHEN Huihua, LI Hujun. Research on
+safety impact factors and safety accident causation
+mechanism of subway shield construction in mix-ground
+[J]. Journal of Railway Science and Engineering, 2020,
+17(1): 266−272.
+[11] 国家铁路局 . 铁路隧道设计规范: TB 10003—2016[S].
+北京: 中国铁道出版社, 2016.
+National Railway Administration of the People’s
+Republic of China.Code for design of railway tunnels:TB
+10003—2016[S]. Beijing: China Railway Press, 2016.
+[12] 中华人民共和国交通运输部 . 公路桥涵设计通用规范:
+JTG D60—2015[S]. 北京: 人民交通出版社,2015.
+Ministry of Transport of the People’s Republic of China.
+General code for design of highway Bridges and culverts:
+JTG D60—2015[S]. Beijing: China Communications
+Press, 2015.
+[13] 孙彬, 于海霞, 刘丙军 . 基于改进 CRITIC 法的梅州市韩
+江区域初始水权分配[J]. 水电能源科学, 2022, 40(9):
+61−65.
+SUN Bin, YU Haixia, LIU Bingjun. Initial water rights
+allocation in Hanjiang district of Meizhou city based on
+improved CRITIC method[J]. Water Resources and
+Power, 2022, 40(9): 61−65.
+[14] 陈宁, 陈傲杰 . 基于博弈变权−可拓云模型的城市道路
+应急能力综合评价研究[J]. 武汉理工大学学报, 2022,
+44(12): 44−53.
+CHEN Ning, CHEN Aojie. Comprehensive evaluation of
+urban road emergency capacity based on game variable
+weight-extension cloud model[J]. Journal of Wuhan
+University of Technology, 2022, 44(12): 44−53.
+[15] 陈学喜, 戚志刚, 丁福东, 等 . 基于变权理论的普速铁路
+开行动车组风险评估[J]. 铁道建筑, 2022, 62(6): 68−71.
+CHEN Xuexi, QI Zhigang, DING Fudong, et al. Risk
+assessment of operating EMU on common speed railway
+based on variable weight theory[J]. Railway Engineering,
+2022, 62(6): 68−71.
+[16] 中华人民共和国交通运输部 . 公路桥梁和隧道工程施
+工安全风险评估指南[M]. 北京: 人民交通出版社, 2011.
+Ministry of Transport of the People’s Republic of China.
+Safety risk assessment guide for highway bridge and
+tunnel engineering construction[M]. Beijing: China
+Communications Press, 2011.
+(编辑 蒋学东)
+385

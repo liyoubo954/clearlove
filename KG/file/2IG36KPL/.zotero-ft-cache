@@ -1,0 +1,777 @@
+长距离输水隧洞盾构法施工风险事件路径预测
+李强 1,李子阳 1,王长生 2,许林军 2,靳文超 2
+(1. 南京水利科学研究院 水文水资源与水利工程科学国家重点实验室, 南京 210029;
+2. 西霞院水利枢纽输水及灌区工程建设管理局, 郑州 450008)
+摘要:对长距离输水隧洞盾构施工可能的风险路径进行预测分析,对保障隧洞工程安全施工具有重要作用。基于
+大量盾构施工风险事故统计分析,提取隧洞工程盾构施工风险致因指标,利用解释结构模型对盾构施工风险因素
+进行因果层次关系分析和网络拓扑图构建;建立基于贝叶斯网络的盾构施工风险事件预测模型,运用贝叶斯网络
+的反向诊断推理技术计算风险事件发生的最大可能路径,确定导致盾构施工风险事件的关键因素;将所得的风险
+预测模型应用到西霞院灌区工程穿沁隧洞盾构施工项目中。结果表明,模型运算得到的风险事故路径与工程现
+阶段实际施工情况 一致,验证模型的可靠性与适用性,并根据风险事故路径预测结果为穿沁隧洞后续施工的风险
+隐患排查治理提供指导意见。
+关键词:盾构施工;风险路径;解释结构模型;贝叶斯网络;反向诊断
+中图分类号:TV512 文献标志码:A 开放科学(资源服务)标识码(OSID):
+我国水资源空间分布不均,总体呈南多北少[1],
+跨流域调水工程是调配水资源空间分布的重要基
+础设施,隧洞工程是长距离调水工程的重要组成部
+分。盾构法作为一种新兴工艺逐渐应用于长距离
+隧洞工程施工[2],但盾构法施工是一个复杂的系统
+过程[3],受到多种风险因素的制约,施工风险事故时
+有发生,导致工期延误的同时也带来了生命财产损
+失
+[4]。研究盾构法在隧洞工程施工过程的风险事件
+发生路径,可帮助管理者及时规避施工风险,有效
+管控隧洞工程施工进度,对提高盾构施工安全管理
+具有重要意义。
+国内外学者针对隧洞工程施工中的突水、溶洞
+等地质风险及盾构施工风险预测进行研究。李术
+才等[5] 利用岩溶突涌水灾害的 7 个影响因素建立隧
+洞施工突水风险评价模型,采用综合赋权法进行突
+水风险指标的权重分析,构建了一种可定量的属性
+区间评价理论与方法。章龙管等[6] 分析了盾构机在
+运行中产生的大量施工参数和报警数据,研究了隧
+洞施工重要风险与盾构机故障报警数据之间的关
+联,采用故障树和贝叶斯网络建立了盾构机风险预
+测模型,可通过盾构机故障对后续施工可能发生的
+风险事件进行预测。Li 等[7] 综合运用地质分析、三
+维激发极化与地震超前地质预报方法,提出了适用
+于 TBM 隧洞施工的综合超前地质预报技术体系,
+可对 TBM 施工隧洞掌子面前方的溶洞、断层破碎
+带等不良地质进行准确预报。Chung 等[8]考虑了地
+质风险因素和 TBM 类型建立了一种基于贝叶斯网
+络的盾构 TBM 风险分析模型,并系统分析了意外
+风险事件导致项目进度延迟的原因。综合来看,现
+有的隧洞盾构法施工进度风险管理研究尚不完善,
+收稿日期:2022-07-05 修回日期:2022-08-25 网络出版时间:2022-09-28 网络出版地址:https://kns.cnki.net/kcms/detail/13.1430.TV.20220926.0900.001.html
+基金项目:国家重点研发计划项目(2021YFB3900603);中央级公益性科研院所基本科研业务费专项资金项目(Y721009) 作者简介:李强(1997 一),男,山西吕梁人,主要从事水工结构风险评估研究。E-mail:799624513@qq.com 通信作者:李子阳(1983 一),男,安徽亳州人,正高级工程师,博士,主要从事水利工程安全监控、健康诊断与风险管理研究。E-mail:zyli@ nhri.cn
+第 20 卷 第 5 期 南 水 北 调 与 水 利 科 技( 中 英 文 ) Vol. 20 No. 5 2022 年 10 月 South-to-North Water Transfers and Water Science & Technology Oct. 2022
+DOI:10.13476/j.cnki.nsbdqk.2022.0099
+李强,李子阳,王长生,等. 长距离输水隧洞盾构法施工风险事件路径预测[J]. 南水北调与水利科技(中英文),2022,20(5):999-1009. LI Q,LI Z Y,WANG C S,et al. Prediction of risk event path for shield tunneling of long-distance water conveyance tunnel[J]. South-toNorth Water Transfers and Water Science & Technology,2022,20(5):999-1009. (in Chinese)
+·999·
+
+
+还存在如下局限性:一是未考虑引水隧洞盾构法施
+工风险因素之间的关联性;二是现有研究成果多基
+于地铁和交通隧道,对于水利工程长距离引水隧洞
+施工技术及风险管理的差异性没有考虑。
+针对现有研究的局限性,以水利工程引调水工
+程中的长距离输水隧洞盾构法施工为研究对象,对
+已收集的引水隧洞施工案例资料进行统计。在对
+盾构施工风险事件统计分析的基础上,利用解释结
+构模型建立风险因素和风险事件之间的关联性,利
+用贝叶斯网络预测风险事件发生的最大可能路径,
+并对典型长距离输水隧洞工程−穿沁隧洞的施
+工风险状况进行验证分析,为其后续施工安全提供
+必要支撑。
+1 盾构施工风险因素网络拓扑图的构建
+1.1 盾构施工风险因素和风险事件提取
+引水隧洞工程施工过程中由于盾构致使周围土
+体的初始应力释放,土体内部的应力进行重新分布,
+除此之外,引水隧洞还有较大的地下水压力作用,
+这些都会导致隧洞受力情况复杂,使其存在巨大风
+险
+[9]。其风险特点为:风险具有“多米诺骨牌”效应,
+引水隧洞工程施工中,各风险因素和风险事件之间
+是相互关联的,一种风险因素出现,可能会导致多
+种风险事件同时发生,产生“多米诺骨牌”效应;风
+险概率高,不同的引水隧洞所处的地质条件、气候
+条件以及施工设备等因素都存在差异,因此一个引
+水隧洞工程很难找到同类可借鉴的工程实例,风险
+事件难以预测,导致施工过程中风险事故发生概率
+较高;风险损失严重,引水隧洞工程资金投入大,危
+险性高,一旦风险因素演变成风险事故,通常会
+带来巨大的经济损失,甚至人员伤亡,尤其是发生
+突水涌水事故时,有可能造成隧洞塌方,带来严重
+后果[10]。
+结合已有隧洞工程盾构施工风险因素分析成
+果
+[11-19],从人为风险、机器设备风险、材料风险、施
+工技术风险、环境风险 5 个方面总结提炼出盾构施
+工的 30 个风险因素以及可能引起的 20 种风险事件,
+见表 1。
+1.2 解释结构模型法
+解 释 结 构 模 型 法[20]( interpretative structural
+modeling method, ISM) 于 1976 年 由 美 国 科 学 家
+Warfield 提出并用于解决复杂性问题,是现代系统
+工程中广泛应用的一种分析方法,是结构模型化技
+术的一种。ISM 在不损失系统功能的前提下给出最
+简的、层次化的拓扑图,展示效果直观,通过层级图
+可以直接了解系统因素的因果层次,阶梯结构相较
+于表格、文字、数学公式等方式在描述系统的本质
+方面具有极大优势。其步骤如下:
+分析一个有 n 个因素 X1,X2,···,Xn 构成的系统
+X,T 为该系统目标事件。
+A = [ai j
+]
+n×n ai j = 1
+Xi X j ai j = 0 Xi
+Xj
+第一步:确定因素之间的直接作用和间接作用,
+构造邻接矩阵 ,矩阵中 则表示因素
+到因素 之间存在路径, 则表示因素 到因
+素 之间不存在路径。
+RA = [ri j
+]
+n×n
+第二步:运用布尔逻辑运算,计算得到邻接矩
+阵 A 的可达矩阵 。
+布尔运算公式为
+R = (I ∪ A)n (1)
+式中:I 为 n 阶单位方阵。
+第三步:对可达矩阵进行层次化处理,按照每行
+表 1 隧洞工程盾构施工风险因素 Tab. 1 Risk factors of shield tunneling
+风险类别 风险致因指标 风险事件
+人为风险A A1.施工人员技术不足;A2.人员安排不合理;A3.管理及
+操作人员培训不到位;A4.设计方案存在缺陷
+R11.工程补救;R12.人员培训;R13.返工;R14.撤换管理人 员;R15.撤换施工人员;R16.修改施工方案
+机械设备风险B
+B1.大型施工机械的安装、运行及拆卸不规范;B2.起重 机械设备自身的安装、拆卸作业不规范;B3.盾构机机 尾密封失效;B4.盾构机油缸系统故障;B5.刀盘磨损; B6.隧洞运输设备故障;B7.通风系统故障
+R21.机械伤害;R22.机械设备故障影响影响施工进度
+材料风险C C1.管片质量不满足要求;C2.材料供应不及时;C3.材料
+搬运损坏;C4.材料错误使用 R31.更换材料;R32.材料检验;R33.返工
+施工技术风险D
+D1.泥水仓压力控制不当;D2.洞室支护达不到要求;D3. 始发接收架安装不合理;D4.模板支撑工程不满足要求; D5.注浆压力不合理
+R41.人身伤害;R42.塌方;R43.地面隆起
+环境风险E E1.粉尘;E2.有毒气体;E3.不良地质段;E4.地层变形;E5.
+地下水位较高
+R51.人身伤害;R52.塌方;R53.突涌水;R54.地面沉降;R55. 姿态偏差;R56.卡护盾;R57.卡刀盘
+第 20 卷 第 5 期 南水北调与水利科技(中英文) 2022 年 10 月
+·1000·
+
+
+“1”个数的多少从前到后重新排列矩阵,重新排列
+的矩阵为倒三角矩阵,从矩阵的左上到右下依次找
+出最大单位矩阵,逐步形成不同层次的要素集合。
+第四步:层级划分,建立结构模型。
+1.3 盾构施工风险因素网络拓扑图
+对于机械设备风险 B 和施工技术风险 D,由于
+其各风险因素和风险事件之间不存在交叉关联性[21],
+故在识别过程中运用设备各子系统识别与技术分
+析直接建立层次关系,其结果见图 1、图 2。
+机械设备风险 B
+R21
+B1 B2 B3 B4 B5 B6 B7
+R22
+图 1 机械设备风险因素网络拓扑图
+Fig. 1 Network topology of mechanical equipment risk factors
+施工技术风险 D
+R42
+D1 D2 D3 D4 D5
+R41 R43
+图 2 施工技术风险因素网络拓扑图
+Fig. 2 Network topology of construction technology risk factors
+对于人为风险、材料风险和环境风险,影响因
+素存在交叉关联性,则利用解释结构模型(ISM)分
+别建立各风险致因指标与风险事件之间的层次关
+系。受篇幅限制,只列出人为风险的层级关系计算
+步骤,材料风险和环境风险直接给出结果。
+根据 ISM 法的第一步建立邻接矩阵 A,邻接矩
+阵 A 的行向量从左到右与列向量从上到下对应的
+元素均为 A1、A2、A3、A4、R11、R12、R13、R14、R15、R16,
+将风险致因指标与风险事件放入同一矩阵,计算出
+风险致因指标和风险事件相互关系的同时也能确
+定出风险事件之间的层次关系。
+R1 =
+■||||||||||||||||||||||||||||||||||||||||■
+1000110010 0100111010 0010110100 0001111001 0000100000 0000010000 0000001000 0000010100 0000000010 0000110001
+■||||||||||||||||||||||||||||||||||||||||■
+根据 ISM 法 第 二 步 , 计 算 出 可 达 矩 阵 RA。
+RA =
+■||||||||||||||||||||||||||||||||||||||||■
+1000110010 0100111010 0010110100 0001111001 0000100000 0000010000 0000001000 0000010100 0000000010 0000110001
+■||||||||||||||||||||||||||||||||||||||||■
+对可达矩阵 RA 层级划分,可确定出 3 个层级:
+L1={R11, R12, R13, R15};L2={A1, A2, R14, R16};L3={A3, A4}。
+根据各层级风险因素和事件的关系,建立人为风险
+因素网络拓扑图,见图 3。
+人为风险 A
+R11 R12 R13 R15
+R14
+A1 A2
+A3 A4
+R16
+图 3 人为风险因素网络拓扑图
+Fig. 3 Network topology of human risk factors
+材料风险和环境风险因素网络拓扑图如图 4 和
+图 5。
+材料风险 C
+R32 R33
+R31
+C2
+C1 C3 C4
+图 4 材料风险因素网络拓扑图
+Fig. 4 Network topology of material risk factors
+环境风险 E
+R51 R53 R55 R56 R57
+R54
+E5
+E2
+E1 R52
+E3 E4
+图 5 环境风险因素网络拓扑图
+Fig. 5 Network topology of environmental risk factors
+李强,等 长距离输水隧洞盾构法施工风险事件路径预测
+·1001·
+
+
+将得到的各风险因素网络拓扑图合并,得到盾
+构施工风险因素网络拓扑图,见图 6。
+D1 D2 D3 D4 D5
+R42
+R21
+R22
+B1
+B2
+B3
+B4
+B5
+B6
+B7
+R41
+R32
+R33
+R31
+R43
+材料风 险C
+施工技术 风险 D
+机械设 备风险 B
+盾构施 工风险
+C2 C1
+C3 C4
+环境风 险E
+R51 R53 R55 R56 R57
+R54
+E5
+E2
+E1 R52
+E3 E4
+人为风 险A
+R11 R12 R13 R15
+R14
+A1 A2 R16
+A3 A4
+图 6 盾构施工进度风险因素网络拓扑图
+Fig. 6 Network topology of risk factors in shield construction progress
+2 基于贝叶斯网络的隧洞盾构施工风险路
+径预测
+贝叶斯网络又称信度网络,是贝叶斯方法的扩
+展,是目前不确定知识表达和推理领域最有效的理
+论模型之一。贝叶斯网络对于解决事件的多态性
+和逻辑关系不确定的大型复杂问题具有很强的优
+势,在风险分析、事故致因分析及事故预测等领域
+得 到 广 泛 应 用[6]。 基 于 贝 叶 斯 网 络 理 论 原 理 [22], 借
+助历史工程案例统计结果[23-25]、专家主观经验和客
+观数据,利用软件 GeNIe4.0 计算,通过分析计算结
+果得出盾构施工风险的最大致因链。
+2.1 确定贝叶斯网络参数
+通过专家经验和参考文献[6,19] 得出风险因素各
+等级的概率分布,以此作为先验概率,其结果见表 2,
+表中为了减小联合概率分布的计算量,简化先验概
+率和条件概率的计算,将风险因素和风险事件等级
+分为 4 级:I级为可忽略风险;II级为可接受风险;
+III级为不愿接受风险;IV级为不能接受风险。例如
+风险因素 A1 施工人员技术不足,通过对收集的资料
+进行统计分析得出:该风险因素是可忽略风险的概
+率为 0.89,是可接受风险的概率为 0.11,是不愿接受
+风险和不能接受风险的概率为 0。 表 2 风险因素的先验概率 Tab. 2 Prior probability of risk factors
+代号 风险因素 概率分布级别
+IIIIIIIV
+A1 施工人员技术不足 0.89 0.11 0 0
+A2 人员安排不合理 0.91 0.08 0.01 0
+A3 管理及操作人员培训不到位 0.98 0.02 0 0
+A4 设计方案存在缺陷 0.52 0.45 0.02 0.01
+B1 大型施工机械的安装、运行及拆卸不规范 0.58 0.20 0.02 0
+B2 起重机械设备自身的安装、拆卸作业不规范 0.58 0.20 0.02 0
+B3 盾构机机尾密封失效 0.50 0.30 0.10 0.10
+B4 盾构机油缸系统故障 0.40 0.30 0.20 0.10
+B5 刀盘磨损 0.40 0.30 0.20 0.10
+B6 隧洞运输设备故障 0.45 0.35 0.15 0.02
+B7 通风系统故障 0.50 0.32 0.16 0.02
+C1 管片质量不满足要求 0.70 0.28 0.02 0
+C2 材料供应不及时 0.75 0.23 0.01 0.01
+C3 材料搬运损坏 0.79 0.19 0.02 0
+C4 材料错误使用 0.95 0.05 0 0
+D1 泥水仓压力控制不当 0.84 0.12 0.03 0.01
+D2 洞室支护达不到要求 0.76 0.21 0.02 0.01
+D3 始发接收架安装不合理 0.69 0.29 0.01 0.01
+D4 模板支撑工程不满足要求 0.72 0.24 0.04 0
+D5 注浆压力不合理 0.54 0.45 0.01 0
+E1 粉尘 0.60 0.38 0.01 0.01
+第 20 卷 第 5 期 南水北调与水利科技(中英文) 2022 年 10 月
+·1002·
+
+
+风险事件的各等级概率已有工程资料统计分析,
+其结果作为条件概率,在有 n 个节点每个节点有 4
+个等级的贝叶斯网络模型中,若某一结点有 m 个根
+节点,则条件概率表中有 n×4m+1 个概率值,条件概
+率表数据量巨大,所以本文只列出 A3-R14-R12 的计算
+结果,见表 3。表 3 的数据表示 A3 分别在 4 种等级
+时同时对应节点 R14 的 4 种等级情况下的节点 R12
+的条件概率分布情况。
+2.2 贝叶斯网络诊断推理
+采用 GeNIe3.0 软 件 构 建 贝 叶 斯 网 络 模 型 [12]。
+将 先 验 概 率 和 条 件 概 率 作 为 证 据 变 量 输 入到
+GeNIe 中,控制节点“盾构法施工进度风险”的状态
+等级设置为IV级“不能接受风险”,即可反推其他节
+点的后验概率,运算结果见图 7。
+图 7 中节点的致因可能性由后验概率值表现,
+后验概率值越大说明致因可能性越大。由此可以
+看出,当盾构法施工发生IV级风险的情况下,环境
+风险发生IV级风险的概率为 59%,机械设备风险发
+生IV级风险的概率为 27%,而人为风险、材料风险
+和施工技术风险发生IV级风险的概率都很低,这表
+明IV级风险主要由环境风险和机械设备风险导致。
+也可通过有向箭头的粗细判断,有向箭头越粗表示
+表 2(续) Tab. 2 (Continued)
+代号 风险因素 概率分布级别
+IIIIIIIV
+E2 有毒气体 0.71 0.27 0.01 0.01
+E3 不良地质段 0.45 0.47 0.07 0.01
+E4 地层变形 0.55 0.40 0.03 0.02
+E5 地下水位较高 0.54 0.40 0.05 0.01
+表 3 A3-R14-R12 条件概率
+Tab. 3 A3-R14-R12 conditional probability
+A3为I级时 A3为II级时 A3为III级时 A3为IV级时
+R14等级 R12等级 R12概率 R14等级 R12等级 R12概率 R14等级 R12等级 R12概率 R14等级 R12等级 R12概率
+I
+I 0.286
+I
+I 0.284
+I
+I 0.286
+I
+I 0.288
+II 0.254 II 0.256 II 0.254 II 0.252
+III 0.248 III 0.244 III 0.248 III 0.246
+IV 0.212 IV 0.216 IV 0.212 IV 0.214
+II
+I 0.218
+II
+I 0.216
+II
+I 0.218
+II
+I 0.216
+II 0.305 II 0.307 II 0.305 II 0.307
+III 0.243 III 0.241 III 0.243 III 0.241
+IV 0.234 IV 0.236 IV 0.234 IV 0.236
+III
+I 0.338
+III
+I 0.338
+III
+I 0.339
+III
+I 0.336
+II 0.260 II 0.260 II 0.250 II 0.262
+III 0.210 III 0.210 III 0.220 III 0.208
+IV 0.192 IV 0.192 IV 0.191 IV 0.194
+IV
+I 0.255
+IV
+I 0.253
+IV
+I 0.257
+IV
+I 0.253
+II 0.285 II 0.288 II 0.283 II 0.287
+III 0.246 III 0.247 III 0.244 III 0.248
+IV 0.214 IV 0.212 IV 0.216 IV 0.212
+李强,等 长距离输水隧洞盾构法施工风险事件路径预测
+·1003·
+
+
+越容易致使事件的发生,由此可以判断出最大致因
+链有:盾构机机尾密封失效(盾构机油缸系统故障、
+刀盘磨损)−盾构机故障−机械设备风险−盾构法
+施工风险;不良地质段−地面沉降−姿态偏差−环
+境风险−盾构法施工风险;废弃暗井−塌方−人身
+伤害(卡刀盘、卡护盾)−环境风险−盾构法施工风
+险;废弃暗井−地面沉降−姿态偏差−环境风险−
+盾构法施工风险;废弃暗井−塌方−人身伤害(卡
+刀盘、卡护盾)−环境风险−盾构法施工风险。由
+此可见,本模型实现了风险因素对后续施工的风险
+及发展趋势进行预判,当风险因素发生概率过高时,
+应加以重点监控,及时防范对应风险的发生。
+3 案例分析
+3.1 工程概况
+西霞院灌区工程穿沁隧洞全长 2.85 km(其中隧
+洞段长 2.646 km),洞身下穿堤防和沁河,采用泥水
+盾构法施工。该隧洞地质条件复杂,场地类别为
+II类,围岩工程地质分类为 V 类,主要存在洞室围
+岩稳定性差、砂土液化、大变形、扰动变形等问题。
+同时,场区地下水位较高,且穿越沁河河床及漫滩,
+隧道全线位于地下水位以下,地下水对隧洞施工带
+来很大的安全隐患,地下水位下降会引起地层固结
+B5
+B3
+B6
+B1
+C2
+C3
+C4 C1 A1
+A2
+A4
+B2
+B7 B4 D5 E1
+E3
+E2
+E4
+E5 A3
+D2 D1 D4 D3
+施工技术风险 D
+机械设备风险 B
+材料风险 C
+环境风险 E
+人为风险 A
+图 7 贝叶斯网络学习结果
+Fig. 7 Bayesian network learning results
+第 20 卷 第 5 期 南水北调与水利科技(中英文) 2022 年 10 月
+·1004·
+
+
+沉降,影响既有堤防、建筑物基础及地下管线管道,
+导致堤防、周边建筑物、地下管线等的不均匀沉降
+甚至破坏。因此,穿沁隧洞盾构施工风险控制要求
+高、难度大,采用基于贝叶斯网络的隧洞盾构施工
+风险预测模型进行风险评估,同时根据施工实际情
+况验证模型的适应性。
+3.2 贝叶斯网络节点概率统计
+根据穿沁隧洞盾构施工现场的隐患排查治理记
+录,通过专家分析,统计出了人为风险、机器设备风
+险、材料风险、施工技术风险、环境风险各因素指
+标发生的概率,见表 4(由于部分风险因素并未在施
+工现场发现,概率为 0,表中不予列出)。
+3.3 隧洞施工风险路径预测
+将实际盾构工程施工中获得的节点概率用于贝
+叶斯模型中,得到的结果见图 8。
+表 4 穿沁隧洞盾构施工风险发生概率统计
+Tab. 4 Probability statistics of shield construction risk of Chuanqin Tunnel
+风险等级 A1 B2 B3 B4 B5 C2 C4 D1 D5 E3 E4 E5
+I 1.00 1.00 0.90 0.95 0.85 1.00 0.95 0.85 0.85 0.50 0.95 0.90
+II 0 0 0.10 0.05 0.15 0 0.05 0.15 0.15 0.30 0.05 0.10
+III 0 0 0 0 0 0 0 0 0 0.20 0 0
+IV 000000000000
+B4 B5
+B3
+C2
+C4 A1
+B2
+E5
+E3
+D1 D5
+机械设备风险 B 施工技术风险 D
+材料风险 C 环境风险 E
+人为风险 A
+图 8 穿沁隧洞施工风险贝叶斯网络学习结果
+Fig. 8 Bayesian network learning results of construction risk of Chuanqin tunnel
+李强,等 长距离输水隧洞盾构法施工风险事件路径预测
+·1005·
+
+
+根据贝叶斯网络学习结果,可以看出穿沁隧洞
+盾构施工风险主要为I级风险,II级风险主要由机
+械设备风险和环境风险引起,III级风险主要由环境
+风险中的不良地质段引起,发生IV级风险的概率为 0。
+其 风 险 最 大 致 因 链 为 : 不 良 地 质 段−地 面 沉 降 −
+姿态偏差−环境风险−盾构法施工风险;不良地质
+段−塌方−人身伤害−环境风险−盾构法施工风
+险;不良地质段−塌方−卡刀盘−环境风险−盾构
+法施工风险;不良地质段−塌方−卡护盾−环境风
+险−盾构法施工风险。
+根据隧洞工程实际情况,盾构机在该村落地下
+掘进时发生 3 处塌陷坑,塌陷坑周边约 10 m 范围内
+地面明显沉降,引起附近道路、房屋发生不同程度
+变形开裂。塌陷坑和地面沉降的原因是隧洞工程
+附近存在 3 口暗井,井深 60 m 左右,暗井曾经为本
+地村民生活用水取水井。因长期抽取地下水的同
+时抽走了地层中细颗粒土体和粉细砂,暗井周围地
+层较为松散或存在空洞,盾构掘进过程中穿越这部
+分地层时,距离隧洞较近的暗井对隧洞受力产生较
+大影响,使泥水仓突然泄压引起附近土层变形,导
+致洞顶地面沉降,附近房屋局部变形、墙体开裂、门
+楼坍塌等。为避免盾构机停机导致沉降进一步发
+展,且停机易引起刀头抱死,使工程安全风险加大,
+在采取对地层提前注浆加固以及变形观测等措施
+的基础上,盾构机继续实施掘进。同时采用地质雷
+达对尚未到达的下穿地段是否存在暗井或空洞进行
+勘探,根据勘探情况,对发现的暗井或空洞进行回
+填封堵;沿隧洞轴线对洞顶按每隔 10 m 左右进行地
+面袖阀管注浆预加固,注浆采用双液浆。因为风险
+事件路径预测及时准确,与施工记录一致,对后续
+地段处理得当,在后续施工中没有发生类似事故,也
+验证了风险路径预测模型的可靠性和工程适应性。
+4 结论
+引水隧洞施工周期长,风险事件不易预测,为了
+降低施工风险事故,采用解释结构模型和贝叶斯模
+型相结合的方法对隧洞盾构法施工风险事件路径
+进行预测,主要结论如下:
+建立隧洞盾构施工风险路径预测模型。通过解
+释结构模型确定影响隧洞盾构施工进度的各风险
+事件之间的关联,建立贝叶斯网络模型,形成通过
+隧洞盾构施工风险因素对隧道盾构施工风险事件
+其发展趋势进行预测的有效方法。
+验证该模型的可靠性与适用性。通过对穿沁隧
+洞工程盾构施工项目的应用,得到的风险致因链预
+测结果与实际施工情况一致,该模型可为管理者提
+供实时决策支持。
+模型可以直接应用于施工情况大体相似的引水
+隧洞盾构工程中;而对于不同情况,如特殊地质条
+件、不同盾构机等情况,需要对模型的部分参数进
+行适当改变,但本文建立的模型以及计算流程均
+适用。
+对引水隧道盾构施工风险事件路径进行预测,
+可以帮助管理人员有效控制工程风险,并根据工程
+风险的发生情况提前制定预防措施,为引水隧洞施
+工管理提供合理的科学依据,对隧洞盾构施工风险
+防范具有指导意义和应用价值。
+参考文献(References):
+关炜. 南水北调工程关键技术研究进展[J]. 人民长
+江, 2022, 53(1):167-174,181. (GUAN W. Summary
+on key technology research progress of South-to
+North Water Diversion Project[J]. Yangtze River,
+2022, 53(1): 167-174,181. ( in Chinese) ) DOI: 10.
+16232/j.cnki.1001-4179.2022.01.026.
+[1]
+熊自明, 卢浩, 王明洋, 等. 我国大型岩土工程施工安
+全风险管理研究进展[J]. 岩土力学, 2018, 39(10):
+3703-3716. (XIONG Z M, LU H, WANG M Y, et al.
+Research progress on safety risk management for large
+scale geotechnical engineering construction in
+China[J]. Rock and Soil Mechanics, 2018, 39(10):
+3703-3716. (in Chinese)) DOI: 10.16285/j.rsm.2017.
+2138.
+[2]
+郑清君, 仲生星. 南水北调中线穿黄隧洞工程的技术
+难点分析和对策[J]. 隧道建设, 2013, 33(5):398
+406. ( ZHENG Q J, ZHONG S X. Analysis on and
+countermeasures for technical difficulties in construc
+tion of Yellow River crossing tunnel on central route
+of South-to-North Water Transfer Project[J]. Tunnel
+Construction, 2013, 33(5): 398-406. ( in Chinese) )
+DOI: 10.3973/j.issn.1672-741X.2013.05.012.
+[3]
+汪伦焰, 王若腾, 赵荣生. 水工盾构隧道施工安全风
+险综合评价与判定[J]. 人民黄河, 2021, 43(5):142
+148. (WANG L Y, WANG R T, ZHAO R S. Study on
+comprehensive evaluation and judgment of shield tun
+[4]
+第 20 卷 第 5 期 南水北调与水利科技(中英文) 2022 年 10 月
+·1006·
+
+
+neling safety risk in hydraulic engineering[J]. Yel
+low River, 2021, 43(5):142-148. (in Chinese)) DOI:
+10.3969/j.issn.1000-1379.2021.05.28.
+李术才, 周宗青, 李利平, 等. 岩溶隧道突水风险评价
+理论与方法及工程应用[J]. 岩石力学与工程学报,
+2013, 32(9):1858-1867. (LI S C, ZHOU Z Q, LI L P,
+et al. Risk evaluation theory and method of water in
+rush in karst tunnels and its applications[J]. Chinese
+Journal of Rock Mechanics and Engineering, 2013, 32
+(9): 1858-1867. ( in Chinese) ) DOI: 10.3969/j.issn.
+1000-6915.2013.09.018.
+[5]
+章龙管, 刘绥美, 李开富, 等. 基于故障树与贝叶斯网
+络的地铁盾构施工风险预测[J]. 现代隧道技术,
+2021, 58(5):21-29,55. (ZHANG L G, LIU S M, LI K
+F, et al. Prediction of shield construction risks in sub
+way tunnelling based on fault tree and Bayesian net
+work[J]. Modern Tunnelling Technology, 2021,
+58(5):21-29,55. (in Chinese)) DOI: 10.13807/j.cnki.
+mtt.2021.05.003.
+[6]
+LI S C, NIE L C, LIU B. The practice of forward
+prospecting of adverse geology applied to hard rock
+tbm tunnel construction: The case of the Songhua Riv
+er water conveyance project in the middle of Jilin
+Province[J]. Engineering, 2018, 4(1):281-294. DOI:
+10.1016/j.eng.2017.12.010.
+[7]
+CHUNG H Y, LEE I M, JUNG J H, et al. Erratum to:
+Bayesian networks-based shield TBM risk manage
+ment system: Methodology development and applica
+tion[J]. KSCE Journal of Civil Engineering, 2019, 23
+(8):3735. DOI: 10.1007/s12205-019-0912-6.
+[8]
+郭卫社, 粱奎生, 游永峰. 台山核电越海盾构隧洞主
+要风险及措施研究[J]. 现代隧道技术, 2015, 52(6):
+195-202. (GUO W S, LIANG K S, YOU Y F. Study
+of the main risks and countermeasures for the sea
+crossing shield tunnel of the Taishan nuclear power
+station[J]. Modern Tunnelling Technology, 2015, 52
+(6):195-202. (in Chinese)) DOI: 10.13807/j.cnki.mtt.
+2015.06.029.
+[9]
+郝继锋, 李明新. 冷冻封水技术在南水北调中线穿
+黄隧洞盾构始发中的应用[J]. 南水北调与水利科
+技, 2008, 6(6):13-15. (HAO J F, LI M X. Freezing
+technology application in the beginning of TBM for
+[10]
+the project of Yellow River crossing tunnel in the
+South-to-North Water Diversion Middle Route[J].
+South-to-North Water Transfers and Water Science
+& Technology, 2008, 6(6): 13-15. ( in Chinese) )
+DOI: 10.13476/j.cnki.nsbdqk.2008.06.032.
+仲生星, 李荣智. 穿黄隧洞工程泥水盾构掘进施工
+技术[J]. 人民长江, 2011, 42(8):70-76. (ZHONG S
+X, LI R Z. Tunneling construction technology by
+slurry shield machine[J]. Yangtze River, 2011,
+42(8): 70-76. ( in Chinese) ) DOI: 10.16232/j.cnki.
+1001-4179.2011.08.014.
+[11]
+LIU B, WANG Y Z, NIU M T. Risk analysis and
+control in the Yellow River-crossing tunnel of South
+to-North Water Diversion East Line[J]. Applied Me
+chanics and Materials, 2013, 2546(717):2655-2658.
+DOI: 10.4028/www.scientific.net/AMM.357-360.26
+55.
+[12]
+CHEN Z Y, ZHANG Y P, LI J B, et al. Diagnosing
+tunnel collapse sections based on TBM tunneling big
+data and deep learning: A case study on the Yinsong
+Project, China[J]. Tunnelling and Underground
+Space Technology, 2021, 108(Feb): 103700.1
+103700.10. DOI: 10.1016/J.TUST.2020.103700.
+[13]
+HUANG M S, LI Y H, SHI Z H , et al. Face stability
+analysis of shallow shield tunneling in layered
+ground under seepage flow[J]. Tunnelling and Un
+derground Space Technology Incorporating Trench
+less Technology Research, 2022(119):104201. DOI:
+10.1016/J.TUST.2021.104201.
+[14]
+ZHAI J L, WANG Q, YUAN D Y, et al. Clogging
+risk early warning for slurry shield tunneling in
+mixed mudstone gravel ground: A real-time self-up
+dating machine learning approach[J]. Sustaina
+bility, 2022, 14(3):1-21. DOI: 10.3390/SU14031368.
+[15]
+LI X G, YANG Y, LI X C, et al. Criteria for cutting
+head clogging occurrence during slurry shield tunnel
+ing[J]. Applied Sciences, 2022, 12(3): 1001. DOI:
+10.3390/APP12031001.
+[16]
+JIN D L, NG Y C H, HAN B Y, et al. Modeling hy
+draulic fracturing and blow-out failure of tunnel face
+during shield tunneling in soft soils[J]. International
+Journal of Geomechanics, 2022, 22(3): 06021041.
+[17]
+李强,等 长距离输水隧洞盾构法施工风险事件路径预测
+·1007·
+
+
+DOI: 10.1061/(ASCE)GM.1943-5622.0002279.
+冯欢欢, 洪开荣, 杨延栋, 等. 极端复杂地质条件下T
+BM隧道施工关键技术研究及应用[J]. 现代隧道技
+术, 2022, 59(1): 42-54. ( FENG H H, HONG K R,
+YANG Y D, et al. Research and application of key
+construction technologies for TBM-driven tunnels
+under extreme complex geological conditions[J].
+Modern Tunnelling Technology, 2022, 59(1):42-54.
+(in Chinese)) DOI: 10.13807/j.cnki.mtt.2022.01.005.
+[18]
+朱莎. 基于层次分析-灰色理论的南水北调中线穿
+黄隧洞施工风险评价研究[D]. 郑州:华北水利水
+电大学, 2017. (ZHU S. The construction risk assess
+ment and research of the Yellow River crossing tun
+nel of the Middle Route Project of South-to-North
+Water Diversion based on AHP and grey theory[D].
+Zhengzhou:North China University of Water Resour
+ces and Electric Power, 2017, (in Chinese))
+[19]
+孟康, 李明达, 周晶. 基于ISM-FT-BN的海底隧道盾
+构施工风险分析[J]. 人民长江, 2021, 52(3):151
+157. (MENG K, LI M D, ZHOU J. Risk analysis on
+submarine tunnel shield construction based on inter
+pretative structural model, fuzzy set theory and
+Bayesian network[J]. Yangtze River, 2021, 52(3):
+151-157. (in Chinese)) DOI: 10.16232/j.cnki.1001
+4179.2021.03.026.
+[20]
+颉芳弟. 基于贝叶斯网络方法的TBM施工项目进
+度风险研究[D]. 兰州:兰州交通大学, 2021. (XIE
+F D. Study on schedule risk of TBM construction pro
+[21]
+ject based on Bayesian network method[D].
+Lanzhou:Lanzhou Jiaotong University, 2021. (in Chi
+nese) ) DOI: 10.27205/d.cnki.gltec.2021.000884.
+ZHAO H B, CHEN B R, LI S J, et al. Updating the
+models and uncertainty of mechanical parameters for
+rock tunnels using Bayesian inference[J]. Geo
+science Frontiers, 2021, 12(5): 101198. DOI: 10.
+1016/J.GSF.2021.101198.
+[22]
+KOSEOGLU BALTA G C, DIKMEN I, BIR
+GONUL M T. Bayesian network based decision sup
+port for predicting and mitigating delay risk in TBM
+tunnel projects[J]. Automation in Construction, 2021:
+129. DOI: 10.1016/J.AUTCON.2021.103819.
+[23]
+陈发达, 吴贤国, 王彦玉, 等. 基于贝叶斯网络的土
+压盾构刀盘失效故障诊断[J]. 土木工程与管理学
+报, 2017, 34(6):57-62, 72. (CHEN F D, WU X G,
+WANG Y Y, et al. Fault diagnosis of cutterhead fail
+ure of earth pressure shield based on Bayesian net
+work[J]. Journal of Civil Engineering and Manage
+ment, 2017, 34(6):57-62, 72. (in Chinese)) DOI: 10.
+13579/j.cnki.2095-0985.2017.06.010.
+[24]
+卢鑫月, 许成顺, 侯本伟, 等. 基于动态贝叶斯网络
+的地铁隧道施工风险评估[J]. 岩土工程学报, 2022,
+44(3):492-501. (LU X Y, XU C S, HOU B W, et al.
+Risk assessment of metro construction based on dy
+namic Bayesian network[J]. Chinese Journal of
+Geotechnical Engineering, 2022, 44(3):492-501. (in
+Chinese)) DOI: 10.11779/CJGE202203011.
+[25]
+Prediction of risk event path for shield tunneling
+of long-distance water conveyance tunnel
+LI Qiang1,LI Ziyang1,WANG Changsheng2,XU Linjun2,JIN Wenchao2
+(1. Nanjing Hydraulic Research Institute,State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering, Nanjing 210029, China;
+2. Water Conservancy and District Engineering Construction Administration of Xixiayuan Water Conservancy Project, Zhengzhou 450008, China)
+Abstract: In order to solve the problems of uneven distribution of water resources, mismatched water and soil
+resources, and serious shortage of water resources, China has launched many long-distance water diversion projects
+during recent years. With the implementation of these projects, a large number of headrace tunnels has also been
+constructed, which is continuously developing and improving the construction methods, and now the shield method
+has gradually become the main construction method of tunnels. As the shield tunneling is a complex system process
+influenced by a variety of risk factors, construction risk accidents occur from time to time, resulting in delays of the
+construction period as well as loss of life and property. Therefore, predicting and analyzing the possible risk path of
+第 20 卷 第 5 期 南水北调与水利科技(中英文) 2022 年 10 月
+·1008·
+
+
+the shield tunneling of long-distance water conveyance tunnel plays an important role in ensuring the safe
+construction of the tunnel project.
+At present, the risk analysis of tunnel shield construction schedule have several limitations. First, the correlation
+between the risk factors of shield tunneling of headrace tunnel is not considered; Secondly, the existing research
+results are mostly based on subway and traffic tunnel, and the differences in construction technology and risk
+management of long-distance headrace tunnel of hydraulic engineering are not considered. This paper takes the
+shield tunneling of long-distance water conveyance tunnel in the water diversion project of hydraulic engineering as
+the research object. Statistical analysis are made on a large number of collected data of water diversion tunnel
+construction cases, and the risk causing indicators and possible risk events are extracted of tunnel engineering shield
+tunneling. By using interpretative structural model, the causal hierarchy analysis and network topology diagram
+construction are conducted. Then a prediction model of shield construction risk events based on Bayesian network is
+established, and the reliability of the model is preliminarily verified through Bayesian network learning.
+Finally, the risk event prediction model obtained has been applied to the shield construction project of Xixiayuan
+Chuanqin Tunnel. The reverse diagnosis reasoning technology of Bayesian network is used to calculate the
+maximum possible path of risk events and determine the key factors leading to risk events in shield construction.
+The results show that the risk accident path calculated by the model is consistent with the actual construction
+situation at the current stage of the project. The reliability and applicability of the model are verified, and according
+to the prediction results of the risk accident path, the guidance is provided for the troubleshooting and governance of
+the risk hidden dangers in the subsequent construction of Chuanqin Tunnel.
+Conclusion: (1) The risk path prediction model of tunnel shield construction is established. Through the
+interpretation of the structural model, the correlation between various risk events that affect the tunnel shield
+construction progress is determined, and then the Bayesian network model is established, forming an effective
+method to predict the development trend of the tunnel shield construction risk events through the tunnel shield
+construction risk factors. (2) The reliability and applicability of the model are verified. Through the application of
+the shield construction project of Chuanqin Tunnel Project, the predicted result of risk causal chain is consistent
+with the actual construction situation, and the model can provide real-time decision support for managers. (3) This
+model can be directly applied to shield tunneling of headrace tunnels with similar construction conditions; for
+different situations, such as special geological conditions and different shield machines, some parameters of the
+model need to be appropriately changed, but the model and calculation process established in this paper are
+applicable.
+Key words: shield construction;risk path;interpretative structural modeling;Bayesian network;reverse diagnosis
+李强,等 长距离输水隧洞盾构法施工风险事件路径预测
+·1009·

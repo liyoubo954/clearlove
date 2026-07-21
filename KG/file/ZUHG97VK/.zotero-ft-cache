@@ -1,0 +1,337 @@
+2022-09-06 U2243223 Y722003 1997
+E-mail 799624513@ qq.com
+【】
+48 172
+“ ” 10 “ ” 150 。
+13 、 570 、
+。
+。
+-。 、
+、、 《
+》。
+1123
+1. 210029
+2. 450008
+3. 221002
+、。 。 WBS-RBS
+。 WBS-RBS TV512 A doi 10.3969 / j.issn.1000-1379.2023.04.21 . J . 2023 45 4 121-125.
+Identification and Analysis of Risk Sources in Shield Tunneling of Diversion Tunnel
+LI Qiang1 LI Ziyang1 XU Linjun2 WANG Yanling3
+1.State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering Nanjing Hydraulic Research Institute Nanjing 210029 China
+2.Water Conservancy and Irrigation Area Engineering Construction Administration of Xixiayuan Water Control Project Zhengzhou 450008 China
+3.Xuzhou Branch of China South to North Water Transfer Group East Line Co. Ltd. Xuzhou 221002 China
+Abstract As the geological environment of the diversion tunnel is changeable and shield construction is a complex construction process the
+risk probability is high the risk is difficult to predict and the economic loss and personal injury caused by the risk are immeasurable. Loo
+king for and analyzing the possible risk sources in shield construction of diversion tunnel is helpful to ensure the safe construction of tunnel
+engineering. In this paper for a diversion tunnel the WBS-RBS method was used to build a risk matrix identify the risk sources of tunnel
+shield construction through the study of the matrix and then determined the weight of each risk factor of the tunnel through the Analytic Hier
+archy Process obtained the impact degree of each risk factor on the progress of tunnel shield construction and formulated corresponding risk
+control measures according to the impact degree so as to provide effective management methods for tunnel shield construction. It made the
+safety management of tunnel shield construction from post remediation to pre prevention reduced the probability of risk occurrence and im
+proved the level of safety management of tunnel shield construction.
+Key words shield construction WBS-RBS risk identification Analytic Hierarchy Process
+、
+1。
+2
+3。
+·121·
+45 4 Vol . 4 5 No . 4 2023 4 YELLOW RIVER Apr. 2023
+
+
+。
+4。
+5
+。6
+WBS - RBS
+、
+。
+7 WBS -RBS
+。
+8 AHP
+、。
+9、
+、4
+。
+10
+。
+WBS -RBS AHP
+。
+WBS - RBS
+AHP
+。
+1
+2.85 km 2.646 km。
+1、
+3。
+、、
+II
+V 、 、、
+。
+。
+、
+、、
+。
+WBS-RBS AHP
+。
+2 WBS-RBS
+WBS- RBS WBS
+Work Breakdown Structure RBS
+Risk Breakdown Structure
+。
+2.1 WBS
+WBS
+5。
+、
+、 3 WBS
+1。
+1 WBS
+2.2 RBS
+RBS
+11 。
+RBS 2 。
+2 RBS
+2.3 WBS-RBS
+WBS RBS
+WBS - RBS
+11
+0。
+“1”
+。 、、
+、、 、
+·122·
+2023 4
+
+
+1 WBS-RBS
+R
+R1
+R11 R12
+R2
+R21 R22 R23 R24
+W
+W1
+W2
+W3
+W11 0 0 0 1 0 0 W12 0 0 1 0 0 0 W13 1 0 0 0 1 0 W14 0 0 0 1 0 0 W21 1 0 1 1 1 1 W22 0 0 0 1 1 1 W23 0 0 0 0 1 1 W24 0 0 1 0 1 1 W25 1 0 0 0 0 0 W26 1 0 0 1 1 1 W27 0 0 0 1 1 0 W31 0 0 0 1 0 0 W32 0 0 0 1 1 1 W33 0 0 0 0 1 1
+、、 、
+、、 、
+、 、、、
+、 、 、 、、
+、、。
+3
+Analytical Hierarchy Process AHP
+20 70 Saaty 12
+13 。
+3.1
+、、 3
+、、 、 、
+WBS-RBS 。
+2。
+2
+A
+B1
+C11、 C12、 C13、
+C14、 C15
+B2
+C21、 C22、 C23、 C24、
+C25
+B3
+C31、 C32、
+C33
+B4
+C41、 C42、
+C43、 C44
+B5
+C51、 C52、 C53、
+C54、 C55、 C56
+3.2
+1 ~ 9 14
+3~ 9
+λmax CI RI
+CR 。
+3 A—B
+B1 B2 B3 B4 B5
+B1 1 1 /4 2 1 1 /3 0.109 7 B2 4 1 7 3 1 0.380 3 B3 1 /2 1 /7 1 1 /2 1 /5 0.058 5 B4 1 1 /3 2 1 1 /3 0.115 8 B5 3 1 5 3 1 0.335 7
+λmax = 5.016 CI = 0.004 RI = 1.12
+CR = 0.003 5<0.1
+4 B1—C
+C11 C12 C13 C14 C15
+C11 1 7 5 2 2 0.410 3 C12 1 /7 1 1 /2 1 /4 1 /5 0.050 0 C13 1 /5 2 1 1 /3 1 /4 0.078 7 C14 1 /2 4 3 1 1 0.217 8 C15 1 /2 5 4 1 1 0.243 2
+λmax = 5.042 CI = 0.011 RI = 1.12
+CR = 0.009 4<0.1
+5 B2—C
+C21 C22 C23 C24 C25
+C21 1 1 2 4 7 0.347 0 C22 1 1 2 3 6 0.319 6 C23 1 /2 1 /2 1 3 4 0.195 9 C24 1 /4 1 /3 1 /3 1 2 0.088 8 C25 1 /7 1 /6 1 /4 1 /2 1 0.048 7
+λmax = 5.042 CI = 0.010 RI = 1.12
+CR = 0.009 3<0.1
+6 B3—C
+C31 C32 C33
+C31 1 5 5 0.581 3 C32 1 /2 1 3 0.309 1 C33 1 /5 1 /3 1 0.109 6
+λmax = 3.004 CI = 0.002 RI = 0.52
+CR = 0.003 6<0.1
+7 B4—C
+C41 C42 C43 C44
+C41 1 2 5 3 0.482 4 C42 1 /2 1 3 2 0.271 8 C43 1 /5 1 /3 1 1 /2 0.088 3 C44 1 /3 1 /2 2 1 0.157 5
+λmax = 4.015 CI = 0.005 RI = 0.89
+CR = 0.005 4<0.1
+8 B5—C
+C51 C52 C53 C54 C55 C56
+C51 1 1 /2 1 /4 2 7 7 0.155 9 C52 2 1 1 /4 5 8 8 0.236 8 C53 4 4 1 6 9 9 0.452 2 C54 1 /2 1 /5 1 /6 1 5 5 0.096 3 C55 1 /7 1 /8 1 /9 1 /5 1 1 0.029 4 C56 1 /7 1 /8 1 /9 1 /5 1 1 0.029 4
+λmax = 6.415 CI = 0.083 RI = 1.26
+CR = 0.066<0.1
+·123·
+2023 4
+
+
+9
+C11 C12 C13 C14 C15 C21 C22 C23 C24 C25 C31 C32
+0.045 0.006 0.009 0.024 0.027 0.132 0.122 0.075 0.034 0.018 0.034 0.018
+C33 C41 C42 C43 C44 C51 C52 C53 C54 C55 C56
+0.006 0.056 0.031 0.01 0.018 0.052 0.079 0.152 0.032 0.010 0.010
+。3
+。
+9
+0.152 、 0. 132 、
+0.122 、 0. 079 、
+0.075 、 0.056 、 0.052
+0.050 。
+4
+。
+4.1
+1。
+、
+、、、 。
+2
+。
+。
+3
+。
+4.2
+1
+。、
+。
+2
+。
+3
+、。
+4
+、
+、、。
+5
+。
+6
+。
+4.3
+1“
+”
+。
+10 m
+。
+2
+。
+3
+。
+4
+、、 、 、
+、、 。
+5
+。
+5
+WBS -RBS
+WBS-RBS
+。
+1.
+J . 2020 57 5 226-231.
+2 .CCS
+J . 2019 41 6 94 
+98 106.
+3.
+J . 2021 43 5 142-148.
+·124·
+2023 4
+
+
+4 . WBS-RBS
+J . 2013 22 9 1-4.
+5 . WBS-RBS
+J . 2018 32
+4 64-69.
+6 . WBS-RBS
+J . 2009 30 9
+2703-2707 2726.
+7 . WBS RBS
+J . 2009 9 14 4086-4089.
+8 . AHP
+J . 2002
+35 2 162-166.
+9 .WBS-RBS AHP
+J . 2005
+7 101-103 107.
+10 . J .
+2005 25 1 142-143.
+11 . WBS-RBS
+J . 2015 11
+2 772-779.
+12 .
+J . 2016 32 5
+180-186.
+13 .
+J.
+2015 34 11 1240-1243.
+14 .
+J . 2018 25
+1 29-38.
+【】
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+86
+29 . 40
+J . 2012 32
+2 172-177 271.
+30 . RS GIS /
+D . 2009 2-6.
+31 . M .
+1992 12-15.
+32 . J .
+2010 30 23 6624-6634.
+33 . 1980s—2005
+/ J . 2013 15
+2 225-232.
+【】
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+114
+18 .
+J . 2021 29
+9 1512-1523.
+19 . DNDC TOPSIS
+J.
+2022 36 4 325-332 341.
+20 .
+AquaCrop J .
+2021 35 3 312-319.
+21 .
+J.
+2021 41 10 1256-1265.
+22 .
+、 J.
+2007 13 4 535-542.
+【】
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+120
+7 ·.
+J . 2009
+35 2 15-18.
+8.
+J . 2020 51 2
+310-315.
+9.
+J . 2020 51 9 1089-1100.
+10 .
+J . 2021 43 3 52-56.
+11 . M .
+2008 17-38.
+12 .
+J . 2015 45
+10 144-148.
+【】
+·125·
+2023 4

@@ -1,0 +1,346 @@
+41 7 2023 7 WaterResourcesandPower
+Vol.41 No.7 Jul.2023
+DOI:10.20040/j.cnki.1000-7709.2023.20221593
+1, 1, 1, 2
+(1. , 430070;2. , 430068)
+: ,,
+(RBS) 、 、 、 4
+; (CRITIC) ,
+,
+, 15 。 ,
+,; 、
+,。
+:;;;;
+:TV554 :A :1000-7709(2023)07-0154-04
+:2022-08-02, :2022-09-20
+: (52108315); (Q20211404);
+(2021CFB286)
+: (1998-), , , ,E-mail:907048143@qq.com
+: (1986-), , 、 、 , ,E-mail:sh kxin@whu.edu.cn
+,
+。,
+,
+。, ,
+。
+, RBS [1]
+, [2]
+CRITIC [3]
+,
+,
+[4],
+,
+。
+(RBS)
+,。
+, RBS
+、 、、
+4 , ,4
+,
+, 1。
+1
+Fig.1 Constructionriskindexsystemofshieldtunneling
+underintegratedpipegallery
+
+
+41 7 :
+《
+》(GB50652-2011)[5] ,
+5。
+《》
+(TB10003-2016)[6]、《
+》(GB/T 50839-2013)[7]
+,
+,
+,
+, 1。
+(1) 。
+,,
+1
+Tab.1 Indexgradedivision
+12
+I( ) II( ) III( ) IV( ) V( )
+B1 C1 (80~100) (60~80) (40~60) (20~40) (0~20)
+C2 (80~100) (60~80) (40~60) (20~40) (0~20)
+C3 (80~100) (60~80) (40~60) (20~40) (0~20)
+B2 C4/m 28~40 18~28 12~18 6~12 0~6
+C5/m 0~5 5~8 8~12 12~16 16~20
+C6/‰ 0~10 10~20 20~30 30~40 40~60
+C7/m 0~50 50~100 100~200 200~400 400~600
+B3 C8 (80~100) (60~80) (40~60) (20~40) (0~20)
+C9 (80~100) (60~80) (40~60) (20~40) (0~20)
+C10/m 0~2 2~5 5~8 8~12 12~15
+C11/mm 0~5 5~10 10~20 20~25 25~30
+C12/(L·s-1) 0~10 10~50 50~70 70~100 100~120
+B4 C13 (80~100) (60~80) (40~60) (20~40) (0~20)
+C14 (80~100) (60~80) (40~60) (20~40) (0~20)
+C15 (80~100) (60~80) (40~60) (20~40) (0~20)
+。 [2]。
+(2) 。CRITIC
+,,
+,
+,
+。 , CRITIC
+,
+W, :
+W =cj ∑
+m
+j=1
+cj (1)
+cj =σj∑
+m
+k=1
+(1-pjk)
+,m ;σj j
+;pjk j、k
+。
+(3) 。
+,,
+,
+CRITIC
+, ωj :
+ωj =αω1
+j +βω2
+j (2)
+,ω1
+j、ω2
+j CRITIC
+;α、β , 0.5。
+, ,,
+,,
+,
+、 、 [8],
+。。
+(1) 、 、 。 1
+,
+B= (B1,B2,...,Bn)(n=1,2,...,k) ,
+Bn Bn = (C1,C2,...,Cβ)
+(β=1,2,...,m), R0j :
+R0j = (N0j,Cβ,V0jβ) j=1,2,...,t (3)
+,N0j j
+;V0jβ N0j Cβ 。
+R0p :
+R0p = (N0p,Cβ,V0pβ) (4)
+,N0p ;V0pβ N0p
+·
+155
+·
+
+
+Cβ 。
+R0 :
+R0 = (N0,Ci,V0i)=
+N0 C1 V01
+C2 V02
+
+Cm V0m
+■
+■
+■
+■
+(5)
+,N0 ;V0i N0 Ci
+。
+(2) 。 ,
+, 2 Cβ j
+Kj(vnβ) :
+Kj(vnβ)= p(vnβ,vnjβ)
+p(vnβ,vnpβ)-p(vnβ,vnjβ) (6)
+p(vnβ,vnjβ)= vnβ - (anjβ +bnjβ)/2 
+(bnjβ -anjβ)/2;p(vnβ,vnpβ)=
+vnβ - (anpβ +bnpβ)/2 - (bnpβ -anpβ)/2
+,vnβ、vnjβ 、
+;anjβ、bnjβ j
+;anpβ、bnpβ
+。
+2 B0 j
+Knj(B0) :
+Knj(B0)= ∑
+m
+β=1
+QnβKj(vnβ) (7)
+(7) ∑
+m
+β=1
+Qnβ=1 Cβ 。
+(3) 。
+Kj(N):
+Kj(N)= ∑
+k
+n=1
+QnKnj(Bn) (8)
+(8) ∑
+k
+n=1
+Qn =1 Bn
+。 Kj0 =max{Kj(N)},
+j0。
+2,
+,
+,
+,、
+、
+。
+, 4.56km。
+10.5~18.0 m。
+、、 、
+、 。 +5‰、+12‰、+
+20‰ 、-7‰ 、-24‰ 、-27‰ 、-30‰
+,,
+,III ,
+。
+。
+,
+, CRITIC
+,
+,
+2。
+2
+Tab.2 Evaluationindexweightcalculationresults
+12
+C1 45 0.057 0.033 0.045
+B1 C2 70 0.114 0.079 0.097
+C3 65 0.029 0.088 0.058
+B2 C4/m 14.5 0.106 0.145 0.125
+C5/m 11 0.056 0.054 0.055
+C6/‰ 31 0.033 0.046 0.039
+C7/m 175 0.106 0.055 0.080
+C8 57 0.113 0.088 0.101
+B3 C9 55 0.060 0.034 0.047
+C10/m 6 0.037 0.048 0.042
+C11/mm 14 0.065 0.048 0.057
+C12/(L·s-1) 60 0.024 0.082 0.053
+C13 58 0.044 0.043 0.044
+B4 C14 69 0.133 0.098 0.116
+C15 75 0.023 0.059 0.041
+1 (7)
+3, 2、3 (7)、(8)
+, 4。
+4 , K3 (N)
+,
+“ ”, ,
+。1 、
+,
+。、
+,
+、,
+,
+·
+156
+· 2023
+
+
+41 7 :
+3
+Tab.3 Correlationdegreeofeachevaluationindex
+1 2
+C1 -0.438 -0.250 0.125 -0.100 -0.357 B1 C2 -0.250 0.500 -0.250 -0.500 -0.625 C3 -0.300 0.167 -0.125 -0.417 -0.563 C4/m -0.482 -0.194 0.208 -0.147 -0.370 B2 C5/m -0.400 -0.250 0.125 -0.100 -0.357 C6/‰ -0.420 -0.275 -0.033 0.036 -0.237 C7/m -0.417 -0.300 0.167 -0.125 -0.563 C8 -0.400 -0.250 0.500 -0.250 -0.400 B3 C9 -0.368 -0.143 0.200 -0.400 -0.520 C10/m -0.538 -0.400 0.200 -0.417 -0.333 C11/mm -0.391 -0.222 0.400 -0.300 -0.440 C12/(L·s-1) -0.455 -0.143 0.200 -0.143 -0.400 C13 -0.344 -0.045 0.050 -0.300 -0.475 B4 C14 -0.262 0.409 -0.225 -0.483 -0.613 C15 -0.167 0.250 -0.375 -0.583 -0.688
+4
+Tab.4 Multistageassessmentresultsofrivercrossing
+riskundershieldconstruction
+1 K1(N) K2(N) K3(N) K4(N) K5(N) J0
+B1 -0.307 0.234 -0.129 -0.386 -0.546 2
+B2 -0.441 -0.243 0.150 -0.109 -0.401 3
+B3 -0.423 -0.230 0.338 -0.288 -0.417 3
+B4 -0.260 0.277 -0.195 -0.464 -0.598 2
+B -0.373 -0.040 0.082 -0.289 -0.474 3
+,
+、,
+。
+,
+,,
+, 15
+2,
+,,
+1000 , 15
+、、 。
+, , 2。
+2 15
+Fig.2 Sensitivityof15basicindicators
+2 , (II) ,
+(C4) (C8)
+; (III)
+(IV) , (C7)、 (C14)、
+(C8)、 (C2)
+, (C4)、 (C14)、
+(C2) ,
+,
+,
+,
+。
+RBS 4 1 15
+2
+。
+,
+。
+,
+,。
+:
+[1] , , , .
+TBM [J].
+,2021,42(5):1424-1433.
+[2] , , , .
+[J]. ,
+2021,39(4):141-145.
+[3] , , . CRITIC
+[J].
+,2019,15(6):113-119.
+[4] , , , .
+[J].
+,2021,51(16):111-120.
+[5] .
+:GB50652-2011[S].
+: ,2012.
+[6] . :TB10003-2016[S].
+: ,2017.
+[7] .
+:GB/T50839-2013[S].
+: ,2013.
+[8] JOHNSON EVAN,TARI IIKER,BAKER DE
+REK.A MonteCarlo methodtosolveforradiative
+effectivethermalconductivityforparticle bedsof
+varioussolidfractionsandemissivities[J].Journalof
+quantitative spectroscopy & radiative transfer,
+2020,250:107014.
+( 136 )
+·
+157
+·
+
+
+3
+Fig.3 Comparisonofmodelpositioningdeviation
+underdifferentdiffusercoefficients
+51.5% 、64.1% 。
+,k=0.9L/(s·m0.5) k=0.6、0.3L/
+(s·m0.5) 48.1%、
+61.6% 。
+a. ,
+NSGA- II
+,
+,
+。
+b.
+,, ,
+,
+。
+:
+[1] , , . SPEA2
+[J]. ,2018,13
+(1):118-124.
+[2] , . NSGA-II
+[J]. ,2013,39(3):158-160.
+[3] DEBK,PRATAP A,AGARWALS,etal.Afast
+andelitistmultiobjectivegeneticalgorithm:NSGA
+II [J].IEEEtrans.evolutionarycomputation,2002,
+6(2):182-197.
+[4] , , , .
+[J]. ,2022,40
+(7):128-130,75.
+Multi-objectiveOptimization ModelforLeakageLocationof WaterSupplyNetworkBasedonNSGA- II
+SU Yan-bo,LV Mou,CHU Yang-yang (SchoolofEnvironmentaland MunicipalEngineering,QingdaoUniversityofTechnology,Qingdao266520,China) Abstract:Aimingattheleakageproblem ofurban watersupplynetwork,thetraditionalleakagelocation modelis solvedbysingleobjectiveoptimizationmethod.Itsobjectivefunctioniscomposedoftheweightedsumofoptimizationobjectives.Impropervalueofweightfactorwilldegradethemodelpositioningresult.Thispaperproposedamulti-objective optimization modelforleakagelocationofwatersupplynetworkbasedonNSGA-II .Inthismodel,thenumberofleakage pointanddiffusercoefficientweretakenasdecisionvariables,andtheminimumerrorbetweentheactualmonitoringvalue andthesimulationvalueofpressureandflow monitoringpointwastakenastheoptimizationobjective,andNSGA-II algorithm wasusedtofindtheoptimalsolution.Inordertoverifytheeffectivenessofthemodel,itwasappliedtotheactual watersupplynetworkinaresidentialarea.Consideringthecommonfaultconditionsintheactualoperationofthepipenetwork,theleakageaccidentsofsinglenodeandtwonodeswererespectivelysimulatedandlocated.Comparedwiththetwo widelyusedleaklocationmodels,theresultsshowthatthemulti-objectiveoptimizationmodelbasedonNSGA-II canaccuratelyandstablylocatethenearbyareawheretheactualleakoccurs. Keywords:watersupplynetwork;leakagelocation model;multi-objectiveoptimization;NSGA-II
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ ( 157 )
+ConstructionRiskEvaluationofShieldTunnelingUnderIntegrated PipeGalleryBasedon Matter-ElementTheory
+HEFeng1,HU Shao-hua1,ZHANG Guang1,ZHOU Xin-long2 (1.SchoolofSafetyScienceandEmergency Management,WuhanUniversityofTechnology,Wuhan430070,China; 2.SchoolofCivilEngineering,ArchitectureandEnvironment,HubeiUniversityofTechnology,Wuhan430068,China) Abstract:Toaccuratelyevaluatethecomprehensiveutilitytunnelunderrivershieldtunnelconstructionsafety,reducethesafetyaccidentsintheconstructionprocess,basedonthemethodofriskbreakdownstructure(RBS),riskevaluationindexsystemoffourfirst-levelindicatorswasconstructedincludingengineeringgeologicalriskandcomprehensiveutilitytunnelitselfrisk,environmentrisk,constructionriskmanagement.Basedonthelinearcombinationofintervalnumberanalytichierarchyprocess(AHP)andindicatorcorrelationmethod (CRITIC),thecomprehensiveweightwasdetermined.Basedonmatterelementtheory,theweightedaveragerelationdegreewascalculatedtodeterminethefinalevaluationresult.This method wasappliedtothecomprehensivepipecorridorprojectofYueyang Avenuesewagetreatmentat the WangjiaRiversection.MonteCarlo methodwasusedtoanalyzethesensitivityof15basicindexesbasedon matter-elementtheory.TheresearchresultsshowthattheconstructionprojectofYueyang AvenuesewagetreatmentcomprehensivepipecorridoratWangjiaRiversectionismedium-risk,whichisconsistentwiththeactualsituation.Thesensitivityanalysisshowsthatthesurroundingrockstrengthandtheburieddepthoftunnelare moresensitive.Theresearchresults canprovideabasisforthesafetycontroldecisionand measuremakingoftheproject. Keywords:comprehensiveutilitytunnel;riskassessment;combinedweighting;matterelementtheory;MonteCarlo
+·
+136
+· 2023

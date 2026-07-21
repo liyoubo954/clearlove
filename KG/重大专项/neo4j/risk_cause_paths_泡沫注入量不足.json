@@ -1,0 +1,102 @@
+[
+  {
+    "query_type": "risk_cause_complete_path",
+    "description": "从风险名称 '刀盘结泥饼' 经过原因 '泡沫注入量不足' 到终端节点的完整路径",
+    "path_length": 2,
+    "cause_position": 1,
+    "nodes": [
+      {
+        "n": {
+          "identity": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          },
+          "elementId": "node_0"
+        }
+      },
+      {
+        "n": {
+          "identity": 5,
+          "labels": [
+            "设计缺陷",
+            "Entity"
+          ],
+          "properties": {
+            "name": "泡沫注入量不足",
+            "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+          },
+          "elementId": "node_5"
+        }
+      },
+      {
+        "n": {
+          "identity": 26,
+          "labels": [
+            "措施",
+            "Entity"
+          ],
+          "properties": {
+            "方法": "根据扭矩变化实时调节：扭矩上升时增加气液比（如从1:10调至1:15），气流量30-50m³/h，液体流量2-5m³/h。",
+            "name": "动态调整泡沫流量与FIR（膨胀率）"
+          },
+          "elementId": "node_26"
+        }
+      }
+    ]
+  },
+  {
+    "query_type": "risk_cause_complete_path",
+    "description": "从风险名称 '刀盘结泥饼' 经过原因 '泡沫注入量不足' 到终端节点的完整路径",
+    "path_length": 2,
+    "cause_position": 1,
+    "nodes": [
+      {
+        "n": {
+          "identity": 0,
+          "labels": [
+            "风险名称",
+            "Entity"
+          ],
+          "properties": {
+            "name": "刀盘结泥饼",
+            "描述": "盾构机刀盘及刀具表面黏附大量黏土形成硬质泥块的现象，导致切削效率下降、扭矩升高，严重时引发设备过载或停机。"
+          },
+          "elementId": "node_0"
+        }
+      },
+      {
+        "n": {
+          "identity": 5,
+          "labels": [
+            "设计缺陷",
+            "Entity"
+          ],
+          "properties": {
+            "name": "泡沫注入量不足",
+            "描述": "泡沫润滑作用未充分发挥，渣土改良效果差。"
+          },
+          "elementId": "node_5"
+        }
+      },
+      {
+        "n": {
+          "identity": 44,
+          "labels": [
+            "措施",
+            "Entity"
+          ],
+          "properties": {
+            "方法": "在主泡沫发生器旁并联安装备用机组，两套系统共用发泡剂储罐但独立控制。当主系统故障或压力下降10%时，电磁阀在30秒内自动切换至备用管路，维持泡沫注入量稳定（流量波动≤5%）。备用系统每周需空载测试1次。",
+            "name": "增设备用泡沫发生器避免中断"
+          },
+          "elementId": "node_44"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4093 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 132,
+        "labels": [
+          "主程序"
+        ],
+        "properties": {
+          "name": "盾构机换刀",
+          "描述": "盾构机换刀是隧道施工中高风险核心工序，需根据进仓压力分为常压换刀（进仓压力＜0.1bar，无需带压防护）和带压换刀（进仓压力≥0.1bar，需专业带压作业设备与资质）。"
+        },
+        "elementId": "132"
+      },
+      "end": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 132,
+            "labels": [
+              "主程序"
+            ],
+            "properties": {
+              "name": "盾构机换刀",
+              "描述": "盾构机换刀是隧道施工中高风险核心工序，需根据进仓压力分为常压换刀（进仓压力＜0.1bar，无需带压防护）和带压换刀（进仓压力≥0.1bar，需专业带压作业设备与资质）。"
+            },
+            "elementId": "132"
+          },
+          "relationship": {
+            "identity": 130,
+            "start": 132,
+            "end": 133,
+            "type": "子程序",
+            "properties": {},
+            "elementId": "130",
+            "startNodeElementId": "132",
+            "endNodeElementId": "133"
+          },
+          "end": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 132,
+        "labels": [
+          "主程序"
+        ],
+        "properties": {
+          "name": "盾构机换刀",
+          "描述": "盾构机换刀是隧道施工中高风险核心工序，需根据进仓压力分为常压换刀（进仓压力＜0.1bar，无需带压防护）和带压换刀（进仓压力≥0.1bar，需专业带压作业设备与资质）。"
+        },
+        "elementId": "132"
+      },
+      "end": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 132,
+            "labels": [
+              "主程序"
+            ],
+            "properties": {
+              "name": "盾构机换刀",
+              "描述": "盾构机换刀是隧道施工中高风险核心工序，需根据进仓压力分为常压换刀（进仓压力＜0.1bar，无需带压防护）和带压换刀（进仓压力≥0.1bar，需专业带压作业设备与资质）。"
+            },
+            "elementId": "132"
+          },
+          "relationship": {
+            "identity": 131,
+            "start": 132,
+            "end": 134,
+            "type": "子程序",
+            "properties": {},
+            "elementId": "131",
+            "startNodeElementId": "132",
+            "endNodeElementId": "134"
+          },
+          "end": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 135,
+        "labels": [
+          "人员配置"
+        ],
+        "properties": {
+          "name": "进仓作业组(3人/仓)",
+          "描述": "带压进仓的标准人员配置，通常包括进仓人员和必要的辅助人员 。"
+        },
+        "elementId": "135"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 132,
+            "start": 133,
+            "end": 135,
+            "type": "人员配置",
+            "properties": {},
+            "elementId": "132",
+            "startNodeElementId": "133",
+            "endNodeElementId": "135"
+          },
+          "end": {
+            "identity": 135,
+            "labels": [
+              "人员配置"
+            ],
+            "properties": {
+              "name": "进仓作业组(3人/仓)",
+              "描述": "带压进仓的标准人员配置，通常包括进仓人员和必要的辅助人员 。"
+            },
+            "elementId": "135"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 136,
+        "labels": [
+          "时间标准"
+        ],
+        "properties": {
+          "name": "视进仓压力而定"
+        },
+        "elementId": "136"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 133,
+            "start": 133,
+            "end": 136,
+            "type": "时间标准",
+            "properties": {},
+            "elementId": "133",
+            "startNodeElementId": "133",
+            "endNodeElementId": "136"
+          },
+          "end": {
+            "identity": 136,
+            "labels": [
+              "时间标准"
+            ],
+            "properties": {
+              "name": "视进仓压力而定"
+            },
+            "elementId": "136"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 134,
+            "start": 133,
+            "end": 137,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "134",
+            "startNodeElementId": "133",
+            "endNodeElementId": "137"
+          },
+          "end": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 135,
+            "start": 133,
+            "end": 138,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "135",
+            "startNodeElementId": "133",
+            "endNodeElementId": "138"
+          },
+          "end": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 139,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "减压出仓",
+          "描述": "安全管控"
+        },
+        "elementId": "139"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 136,
+            "start": 133,
+            "end": 139,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "136",
+            "startNodeElementId": "133",
+            "endNodeElementId": "139"
+          },
+          "end": {
+            "identity": 139,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "减压出仓",
+              "描述": "安全管控"
+            },
+            "elementId": "139"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 140,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1方案报审",
+          "描述": "1. 提前对带压进仓作业 OA 报审，填写《盾构带压进仓报审表》\n2. 带压进仓作业必须编制专项施工方案，经专家论证、相关部门审批、公司盾构（掘进）管理中心 / 安全部 / 工程部报审后实施\n3. 编制技术交底与作业指导书，对所有参与人员培训；若需动火作业，需在方案和交底中明确安全要求与注意事项。"
+        },
+        "elementId": "140"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 137,
+            "start": 137,
+            "end": 140,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "137",
+            "startNodeElementId": "137",
+            "endNodeElementId": "140"
+          },
+          "end": {
+            "identity": 140,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1方案报审",
+              "描述": "1. 提前对带压进仓作业 OA 报审，填写《盾构带压进仓报审表》\n2. 带压进仓作业必须编制专项施工方案，经专家论证、相关部门审批、公司盾构（掘进）管理中心 / 安全部 / 工程部报审后实施\n3. 编制技术交底与作业指导书，对所有参与人员培训；若需动火作业，需在方案和交底中明确安全要求与注意事项。"
+            },
+            "elementId": "140"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 141,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2加固措施",
+          "描述": "1. 若带压进仓位置需进行加固，需按方案进行地面 / 洞内土体加固并验收\n2. 若无需加固，需制作掌子面泥膜并做保压试验，填写《保压试验记录表》\n3. 盾构机停机过程中填写《进仓盾尾油脂压力验收表》《停机开仓同步注浆验收表》"
+        },
+        "elementId": "141"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 138,
+            "start": 137,
+            "end": 141,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "138",
+            "startNodeElementId": "137",
+            "endNodeElementId": "141"
+          },
+          "end": {
+            "identity": 141,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2加固措施",
+              "描述": "1. 若带压进仓位置需进行加固，需按方案进行地面 / 洞内土体加固并验收\n2. 若无需加固，需制作掌子面泥膜并做保压试验，填写《保压试验记录表》\n3. 盾构机停机过程中填写《进仓盾尾油脂压力验收表》《停机开仓同步注浆验收表》"
+            },
+            "elementId": "141"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 142,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "3测量标识",
+          "描述": "对盾构机刀盘所处位置进行标记，设置开挖区域地面警示标识及隔离带，安排专人巡查监护，防止无关人员误入靠近。"
+        },
+        "elementId": "142"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 139,
+            "start": 137,
+            "end": 142,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "139",
+            "startNodeElementId": "137",
+            "endNodeElementId": "142"
+          },
+          "end": {
+            "identity": 142,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "3测量标识",
+              "描述": "对盾构机刀盘所处位置进行标记，设置开挖区域地面警示标识及隔离带，安排专人巡查监护，防止无关人员误入靠近。"
+            },
+            "elementId": "142"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 143,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "4监控量测",
+          "描述": "1. 在开挖仓区域布设测点，获取初始值并设定控制值，带压进仓过程中持续监测（含第三方监测与施工监测）。\n2. 净空收敛控制值为 ±14mm；拱顶竖向位移控制值为 ±10mm；管片衬砌隆起控制值为 ±10mm。"
+        },
+        "elementId": "143"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 140,
+            "start": 137,
+            "end": 143,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "140",
+            "startNodeElementId": "137",
+            "endNodeElementId": "143"
+          },
+          "end": {
+            "identity": 143,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "4监控量测",
+              "描述": "1. 在开挖仓区域布设测点，获取初始值并设定控制值，带压进仓过程中持续监测（含第三方监测与施工监测）。\n2. 净空收敛控制值为 ±14mm；拱顶竖向位移控制值为 ±10mm；管片衬砌隆起控制值为 ±10mm。"
+            },
+            "elementId": "143"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 144,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "5设备检查",
+          "描述": "1. 全面检查带压进仓相关设备（人仓、空压机、保压系统、发电机、视频监控、开挖仓压力传感器、气体检测仪等），填写《气压作业附属设备验收记录表》。\n2. 人仓需配备通风、检测、照明、消防（喷淋）、通信、保温设备；仓门设置观察窗，由操仓员进行气密性试验，经盾构经理等验收后填写《人仓验收记录》。\n3. 配置柴油应急发电机，确保空压机供电双保险；检查并更换空压机滤芯、油气分离器、精密过滤器滤芯，保证柴油储备充足。"
+        },
+        "elementId": "144"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 141,
+            "start": 137,
+            "end": 144,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "141",
+            "startNodeElementId": "137",
+            "endNodeElementId": "144"
+          },
+          "end": {
+            "identity": 144,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "5设备检查",
+              "描述": "1. 全面检查带压进仓相关设备（人仓、空压机、保压系统、发电机、视频监控、开挖仓压力传感器、气体检测仪等），填写《气压作业附属设备验收记录表》。\n2. 人仓需配备通风、检测、照明、消防（喷淋）、通信、保温设备；仓门设置观察窗，由操仓员进行气密性试验，经盾构经理等验收后填写《人仓验收记录》。\n3. 配置柴油应急发电机，确保空压机供电双保险；检查并更换空压机滤芯、油气分离器、精密过滤器滤芯，保证柴油储备充足。"
+            },
+            "elementId": "144"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 145,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "6人员检查",
+          "描述": "1. 核查带压进仓相关人员资质：潜水医生需执业医师资格，操仓员需潜水生命支持员证，潜水员需空气潜水员证及健康证（或体检报告）；动火作业时潜水员还需焊工证。\n2. 依据安全操作规程、专项方案、动火方案、风险源等内容，对全体人员进行安全技术交底与培训，不同岗位单独交底并签字确认。"
+        },
+        "elementId": "145"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 142,
+            "start": 137,
+            "end": 145,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "142",
+            "startNodeElementId": "137",
+            "endNodeElementId": "145"
+          },
+          "end": {
+            "identity": 145,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "6人员检查",
+              "描述": "1. 核查带压进仓相关人员资质：潜水医生需执业医师资格，操仓员需潜水生命支持员证，潜水员需空气潜水员证及健康证（或体检报告）；动火作业时潜水员还需焊工证。\n2. 依据安全操作规程、专项方案、动火方案、风险源等内容，对全体人员进行安全技术交底与培训，不同岗位单独交底并签字确认。"
+            },
+            "elementId": "145"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 146,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "7环境风险",
+          "描述": "1. 进仓作业前调查周边环境风险（管线、建筑物等），摸清与刀盘位置的关系，提前做好防护并加强监测\n2. 陆地施工时，地面刀盘位置需设置警戒并安排专人值守"
+        },
+        "elementId": "146"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 143,
+            "start": 137,
+            "end": 146,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "143",
+            "startNodeElementId": "137",
+            "endNodeElementId": "146"
+          },
+          "end": {
+            "identity": 146,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "7环境风险",
+              "描述": "1. 进仓作业前调查周边环境风险（管线、建筑物等），摸清与刀盘位置的关系，提前做好防护并加强监测\n2. 陆地施工时，地面刀盘位置需设置警戒并安排专人值守"
+            },
+            "elementId": "146"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 147,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "8应急预案及应急准备",
+          "描述": "1. 完成应急预案的编制与审批，并按预案组织应急演练\n2. 落实抢险设备、物资、人员及医疗救治资源，确保通讯畅通、应急照明 / 消防器材 / 减压仓等设施到位"
+        },
+        "elementId": "147"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 144,
+            "start": 137,
+            "end": 147,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "144",
+            "startNodeElementId": "137",
+            "endNodeElementId": "147"
+          },
+          "end": {
+            "identity": 147,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "8应急预案及应急准备",
+              "描述": "1. 完成应急预案的编制与审批，并按预案组织应急演练\n2. 落实抢险设备、物资、人员及医疗救治资源，确保通讯畅通、应急照明 / 消防器材 / 减压仓等设施到位"
+            },
+            "elementId": "147"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 148,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "9机械设备及材料准备",
+          "描述": "1. 准备进仓作业物资与材料（如刀具等）\n2. 确保各类仪器仪表正常，进仓作业工具（气动扳手、焊接设备、手持气体检测仪等）到位"
+        },
+        "elementId": "148"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 145,
+            "start": 137,
+            "end": 148,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "145",
+            "startNodeElementId": "137",
+            "endNodeElementId": "148"
+          },
+          "end": {
+            "identity": 148,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "9机械设备及材料准备",
+              "描述": "1. 准备进仓作业物资与材料（如刀具等）\n2. 确保各类仪器仪表正常，进仓作业工具（气动扳手、焊接设备、手持气体检测仪等）到位"
+            },
+            "elementId": "148"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 149,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "10分包管理",
+          "描述": "检查分包单位资质、许可证等资料是否齐全（含安全生产许可证、进仓队伍资质证书等），并确认报审手续完整"
+        },
+        "elementId": "149"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 146,
+            "start": 137,
+            "end": 149,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "146",
+            "startNodeElementId": "137",
+            "endNodeElementId": "149"
+          },
+          "end": {
+            "identity": 149,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "10分包管理",
+              "描述": "检查分包单位资质、许可证等资料是否齐全（含安全生产许可证、进仓队伍资质证书等），并确认报审手续完整"
+            },
+            "elementId": "149"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 150,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "11风水电临时设施及防尘",
+          "描述": "检查隧道内通风设施、盾构机风水电系统、通信系统、洞内运输系统及防护设备是否完好"
+        },
+        "elementId": "150"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 147,
+            "start": 137,
+            "end": 150,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "147",
+            "startNodeElementId": "137",
+            "endNodeElementId": "150"
+          },
+          "end": {
+            "identity": 150,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "11风水电临时设施及防尘",
+              "描述": "检查隧道内通风设施、盾构机风水电系统、通信系统、洞内运输系统及防护设备是否完好"
+            },
+            "elementId": "150"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 137,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓检查",
+          "描述": "前置验证"
+        },
+        "elementId": "137"
+      },
+      "end": {
+        "identity": 151,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "12带压进仓条件验收",
+          "描述": "带压进仓准备工作完成后，依据《中铁十四局大盾构公司盾构施工关键节点施工前条件验收管理办法（试行）》进行条件验收"
+        },
+        "elementId": "151"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 137,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓检查",
+              "描述": "前置验证"
+            },
+            "elementId": "137"
+          },
+          "relationship": {
+            "identity": 148,
+            "start": 137,
+            "end": 151,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "148",
+            "startNodeElementId": "137",
+            "endNodeElementId": "151"
+          },
+          "end": {
+            "identity": 151,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "12带压进仓条件验收",
+              "描述": "带压进仓准备工作完成后，依据《中铁十四局大盾构公司盾构施工关键节点施工前条件验收管理办法（试行）》进行条件验收"
+            },
+            "elementId": "151"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 152,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1确定进仓压力和前仓液位",
+          "描述": "1. 根据气压舱检修段的水文地质情况及埋深等资料计算出盾构作业时液位下降位置的压力（多为盾构机中线），气压进仓压力一般不低于该压力；在经过地面加固处理的地段进行检修作业时，气压进仓的压力可根据加固效果重新进行计算；压气作业的压力与进仓检修任务及检修的部位有很大的关系，通常泥水平衡盾构：如检查刀具刀盘磨损情况时需将液位调至 55%（约中轴位置偏上）；换装滚刀、周边刮刀时液位约为 40%；检修泥浆门、碎石机时开挖仓为全液位，气泡仓液位约为 10%。\n2. 为防止透水、掌子面塌方或冒顶意外，检修仓压力最终确定应考虑切口环压力及液位高度降低后掌子面静水压力增加，压气作业仓压计算公式：压气作业仓压（单位为 bar）= 切口环压力 + 液位降低高度 / 10，根据地层情况进行调整。"
+        },
+        "elementId": "152"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 149,
+            "start": 138,
+            "end": 152,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "149",
+            "startNodeElementId": "138",
+            "endNodeElementId": "152"
+          },
+          "end": {
+            "identity": 152,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1确定进仓压力和前仓液位",
+              "描述": "1. 根据气压舱检修段的水文地质情况及埋深等资料计算出盾构作业时液位下降位置的压力（多为盾构机中线），气压进仓压力一般不低于该压力；在经过地面加固处理的地段进行检修作业时，气压进仓的压力可根据加固效果重新进行计算；压气作业的压力与进仓检修任务及检修的部位有很大的关系，通常泥水平衡盾构：如检查刀具刀盘磨损情况时需将液位调至 55%（约中轴位置偏上）；换装滚刀、周边刮刀时液位约为 40%；检修泥浆门、碎石机时开挖仓为全液位，气泡仓液位约为 10%。\n2. 为防止透水、掌子面塌方或冒顶意外，检修仓压力最终确定应考虑切口环压力及液位高度降低后掌子面静水压力增加，压气作业仓压计算公式：压气作业仓压（单位为 bar）= 切口环压力 + 液位降低高度 / 10，根据地层情况进行调整。"
+            },
+            "elementId": "152"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 153,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2有害气体检测",
+          "描述": "进入开挖仓前应由机长进行气垫仓、人仓气体检测，合格后方可批准进仓作业。进仓作业过程中，打开人仓、气垫仓排气口，通过固定式检测仪器，实现实时进行气体监测，由机长负责监督落实并记录填写《进仓作业气体检测记录表》（规范要求两小时记录一次，现场 20 分钟记录一次）。"
+        },
+        "elementId": "153"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 150,
+            "start": 138,
+            "end": 153,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "150",
+            "startNodeElementId": "138",
+            "endNodeElementId": "153"
+          },
+          "end": {
+            "identity": 153,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2有害气体检测",
+              "描述": "进入开挖仓前应由机长进行气垫仓、人仓气体检测，合格后方可批准进仓作业。进仓作业过程中，打开人仓、气垫仓排气口，通过固定式检测仪器，实现实时进行气体监测，由机长负责监督落实并记录填写《进仓作业气体检测记录表》（规范要求两小时记录一次，现场 20 分钟记录一次）。"
+            },
+            "elementId": "153"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 154,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "3带压作业人员身体检查和作业交底",
+          "描述": "1. 由医生和盾构机长对带压作业人员进行身体检查，并填写《进仓作业人员进仓前检查表》。\n2. 进仓前由盾构机长对进仓班组进行班前讲话，主要内容：上一仓工作情况、本仓工作内容、风险源告知、注意事项等。\n3. 由盾构机长对带压作业人员进行物品和穿着检查。进仓作业人员严禁穿戴化纤、毛皮衣物，采用专用工作服；禁止携带与工作无关的任何个人物品（如衣物、电子产品、火源、烟、食品等）；经隧道主管或机长严格检查确认后，方可进仓作业，并填写《进仓前进仓人员接受检查项目表》、《进、出仓物品记录表》。"
+        },
+        "elementId": "154"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 151,
+            "start": 138,
+            "end": 154,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "151",
+            "startNodeElementId": "138",
+            "endNodeElementId": "154"
+          },
+          "end": {
+            "identity": 154,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "3带压作业人员身体检查和作业交底",
+              "描述": "1. 由医生和盾构机长对带压作业人员进行身体检查，并填写《进仓作业人员进仓前检查表》。\n2. 进仓前由盾构机长对进仓班组进行班前讲话，主要内容：上一仓工作情况、本仓工作内容、风险源告知、注意事项等。\n3. 由盾构机长对带压作业人员进行物品和穿着检查。进仓作业人员严禁穿戴化纤、毛皮衣物，采用专用工作服；禁止携带与工作无关的任何个人物品（如衣物、电子产品、火源、烟、食品等）；经隧道主管或机长严格检查确认后，方可进仓作业，并填写《进仓前进仓人员接受检查项目表》、《进、出仓物品记录表》。"
+            },
+            "elementId": "154"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 155,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "4带压进仓相关人员举牌拍照",
+          "描述": "带压进仓相关人员进行举牌拍照，相关人员建议为：项目带班领导、盾构机长、项目安全员、本次进仓人员、医生、监督等。"
+        },
+        "elementId": "155"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 152,
+            "start": 138,
+            "end": 155,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "152",
+            "startNodeElementId": "138",
+            "endNodeElementId": "155"
+          },
+          "end": {
+            "identity": 155,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "4带压进仓相关人员举牌拍照",
+              "描述": "带压进仓相关人员进行举牌拍照，相关人员建议为：项目带班领导、盾构机长、项目安全员、本次进仓人员、医生、监督等。"
+            },
+            "elementId": "155"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 156,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "5人仓加压",
+          "描述": "1. 加压由操仓员负责实施；人仓内的加压速度宜控制在0.05Mpa/10min—0.10Mpa/10min。\n2. 在操仓员确认人闸内压力达到工作压力后，进仓作业人员应再次确认人闸与气垫仓连接门的安全性，方能进入气垫仓，并填写《压气作业时间及作业内容记录表》。\n3. 由盾构机长或机长助理专人进行盯控保证系统补气量，当保压系统补气量超过 0.75 时，应停止带压进仓作业，恢复前仓液位，并重新制作掌子面泥膜。"
+        },
+        "elementId": "156"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 153,
+            "start": 138,
+            "end": 156,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "153",
+            "startNodeElementId": "138",
+            "endNodeElementId": "156"
+          },
+          "end": {
+            "identity": 156,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "5人仓加压",
+              "描述": "1. 加压由操仓员负责实施；人仓内的加压速度宜控制在0.05Mpa/10min—0.10Mpa/10min。\n2. 在操仓员确认人闸内压力达到工作压力后，进仓作业人员应再次确认人闸与气垫仓连接门的安全性，方能进入气垫仓，并填写《压气作业时间及作业内容记录表》。\n3. 由盾构机长或机长助理专人进行盯控保证系统补气量，当保压系统补气量超过 0.75 时，应停止带压进仓作业，恢复前仓液位，并重新制作掌子面泥膜。"
+            },
+            "elementId": "156"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 157,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "6气体置换",
+          "描述": "压力到达工作压力后，操仓员应保证仓内持续通入空气以保证气体中各种成分的含量不超过标准要求，降低工作区的温度和湿度。一旦进仓时发现有害气体浓度超标，立即通知进仓人员撤出开挖面，切断电源，进行处理。\n填写《进仓作业气体检测记录表》。"
+        },
+        "elementId": "157"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 154,
+            "start": 138,
+            "end": 157,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "154",
+            "startNodeElementId": "138",
+            "endNodeElementId": "157"
+          },
+          "end": {
+            "identity": 157,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "6气体置换",
+              "描述": "压力到达工作压力后，操仓员应保证仓内持续通入空气以保证气体中各种成分的含量不超过标准要求，降低工作区的温度和湿度。一旦进仓时发现有害气体浓度超标，立即通知进仓人员撤出开挖面，切断电源，进行处理。\n填写《进仓作业气体检测记录表》。"
+            },
+            "elementId": "157"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 158,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "7仓内通讯",
+          "描述": "与仓内作业人员的通讯方式主要有手持对讲机、手摇电话、人仓对讲系统、控制室电话、手写板等。\n（1）作业人员在加减压过程中使用人仓对讲系统与控制室电话与舱外进行联系；\n（2）作业人员在仓内作业的过程中应将手持对讲机放在身边，及时与控制室沟通；\n（3）盾构机紧急停电时，使用应急的手摇电话或手写板与舱外沟通。"
+        },
+        "elementId": "158"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 155,
+            "start": 138,
+            "end": 158,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "155",
+            "startNodeElementId": "138",
+            "endNodeElementId": "158"
+          },
+          "end": {
+            "identity": 158,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "7仓内通讯",
+              "描述": "与仓内作业人员的通讯方式主要有手持对讲机、手摇电话、人仓对讲系统、控制室电话、手写板等。\n（1）作业人员在加减压过程中使用人仓对讲系统与控制室电话与舱外进行联系；\n（2）作业人员在仓内作业的过程中应将手持对讲机放在身边，及时与控制室沟通；\n（3）盾构机紧急停电时，使用应急的手摇电话或手写板与舱外沟通。"
+            },
+            "elementId": "158"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 138,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "进仓实施",
+          "描述": "作业过程"
+        },
+        "elementId": "138"
+      },
+      "end": {
+        "identity": 159,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "8进入气垫仓、开挖仓",
+          "描述": "(1) 进入开挖仓前先由进仓作业人员打开气垫仓和开挖仓的平衡阀，并用撬棍捅一捅平衡阀是否通畅，确认两仓压力相等，打开隔板舱门进入开挖仓。进仓人员一人为专职观察员，须随时注意泥浆液面及掌子面的情况，并结合换气声音等特点判断是否有气体泄漏和掌子面坍塌危险。\n(2) 严禁仓外作业人员进行转动刀盘、出渣、泥浆循环等危及仓内作业人员安全的操作。\n(3) 开仓作业时，作业人员应在仓内设临时的上下通道，并应保证进出开挖仓的通道的顺畅。\n(4) 人闸与气垫仓的连接门必须保持开启，由进仓作业人员中的专职观察员予以确认检查。\n(5) 开仓作业时，机长应做好海底沉降、盾构姿态及海上气泡情况的监测和反馈。\n(6) 在气压作业期间，作业人员拆装刀具及更换油管时，开挖仓内作业应符合下列规定：\n a 宜采用气动机具；\n b 工作时应佩戴劳动保护用品；\n c 启动气动机具前必须检查管接头，不得出现松动等安全隐患；\n d 拆卸管线时应先泄压；\n e 使用电动工具作业时，应由经过专业培训的人员配备专用设备。\n(7) 撤离开挖仓前，专职观察员应确认工具全部带出；\n(8) 带入仓内（工作仓 / 人仓）的物品，如需矿泉水、抹布、编织袋等应及时清理，防止堆积过多。"
+        },
+        "elementId": "159"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 138,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "进仓实施",
+              "描述": "作业过程"
+            },
+            "elementId": "138"
+          },
+          "relationship": {
+            "identity": 156,
+            "start": 138,
+            "end": 159,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "156",
+            "startNodeElementId": "138",
+            "endNodeElementId": "159"
+          },
+          "end": {
+            "identity": 159,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "8进入气垫仓、开挖仓",
+              "描述": "(1) 进入开挖仓前先由进仓作业人员打开气垫仓和开挖仓的平衡阀，并用撬棍捅一捅平衡阀是否通畅，确认两仓压力相等，打开隔板舱门进入开挖仓。进仓人员一人为专职观察员，须随时注意泥浆液面及掌子面的情况，并结合换气声音等特点判断是否有气体泄漏和掌子面坍塌危险。\n(2) 严禁仓外作业人员进行转动刀盘、出渣、泥浆循环等危及仓内作业人员安全的操作。\n(3) 开仓作业时，作业人员应在仓内设临时的上下通道，并应保证进出开挖仓的通道的顺畅。\n(4) 人闸与气垫仓的连接门必须保持开启，由进仓作业人员中的专职观察员予以确认检查。\n(5) 开仓作业时，机长应做好海底沉降、盾构姿态及海上气泡情况的监测和反馈。\n(6) 在气压作业期间，作业人员拆装刀具及更换油管时，开挖仓内作业应符合下列规定：\n a 宜采用气动机具；\n b 工作时应佩戴劳动保护用品；\n c 启动气动机具前必须检查管接头，不得出现松动等安全隐患；\n d 拆卸管线时应先泄压；\n e 使用电动工具作业时，应由经过专业培训的人员配备专用设备。\n(7) 撤离开挖仓前，专职观察员应确认工具全部带出；\n(8) 带入仓内（工作仓 / 人仓）的物品，如需矿泉水、抹布、编织袋等应及时清理，防止堆积过多。"
+            },
+            "elementId": "159"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "减压出仓",
+          "描述": "安全管控"
+        },
+        "elementId": "139"
+      },
+      "end": {
+        "identity": 160,
+        "labels": [
+          "规范要求"
+        ],
+        "properties": {
+          "name": "《空气潜水减压技术要求》",
+          "描述": "减压过程必须严格按照减压方案及《盾构法开仓及气压作业技术规范》(CJJ17-2014) 执行（0-3.6bar），减压时机长可升高气泡仓液位。"
+        },
+        "elementId": "160"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "减压出仓",
+              "描述": "安全管控"
+            },
+            "elementId": "139"
+          },
+          "relationship": {
+            "identity": 157,
+            "start": 139,
+            "end": 160,
+            "type": "遵循",
+            "properties": {},
+            "elementId": "157",
+            "startNodeElementId": "139",
+            "endNodeElementId": "160"
+          },
+          "end": {
+            "identity": 160,
+            "labels": [
+              "规范要求"
+            ],
+            "properties": {
+              "name": "《空气潜水减压技术要求》",
+              "描述": "减压过程必须严格按照减压方案及《盾构法开仓及气压作业技术规范》(CJJ17-2014) 执行（0-3.6bar），减压时机长可升高气泡仓液位。"
+            },
+            "elementId": "160"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "减压出仓",
+          "描述": "安全管控"
+        },
+        "elementId": "139"
+      },
+      "end": {
+        "identity": 161,
+        "labels": [
+          "规范要求"
+        ],
+        "properties": {
+          "name": "《盾构法开仓及气压作业技术规范》",
+          "描述": "当工作压力大于3.6bar ~6bar时可采用《空气潜水减压技术要求》（GB-12521-2008）（“6bar”）。"
+        },
+        "elementId": "161"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "减压出仓",
+              "描述": "安全管控"
+            },
+            "elementId": "139"
+          },
+          "relationship": {
+            "identity": 158,
+            "start": 139,
+            "end": 161,
+            "type": "遵循",
+            "properties": {},
+            "elementId": "158",
+            "startNodeElementId": "139",
+            "endNodeElementId": "161"
+          },
+          "end": {
+            "identity": 161,
+            "labels": [
+              "规范要求"
+            ],
+            "properties": {
+              "name": "《盾构法开仓及气压作业技术规范》",
+              "描述": "当工作压力大于3.6bar ~6bar时可采用《空气潜水减压技术要求》（GB-12521-2008）（“6bar”）。"
+            },
+            "elementId": "161"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "减压出仓",
+          "描述": "安全管控"
+        },
+        "elementId": "139"
+      },
+      "end": {
+        "identity": 162,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1吸氧减压法",
+          "描述": "（1）人闸内减压人员按照操仓员和医生的指令呼吸氧气。\n（2）人闸内的氧气浓度应保持在19-22%。如氧气浓度超标，则应停止吸氧过程，通过气体置换将人闸内氧浓度降低至 22% 以下。\n（3）吸氧应在减压停留阶段进行，采取间断吸氧法，即呼吸纯氧，间隙呼吸舱内压缩空气，如此循环。\n（4）吸氧系统应为外部循环，使用专用氧气面罩，吸入和呼出的氧气均有独立管道排出仓外。严禁吸氧时将氧气直接送入或呼出时泄露人闸。\n吸氧时操仓员应时刻关注氧气浓度。"
+        },
+        "elementId": "162"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "减压出仓",
+              "描述": "安全管控"
+            },
+            "elementId": "139"
+          },
+          "relationship": {
+            "identity": 159,
+            "start": 139,
+            "end": 162,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "159",
+            "startNodeElementId": "139",
+            "endNodeElementId": "162"
+          },
+          "end": {
+            "identity": 162,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1吸氧减压法",
+              "描述": "（1）人闸内减压人员按照操仓员和医生的指令呼吸氧气。\n（2）人闸内的氧气浓度应保持在19-22%。如氧气浓度超标，则应停止吸氧过程，通过气体置换将人闸内氧浓度降低至 22% 以下。\n（3）吸氧应在减压停留阶段进行，采取间断吸氧法，即呼吸纯氧，间隙呼吸舱内压缩空气，如此循环。\n（4）吸氧系统应为外部循环，使用专用氧气面罩，吸入和呼出的氧气均有独立管道排出仓外。严禁吸氧时将氧气直接送入或呼出时泄露人闸。\n吸氧时操仓员应时刻关注氧气浓度。"
+            },
+            "elementId": "162"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "减压出仓",
+          "描述": "安全管控"
+        },
+        "elementId": "139"
+      },
+      "end": {
+        "identity": 163,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2填写记录表",
+          "描述": "填写《压气作业时间及作业内容记录表》、《进、出仓物品记录表》、《减压作业气体检测记录表》。"
+        },
+        "elementId": "163"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "减压出仓",
+              "描述": "安全管控"
+            },
+            "elementId": "139"
+          },
+          "relationship": {
+            "identity": 160,
+            "start": 139,
+            "end": 163,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "160",
+            "startNodeElementId": "139",
+            "endNodeElementId": "163"
+          },
+          "end": {
+            "identity": 163,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2填写记录表",
+              "描述": "填写《压气作业时间及作业内容记录表》、《进、出仓物品记录表》、《减压作业气体检测记录表》。"
+            },
+            "elementId": "163"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 164,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "检查供氧及人闸内吸氧系统",
+          "描述": "检查供氧及人闸内吸氧系统，确认氧气气源、供排氧管路、SAMSOM 系统性能良好，计算并准备足够氧气（含备用量），加压前安装到位"
+        },
+        "elementId": "164"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 161,
+            "start": 133,
+            "end": 164,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "161",
+            "startNodeElementId": "133",
+            "endNodeElementId": "164"
+          },
+          "end": {
+            "identity": 164,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "检查供氧及人闸内吸氧系统",
+              "描述": "检查供氧及人闸内吸氧系统，确认氧气气源、供排氧管路、SAMSOM 系统性能良好，计算并准备足够氧气（含备用量），加压前安装到位"
+            },
+            "elementId": "164"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 165,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "加压过程中监控人员健康",
+          "描述": "加压过程中监控人员健康：\n（1）仓内人员不适时立即停止加压，仍不适则减压出仓\n（2）注意仓内温度上升、湿度增加导致的脱水风险，督促人员补水"
+        },
+        "elementId": "165"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 162,
+            "start": 133,
+            "end": 165,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "162",
+            "startNodeElementId": "133",
+            "endNodeElementId": "165"
+          },
+          "end": {
+            "identity": 165,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "加压过程中监控人员健康",
+              "描述": "加压过程中监控人员健康：\n（1）仓内人员不适时立即停止加压，仍不适则减压出仓\n（2）注意仓内温度上升、湿度增加导致的脱水风险，督促人员补水"
+            },
+            "elementId": "165"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 166,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "控制加压时间",
+          "描述": "确认人闸开始加压后，计时开始（含暴露时长）"
+        },
+        "elementId": "166"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 163,
+            "start": 133,
+            "end": 166,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "163",
+            "startNodeElementId": "133",
+            "endNodeElementId": "166"
+          },
+          "end": {
+            "identity": 166,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "控制加压时间",
+              "描述": "确认人闸开始加压后，计时开始（含暴露时长）"
+            },
+            "elementId": "166"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 167,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "保障仓内作业安全",
+          "描述": "设备 / 材料通过人闸递送入仓时需遵守：\n（1）加压后不得阻碍视线\n（2）不得对人员构成危险\n（3）特殊材料单独递送"
+        },
+        "elementId": "167"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 164,
+            "start": 133,
+            "end": 167,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "164",
+            "startNodeElementId": "133",
+            "endNodeElementId": "167"
+          },
+          "end": {
+            "identity": 167,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "保障仓内作业安全",
+              "描述": "设备 / 材料通过人闸递送入仓时需遵守：\n（1）加压后不得阻碍视线\n（2）不得对人员构成危险\n（3）特殊材料单独递送"
+            },
+            "elementId": "167"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 168,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "保障隧道结构安全",
+          "描述": "盾构系统故障或紧急情况（直接影响隧道安全）时，不得进行常规加压（经授权的抢救 / 医疗护送除外）"
+        },
+        "elementId": "168"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 165,
+            "start": 133,
+            "end": 168,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "165",
+            "startNodeElementId": "133",
+            "endNodeElementId": "168"
+          },
+          "end": {
+            "identity": 168,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "保障隧道结构安全",
+              "描述": "盾构系统故障或紧急情况（直接影响隧道安全）时，不得进行常规加压（经授权的抢救 / 医疗护送除外）"
+            },
+            "elementId": "168"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 133,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "带压进仓",
+          "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+        },
+        "elementId": "133"
+      },
+      "end": {
+        "identity": 169,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "规范紧急终止流程",
+          "描述": "终止加压时，员工需按操仓员指令返回常压，确保全体人员安全"
+        },
+        "elementId": "169"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 133,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "带压进仓",
+              "描述": "在高气压环境下进行的人员进仓作业，风险较高，需严格遵循减压程序 。"
+            },
+            "elementId": "133"
+          },
+          "relationship": {
+            "identity": 166,
+            "start": 133,
+            "end": 169,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "166",
+            "startNodeElementId": "133",
+            "endNodeElementId": "169"
+          },
+          "end": {
+            "identity": 169,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "规范紧急终止流程",
+              "描述": "终止加压时，员工需按操仓员指令返回常压，确保全体人员安全"
+            },
+            "elementId": "169"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 170,
+        "labels": [
+          "人员配置"
+        ],
+        "properties": {
+          "name": "换刀作业组(4人/班)",
+          "描述": "常压换刀的标准人员配置，负责操作液压设备和搬运刀具 。"
+        },
+        "elementId": "170"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 167,
+            "start": 134,
+            "end": 170,
+            "type": "人员配置",
+            "properties": {},
+            "elementId": "167",
+            "startNodeElementId": "134",
+            "endNodeElementId": "170"
+          },
+          "end": {
+            "identity": 170,
+            "labels": [
+              "人员配置"
+            ],
+            "properties": {
+              "name": "换刀作业组(4人/班)",
+              "描述": "常压换刀的标准人员配置，负责操作液压设备和搬运刀具 。"
+            },
+            "elementId": "170"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 171,
+        "labels": [
+          "时间标准"
+        ],
+        "properties": {
+          "name": "3.0小时/把"
+        },
+        "elementId": "171"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 168,
+            "start": 134,
+            "end": 171,
+            "type": "时间标准",
+            "properties": {},
+            "elementId": "168",
+            "startNodeElementId": "134",
+            "endNodeElementId": "171"
+          },
+          "end": {
+            "identity": 171,
+            "labels": [
+              "时间标准"
+            ],
+            "properties": {
+              "name": "3.0小时/把"
+            },
+            "elementId": "171"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 169,
+            "start": 134,
+            "end": 172,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "169",
+            "startNodeElementId": "134",
+            "endNodeElementId": "172"
+          },
+          "end": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 170,
+            "start": 134,
+            "end": 173,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "170",
+            "startNodeElementId": "134",
+            "endNodeElementId": "173"
+          },
+          "end": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 174,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "恢复推进",
+          "描述": "收尾动作"
+        },
+        "elementId": "174"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 171,
+            "start": 134,
+            "end": 174,
+            "type": "包含阶段",
+            "properties": {},
+            "elementId": "171",
+            "startNodeElementId": "134",
+            "endNodeElementId": "174"
+          },
+          "end": {
+            "identity": 174,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "恢复推进",
+              "描述": "收尾动作"
+            },
+            "elementId": "174"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "end": {
+        "identity": 175,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1同步注浆封管注入",
+          "描述": "停机前采用膨润土封管，防止盾尾被包裹，膨润土严禁与砂浆混合注入"
+        },
+        "elementId": "175"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          },
+          "relationship": {
+            "identity": 172,
+            "start": 172,
+            "end": 175,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "172",
+            "startNodeElementId": "172",
+            "endNodeElementId": "175"
+          },
+          "end": {
+            "identity": 175,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1同步注浆封管注入",
+              "描述": "停机前采用膨润土封管，防止盾尾被包裹，膨润土严禁与砂浆混合注入"
+            },
+            "elementId": "175"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "end": {
+        "identity": 176,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2刀盘伸缩",
+          "描述": "刀盘伸出时建议手动控制，速度控制在1-3mm/min，防止挤压力过大损坏刀具；伸出后回缩 50-100mm 并预留 50mm 余量，为新刀安装预留空间"
+        },
+        "elementId": "176"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          },
+          "relationship": {
+            "identity": 173,
+            "start": 172,
+            "end": 176,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "173",
+            "startNodeElementId": "172",
+            "endNodeElementId": "176"
+          },
+          "end": {
+            "identity": 176,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2刀盘伸缩",
+              "描述": "刀盘伸出时建议手动控制，速度控制在1-3mm/min，防止挤压力过大损坏刀具；伸出后回缩 50-100mm 并预留 50mm 余量，为新刀安装预留空间"
+            },
+            "elementId": "176"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "end": {
+        "identity": 177,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "3循环洗仓",
+          "描述": "刀盘伸缩全程保持洗舱循环，到位后多次换向洗舱，直至泥水场无渣排出"
+        },
+        "elementId": "177"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          },
+          "relationship": {
+            "identity": 174,
+            "start": 172,
+            "end": 177,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "174",
+            "startNodeElementId": "172",
+            "endNodeElementId": "177"
+          },
+          "end": {
+            "identity": 177,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "3循环洗仓",
+              "描述": "刀盘伸缩全程保持洗舱循环，到位后多次换向洗舱，直至泥水场无渣排出"
+            },
+            "elementId": "177"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "end": {
+        "identity": 178,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "4调整刀盘位置并打开中心锥仓门",
+          "描述": "停机后缓慢转动刀盘，使待换刀刀臂竖直向下；打开中心锥双闸门（通风 / 刀具运输用），通风后对中心锥、刀臂内气体检测，合格后方可进入"
+        },
+        "elementId": "178"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          },
+          "relationship": {
+            "identity": 175,
+            "start": 172,
+            "end": 178,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "175",
+            "startNodeElementId": "172",
+            "endNodeElementId": "178"
+          },
+          "end": {
+            "identity": 178,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "4调整刀盘位置并打开中心锥仓门",
+              "描述": "停机后缓慢转动刀盘，使待换刀刀臂竖直向下；打开中心锥双闸门（通风 / 刀具运输用），通风后对中心锥、刀臂内气体检测，合格后方可进入"
+            },
+            "elementId": "178"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 172,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "检查阶段",
+          "描述": "前置动作"
+        },
+        "elementId": "172"
+      },
+      "end": {
+        "identity": 179,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "5常压换刀设备安装及检查",
+          "描述": "1. 接入高压水管（冲洗闸门用）、24V 仓内照明、150bar 高压油管；刀具抽 / 装使用独立液压泵站，配有线 / 无线遥控器；机电领班全面检查换刀工具并记录\n2. 填写《常压换刀工装检查表》"
+        },
+        "elementId": "179"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 172,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "检查阶段",
+              "描述": "前置动作"
+            },
+            "elementId": "172"
+          },
+          "relationship": {
+            "identity": 176,
+            "start": 172,
+            "end": 179,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "176",
+            "startNodeElementId": "172",
+            "endNodeElementId": "179"
+          },
+          "end": {
+            "identity": 179,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "5常压换刀设备安装及检查",
+              "描述": "1. 接入高压水管（冲洗闸门用）、24V 仓内照明、150bar 高压油管；刀具抽 / 装使用独立液压泵站，配有线 / 无线遥控器；机电领班全面检查换刀工具并记录\n2. 填写《常压换刀工装检查表》"
+            },
+            "elementId": "179"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 180,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1刀筒内部冲洗",
+          "描述": "1. 拆除刀具防脱落装置，连接冲洗管路，冲洗 5-10 分钟，观察压力表确认冲洗有效，完成后关闭球阀、拆卸软管\n2. 填写《盾构机刀具检查、更换记录》《盾构机长时间停机注意事项记录表》"
+        },
+        "elementId": "180"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 177,
+            "start": 173,
+            "end": 180,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "177",
+            "startNodeElementId": "173",
+            "endNodeElementId": "180"
+          },
+          "end": {
+            "identity": 180,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1刀筒内部冲洗",
+              "描述": "1. 拆除刀具防脱落装置，连接冲洗管路，冲洗 5-10 分钟，观察压力表确认冲洗有效，完成后关闭球阀、拆卸软管\n2. 填写《盾构机刀具检查、更换记录》《盾构机长时间停机注意事项记录表》"
+            },
+            "elementId": "180"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 181,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2安装刀筒反向间隔管",
+          "描述": "用螺栓和弹簧插头固定间隔管"
+        },
+        "elementId": "181"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 178,
+            "start": 173,
+            "end": 181,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "178",
+            "startNodeElementId": "173",
+            "endNodeElementId": "181"
+          },
+          "end": {
+            "identity": 181,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2安装刀筒反向间隔管",
+              "描述": "用螺栓和弹簧插头固定间隔管"
+            },
+            "elementId": "181"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 182,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "3安装换刀油缸",
+          "描述": "用中心锥吊机吊运油缸、机械锁、轭架至刀筒前方，连接轭架与间隔管并固定；吊运时吊物下方严禁站人"
+        },
+        "elementId": "182"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 179,
+            "start": 173,
+            "end": 182,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "179",
+            "startNodeElementId": "173",
+            "endNodeElementId": "182"
+          },
+          "end": {
+            "identity": 182,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "3安装换刀油缸",
+              "描述": "用中心锥吊机吊运油缸、机械锁、轭架至刀筒前方，连接轭架与间隔管并固定；吊运时吊物下方严禁站人"
+            },
+            "elementId": "182"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 183,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "4换刀油缸伸出并固定",
+          "描述": "连接油缸与阀块，伸出油缸至刀筒，固定机械锁后松开刀筒连接螺栓"
+        },
+        "elementId": "183"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 180,
+            "start": 173,
+            "end": 183,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "180",
+            "startNodeElementId": "173",
+            "endNodeElementId": "183"
+          },
+          "end": {
+            "identity": 183,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "4换刀油缸伸出并固定",
+              "描述": "连接油缸与阀块，伸出油缸至刀筒，固定机械锁后松开刀筒连接螺栓"
+            },
+            "elementId": "183"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 184,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "5换刀油缸缩回第一级",
+          "描述": "拆除刀筒螺栓，控制油缸缩回第一级，观察刀筒是否漏浆"
+        },
+        "elementId": "184"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 181,
+            "start": 173,
+            "end": 184,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "181",
+            "startNodeElementId": "173",
+            "endNodeElementId": "184"
+          },
+          "end": {
+            "identity": 184,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "5换刀油缸缩回第一级",
+              "描述": "拆除刀筒螺栓，控制油缸缩回第一级，观察刀筒是否漏浆"
+            },
+            "elementId": "184"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 185,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "6关闭刀具闸板",
+          "描述": "连接液压阀块与闸板球阀，关闭闸板后用螺栓锁紧；打开外刀筒球阀，观察是否漏液以判断闸板密封性"
+        },
+        "elementId": "185"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 182,
+            "start": 173,
+            "end": 185,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "182",
+            "startNodeElementId": "173",
+            "endNodeElementId": "185"
+          },
+          "end": {
+            "identity": 185,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "6关闭刀具闸板",
+              "描述": "连接液压阀块与闸板球阀，关闭闸板后用螺栓锁紧；打开外刀筒球阀，观察是否漏液以判断闸板密封性"
+            },
+            "elementId": "185"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 186,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "7换刀油缸缩回第二级",
+          "描述": "控制油缸缩回至合适位置"
+        },
+        "elementId": "186"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 183,
+            "start": 173,
+            "end": 186,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "183",
+            "startNodeElementId": "173",
+            "endNodeElementId": "186"
+          },
+          "end": {
+            "identity": 186,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "7换刀油缸缩回第二级",
+              "描述": "控制油缸缩回至合适位置"
+            },
+            "elementId": "186"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 187,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "8安装刀筒托架",
+          "描述": "安装托架与挂钩，确保挂钩位于刀筒正上方"
+        },
+        "elementId": "187"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 184,
+            "start": 173,
+            "end": 187,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "184",
+            "startNodeElementId": "173",
+            "endNodeElementId": "187"
+          },
+          "end": {
+            "identity": 187,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "8安装刀筒托架",
+              "描述": "安装托架与挂钩，确保挂钩位于刀筒正上方"
+            },
+            "elementId": "187"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 188,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "9换刀油缸完全缩回",
+          "描述": "完全缩回油缸，关闭阀门并拆卸管路，移除机械锁、轭架的固定插头与螺栓"
+        },
+        "elementId": "188"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 185,
+            "start": 173,
+            "end": 188,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "185",
+            "startNodeElementId": "173",
+            "endNodeElementId": "188"
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "9换刀油缸完全缩回",
+              "描述": "完全缩回油缸，关闭阀门并拆卸管路，移除机械锁、轭架的固定插头与螺栓"
+            },
+            "elementId": "188"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 189,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "10刀具移除及更换",
+          "描述": "将刀筒套装移至中心锥内，拆除压板更换刀头（或直接更换备用刀筒套装）"
+        },
+        "elementId": "189"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 186,
+            "start": 173,
+            "end": 189,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "186",
+            "startNodeElementId": "173",
+            "endNodeElementId": "189"
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "10刀具移除及更换",
+              "描述": "将刀筒套装移至中心锥内，拆除压板更换刀头（或直接更换备用刀筒套装）"
+            },
+            "elementId": "189"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 173,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "作业阶段",
+          "描述": "质量管控"
+        },
+        "elementId": "173"
+      },
+      "end": {
+        "identity": 190,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "11刀筒装回",
+          "描述": "按拆除反向步骤装回刀体，油缸涂抹黄油；刀头伸至闸阀前先冲洗、再开闸门，装刀后紧固螺栓并安装防脱落装置"
+        },
+        "elementId": "190"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 173,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "作业阶段",
+              "描述": "质量管控"
+            },
+            "elementId": "173"
+          },
+          "relationship": {
+            "identity": 187,
+            "start": 173,
+            "end": 190,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "187",
+            "startNodeElementId": "173",
+            "endNodeElementId": "190"
+          },
+          "end": {
+            "identity": 190,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "11刀筒装回",
+              "描述": "按拆除反向步骤装回刀体，油缸涂抹黄油；刀头伸至闸阀前先冲洗、再开闸门，装刀后紧固螺栓并安装防脱落装置"
+            },
+            "elementId": "190"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 174,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "恢复推进",
+          "描述": "收尾动作"
+        },
+        "elementId": "174"
+      },
+      "end": {
+        "identity": 191,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "1推进速度3-5mm/min",
+          "描述": "恢复推进时缓慢伸出刀盘（3-5mm/min），向前推进 20-30cm 后再正常作业。"
+        },
+        "elementId": "191"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 174,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "恢复推进",
+              "描述": "收尾动作"
+            },
+            "elementId": "174"
+          },
+          "relationship": {
+            "identity": 188,
+            "start": 174,
+            "end": 191,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "188",
+            "startNodeElementId": "174",
+            "endNodeElementId": "191"
+          },
+          "end": {
+            "identity": 191,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "1推进速度3-5mm/min",
+              "描述": "恢复推进时缓慢伸出刀盘（3-5mm/min），向前推进 20-30cm 后再正常作业。"
+            },
+            "elementId": "191"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 174,
+        "labels": [
+          "阶段"
+        ],
+        "properties": {
+          "name": "恢复推进",
+          "描述": "收尾动作"
+        },
+        "elementId": "174"
+      },
+      "end": {
+        "identity": 192,
+        "labels": [
+          "操作"
+        ],
+        "properties": {
+          "name": "2填写报表",
+          "描述": "填写《刀具更换记录表》《刀具更换统计表》《刀具更换记录汇总表》"
+        },
+        "elementId": "192"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 174,
+            "labels": [
+              "阶段"
+            ],
+            "properties": {
+              "name": "恢复推进",
+              "描述": "收尾动作"
+            },
+            "elementId": "174"
+          },
+          "relationship": {
+            "identity": 189,
+            "start": 174,
+            "end": 192,
+            "type": "执行步骤",
+            "properties": {},
+            "elementId": "189",
+            "startNodeElementId": "174",
+            "endNodeElementId": "192"
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "操作"
+            ],
+            "properties": {
+              "name": "2填写报表",
+              "描述": "填写《刀具更换记录表》《刀具更换统计表》《刀具更换记录汇总表》"
+            },
+            "elementId": "192"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 193,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "渗漏处理",
+          "描述": "换刀前检查刀座渗漏，发现问题及时报告并处理，必要时选择全断面硬岩常压地段更换外刀筒。"
+        },
+        "elementId": "193"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 190,
+            "start": 134,
+            "end": 193,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "190",
+            "startNodeElementId": "134",
+            "endNodeElementId": "193"
+          },
+          "end": {
+            "identity": 193,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "渗漏处理",
+              "描述": "换刀前检查刀座渗漏，发现问题及时报告并处理，必要时选择全断面硬岩常压地段更换外刀筒。"
+            },
+            "elementId": "193"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 194,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "刀具安装规范",
+          "描述": "新刀装前必须更换密封圈，确认刀具型号与安装方向正确，刀筒涂抹黄油后再装入。"
+        },
+        "elementId": "194"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 191,
+            "start": 134,
+            "end": 194,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "191",
+            "startNodeElementId": "134",
+            "endNodeElementId": "194"
+          },
+          "end": {
+            "identity": 194,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "刀具安装规范",
+              "描述": "新刀装前必须更换密封圈，确认刀具型号与安装方向正确，刀筒涂抹黄油后再装入。"
+            },
+            "elementId": "194"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 195,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "现场清理",
+          "描述": "及时移出换下的刀具，避免中心锥内堆积影响后续作业；换刀后吸干刀臂积水、清理杂物。"
+        },
+        "elementId": "195"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 192,
+            "start": 134,
+            "end": 195,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "192",
+            "startNodeElementId": "134",
+            "endNodeElementId": "195"
+          },
+          "end": {
+            "identity": 195,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "现场清理",
+              "描述": "及时移出换下的刀具，避免中心锥内堆积影响后续作业；换刀后吸干刀臂积水、清理杂物。"
+            },
+            "elementId": "195"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 196,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "安全管控",
+          "描述": "换刀过程中严禁仓外人员进行危及仓内安全的作业；备用刀筒需充足，防止刀筒积渣导致安装困难。"
+        },
+        "elementId": "196"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 193,
+            "start": 134,
+            "end": 196,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "193",
+            "startNodeElementId": "134",
+            "endNodeElementId": "196"
+          },
+          "end": {
+            "identity": 196,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "安全管控",
+              "描述": "换刀过程中严禁仓外人员进行危及仓内安全的作业；备用刀筒需充足，防止刀筒积渣导致安装困难。"
+            },
+            "elementId": "196"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 134,
+        "labels": [
+          "子程序"
+        ],
+        "properties": {
+          "name": "常压换刀",
+          "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+        },
+        "elementId": "134"
+      },
+      "end": {
+        "identity": 197,
+        "labels": [
+          "注意事项"
+        ],
+        "properties": {
+          "name": "刀具管理",
+          "描述": "换下的刀具需清理、贴标、测磨损值并拍照存档，便于后续分析。"
+        },
+        "elementId": "197"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 134,
+            "labels": [
+              "子程序"
+            ],
+            "properties": {
+              "name": "常压换刀",
+              "描述": "在常压环境下，通过特定的闸门和工装系统进行刀具更换的作业 。"
+            },
+            "elementId": "134"
+          },
+          "relationship": {
+            "identity": 194,
+            "start": 134,
+            "end": 197,
+            "type": "注意事项",
+            "properties": {},
+            "elementId": "194",
+            "startNodeElementId": "134",
+            "endNodeElementId": "197"
+          },
+          "end": {
+            "identity": 197,
+            "labels": [
+              "注意事项"
+            ],
+            "properties": {
+              "name": "刀具管理",
+              "描述": "换下的刀具需清理、贴标、测磨损值并拍照存档，便于后续分析。"
+            },
+            "elementId": "197"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

@@ -1,0 +1,599 @@
+43 6
+Vol.43No.62022 JournalofQingdaoUniversityofTechnology
+1,2, 1, 1, 1
+(1. , 266525;2. , 266525)
+:,
+。 , “、 、 ”
+; , , G1 COWA
+,, , ;,
+1 “ ” , MATLAB
+“ ”, , 。
+: ;; ;
+:U231.3 :A :1673-4602(2022)06-0084-08
+:2021-08-25 : (71471094); (ZR2011GL021); (QDSKL100403)
+: (1963- ), , 。 , , 。 E-mail:wangjianbo2008@126.com。
+Evaluationofmetroshieldconstructionriskbasedon
+combinationalweightingcloudmodel
+WANGJianbo1,2,HUANG Wenjing1,QIN Na1,ZHANG Wei1
+(1.SchoolofManagementEngineering,QingdaoUniversityofTechnology,Qingdao266525,China;
+2.UniversityResearchCenterforSmartCityConstructionand ManagementofShandongProvince,Qingdao266525,China)
+Abstract:Inordertoensuretheobjectivityoftheriskevaluationofsubwayshieldconstruc
+tion,thispaperbuildsamodeloftheriskevaluationofsubwayshieldconstructionbasedon
+thecombinationalweightingcloudmodel.Firstly,throughliteratureresearchandconsulting
+experts,aqualifiedriskevaluationindexsystemforsubwayshieldconstructionisestablished
+fromtheperspectivesofman,machine,technologyandenvironment.Secondly,considering
+thelimitationandone-sidednessofsingleindex weighting,theevaluationindexisweighted
+bycombiningthe G1 method (orderrelationanalysis method)andthe COWA operator
+game.Atthesametime,inordertosolvethefuzzinessandrandomnessintheevaluationof
+constructionrisk,theevaluationcloudmapisdrawnbythecloudmodeltoevaluatethesub
+wayshieldconstructionrisk.Finally,takingtheAn’anSectionofQingdao MetroLine1as
+anexample,thisstudydrawsthecomprehensiveevaluationcloud mapoftheoverallcon
+structionriskoftheprojectbyusing MATLAB,andtheconstructionrisklevelishereby
+confirmedtobelow,whichisconsistentwiththeactualmonitoringresultsoftheproject,
+
+
+6 ,:
+thusverifyingthescientificnatureandrationalityoftheevaluationmodelfortheprojectcon
+structionriskevaluation.
+Keywords:combinationalweighting;cloudmodel;metroshield;constructionriskevaluation
+, , , ,,
+。 、 。,
+、 、,
+, 。, 。
+, ,。
+。, ,
+。 , [1]、 [2-4]、
+[5]、C-OWA [6]、 [7] 。 , ,
+; ,。 ,
+。 [8] DEMATEL ANP ,
+, vague ,
+。 [9] ,
+。 [10] (AHP) ,
+, 。 [11] AHP
+,, 。 ,
+, , ,,
+,。
+, ,,
+G1 ( ) COWA , ,
+,,
+, 1 “”, 。
+1
+。 、、、
+, ,“、 、
+、 ” 。“ ” ,
+、 ;“ ” , 、
+、 ;“ ” , ,
+、 , 、 ;“ ” ,
+、、 、、、 。
+、 , “、 、 ”
+, 4 16 , 1。
+2
+、。 ,
+G1 COWA , 。G1
+;COWA ,
+,。
+2.1 G1
+G1 (AHP) , AHP
+85
+
+
+43
+1
+M1
+N11
+N12
+N13
+N14
+M2
+N21
+N22
+N23
+N24
+M3
+N31
+N32
+N33
+N34
+M4
+N41
+N42
+N43
+N44
+,G1
+,
+[12]。
+1) 。
+X1,
+X2, ,
+:
+X1>X2>X3>...>Xn。 (1)
+2)
+。
+Xk-1 Xk ,
+rk:
+rk=wk-1
+wk
+。 (2)
+:k=n,n-1,... ,3,2;rk
+2。
+2 rk
+rk
+1.0 Xk-1 Xk 。
+1.2 Xk-1 Xk 。
+1.4 Xk-1 Xk 。
+1.6 Xk-1 Xk 。
+1.8 Xk-1 Xk 。
+3) , ,
+wk :
+wk = 1
+1+ ∑n
+k=2∏
+n
+i=k
+ri
+。 (3)
+(2),
+wk-1=rkwk,k=n,n-1,...,3,2。 (4)
+2.2 COWA
+(OWA) Yager ,
+, , 。 COWA
+OWA , 。 [13]:
+1) A (a1,a2,...,an), ,
+b0 ≥b1 ≥ ... ≥bj≥ ... ≥bn-1。
+2) bj , :
+wj+1=cj n-1
+2n-1,j=1,2,...,n。 (5)
+3) , :
+wi = ∑
+n
+j=1
+wjbj, wj ∈ [0,1],j=1,2,...,n。 (6)
+4) :
+wi = wi
+∑
+m
+i=1
+wi
+, wi ∈ [0,1],i=1,2,...,m 。 (7)
+2.3
+,
+, 。 [14]:
+1) G1 COWA 2 , wi={wi1,
+wi2 ,... ,win},(i=1,2,... ,L),L
+86
+
+
+6 ,:
+w= ∑
+L
+i=1
+αiwT
+i ,αi >0。 (8)
+2) , 、 , w wk , :
+min‖ ∑
+n
+j=1
+αjwT
+j -wi‖2,i=1,2,...,L。 (9)
+3) (9)
+∑
+n
+j=1
+αjwjwT
+j =wiwT
+i ,i=1,2,...,L。 (10)
+4) αi , α*
+i = αi
+∑
+2
+i=1
+αi
+, α*
+1 ,α*
+2, :
+w* = ∑
+L
+i=1
+α*
+iwT
+i 。 (11)
+3
+3.1
+,
+, [15]。 : U
+,C U , x∈U C , x C
+u(x)∈[0,1]。 C U , x ,
+。
+: Ex、 En He。 Ex n ,
+; En , ,
+; He , 。
+,。
+(Ex,En,He) , ( 1);
+, ( 2)。
+12
+3.2
+3.2.1
+,、 ,
+,。
+, [16], ,
+, , , , 0.618
+。 , “ ”“ ”“ ”“
+” “ ”, (0.500,0.039,0.005), [0,1]
+3。 3 。
+3.2.2
+,
+87
+
+
+43
+,。 。
+3
+(0.000,0.103,0.013)
+(0.309,0.064,0.008)
+(0.500,0.039,0.005)
+(0.691,0.064,0.008)
+(1.000,0.103,0.013)
+3
+Exi =
+∑
+m
+k=1
+tk
+m
+S2
+i= 1
+m -1∑
+m
+k=1
+tk -Exi
+( )2
+Eni = π
+2
+■
+×1
+m∑
+m
+k=1
+tk -Exi
+Hei = S2
+i -E2
+ni
+■
+■
+■
+■
+(12)
+3.2.3
+(12)
+(11)
+,
+(Ex,En,He),
+:
+Ex = ∑
+n
+i=1
+Exi ×wi
+En = ∑
+n
+i=1
+E2
+ni ×w
+■
+i
+He = ∑
+n
+i=1
+Hei ×wi
+■
+■
+■
+(13)
+:n ;wi 。
+3.2.4
+ui=e
+(xi-Ex)2
+2E2n (14)
+4
+4.1
+1 “ ” ( — )1 ,
+,1 60.05km, 921.7m, 8 ,
+, , ,。
+9.0~10.5 m , 200 m, -3.6 m, ,
+、 , “”
+。
+4.2
+1) 10 、 、 , G1
+4
+X*
+1 M4 r2=1.5
+X*
+2 M1 r3=1.3
+X*
+3 M3 r4=1.1
+X*
+4 M2
+,,
+10 ,
+, 4。
+(3) X*
+4:
+w4 = (1+ r2r3r4 + r3r4 + r4)-1 =
+(1+2.145+1.43+1.1)-1=0.176。
+, :w3=0.247,w2=0.4。
+88
+
+
+6 ,:
+(4) M1,M2,M3,M4 w*
+k:
+w*
+1 = w2r2=0.6,w*
+2 = w3r3=0.321,w*
+3 =w4r4=0.194,w*
+4 =w4=0.176,
+wM1=w*
+2 =0.321,wM2=w*
+4 =0.176,wM3=w*
+3 =0.194,wM4=w*
+1 =0.6。
+, , 5。
+5
+M1 0.321 0.256 0.291
+N11
+N12
+N13
+N14
+0.309
+0.212
+0.177
+0.583
+0.252
+0.247
+0.231
+0.271
+0.283
+0.228
+0.202
+0.439
+M2
+0.176 0.241 0.206
+N21
+N22
+N23
+N24
+0.185
+0.302
+0.142
+0.616
+0.244
+0.257
+0.240
+0.259
+0.209
+0.284
+0.181
+0.473
+M3 0.194 0.237 0.214
+N31
+N32
+N33
+N34
+0.600
+0.164
+0.306
+0.197
+0.246
+0.248
+0.251
+0.254
+0.458
+0.198
+0.284
+0.291
+M4 0.600 0.267 0.447
+N41
+N42
+N43
+N44
+0.177
+0.306
+0.136
+0.616
+0.226
+0.264
+0.222
+0.286
+0.196
+0.289
+0.175
+0.471
+2) , G1
+, , 6。
+6
+1 2 3 4 5 6 7 8 9 10
+M1 8.0 8.0 6.5 6.0 7.0 7.0 7.5 6.5 6.0 7.0
+M2 7.0 7.0 6.5 6.0 6.0 7.5 6.0 7.0 6.0 8.0
+M3 8.0 7.5 7.0 6.5 6.0 7.0 6.0 6.0 5.5 5.5
+M4 8.0 8.0 7.0 8.0 7.5 6.0 8.0 7.0 6.5 6.0
+M1 , COWA , :
+M1 , b=(8.0,8.0,7.5,7.0,7.0,7.0,6.5,6.5,
+6.0,6.0); (5) (0.00195,0.01758,0.07031,0.16406,0.24609,0.24609,
+0.16406,0.07031,0.01758,0.00195), (6) M1 :
+w1= (0.00195,0.01758,0.07031,0.16406,0.24609,0.24609,0.16406,0.07031,0.01758,0.00195)×
+(8,8,7.5,7,7,7,6.5,6.5,6,6)T =6.9178。
+, w2 =6.4979,w3 =6.4188,w4 =7.2137。 (7) :w1 =
+0.256,w2=0.241,w3=0.237,w4=0.267。 , ,
+5。
+3) (8)—(11) , 5。
+89
+
+
+43
+4.3
+[0,1] , (11)
+, 7。 (12) (0.4170,0.0736,
+0.0174), MATLAB , 4 。
+7
+M1 (0.2350,0.0219,0.0089)
+N11
+N12
+N13
+N14
+(0.1870,0.0638,0.0098)
+(0.1920,0.0675,0.0236)
+(0.1810,0.0491,0.0199)
+(0.2340,0.0375,0.0025)
+M2 (0.2200,0.0250,0.0066)
+N21
+N22
+N23
+N24
+(0.1820,0.0555,0.0134)
+(0.2080,0.0375,0.0025)
+(0.1910,0.0440,0.0060)
+(0.2200,0.0375,0.0250)
+M3 (0.1960,0.0156,0.0069)
+N31
+N32
+N33
+N34
+(0.1740,0.0688,0.0119)
+(0.1630,0.0538,0.0024)
+(0.2810,0.0500,0.0077)
+(0.1220,0.0330,0.0052)
+M4 (0.4880,0.0234,0.0119)
+N41
+N42
+N43
+N44
+(0.3820,0.0695,0.0099)
+(0.5200,0.0950,0.0259)
+(0.4520,0.0775,0.0277)
+(0.5320,0.0745,0.0082)
+4
+4.4
+(14)
+0.148,0.416,0.285,
+0.085,0.000,
+。 4,
+1 “” “
+”“ ” ,
+, “ ”,
+4,
+,。
+,
+。 7,
+、 、 、 , , “ ”,
+;、 , 、
+。
+, , -3.6 m, , ,
+、。
+,,
+,。
+90
+
+
+6 ,:
+5
+1) , 、 、
+, 16 , 、 ;
+2) , G1-COWA
+,,
+,;
+3) , MATLAB , ,
+、 ,, ,
+。
+(References):
+[1] , , . [J]. ,2015,24(3):28-36.
+JIANG Qiangqiang,FANG Kun,ZHANG Guangcheng.Assessmentofgeohazardsriskbasedonnewcombined weightmethod[J].
+JournalofNaturalDisasters,2015,24(3):28-36.
+[2] , . [J]. ,2018,47(S4):1269-1272.
+LIU Zurong,QINXiaoping.Riskassessmentofsubwayshieldconstructionbasedonanalytichierarchyprocess[J].ConstructionTech
+nology,2018,47(S4):1269-1272.
+[3] , , . [J]. ,2019,15(6):1881-1888.
+WU Quanli,WANG Mengshu,YIN Minglun.RiskanalysisonshieldTBMcrossingunderneathexistingtunnelbasedonanalyticnet
+workprocess[J].ChineseJournalofUndergroundSpaceandEngineering,2019,15(6):1881-1888.
+[4] , , , . - [J]. ,2021,21(1):358-365.
+JIANG Wei,YANG Lei,SHIQiang,etal.Adaptabilityevaluationofshieldtunnelingbasedonanalytichierarchyprocessandfuzzy
+syntheticevaluation method[J].ScienceTechnologyandEngineering,2021,21(1):358-365.
+[5] , , . [J]. ( ),2021,34(1):138
+144.
+XIAO Qidan,ZHAO Zhenni,LIU Linchao.Researchonconstructionrisk managementofsubwayprojectbasedonBayesiannetwork[J].
+JournalofXinyangNormalUniversity(NaturalScienceEdition),2021,34(1):138-144.
+[6] , , , . C-OWA [J]. ,2020,37(12):98-104.
+ZONG Qiulei,WANGBin,WANG Kai,etal.Ariskassessmentmethodformetroshieldconstructionbasedontrapezoidalfuzzy
+numberandC-OWAoperator[J].JournalofYangtzeRiverScientificResearchInstitute,2020,37(12):98-104.
+[7] . [J]. ,2017,42(1):174-177.
+ZHANGJiao.Evaluationandapplicationofunderwatertunnelshieldconstruction[J].HighwayEngineering,2017,42(1):174-177.
+[8] , , . [J]. ( ),2018,38(S2):68-74.
+HONG Wenxia,QIANJinyu,JIA Minglei.RiskassessmentofshieldconstructionofQingdaometroadjacenttobuildings[J].Tunnel
+Construction,2018,38(S2):68-74.
+[9] , , . SHEL [J]. ,2020,41(3):32-39.
+ZHAOJinxian,SUN Fei,MENG Wei.ExtensionevaluationofsubwayshieldconstructionsafetybasedonSHELandcombined
+weighting[J].JournalofQingdaoUniversityofTechnology,2020,41(3):32-39.
+[10] , , . (TOPSIS) [J]. ,2020,16(5):543
+551.
+FENG Huihong,LIYing,TANGTian.Researchondecisionofunderwatertunnelconstructionschemebasedoncombinationweigh
+tingandTOPSIS method[J].ScienceandTechnologyforDevelopment,2020,16(5):543-551.
+[11] . CIM-AHP [D]. : ,2019.
+ZHANG Teman.ResearchonconstructionriskanalysisofurbansubwaybasedonCIM-AHPmodelandcombinedempowerment[D].
+Jiaozuo:HenanPolytechnicUniversity,2019.
+[12] , . G1 [J]. ,2006(3):65-70.
+WANG Xuejun,GUO Yajun.AnalyzingtheconsistencyofcomparisonmatrixbasedonG1 method[J].ChineseJournalofManage
+mentScience,2006(3):65-70.
+( 158 )
+91
+
+
+43
+(References):
+[1] . [J]. ,2021(5):102-103.DOI:10.19475/j.cnkii.ssn1674-957x.2021.05.047.
+LU Bo.Reliabilityoptimizationdesignanalysisin mechanicaldesignand manufacturing[J].InternalCombustion Engine & Parts,
+2021(5):102-103.DOI:10.19475/j.cnkii.ssn1674-957x.2021.05.047.
+[2] , , , . [J]. (
+),2022,55(2):122-132.
+WANG Guofeng,CAOZenghuan,FENG Haisheng,etal.Real-timereliabilityevaluationandlifepredictionofharmonicreducerbased
+on multistagedegradation modeling[J].JournalofTianjin University(ScienceandTechnology),2022,55(2):122-132.
+[3] , , , . [J]. ,2021,38(10):12-23.
+ZHOUJianfang,ZHENG Dingcong,GAO Ran,etal.Calculationmethodoffuzzyreliabilityincombinationoffuzzyvariablesandran
+domvariables[J].Engineering Mechanics,2021,38(10):12-23.
+[4] , , . [J]. ,2021(18):212-216.
+LIANGJianneng,LIWeiwei,TAO Yang.Researchonproductqualityandsafetyriskassessmentofelectric meatgrinderbasedon
+fuzzycomprehensiveevaluation method[J].ChinaStandardization,2021(18):212-216.
+[5] .RV [D]. : ,2020.DOI:10.26918/d.cnki.ghngc.2020.000715.
+HU Song.DevelopmentofRVreducerdynamicperformanceevaluationplatform[D].Huainan:AnhuiUniversityofScienceandTech
+nology,2020.DOI:10.26918/d.cnki.ghngc.2020.000715.
+[6] , , , . [J]. ,2019,40(6):33-37.
+HUANG Chuangmian,DONGChengju,PAN Guangze,etal.Researchoncomprehensiveevaluationmethodofservicelifeforprecision
+reducer[J].Automation &InformationEngineering,2019,40(6):33-37.
+[7] , , , . [J]. ,2021,28(4):415-425.
+CHENZhen,LITao,XUE Xiaowei,etal.Fatiguereliabilityanalysisandoptimizationofvibroseisvibratorbaseplatebasedonfuzzy
+comprehensiveevaluation method[J].ChineseJournalofEngineeringDesign,2021,28(4):415-425.
+[8] , , , . [J]. ,2020,41(4):92-97.
+ZUO Mingyu,WANGYouqiang,MOJun,etal.Faultdiagnosisofaviationgearboxbasedongreyrelationalanalysisandfaulttreeanal
+ysis[J].JournalofQingdaoUniversityofTechnology,2020,41(4):92-97.
+[9] , , , .BIM [J]. ,2021,42(2):68-77.
+GAOZhiguo,CHEN Weigong,YANG Huiying,etal.Application maturityevaluationofBIM technologyinconstructionprojects[J].
+JournalofQingdaoUniversityofTechnology,2021,42(2):68-77.
+[10] . [J]. ,2020,49(1):100-104.
+CONG Cheng.Optimizationofmachiningprocessbasedonfuzzyanalytichierarchyprocess[J].MachineDesignand Manufacturing
+Engineering,2020,49(1):100-104.
+[11] , . [J]. ,2018,39(20):207-211.
+LIPei,WU Chunmao.Productdesignevaluationmodelbasedontheexpertscoringmethod[J].PackagingEngineering,2018,39(20):
+207-211.
+(;)
+( 91 )
+[13] . ZHC [D]. : ,2020.
+CHEN Kan.ResearchonZHCundergroundcomprehensivepipecorridorconstructionriskevaluationbasedoncloudmodel[D].Gan
+zhou:JiangxiUniversityofScienceandTechnology,2020.
+[14] , , , . [J]. ,2015,33(1):39-42.
+GAN Rong,XUAN Hao,LIU Guodong,etal.Applicationandcomparisondynamicresponseondischargesluiceusingthreesluice
+foundation models[J].WaterResourcesandPower,2015,33(1):39-42.
+[15] , , . [J]. ,2021,51(5):103-113.
+YANG Chengcheng,WANG Ting,MOShu.Failureriskassessmentofautomatictoolingassemblybasedoncloudmodel[J].Journal
+ofMathematicsinPracticeandTheory,2021,51(5):103-113.
+[16] . [D]. : ,2012.
+LIJuan.Researchontheevaluationofsafetybenefitinelectricpowerenterprisebasedontheinternetofthings[D].Beijing:North
+ChinaElectricPowerUniversity,2012.
+(;)
+158

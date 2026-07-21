@@ -1,0 +1,172 @@
+Construction & Design For Project
+1
+1,
+27 , 。
+1
+,、,
+,、
+、 ,,
+、 [1]、 [2] 。 ,
+、 [3],
+,
+[4], 、 、
+。
+、 、 [5] 、
+、 、 [6]。
+[7]
+。 [8]
+。
+[9]
+。
+,
+、、、
+。
+、、
+The Development and Application of the Shield Construction Risk
+Informational Management and Control System
+11 11 2
+1. 226007 2. 210041
+BAO Hong1, REN Lu1, QIAN Jia-wei1, LUO Qian1, SHI Ye-hui2
+1.Nantong Urban Rail Transit Co. Ltd, Nantong 226007, China;
+2. Geology Tunnel and Underground Engineering Technology Co. Ltd. of Jiangsu Province, Nanjing 210041, China
+【】 1
+、 、、
+、、、
+。
+【 】As the safety risks existing in the construction of large mileage shield tunneling through watery sandy stratum in phase i of Nantong
+rail transit line 1, in order to effectively improve the response timeliness, convenience and information completeness of risk management and
+control of the informational system, the system architecture and information acquisition equipment were improved. The cloud system with
+functions such as cutter head information access function, screw conveyor information access function, attitude monitoring function, abnormal
+state statistics function, remote video monitoring function, risk patrol and hidden danger management function were developed, which
+supported the mobile terminal operation of full-function and full process, the mobile online management and control of shield construction
+safety risks was realized, and the application effect of the cloud system was good.
+【】
+【 】shield;construction risk; informational management and control; cloud system
+【 】U456.3 【 】A 【 】1007-9467 2023 03-0146-03
+【DOI】10.13616/j.cnki.gcjsysj.2023.03.043
+【 】 1989~
+。
+146
+
+
+,、
+。,
+,,
+,
+, 、、
+,。
+2
+2. 1
+WEB
+, B/S ,
+、 、、
+、 ,1。
+PC App
+......
+......
+1
+1) : 、 。
+2) : 、
+。
+3) : 、
+、。
+4) : 、
+。
+5) : 、 、
+、,
+。
+6) : PC App,
+。
+2. 2
+, PLC
+、。
+2 , PLC OPC
+, RJ-45
+, CPU
+, RAM,
+,
+PC App 、
+、、 ,
+LED 。
+PLC
+RJ-45 RAM
+CPU
+LED
+2
+3
+3. 1
+3, 、
+、
+, App
+。
+3. 2
+4, 、
+、 , 、、
+、。
+34
+Intelligentialize and Informatization
+147
+
+
+Construction & Design For Project
+3. 3
+5,
+,、
+、 , App 、
+。
+3. 4
+、、
+、,
+,
+、 ,6。
+56
+3. 5
+7 , App
+,、
+、, 。
+3. 6
+8 ,App
+、、 ,
+、、 。
+4
+,
+,
+,
+App,
+,、
+,、
+、,
+,
+,
+、,
+。
+5
+、
+, 、 、、
+、、
+, App ,
+、、
+,1
+。
+【】
+[1] , , , . [J].
+, 2021, 53(8): 1-7.
+[2] , , . DBN
+[J]. ,2021,65(5):141-148.
+[3] , , , .
+[J]. , 2022(1): 118-120+128.
+[4] . [J].
+, 2022(1): 129-131+159.
+[5] , , , .
+[J]. , 2018, 39(10): 3703-3716.
+[6] , . [J].
+, 2021, 21(27): 11882-11889.
+[7] , , , .
+(TRM1.0) [J]. , 2006, 2(1): 36-41.
+[8] , . WBS-RBS AHP
+[J]. , 2005, 15(7): 101-103.
+[9] , , , .
+[J]. , 2021, 34(1): 110-114.
+78
+【 】2022-05-07
+148
